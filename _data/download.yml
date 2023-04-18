@@ -1,7 +1,3 @@
 ---
-url-blog:
-  label: <a class="newicon" href="http://127.0.0.1/blog.zip" target="_blank"><img src="assets/down.png" width="30" height="30"></a>
-url-ceres:
-  label: <a class="newicon" href="http://127.0.0.1/ceres.zip" target="_blank"><img src="assets/down.png" width="30" height="30"></a>
-url-furious:
-  label: <a class="newicon" href="http://127.0.0.1/furious.zip" target="_blank"><img src="assets/down.png" width="30" height="30"></a>
+url-ready:
+  label: <a class="newicon" href="https://mega.nz/file/lDgWERZQ#VRN3BRdJ0RYYf0bQN8Q-hXlwsviXmlQBrwl_hHKuTxQ" target="_blank"><img src="assets/down.png" width="30" height="30"></a>
