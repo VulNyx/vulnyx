@@ -1,0 +1,7 @@
+---
+Easy:
+  label: <span class="boton-easy">&nbsp;Easy&nbsp;</span>
+Medium:
+  label: <span class="boton-medium">&nbsp;Medium&nbsp;</span>
+Hard:
+  label: <span class="boton-hard">&nbsp;Hard&nbsp;</span>
