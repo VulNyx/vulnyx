@@ -1,0 +1,8 @@
+<ul class="url-list">
+    {% for curl_pair in site.data.download %}
+    {% assign curl_id = curl_pair[0] %}
+    {% assign curl = curl_pair[1] %}
+    {% unless include.bin.download[curl_id] %}{% continue %}{% endunless %}
+    <li>{{ curl.label }}</li>
+    {% endfor %}
+</ul>

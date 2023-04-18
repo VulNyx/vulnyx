@@ -1,0 +1,8 @@
+<ul class="tested-list">
+    {% for function_pair in site.data.tested %}
+    {% assign function_id = function_pair[0] %}
+    {% assign function = function_pair[1] %}
+    {% unless include.bin.tested[function_id] %}{% continue %}{% endunless %}
+    <li><a>{{ function.label }}</a></li>
+    {% endfor %}
+</ul>
