@@ -1,0 +1,16 @@
+---
+title: VulNyx
+
+exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md', '/CONTRIBUTING.md']
+
+permalink: pretty
+
+collections:
+  vms:
+    output: true
+
+defaults:
+  - scope:
+      path: '_vms'
+    values:
+      layout: bin
