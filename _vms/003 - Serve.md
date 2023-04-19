@@ -5,7 +5,13 @@ level:
 creator:
   d4t4s3c:
     -
+download:
+  url-serve:
+    -
 tested:
   VirtualBox:
+    -
+md5:
+  md5-serve:
     -
 ---
