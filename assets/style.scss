@@ -1,5 +1,4 @@
 // Custom Variables
-$font: "Segoe";
 $marked: #0000ff;
 $dark: #000000;
 $lighter: #ab2a3e;
@@ -9,19 +8,14 @@ $column-width: 1000px;
 $grace-space: 200px;
 $layout-break: "(min-width: #{$column-width + $grace-space})";
 
-@font-face {
-  font-family: "Segoe";
-  src: url("segoeui.ttf");
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: sans, sans-serif;
 }
 
 body {
-  font-family: $font;
   background: $dark;
   color: $accent;
 }
