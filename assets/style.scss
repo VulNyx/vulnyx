@@ -1,9 +1,9 @@
 // Custom Variables
 $marked: #0000ff;
 $dark: #000000;
-$lighter: #ab2a3e;
+$red: #ab2a3e;
 $hover-color: #38bdf8;
-$accent: #ffffff;
+$white: #ffffff;
 $column-width: 1000px;
 $grace-space: 200px;
 $layout-break: "(min-width: #{$column-width + $grace-space})";
@@ -17,17 +17,17 @@ $layout-break: "(min-width: #{$column-width + $grace-space})";
 
 body {
   background: $dark;
-  color: $accent;
+  color: $white;
 }
 
 code {
   padding: 0.15em 0.25em;
   border-radius: 0.25em;
-  background: $lighter;
+  background: $red;
 }
 
 pre {
-  background: $lighter;
+  background: $red;
   padding: 1em;
   overflow-x: auto;
 
@@ -41,7 +41,7 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: $accent;
+  color: $white;
 }
 
 a:hover {
@@ -53,12 +53,22 @@ h2 {
   margin-bottom: 1rem;
 }
 
-hr {
-  margin-top: 1rem;
+p {
+  margin: 1rem 0;
+}
+
+h2 + ul,
+p + ol {
+  margin: 1rem 0;
+  padding-left: 3rem;
+}
+
+h2 + ul li, p + ol li {
+  padding: 0.25rem 0;
 }
 
 #vvm-state a {
-  background: $lighter;
+  background: $red;
   font-weight: bold;
   border-radius: 0.25em;
   padding: 2px 2px;
@@ -76,9 +86,9 @@ hr {
   width: 100%;
   border-radius: 0.25em;
   box-sizing: border-box;
-  border: 1px solid $accent;
-  color: $accent;
-  background-color: $lighter;
+  border: 1px solid $white;
+  color: $white;
+  background-color: $red;
 }
 
 td.vvm-name {
@@ -98,8 +108,8 @@ td.vvm-wal {
   th,
   td {
     padding: 0.5em;
-    border-right: 1px solid $lighter;
-    border-bottom: 1px solid $lighter;
+    border-right: 1px solid $red;
+    border-bottom: 1px solid $red;
   }
 
   th {
@@ -107,7 +117,7 @@ td.vvm-wal {
   }
 
   tbody tr:hover {
-    background: $lighter;
+    background: $red;
   }
 
   #search-message {
@@ -178,7 +188,6 @@ td ul {
 }
 
 .bin-name {
-  font-size: 1.2rem;
   padding-left: 1rem;
 }
 
@@ -243,7 +252,7 @@ td ul {
   position: fixed;
   left: 30px;
   bottom: 30px;
-  background: $lighter;
+  background: $red;
   border-radius: 0.25em;
   padding: 2px 2px;
 }
@@ -257,7 +266,9 @@ td ul {
 }
 
 .cinfo {
-  float: right;
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
 
 @media #{$layout-break} {
