@@ -8,9 +8,9 @@ title: Submit
 You can send your vulnerable machine to our email `vulnyx@protonmail.com` by filling in the following information:
 
 ```
-*VM Name:* <machine name>
+VM Name: <machine name>
 
-**Level:** <machine difficulty (easy, medium & hard)
+Level: <machine difficulty (easy, medium & hard)
 
 Creator Name: <name or alias of the creator>
 
