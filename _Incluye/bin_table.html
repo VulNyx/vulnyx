@@ -16,7 +16,7 @@
         <tbody>
             {% for file in site.vms reversed %}
 		{% assign filename = file.path | split: '/' | last %}
-		{% assign trimmed_filename = filename | slice: 3, filename.size %}
+		{% assign trimmed_filename = filename | slice: 3, filename.size | remove_first: '-' %}
             <tr>
 		{% assign filename = file.path | slice: 5, file.path.size %}
                 <td class="id-vmname"><a class="bin-name">{{ trimmed_filename }}</a></td>
