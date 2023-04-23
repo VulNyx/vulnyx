@@ -94,6 +94,16 @@ h2 + ul li, p + ol li {
   background-color: $red;
 }
 
+#search-message {
+  font-size: 1.15rem;
+  margin-top: 1.5rem;
+}
+
+#query {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
 td.vvm-name {
   width: 180px;
 }

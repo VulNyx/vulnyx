@@ -25,10 +25,8 @@
             </tr>
             {% endfor %}
         </tbody>
-        <tfoot>
-            <tr><td id="search-message" colspan="2">no matches...</td></tr>
-        </tfoot>
     </table>
+    <p id="search-message" colspan="2">No matches for <span id="query"></span>. Try with other search.</p>
 </div>
 
 <script>
@@ -82,7 +80,9 @@
 
      // update the search message visibility
      var searchMessage = document.getElementById('search-message');
-     searchMessage.style.display = noResults ? 'table-cell' : 'none';
+     var searchBox = document.getElementById('bin-search');
+     var query = document.getElementById('query');
+     query.textContent = searchBox.value;
  }
 
  function applyFilter() {
