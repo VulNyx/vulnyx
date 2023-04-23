@@ -15,8 +15,11 @@
         </thead>
         <tbody>
             {% for file in site.vms reversed %}
+		{% assign filename = file.path | split: '/' | last %}
+		{% assign trimmed_filename = filename | slice: 3, filename.size | remove_first: '-' %}
             <tr>
-                <td class="id-vmname"><a class="bin-name">{% include get_bin_name path=file.path %}</a></td>
+		{% assign filename = file.path | slice: 5, file.path.size %}
+                <td class="id-vmname"><a class="bin-name">{{ trimmed_filename }}</a></td>
 		<td class="level">{% include level_list.html bin=file %}</td>
 		<td class="creator">{% include creator_list.html bin=file %}</td>
                 <td>{% include tested_list.html bin=file %}</td>
