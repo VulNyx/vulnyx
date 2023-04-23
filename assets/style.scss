@@ -1,537 +1,215 @@
----
----
-@font-face {
-    font-family: Segoe;
-    src: url('segoeui.ttf');
-}
-
-
+// Custom Variables
 $marked: #0000ff;
-
-$font: 'Segoe';
-$myblue: #000000;
-$lighter: #ab2a3e;
-$purpie: #0000ff;
-$accent: #FFFFFF;
-
-// disable diffis and platfs from main taglist
-
-#bin-search-filters-dif > li:nth-child(1) {
-	display: none;
-	}
-	
-#bin-search-filters > li:nth-child(3),
-#bin-search-filters > li:nth-child(4),
-#bin-search-filters > li:nth-child(5),
-#bin-search-filters > li:nth-child(6),
-#bin-search-filters > li:nth-child(7),
-#bin-search-filters > li:nth-child(8),
-#bin-search-filters > li:nth-child(9),
-#bin-search-filters > li:nth-child(10),
-#bin-search-filters > li:nth-child(11) {
-	display: none;
-	}
-
-// disable diffis and platfs from sub taglist
-
-#bin-table > tbody:nth-child(2) > tr > td:nth-child(4) > ul:nth-child(1) > li:nth-child(2),
-#bin-table > tbody:nth-child(2) > tr > td:nth-child(4) > ul:nth-child(1) > li:nth-child(3) {
-	display: none;
-	}
-	
-.bttop {
-	text-decoration: none;
-	position: fixed;
-	left: 30px;
-	bottom: 30px;
-	color: $accent;
-	background: $lighter;
-    font-size: initial;
-    border-radius: 0.25em;
-	display: inline-block;
-	padding: 2px 2px;
-	margin: 0px 0;
-	text-decoration: none;  
-	}
-
-.newicon {
-    padding: 0 !important; 
-    margin: 0 !important;
-	border: 0px !important;
-	padding-bottom: 11px !important;
-    padding-top: 11px !important;
-		}
-
-//css mode switch
-
-.togglel {
-	position: relative;
-    float: left;
-	top: -58px;
-	left: 892.667px;
-	border: none;
-	a {text-decoration: none;}
-}
-
-.toggled {
-	position: relative;
-    float: left;
-	top: -58px;
-	left: 892.667px;
-	border: none;
-	display: none;
-	}
-
-// layout
-
+$dark: #000000;
+$red: #ab2a3e;
+$hover-color: #38bdf8;
+$white: #ffffff;
 $column-width: 1000px;
 $grace-space: 200px;
 $layout-break: "(min-width: #{$column-width + $grace-space})";
 
-@media #{$layout-break} {
-    body {
-        width: $column-width;
-        margin: 40px auto;
-    }
-
-    p {
-        text-align: justify;
-    }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans, sans-serif;
 }
-
-@media not all and #{$layout-break} {
-    .github-corner {
-        display: none;
-    }
-}
-
-// walkthrough list padding
-
-.wal-list li {
-
-padding-right: 10px;
-
-}
-
-.logoi {
-    $margin: 20px;
-    float: right;
-    width: 200px;
-    height: 200px;
-    margin-left: $margin;
-    margin-bottom: $margin;
-}
-
-.logol {
-	display: none;
-}
-
-.cinfo {
-    float: right;
-}
-
-
-
-// common tags
 
 body {
-    font-family: $font;
-	background: $myblue;
-	color: $accent;
+  background: $dark;
+  color: $white;
 }
 
 code {
-    padding: 0.15em 0.25em;
-    border-radius: 0.25em;
-    color: $accent;
-    background: $lighter;
+  padding: 0.15em 0.25em;
+  border-radius: 0.25em;
+  background: $red;
 }
 
 pre {
-    background: $lighter;
-    padding: 1em;
-    overflow-x: auto;
+  background: $red;
+  padding: 1em;
+  overflow-x: auto;
 
-    code {
-        padding: 0;
-        border-radius: 0;
-    }
+  code {
+    padding: 0;
+    border-radius: 0;
+  }
 }
 
-a:link, a:visited {
-	
-    color: $accent;
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: $white;
 }
 
 a:hover {
-    color: $purpie;
+  color: $hover-color;
 }
 
-// permalink on headings
-
-h2, h3, h4, h5, h5 {
-    .permalink {
-        margin-left: 5px;
-        text-decoration: none;
-        visibility: hidden;
-
-        &::before {
-            content: "#";
-        }
-    }
-
-    &:target {
-        border-left: 5px solid $accent;
-        padding-left: 5px;
-    }
-
-    &:hover {
-        .permalink {
-            visibility: visible;
-        }
-    }
+h1,
+h2 {
+  margin-bottom: 1rem;
 }
 
-#vvm-state {
-    a {
-		color: $accent;
-		background: $lighter;
-        font-size: initial;
-        border-radius: 0.25em;
-		display: inline-block;
-		padding: 2px 2px;
-		margin: 0px 0;
-		text-decoration: none;
-    }
-	a:hover {
-    color: $purpie;
-			}
-	}
+p {
+  margin: 1rem 0;
+}
+
+h2 + ul,
+p + ol {
+  margin: 1rem 0;
+  padding-left: 3rem;
+}
+
+h2 + ul li, p + ol li {
+  padding: 0.25rem 0;
+}
+
+#vvm-state a {
+  background: $red;
+  font-weight: bold;
+  border-radius: 0.25em;
+  padding: 2px 2px;
+}
 
 // binary list and search
 
 #bin-search-wrapper {
-    margin: 50px 0;
-    padding: 10px 0;
-    position: relative; // XXX needed for tooltip sizing
+  margin: 2rem 0;
+  position: relative; // XXX needed for tooltip sizing
+}
 
-	#bin-search-filters-dif {
-        text-align: center;
-		
-        a {
-            background: $lighter;
-            font-size: initial;
-            border-radius: 0.25em;
-
-            &:hover:before {
-                display: none;
-            }
-        }
-    }
-	
-	#bin-search-filters-pla {
-        text-align: center;
-		
-        a {
-            background: $lighter;
-            font-size: initial;
-            border-radius: 0.25em;
-
-            &:hover:before {
-                display: none;
-            }
-        }
-    }
-
-    #bin-search-filters {
-        text-align: center;
-		
-        a {
-            background: $lighter;
-            font-size: initial;
-            border-radius: 0.25em;
-
-            &:hover:before {
-                display: none;
-            }
-        }
-    }
-
-    #bin-search {
-        margin-top: 25px;
-        padding: 1em;
-        font-size: 1rem;
-        width: 100%;
-        box-sizing: border-box;
-        border: 1px solid $accent;
-        outline-color: $accent;
-		background-color: $lighter;
-		color: $accent;
-    }
+#bin-search {
+  padding: 1em;
+  width: 100%;
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  border: 1px solid $white;
+  color: $white;
+  background-color: $red;
 }
 
 td.vvm-name {
-     width: 180px;
-    }
-	
-td.vvm-diffi, td.vvm-platf, td.vvm-curl, td.vvm-wal {
-     text-align: center;
-    }
+  width: 180px;
+}
+
+td.vvm-diffi,
+td.vvm-platf,
+td.vvm-curl,
+td.vvm-wal {
+  text-align: center;
+}
 
 #bin-table {
-    width: 100%;
+  width: 100%;
 
-    th, td {
-        padding: 0.2em 1em;
-		border-right: 1px solid $lighter;
-		border-bottom: 1px solid $lighter;
-    }
+  th,
+  td {
+    padding: 0.5em;
+    border-right: 1px solid $red;
+    border-bottom: 1px solid $red;
+  }
 
-    th {
-        text-align: left;
-    }
+  th {
+    text-align: center;
+  }
 
-    tbody tr:hover {
-        background: $lighter;
-    }
+  tbody tr:hover {
+    background: $red;
+  }
 
-    #search-message {
-        display: none;
-        text-align: center;
-        padding: 1em;
-    }
+  #search-message {
+    display: none;
+    text-align: center;
+    padding: 1em;
+  }
 }
 
-// TESTED
-
-.tested-list {
-    font-size: 0.85rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li {
-        display: inline-block;
-        a {
-            display: inline-block;
-            padding: 0.25em 0.5em;
-            margin: 0.2em 0;
-            //border: 1px solid $accent;
-        }
-
-        a:link, a:visited {
-            color: $accent;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: $purpie;
-            border-color: $purpie;
-        }
-
-        &.match a {
-            background: $marked;
-        }
-    }
+td ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
 }
 
-// LEVEL
-
-.level-list {
-    font-size: 0.8rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li {
-        display: inline-block;
-
-        a {
-            display: inline-block;
-            padding: 0.25em 0.5em;
-            margin: 0.2em 0;
-            //border: 1px solid $accent;
-        }
-
-        a:link, a:visited {
-            color: $accent;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: $purpie;
-            border-color: $purpie;
-        }
-
-        &.match a {
-            background: $marked;
-        }
-    }
-}
-
-// CREATOR
-
+.url-list,
+.md5-list,
+.tested-list,
+.level-list,
 .creator-list {
-    font-size: 0.85rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  font-size: 0.85rem;
 
-    li {
-        display: inline-block;
-
-        a {
-            display: inline-block;
-            padding: 0.25em 0.5em;
-            margin: 0.2em 0;
-            //border: 1px solid $accent;
-        }
-
-        a:link, a:visited {
-            color: $accent;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: $purpie;
-            border-color: $purpie;
-        }
-
-        &.match a {
-            background: $marked;
-        }
+  li {
+    a {
+      padding: 0.25em 0.5em;
+      margin: 0.2em 0;
     }
-}
 
-// URL | DOWNLOAD
-
-.url-list {
-    font-size: 0.8rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li {
-        display: inline-block;
-
-        a {
-            display: inline-block;
-            padding: 0.25em 0.5em;
-            margin: 0.2em 0;
-            border: 1px solid $accent;
-        }
-
-        a:link, a:visited {
-            color: $accent;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: $purpie;
-            border-color: $purpie;
-        }
-
-        &.match a {
-            background: $marked;
-        }
+    &.match a {
+      background: $marked;
     }
-}
-
-// MD5
-
-.md5-list {
-    font-size: 0.85rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li {
-        display: inline-block;
-        a {
-            display: inline-block;
-            padding: 0.25em 0.5em;
-            margin: 0.2em 0;
-            border: 1px solid $accent;
-        }
-
-        a:link, a:visited {
-            color: $accent;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: $purpie;
-            border-color: $purpie;
-        }
-
-        &.match a {
-            background: $marked;
-        }
-    }
+  }
 }
 
 // bin examples
 
 .examples {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    counter-reset: item;
-    margin: 0;
-    padding: 0;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  counter-reset: item;
 
-    li {
-        display: table-row;
+  li {
+    display: table-row;
 
-        &:not(:only-child):before {
-            display: table-cell;
-            font-size: 0.8rem;
-            font-weight: bold;
-            width: 3em;
-            text-align: center;
-            counter-increment: item;
-            content: "(" counter(item, lower-alpha) ")";
-        }
+    &:not(:only-child):before {
+      display: table-cell;
+      font-size: 0.8rem;
+      font-weight: bold;
+      width: 3em;
+      text-align: center;
+      counter-increment: item;
+      content: "(" counter(item, lower-alpha) ")";
     }
+  }
 }
 
 // other classes
 
 .logo {
-    $margin: 20px;
-    float: right;
-    width: 135px;
-    height: 135px;
-    margin-left: $margin;
-    margin-bottom: $margin;
+  $margin: 20px;
+  float: right;
+  width: 135px;
+  height: 135px;
+  margin-left: $margin;
+  margin-bottom: $margin;
 }
 
 .bin-name {
-	display: inline-block;
-    font-family: $font;
-    font-size: 1.2rem;
-	margin-top: 3px;
-	margin-bottom: 3px;
+  padding-left: 1rem;
 }
 
 .function-name {
-    font-size: 1.4rem;
-    font-weight: bold;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
 .github-buttons {
-    display: inline-block;
-    margin-left: 10px;
+  margin-left: 10px;
 
-    // avoid displaying the link text during loading
-    a.github-button {
-        visibility: hidden;
-    }
+  // avoid displaying the link text during loading
+  a.github-button {
+    visibility: hidden;
+  }
 }
 
 // LEVELS BUTTONS
 
-.boton-easy{
+.boton-easy,
+.boton-medium,
+.boton-hard {
   border-radius: 10%;
   padding: 0.1rem;
   background-color: #4c9b51;
@@ -541,22 +219,71 @@ td.vvm-diffi, td.vvm-platf, td.vvm-curl, td.vvm-wal {
   font-size: 14px;
 }
 
-.boton-medium{
-  border-radius: 10%;
-  padding: 0.1rem;
-  background-color: #b79616;
-  color: white;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
+.boton-easy {
+  background-color: #4c9b51;
 }
 
-.boton-hard{
-  border-radius: 10%;
-  padding: 0.1rem;
+.boton-medium {
+  background-color: #b79616;
+}
+
+.boton-hard {
   background-color: #b71652;
-  color: white;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
+}
+
+// disable diffis and platfs from sub taglist
+
+#bin-table
+  > tbody:nth-child(2)
+  > tr
+  > td:nth-child(4)
+  > ul:nth-child(1)
+  > li:nth-child(2),
+#bin-table
+  > tbody:nth-child(2)
+  > tr
+  > td:nth-child(4)
+  > ul:nth-child(1)
+  > li:nth-child(3) {
+  display: none;
+}
+
+.bttop {
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  background: $red;
+  border-radius: 0.25em;
+  padding: 2px 2px;
+}
+
+.newicon {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0px !important;
+  padding-bottom: 11px !important;
+  padding-top: 11px !important;
+}
+
+.cinfo {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+@media #{$layout-break} {
+  body {
+    width: $column-width;
+    margin: 40px auto;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+@media not all and #{$layout-break} {
+  .github-corner {
+    display: none;
+  }
 }
