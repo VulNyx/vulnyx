@@ -15,7 +15,7 @@ It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors"
 Website design is inspired by <a href="https://gtfobins.github.io/" target="_blank">GTFOBins</a> and all credits are his.
 <br>
 <br>
-<span class="cinfo"><a href="submit"><b>Submit</b></a>&nbsp;<a href="https://discord.gg/qdm3bN3Emb" target="_blank"><b>Discord</b></a></span>
+<span class="cinfo"><a href="submit">Submit</a>&nbsp;<a href="https://discord.gg/qdm3bN3Emb" target="_blank">Discord</a></span>
 <br>
 <hr>
 </div>
