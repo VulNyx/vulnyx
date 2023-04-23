@@ -123,6 +123,7 @@ td.vvm-wal {
     padding: 0.5em;
     border-right: 1px solid $red;
     border-bottom: 1px solid $red;
+    text-align: center;
   }
 
   th {
@@ -198,10 +199,6 @@ td ul {
   height: 135px;
   margin-left: $margin;
   margin-bottom: $margin;
-}
-
-.bin-name {
-  padding-left: 1rem;
 }
 
 .function-name {
