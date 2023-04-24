@@ -46,9 +46,11 @@ The VM that does not comply with the rules will be rejected.
 After acceptance of your machine, if you want to appear as a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">`collaborator`</a> in the official <a href="https://github.com/VulNyx/vulnyx.github.io" target="_blank">`repository`</a> you can do it as follows:
 
 1. Go to <a href="https://github.com/VulNyx/vulnyx.github.io/tree/main/_vms" target="_blank">`_vms/`</a>.
-2. Click "`Add File`" & "`Create New File`" create a file with the `name` of your `machine`.
+2. Click "`Add File`"
+3. Click "`Create New File`" create a file with the `name` of your `machine`.
 
 Edit this template with your data:
+
 ```
 ---
 level:
