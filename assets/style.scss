@@ -119,14 +119,17 @@ td.vvm-wal {
 }
 
 #bin-table {
-  border-collapse: collapse;
   width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
 th,
 td {
   padding: 0.75rem;
   text-align: center;
+  border: solid 1px #000;
+  border-style: none solid solid none;
 }
 
 th {
@@ -150,6 +153,13 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(even):hover {
   background-color: #383030;
+}
+
+tr:first-child th:first-child {
+  border-top-left-radius: 0.25rem;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 0.25rem;
 }
 
 #search-message {
@@ -224,7 +234,7 @@ td div {
 }
 
 .github-buttons {
-  margin-left: 10px;
+  margin-left: 0.25rem;
 
   // avoid displaying the link text during loading
   a.github-button {
