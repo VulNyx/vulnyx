@@ -14,7 +14,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for file in site.vms reversed %}
+		{% for file in site.vms reversed %}
 		{% assign filename = file.path | split: '/' | last %}
 		{% assign trimmed_filename = filename | slice: 3, filename.size | remove_first: '-' %}
             <tr>
