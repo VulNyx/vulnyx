@@ -2,6 +2,6 @@
 Easy:
   label: <span class="boton-easy">Easy</span>
 Medium:
-  label: <span class="boton-medium">&nbsp;Medium&nbsp;</span>
+  label: <span class="boton-medium">Medium</span>
 Hard:
-  label: <span class="boton-hard">&nbsp;Hard&nbsp;</span>
+  label: <span class="boton-hard">Hard</span>
