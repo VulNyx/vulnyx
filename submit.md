@@ -34,7 +34,7 @@ If you prefer you can also send us the solution in `.pdf` or `video` format (hid
 - The VM has to have a logic from the beginning to the end.
 - The creator has to test the VM to avoid possible bugs.
 - The VM has to work correctly in `VirtualBox`.
-- The VM should have the `flags`: (`user.txt` & `root.txt`) in its respective `home directory`.
+- The VM must have the `flags`: (`user.txt` & `root.txt`) located in `/home/[user]/user.txt` & `/root/root.txt`
 - If the VM requires a `brute force attack`, put a `password` that does `not exceed 5000 lines` of `rockyou.txt`.
 - If the VM requires a `domain`/`subdomain` it has to be `.nyx` (example: `domain.nyx`/`subdomain.domain.nyx`)
 - We do `not accept VM` that are on `other platforms` (The only reason is because we want to have our own machines)
