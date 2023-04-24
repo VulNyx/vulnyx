@@ -92,9 +92,13 @@ p + ol li {
   width: 100%;
   border-radius: 0.25em;
   box-sizing: border-box;
-  border: 1px solid $white;
+  border: none;
   color: $white;
   background-color: $red;
+}
+
+#bin-search:focus {
+  outline: none;
 }
 
 #search-message {
