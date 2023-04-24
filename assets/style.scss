@@ -5,6 +5,8 @@
 $marked: #0000ff;
 $dark: #000000;
 $red: #ab2a3e;
+$row: #1f1414;
+$even-row: #b65261;
 $hover-color: #38bdf8;
 $white: #ffffff;
 $column-width: 1000px;
@@ -66,7 +68,8 @@ p + ol {
   padding-left: 3rem;
 }
 
-h2 + ul li, p + ol li {
+h2 + ul li,
+p + ol li {
   padding: 0.25rem 0;
 }
 
@@ -116,32 +119,46 @@ td.vvm-wal {
 }
 
 #bin-table {
+  border-collapse: collapse;
   width: 100%;
-
-  th,
-  td {
-    padding: 0.5em;
-    border-right: 1px solid $red;
-    border-bottom: 1px solid $red;
-    text-align: center;
-  }
-
-  th {
-    text-align: center;
-  }
-
-  tbody tr:hover {
-    background: $red;
-  }
-
-  #search-message {
-    display: none;
-    text-align: center;
-    padding: 1em;
-  }
 }
 
-td ul {
+th,
+td {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+th {
+  padding: 0.5rem;
+  color: #e91c3b;
+  background-color: #201f1f;
+  text-align: center;
+}
+
+tbody tr {
+  background-color: $red;
+}
+
+tbody tr:hover {
+  background-color: $even-row;
+}
+
+tbody tr:nth-child(even) {
+  background-color: $dark;
+}
+
+tbody tr:nth-child(even):hover {
+  background-color: #383030;
+}
+
+#search-message {
+  display: none;
+  text-align: center;
+  padding: 1em;
+}
+
+td div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -236,7 +253,7 @@ td ul {
 }
 
 .boton-hard {
-  background-color: #b71652;
+  background-color: #ec0725;
 }
 
 // disable diffis and platfs from sub taglist
@@ -266,11 +283,8 @@ td ul {
 }
 
 .newicon {
-  padding: 0 !important;
-  margin: 0 !important;
-  border: 0px !important;
-  padding-bottom: 11px !important;
-  padding-top: 11px !important;
+  display: flex;
+  align-items: center;
 }
 
 .cinfo {

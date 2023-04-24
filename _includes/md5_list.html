@@ -1,8 +1,8 @@
-<ul class="md5-list">
+<div class="md5-list">
     {% for wal_pair in site.data.md5 %}
     {% assign wal_id = wal_pair[0] %}
     {% assign wal = wal_pair[1] %}
     {% unless include.bin.md5[wal_id] %}{% continue %}{% endunless %}
-    <li>{{ wal.label }}</li>
+    <span>{{ wal.label }}</span>
     {% endfor %}
-</ul>
+</div>
