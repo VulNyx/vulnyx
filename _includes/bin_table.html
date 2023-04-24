@@ -19,7 +19,7 @@
 		{% assign trimmed_filename = filename | slice: 3, filename.size | remove_first: '-' %}
             <tr>
 		{% assign filename = file.path | slice: 5, file.path.size %}
-                <td class="id-vmname"><a class="bin-name">{{ trimmed_filename }}</a></td>
+                <td class="id-vmname"><span class="bin-name">{{ trimmed_filename }}</span></td>
 		<td class="level">{% include level_list.html bin=file %}</td>
 		<td class="creator">{% include creator_list.html bin=file %}</td>
                 <td>{% include tested_list.html bin=file %}</td>
@@ -29,7 +29,7 @@
             {% endfor %}
         </tbody>
     </table>
-    <p id="search-message" colspan="2">No matches for <span id="query"></span>. Try with other search.</p>
+    <p id="search-message">No matches for <span id="query"></span>. Try with other search.</p>
 </div>
 
 <script>
