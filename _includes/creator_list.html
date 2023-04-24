@@ -3,6 +3,6 @@
     {% assign platf_id = platf_pair[0] %}
     {% assign platf = platf_pair[1] %}
     {% unless include.bin.creator[platf_id] %}{% continue %}{% endunless %}
-    <a>{{ platf.label }}</a>
+    <a href="{{ platf.url }}">{{ platf.label }}</a>
     {% endfor %}
 </div>
