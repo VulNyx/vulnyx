@@ -128,7 +128,8 @@ td.vvm-wal {
   border-spacing: 0;
 }
 
-th, td {
+th,
+td {
   text-align: center;
   padding: 0.75rem;
   border: 1px solid #808080;
@@ -160,6 +161,13 @@ tr:first-child th:first-child {
 }
 tr:first-child th:last-child {
   border-top-right-radius: 0.25rem;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 0.25rem;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 0.25rem;
 }
 
 #search-message {
