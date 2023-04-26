@@ -3,9 +3,9 @@ layout: page
 title: VulNyx
 ---
 
-![logo](/assets/logo.png){:.logo}
+![VulNyx website logo](/assets/logo.png){:.logo}
 
-<div id="vvm-state">
+<div id="vm-state">
 <b>VulNyx</b> is a website that contains a <b>list</b> of <b>vulnerable machines</b> that are <b>Unix</b> based. These machines have security flaws and have different <b>difficulty</b> levels. Here you can <b>learn</b> & <b>practice</b> your <b>security</b> skills.
 <br>
 <br>
