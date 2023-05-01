@@ -18,7 +18,7 @@
       {% for file in site.vms reversed %}
       {% assign filename = file.path | split: '/' | last %}
       <!-- {% assign trimmed_filename = filename | slice: 3, filename.size %} -->
-      {% assign trimmed_filename = filename | slice: 3, filename.size | slice: -3 %}
+      {% assign trimmed_filename = filename | slice: 3, filename.size | truncate: filename.size_minus_3 %}
 
               <tr>
       {% assign filename = file.path | slice: 5, file.path.size %}
