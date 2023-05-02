@@ -16,8 +16,11 @@ To run the web locally you need:
 git clone https://github.com/VulNyx/vulnyx.github.io.git && cd vulnyx.github.io
 ```
 
-2. Install Ruby and RubyGems on your system if they are not already installed. 
-    - e.g  ```sudo apt install ruby rubygems -y``` on Debian-based systems.
+2. Install Ruby and RubyGems on your system if they are not already installed.
+
+```sh
+sudo apt install ruby rubygems -y
+```
 
 3. You can check they are correctly installed with ```ruby -v``` and ```gem -v```.
 
