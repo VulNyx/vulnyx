@@ -24,7 +24,11 @@ sudo apt install ruby rubygems -y
 
 3. You can check they are correctly installed with ```ruby -v``` and ```gem -v```.
 
-4. Install the Jekyll and Bundler gems by running the command ```gem install jekyll bundler```.
+4. Install the Jekyll and Bundler gems by running the command.
+
+```sh
+gem install jekyll bundler
+```
 
 5. Run the command ```bundle install``` to install any dependencies required by the project.
 
