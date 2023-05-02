@@ -11,7 +11,10 @@ If you wanna collaborate with code, PRs are welcome!
 To run the web locally you need:
 
 1. Clone the repository and navigate to the directory.
-    - e.g ```git clone https://github.com/VulNyx/vulnyx.github.io.git``` and ```cd vulnyx.github.io```
+
+```sh
+git clone https://github.com/VulNyx/vulnyx.github.io.git && cd vulnyx.github.io
+```
 
 2. Install Ruby and RubyGems on your system if they are not already installed. 
     - e.g  ```sudo apt install ruby rubygems -y``` on Debian-based systems.
