@@ -38,4 +38,4 @@ gem install jekyll bundler
 
 8. Make any necessary changes to the code or content of the website and refresh the browser to see the changes.
 
-9. To stop the Jekyll server, press Ctrl+C in the terminal.
+9. To stop the Jekyll server, press <kbd>Ctrl</kbd> + <kbd>C</kbd> in the terminal.
