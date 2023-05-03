@@ -6,7 +6,7 @@ title: VulNyx
 ![VulNyx website logo](/assets/logo.png){:.logo}
 
 <div id="vm-state">
-<b>VulNyx</b> is a website that contains a <b>list</b> of <b>vulnerable machines</b> that are <b>Unix</b> based. These machines have security flaws and have different <b>difficulty</b> levels. Here you can <b>learn</b> & <b>practice</b> your <b>security</b> skills.
+<b>VulNyx</b> is a website that contains a <b>list</b> of <b>vulnerable machines</b> that are <b>Unix</b> based. These machines have security flaws and have different <b>difficulty</b> levels. Here you can <b>learn</b> & <b>practice</b> your <b>cybersecurity</b> skills.
 <br>
 <br>
 It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">collaborative</a> project where <b>everyone</b> can <b>contribute</b> by <b>sending</b> their <b>vulnerable machine</b>.
