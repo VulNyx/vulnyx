@@ -3,11 +3,11 @@
 
 // Custom Variables
 $marked: #0000ff;
-$dark: #000000;
-$red: #ab2a3e;
+$dark: #141414;
+$red: #bd4658;
 $row: #1f1414;
 $even-row: #b65261;
-$hover-color: #38bdf8;
+$hover-color: #86d6fc;
 $white: #ffffff;
 $column-width: 1000px;
 $grace-space: 200px;
@@ -53,6 +53,11 @@ a:hover {
   color: $hover-color;
 }
 
+header h1 {
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+
 h1,
 h2 {
   margin-bottom: 1rem;
@@ -73,6 +78,10 @@ p + ol li {
   padding: 0.25rem 0;
 }
 
+#vm-state {
+  padding: 0.5rem;
+}
+
 #vm-state a {
   background: $red;
   font-weight: bold;
@@ -83,8 +92,8 @@ p + ol li {
 // binary list and search
 
 #bin-search-wrapper {
+  padding: 0.5rem;
   margin: 2rem 0;
-  position: relative; // XXX needed for tooltip sizing
 }
 
 #bin-search {
@@ -95,10 +104,6 @@ p + ol li {
   border: 1px solid #808080;
   color: $white;
   background-color: $red;
-}
-
-#bin-search:focus {
-  outline: none;
 }
 
 #search-message {
@@ -124,6 +129,7 @@ td.vvm-wal {
 
 #bin-table {
   width: 100%;
+  padding: 0.5rem;
   border-collapse: separate;
   border-spacing: 0;
 }
@@ -228,12 +234,9 @@ td div {
 // other classes
 
 .logo {
-  $margin: 20px;
   float: right;
   width: 135px;
   height: 135px;
-  margin-left: $margin;
-  margin-bottom: $margin;
 }
 
 .function-name {
@@ -304,10 +307,17 @@ td div {
   align-items: center;
 }
 
-.cinfo {
+.media-info {
   width: 100%;
+  padding: 0 0.5rem; 
   display: flex;
+  gap: 0.5rem;
   justify-content: end;
+  margin-bottom: 0.5rem;
+}
+
+.media-info a:hover {
+  scale: 1.2;
 }
 
 @media #{$layout-break} {
