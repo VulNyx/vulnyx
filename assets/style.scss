@@ -142,7 +142,7 @@ td {
 }
 
 th {
-  color: #bd4658;
+  color: #D99BA3;
   background-color: #1d1c1c;
 }
 
@@ -189,23 +189,10 @@ td div {
   list-style: none;
 }
 
-.url-list,
-.md5-list,
-.tested-list,
-.level-list,
-.creator-list {
+.md5,
+.creator,
+.writeups {
   font-size: 0.85rem;
-
-  li {
-    a {
-      padding: 0.25em 0.5em;
-      margin: 0.2em 0;
-    }
-
-    &.match a {
-      background: $marked;
-    }
-  }
 }
 
 // bin examples
@@ -266,11 +253,11 @@ td div {
 }
 
 .boton-easy {
-  background-color: #4c9b51;
+  background-color: #335B33;
 }
 
 .boton-medium {
-  background-color: #b79616;
+  background-color: #e1b300;
 }
 
 .boton-hard {
