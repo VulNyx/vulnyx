@@ -12,7 +12,7 @@ title: VulNyx
   <b>learn</b> & <b>practice</b> your <b>cybersecurity</b> skills.
   <br />
   <br />
-  It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">collaborative</a>project where <b>everyone</b> can <b>contribute</b>, you can also <b>send</b> your <b>VM</b> in <a href="https://vulnyx.github.io/submit/" target="_blank">submit</a>.
+  It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">collaborative</a> project where <b>everyone</b> can <b>contribute</b>, you can also <b>send</b> your <b>VM</b> in <a href="https://vulnyx.github.io/submit/" target="_blank">submit</a>.
   <br />
   <br />
   Website design is inspired by <a href="https://gtfobins.github.io/" target="_blank">GTFOBins</a> and all credits are his.
