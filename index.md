@@ -9,7 +9,7 @@ title: VulNyx
 <b>VulNyx</b> is a website that contains a <b>list</b> of <b>vulnerable machines (VMs)</b> based on <b>Unix</b> systems.
 <br>
 <br>
-These machines have security flaws with different levels of <b>difficulty</b>. Here you can <b>learn cybersecurity skills</b>.
+These machines have security flaws with different levels of <b>difficulty</b>, here you can <b>learn cybersecurity skills</b>.
 <br>
 <br>
 It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">collaborative</a> project where <b>everyone</b> can <b>contribute</b>, you can also <b>send</b> your <b>VM</b> in <a href="https://vulnyx.github.io/submit/" target="_blank">submit</a> by follow the info.
