@@ -12,6 +12,7 @@
                 <th>Tested</th>
                 <th>URL</th>
                 <th>MD5</th>
+                <th>Writeups</th>
             </tr>
         </thead>
         <tbody>
@@ -26,6 +27,7 @@
             <td class="tested">{% include tested_list.html bin=file %}</td>
             <td class="url">{% include url_list.html bin=file %}</td>
             <td class="md5">{% include md5_list.html bin=file %}</td>
+            <td class="writeups"></td>
             </tr>
             {% endfor %}
         </tbody>
@@ -33,6 +35,9 @@
     <p id="search-message">No matches for <span id="query"></span>. Try with other search.</p>
 </div>
 </main>
+<footer>
+  <p>© VulNyx 2023 - Inspired by <a href="https://gtfobins.github.io/" target="_blank">GTFOBins</a></p>
+</footer>
 
 <script>
   const filter = (query) => {
