@@ -10,14 +10,11 @@ title: VulNyx
 <br>
 <br>
 These machines have security flaws with different levels of <b>difficulty</b>. Here you can <b>learn cybersecurity skills</b>.
-<br />
-<br />
+<br>
+<br>
 It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">collaborative</a> project where <b>everyone</b> can <b>contribute</b>, you can also <b>send</b> your <b>VM</b> in <a href="https://vulnyx.github.io/submit/" target="_blank">submit</a> by follow the info.
-<br />
-<br />
-Website design is inspired by <a href="https://gtfobins.github.io/" target="_blank">GTFOBins</a> and all credits are his.
-<br />
-<br />
+<br>
+<br>
 </div>
 <div class="media-info">
   <a title="Submit" href="submit">
