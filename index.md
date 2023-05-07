@@ -14,7 +14,6 @@ These machines have security flaws with different levels of <b>difficulty</b>. H
 <br>
 It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">collaborative</a> project where <b>everyone</b> can <b>contribute</b>, you can also <b>send</b> your <b>VM</b> in <a href="https://vulnyx.github.io/submit/" target="_blank">submit</a> by follow the info.
 <br>
-<br>
 </div>
 <div class="media-info">
   <a title="Submit" href="submit">
