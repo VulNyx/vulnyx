@@ -25,23 +25,6 @@ body {
   color: $white;
 }
 
-code {
-  padding: 0.15em 0.25em;
-  border-radius: 0.25em;
-  background: $red;
-}
-
-pre {
-  background: $red;
-  padding: 1em;
-  overflow-x: auto;
-
-  code {
-    padding: 0;
-    border-radius: 0;
-  }
-}
-
 a,
 a:link,
 a:visited {
@@ -107,6 +90,9 @@ p + ol li {
 }
 
 #search-message {
+  display: none;
+  text-align: center;
+  padding: 1em;
   font-size: 1.15rem;
   margin-top: 1.5rem;
 }
@@ -137,12 +123,13 @@ td.vvm-wal {
 th,
 td {
   text-align: center;
-  padding: 0.75rem;
+  padding: 0.5rem;
   border: 1px solid #808080;
 }
 
 th {
-  color: #bd4658;
+  padding: 0.75rem;
+  color: #D99BA3;
   background-color: #1d1c1c;
 }
 
@@ -176,12 +163,6 @@ tr:last-child td:last-child {
   border-bottom-right-radius: 0.25rem;
 }
 
-#search-message {
-  display: none;
-  text-align: center;
-  padding: 1em;
-}
-
 td div {
   display: flex;
   align-items: center;
@@ -189,23 +170,10 @@ td div {
   list-style: none;
 }
 
-.url-list,
-.md5-list,
-.tested-list,
-.level-list,
-.creator-list {
+.md5,
+.creator,
+.writeups {
   font-size: 0.85rem;
-
-  li {
-    a {
-      padding: 0.25em 0.5em;
-      margin: 0.2em 0;
-    }
-
-    &.match a {
-      background: $marked;
-    }
-  }
 }
 
 // bin examples
@@ -244,15 +212,6 @@ td div {
   font-weight: bold;
 }
 
-.github-buttons {
-  margin-left: 0.25rem;
-
-  // avoid displaying the link text during loading
-  a.github-button {
-    visibility: hidden;
-  }
-}
-
 // LEVELS BUTTONS
 
 .boton-easy,
@@ -266,11 +225,11 @@ td div {
 }
 
 .boton-easy {
-  background-color: #4c9b51;
+  background-color: #335B33;
 }
 
 .boton-medium {
-  background-color: #b79616;
+  background-color: #e1b300;
 }
 
 .boton-hard {
@@ -305,6 +264,7 @@ td div {
 .newicon {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .media-info {
