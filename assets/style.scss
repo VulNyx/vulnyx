@@ -292,6 +292,16 @@ td div {
   scale: 1.2;
 }
 
+footer {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border-top: 1px solid #727272;
+}
+
+footer p {
+  text-align: center;
+}
+
 @media #{$layout-break} {
   body {
     width: $column-width;
