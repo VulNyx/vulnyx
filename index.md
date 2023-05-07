@@ -3,9 +3,8 @@ layout: page
 title: VulNyx
 ---
 
-![VulNyx website logo](/assets/logo.png){:.logo}
-
-<div id="vm-state">
+<section class="container">
+<article id="vm-state">
 <b>VulNyx</b> is a website that contains a <b>list</b> of <b>vulnerable machines (VMs)</b> based on <b>Unix</b> systems.
 <br>
 <br>
@@ -15,8 +14,10 @@ These machines have security flaws with different levels of <b>difficulty</b>, h
 It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">collaborative</a> project where <b>everyone</b> can <b>contribute</b>, you can also <b>send</b> your <b>VM</b> in <a href="https://vulnyx.github.io/submit/" target="_blank">submit</a> by follow the info.
 <br>
 <br>
-</div>
-<div class="media-info">
+</article>
+<article class="media-info">
+  <img class="logo" alt="VulNyx website logo" src="/assets/logo.png">
+  <div class="media-links">
   <a title="Submit" href="submit">
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -100,8 +101,9 @@ It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors"
       <polyline points="3 7 12 13 21 7" />
     </svg>
   </a>
-</div>
-<hr />
+  </div>
+</article>
 <a href="#" class="bttop">⬆️</a>
+</section>
 
 {% include bin_table.html %}

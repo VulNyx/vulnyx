@@ -36,9 +36,9 @@ a:hover {
   color: $hover-color;
 }
 
-header h1 {
-  margin: 1rem 0;
-  padding: 0.5rem;
+#title {
+  padding: 1rem;
+  margin: 0;
 }
 
 h1,
@@ -61,8 +61,14 @@ p + ol li {
   padding: 0.25rem 0;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 0.8fr 0.2fr; 
+  border-bottom: 1px solid #727272;
+}
+
 #vm-state {
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 #vm-state a {
@@ -270,13 +276,19 @@ td div {
 .media-info {
   width: 100%;
   padding: 0 0.5rem; 
-  display: flex;
-  gap: 0.5rem;
+  display: grid;
   justify-content: end;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-.media-info a:hover {
+.media-links {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-links a:hover {
   scale: 1.2;
 }
 
@@ -288,11 +300,5 @@ td div {
 
   p {
     text-align: justify;
-  }
-}
-
-@media not all and #{$layout-break} {
-  .github-corner {
-    display: none;
   }
 }
