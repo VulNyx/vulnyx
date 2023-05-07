@@ -47,7 +47,7 @@ After acceptance of your machine, if you want to appear as a <a href="https://gi
 
 1. Go to <a href="https://github.com/VulNyx/vulnyx.github.io/tree/main/_vms" target="_blank">`_vms/`</a>
 2. Click "`Add File`"
-3. Click "`Create New File`" create a file with the `name` of your `machine` with extension `.md`
+3. Click "`Create New File`" create a file with the `name` of your `machine` with extension `.md` (example: `Blog.md`)
 
 Edit this template with your data:
 
