@@ -25,23 +25,6 @@ body {
   color: $white;
 }
 
-code {
-  padding: 0.15em 0.25em;
-  border-radius: 0.25em;
-  background: $red;
-}
-
-pre {
-  background: $red;
-  padding: 1em;
-  overflow-x: auto;
-
-  code {
-    padding: 0;
-    border-radius: 0;
-  }
-}
-
 a,
 a:link,
 a:visited {
@@ -107,6 +90,9 @@ p + ol li {
 }
 
 #search-message {
+  display: none;
+  text-align: center;
+  padding: 1em;
   font-size: 1.15rem;
   margin-top: 1.5rem;
 }
@@ -137,11 +123,12 @@ td.vvm-wal {
 th,
 td {
   text-align: center;
-  padding: 0.75rem;
+  padding: 0.5rem;
   border: 1px solid #808080;
 }
 
 th {
+  padding: 0.75rem;
   color: #D99BA3;
   background-color: #1d1c1c;
 }
@@ -174,12 +161,6 @@ tr:last-child td:first-child {
 }
 tr:last-child td:last-child {
   border-bottom-right-radius: 0.25rem;
-}
-
-#search-message {
-  display: none;
-  text-align: center;
-  padding: 1em;
 }
 
 td div {
@@ -229,15 +210,6 @@ td div {
 .function-name {
   font-size: 1.4rem;
   font-weight: bold;
-}
-
-.github-buttons {
-  margin-left: 0.25rem;
-
-  // avoid displaying the link text during loading
-  a.github-button {
-    visibility: hidden;
-  }
 }
 
 // LEVELS BUTTONS
@@ -292,6 +264,7 @@ td div {
 .newicon {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .media-info {
