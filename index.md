@@ -8,6 +8,7 @@ title: VulNyx
 <div id="vm-state">
 <b>VulNyx</b> is a website that contains a <b>list</b> of <b>vulnerable machines (VMs)</b> based on <b>Unix</b> systems.
 <br>
+<br>
 These machines have security flaws with different levels of <b>difficulty</b>. Here you can <b>learn</b> & <b>practice cybersecurity</b> skills.
 <br />
 <br />
