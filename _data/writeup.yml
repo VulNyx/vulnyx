@@ -1,0 +1,50 @@
+---
+writeup-ready:
+  url: 
+    - https://shelldredd.github.io/writesup/ready-writeup-vulnyx.html
+writeup-hat:
+  url: 
+    - https://0x-noname.github.io/writeups/nyx/hat
+writeup-serve:
+  url: 
+    - https://0x-noname.github.io/writeups/nyx/serve
+writeup-brain:
+  url: 
+writeup-responder:
+  url: 
+    - https://elc4br4.github.io/vulnyx-responder-writeup/
+writeup-wrapp:
+  url: 
+    - https://0x-noname.github.io/writeups/nyx/wrapp
+writeup-doctor:
+  url: 
+    - https://0x-noname.github.io/writeups/nyx/doctor
+writeup-secrets:
+  url: 
+writeup-fing:
+  url: 
+    - https://0x-noname.github.io/writeups/nyx/fing
+writeup-blog:
+  url: 
+writeup-backdoor:
+  url: 
+writeup-tom:
+  url: 
+writeup-shock:
+  url: 
+    - https://0x-noname.github.io/writeups/nyx/shock
+    - https://elc4br4.github.io/vulnyx-shock-writeup/#privesc
+writeup-developer:
+  url: 
+writeup-hidden:
+  url: 
+writeup-real:
+  url: 
+writeup-ceres:
+  url: 
+writeup-printer:
+  url: 
+writeup-zero:
+  url: 
+writeup-zone:
+  url: 
