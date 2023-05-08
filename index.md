@@ -5,7 +5,7 @@ title: VulNyx
 
 <section class="container">
 <article id="vm-state">
-<b>VulNyx</b> is a website that contains a <b>list</b> of <b>vulnerable machines (VMs)</b> based on <b>Unix</b> systems.
+<b>VulNyx</b> is a website that contains a <b>list</b> of <b>vulnerable virtual machines</b> based on <b>Unix</b> guy systems.
 <br>
 <br>
 These machines have security flaws with different levels of <b>difficulty</b>, here you can <b>learn cybersecurity skills</b>.
