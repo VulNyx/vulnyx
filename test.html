@@ -2,7 +2,17 @@
 <html>
 <head>
 	<title>Enviar formulario a Webhook de Discord</title>
-	<script>
+</head>
+<body>
+	<h1>Formulario de envío</h1>
+	<form id="myForm" method="POST">
+		<label for="vmname">Nombre de la VM:</label><br>
+		<input type="text" id="vmname" name="vmname"><br>
+		<label for="level">Nivel:</label><br>
+		<input type="number" id="level" name="level"><br><br>
+		<input type="submit" value="Enviar">
+	</form>
+		<script>
 		const myForm = document.getElementById("myForm");
 
 		myForm.addEventListener("submit", function(event) {
@@ -25,15 +35,5 @@
 			alert("Formulario enviado con éxito");
 		});
 	</script>
-</head>
-<body>
-	<h1>Formulario de envío</h1>
-	<form id="myForm" method="POST">
-		<label for="vmname">Nombre de la VM:</label><br>
-		<input type="text" id="vmname" name="vmname"><br>
-		<label for="level">Nivel:</label><br>
-		<input type="number" id="level" name="level"><br><br>
-		<input type="submit" value="Enviar">
-	</form>
 </body>
 </html>
