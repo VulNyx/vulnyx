@@ -14,4 +14,7 @@ tested:
 md5:
   md5-serve:
     -
+writeup:
+  writeup-serve:
+    -
 ---
