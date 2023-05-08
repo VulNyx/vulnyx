@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enviar formulario a Webhook de Discord</title>
+	<script>
+		const myForm = document.getElementById("myForm");
+
+		myForm.addEventListener("submit", function(event) {
+			event.preventDefault();
+			const vmname = document.getElementById("vmname").value;
+			const level = document.getElementById("level").value;
+			const payload = {
+				"vmname": vmname,
+				"level": level
+			};
+			const url = "https://discord.com/api/webhooks/1104726888951328778/HLpW_SqRFqrkuR29kWFmzIQM_O8ST6XCT6a1RfnVGUGvlUm845j2vdqpWDnnzkpSQrn8";
+			const options = {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json"
+				},
+				body: JSON.stringify(payload)
+			};
+			fetch(url, options);
+			alert("Formulario enviado con éxito");
+		});
+	</script>
+</head>
+<body>
+	<h1>Formulario de envío</h1>
+	<form id="myForm">
+		<label for="vmname">Nombre de la VM:</label><br>
+		<input type="text" id="vmname" name="vmname"><br>
+		<label for="level">Nivel:</label><br>
+		<input type="number" id="level" name="level"><br><br>
+		<input type="submit" value="Enviar">
+	</form>
+	</script>
+</body>
+</html>
