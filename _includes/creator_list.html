@@ -1,10 +1,12 @@
-{% for platf_pair in site.data.creator %}
-{% assign platf_id = platf_pair[0] %}
-{% assign platf = platf_pair[1] %}
-{% unless include.bin.creator[platf_id] %}{% continue %}{% endunless %}
-    {% if platf.url %}
-        <a href="{{ platf.url }}" target="_blank">{{ platf.label }}</a>
+{% for creator_list in site.data.creator %}
+    {% assign creator_id = creator_list[0] %}
+    {% assign creator = creator_list[1] %}
+    {% unless include.bin.creator[creator_id] %}
+        {% continue %}
+    {% endunless %}
+    {% if creator.url %}
+        <a href="{{ creator.url }}" target="_blank">{{ creator.label }}</a>
     {% else %}
-        <span>{{ platf.label }}</span>
+        <span>{{ creator.label }}</span>
     {% endif %}
 {% endfor %}
