@@ -5,10 +5,10 @@ title: VulNyx
 
 <section class="container">
 <article id="vm-state">
-<b>VulNyx</b> is a website that contains a <b>list</b> of <b>vulnerable virtual machines</b> based on <b>Unix</b> guy systems.
+<b>VulNyx</b> is a website that contains a <b>list</b> of <b>vulnerable virtual machines</b> based on <b>Unix</b> systems.
 <br>
 <br>
-These <b>machines</b> have <b>different security flaws & misconfigured systems</b>, there are several <b>difficulty levels (easy, medium and hard)</b>, here you can <b>learn & practice</b> your <b>cybersecurity skills</b> easily.
+These <b>machines</b> have <b>different security flaws & misconfigured systems</b>, there are several <b>difficulty levels (easy, medium & hard)</b>, here you can <b>learn & practice</b> your <b>cybersecurity skills</b> easily.
 <br>
 <br>
 It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">collaborative</a> project where <b>everyone</b> can <b>contribute</b> any <b>ideas</b> or <b>improvements</b>, you can also <b>send</b> your <b>vulnerable virtual machine</b> by following the information given in <a href="https://vulnyx.github.io/submit/" target="_blank">submit</a>.
