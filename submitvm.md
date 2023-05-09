@@ -4,26 +4,41 @@ title: Submit
 ---
 
 {% raw %}
-<form action="https://formspree.io/f/xbjewngg" method="POST">
-  <label for="vmname">VM Name:</label>
-  <input type="text" id="vmname" name="VM Name">
-<br>
-<label for="level">Level:</label>
-<select id="level" name="Level">
-<option value="Easy">Easy</option>
-<option value="Medium">Medium</option>
-<option value="Hard">Hard</option>
-</select>
-<br>
-<label for="creator">Creator:</label>
-<input type="text" id="creator" name="Creator">
-<br>
-<label for="url">URL:</label>
-<input type="text" id="url" name="URL">
-<br>
-<label for="solution">Solution:</label>
-  <textarea id="writeup" name="Solution"></textarea>
-<br>
-<button type="submit">Submit</button>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="./style.css">
+<form class="form contact-form" action="https://formspree.io/f/xbjewngg" method="POST">
+  <div>
+    <label class="form-label" for="name">VM Name</label>
+    <input class="form-control" id="name" name="VM Name" type="text" required />
+  </div>
+  <div>
+    <label class="form-label" for="creator">Creator</label>
+    <input class="form-control" id="creator" name="Creator" type="text" required />
+  </div>
+  <div>
+    <label class="form-label" for="level">Level</label>
+    <select class="form-control" id="level" name="Level" required>
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+    </select>
+  </div>
+  <div>
+    <label class="form-label" for="url">URL</label>
+    <input class="form-control" id="url" name="URL" type="url" required />
+  </div>
+  <div>
+    <label class="form-label" for="solution">Solution</label>
+    <textarea class="form-control" id="solution" name="Solution" required></textarea>
+  </div>
+  <div>
+    <br>
+  </div>
+  <div>
+    <button class="button" type="submit">Submit</button>
+    <button class="button" type="reset">Clear</button>
+  </div>
 </form>
+  <script  src="./script.js"></script>
+
 {% endraw %}
