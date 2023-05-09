@@ -25,6 +25,23 @@ body {
   color: $white;
 }
 
+code {
+  padding: 0.15em 0.25em;
+  border-radius: 0.25em;
+  background: $red;
+}
+
+pre {
+  background: $red;
+  padding: 1em;
+  overflow-x: auto;
+
+  code {
+    padding: 0;
+    border-radius: 0;
+  }
+}
+
 a,
 a:link,
 a:visited {
