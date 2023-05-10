@@ -53,7 +53,7 @@ writeup-shock:
     - elc4br4
   url: 
     - https://0x-noname.github.io/writeups/nyx/shock
-    - https://elc4br4.github.io/vulnyx-shock-writeup/#privesc
+    - https://elc4br4.github.io/vulnyx-shock-writeup/
 writeup-developer:
   creator:
   url: 
