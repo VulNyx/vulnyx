@@ -305,7 +305,7 @@ footer p {
 @media #{$layout-break} {
   body {
     width: $column-width;
-    margin: 40px auto;
+    margin: auto;
   }
 
   p {
