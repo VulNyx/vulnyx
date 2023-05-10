@@ -1,50 +1,77 @@
 ---
 writeup-ready:
+  creator:
+    - ShellDredd
   url: 
     - https://shelldredd.github.io/writesup/ready-writeup-vulnyx.html
 writeup-hat:
+  creator:
+    - noname
   url: 
     - https://0x-noname.github.io/writeups/nyx/hat
 writeup-serve:
+  creator:
+    - noname
   url: 
     - https://0x-noname.github.io/writeups/nyx/serve
 writeup-brain:
   url: 
 writeup-responder:
+  creator:
+    - elc4br4
   url: 
     - https://elc4br4.github.io/vulnyx-responder-writeup/
 writeup-wrapp:
+  creator:
+    - noname
   url: 
     - https://0x-noname.github.io/writeups/nyx/wrapp
 writeup-doctor:
+  creator:
+    - noname
   url: 
     - https://0x-noname.github.io/writeups/nyx/doctor
 writeup-secrets:
   url: 
 writeup-fing:
+  creator:
+    - noname
   url: 
     - https://0x-noname.github.io/writeups/nyx/fing
 writeup-blog:
+  creator:
   url: 
 writeup-backdoor:
+  creator:
   url: 
 writeup-tom:
+  creator:
   url: 
 writeup-shock:
+  creator:
+    - noname
+    - elc4br4
   url: 
     - https://0x-noname.github.io/writeups/nyx/shock
     - https://elc4br4.github.io/vulnyx-shock-writeup/#privesc
 writeup-developer:
+  creator:
   url: 
 writeup-hidden:
+  creator:
   url: 
 writeup-real:
+  creator:
   url: 
 writeup-ceres:
+  creator:
   url: 
 writeup-printer:
+  creator:
   url: 
 writeup-zero:
+  creator:
   url: 
 writeup-zone:
+  creator:
   url: 
