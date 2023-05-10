@@ -5,7 +5,7 @@ title: Submit
 
 {% raw %}
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="./style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="/assets/submit_style.css">
 <form class="form contact-form" action="https://formspree.io/f/xbjewngg" method="POST">
   <div>
     <label class="form-label" for="name">VM Name</label>
@@ -39,6 +39,6 @@ title: Submit
     <button class="button" type="reset">Clear</button>
   </div>
 </form>
-  <script  src="./script.js"></script>
+  <script  src="/assets/submit_script.js"></script>
 
 {% endraw %}
