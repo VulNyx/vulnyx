@@ -20,7 +20,7 @@ writeup-responder:
   creator:
     - elc4br4
   url: 
-    - https://elc4br4.github.io/vulnyx-responder-writeup/
+    - https://elc4br4.github.io/vulnyx-responder-writeup
 writeup-wrapp:
   creator:
     - noname
@@ -53,7 +53,7 @@ writeup-shock:
     - elc4br4
   url: 
     - https://0x-noname.github.io/writeups/nyx/shock
-    - https://elc4br4.github.io/vulnyx-shock-writeup/
+    - https://elc4br4.github.io/vulnyx-shock-writeup
 writeup-developer:
   creator:
   url: 
