@@ -38,6 +38,6 @@ title: Submit
     </div>
   </form>
 </section>
-  <script  src="/assets/submit_script.js"></script>
+  <!-- <script  src="/assets/submit_script.js"></script> -->
 
 {% endraw %}
