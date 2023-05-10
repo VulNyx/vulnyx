@@ -1,0 +1,82 @@
+/*
+  Document
+*/
+html {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+  color: #3d3d3d;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  font-size: 1rem;
+}
+
+/*
+  Form
+*/
+.form > div ~ div {
+  margin-top: 20px;
+}
+.form > div.is-hidden {
+  display: none;
+}
+.form-label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font: 0.875rem/1.5 sans-serif;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*
+  Contact Form
+*/
+.contact-form {
+  width: 100%;
+  max-width: 568px;
+  padding: 40px;
+  background-color: #fefefe;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+}
+.contact-form--loading {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.contact-form--sent > div ~ div {
+  margin: 0;
+}
+
+/*
+  Button
+*/
+.button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 5px 10px;
+  font: 0.875rem/1.5 sans-serif;
+  background-color: #ddd;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
