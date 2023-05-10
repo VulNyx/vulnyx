@@ -5,7 +5,7 @@ title: Submit
 
 {% raw %}
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="/assets/submit_style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <section class="form-container">
   <form class="form contact-form" action="https://formspree.io/f/xbjewngg" method="POST">
     <div>
