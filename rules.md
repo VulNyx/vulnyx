@@ -3,10 +3,10 @@ layout: page
 title: Rules
 ---
 
-# Submit Rules
+## Submit Rules
 
 - Do `not` use `content` on the VM that may `offend` other `people`.
-- Do `not` use `external URLs` to resolve the VM.
+- Do `not` use `external URLs` to resolve the VM. (In case the link goes down, the machine could not be resolved.)
 - The VM does `not` have to have a `graphical interface "GUI"` (Unless it is necessary to solve the VM)
 - `Delete` or `redirect` any `history` files to `/dev/null` (Unless it is necessary to solve the VM)
 - The VM has to have a logic from the beginning to the end.
@@ -16,8 +16,8 @@ title: Rules
 - If the VM requires a `brute force attack`, put a `password` that does `not exceed 5000 lines` of `rockyou.txt`.
 - If the VM requires a `domain`/`subdomain` it has to be `.nyx` (example: `domain.nyx`/`subdomain.domain.nyx`)
 - We do `not accept VM` that are on `other platforms` (The only reason is because we want to have our own machines)  
- 
-## Pull request process (Optional)
+
+ ## Pull Request (Optional)
 
 After acceptance of your machine, if you want to appear as a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">`collaborator`</a> in the official <a href="https://github.com/VulNyx/vulnyx.github.io" target="_blank">`repository`</a> you can do it as follows:
 
