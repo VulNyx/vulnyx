@@ -17,7 +17,7 @@ title: Rules
 - If the VM requires a `domain`/`subdomain` it has to be `.nyx` (example: `domain.nyx`/`subdomain.domain.nyx`)
 - We do `not accept VM` that are on `other platforms` (The only reason is because we want to have our own machines)  
 
- ## Pull Request (Optional)
+## Pull Request (Optional)
 
 After acceptance of your machine, if you want to appear as a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">`collaborator`</a> in the official <a href="https://github.com/VulNyx/vulnyx.github.io" target="_blank">`repository`</a> you can do it as follows:
 
@@ -41,6 +41,6 @@ tested:
 ---
 ```
 
-The other missing information (`ID`, `URL` & `MD5`) will be filled in by us.
+The other missing information will be completed by us.
 
 <a href="#" class="bttop">⬆️</a>
