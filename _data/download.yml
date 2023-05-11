@@ -41,3 +41,5 @@ url-zone:
   label: <a class="newicon" href="https://mega.nz/file/1GYACZJD#4Fjy8tPCcA5KZhysPO2DQwFbOkKNBlo-BUJi93OQXf8" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
 url-internal:
   label: <a class="newicon" href="https://mega.nz/file/hbJlDbDZ#27ES_VQjnCPCMBAo4drFSx0RNMRoTRjh1kf36yA8cek" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
+url-deploy:
+  label: <a class="newicon" href="https://mega.nz/file/sH4HEC4R#AsOD9VIeC_ZbrULzEx-kcyQpe8ey0WNZsg3V12AFI3M" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
