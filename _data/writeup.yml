@@ -78,3 +78,6 @@ writeup-zone:
 writeup-internal:
   creator:
   url:
+writeup-deploy:
+  creator:
+  url:
