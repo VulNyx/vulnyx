@@ -36,8 +36,10 @@ writeup-secrets:
 writeup-fing:
   creator:
     - noname
+    - d4t4s3c
   url: 
     - https://0x-noname.github.io/writeups/nyx/fing
+    - https://d4t4s3c.medium.com/vulnyx-fing-bf3830219e00
 writeup-blog:
   creator:
   url: 
