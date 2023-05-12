@@ -313,6 +313,7 @@ td div {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 1.5rem 0;
 }
 
 .form > div ~ div {
@@ -336,6 +337,11 @@ td div {
   border: 1px solid #bbb;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.form-footer {
+  display: flex;
+  align-items: center;
 }
 
 .contact-form {
