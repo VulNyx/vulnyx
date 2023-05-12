@@ -95,10 +95,6 @@ const applyFilter = () => {
 const setup = () => {
   const searchBox = document.querySelector('#bin-search');
 
-  // ensure height during filtering
-  const binTableWrapper = document.querySelector('#bin-table-wrapper');
-  binTableWrapper.style.height = `${binTableWrapper.clientHeight}px`;
-
   // handle user input
   searchBox.addEventListener('input', () => {
     const query = searchBox.value;
