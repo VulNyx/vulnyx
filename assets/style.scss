@@ -23,6 +23,7 @@ $layout-break: "(min-width: #{$column-width + $grace-space})";
 body {
   background: $dark;
   color: $white;
+  min-height: 100vh;
 }
 
 code {
@@ -393,6 +394,8 @@ td div {
 
 
 footer {
+  position: sticky;
+  top: 100vh;
   margin-top: 2rem;
   padding: 0.5rem;
   border-top: 1px solid #727272;
