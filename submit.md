@@ -5,12 +5,18 @@ title: Submit
 
 {% raw %}
 
-<br>
-<br>
-<br>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <section class="form-container">
   <form class="form contact-form" action="https://formspree.io/f/xbjewngg" method="POST">
+    <article class="form-options">
+      <a href="/submit/" class="active">
+        <strong>VM</strong>
+      </a> 
+      <span>|</span>
+      <a href="/submit-writeup">
+        <strong>Writeup</strong>
+      </a> 
+    </article>
     <div>
       <label class="form-label" for="name">VM Name</label>
       <input class="form-control" id="name" name="VM Name" type="text" required />
@@ -39,7 +45,14 @@ title: Submit
       <button class="button" type="submit">Submit</button>
       <button class="button" type="reset">Clear</button>
     </div>
+    <div class="form-footer">
+      <small>Please read our 
+        <a href="https://vulnyx.github.io/rules/" target="_blank">
+          <strong>Rules</strong>
+        </a> 
+        section before submitting a new vm.
+      </small>
+    </div>
   </form>
 </section>
-
 {% endraw %}
