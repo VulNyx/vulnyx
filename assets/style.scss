@@ -106,10 +106,15 @@ p + ol li {
   padding: 1em;
   width: 100%;
   border-radius: 0.25em;
-  box-sizing: border-box;
   border: 1px solid #808080;
   color: $white;
+  font-weight: bold;
   background-color: $red;
+}
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
 }
 
 #search-message {
