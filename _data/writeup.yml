@@ -32,7 +32,10 @@ writeup-doctor:
   url: 
     - https://0x-noname.github.io/writeups/nyx/doctor
 writeup-secrets:
-  url: 
+  creator:
+    - FredBrave
+  url:
+    - https://fredbrave.github.io/Secrets-Writeup/
 writeup-fing:
   creator:
     - noname
