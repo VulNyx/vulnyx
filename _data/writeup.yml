@@ -67,7 +67,9 @@ writeup-real:
   url: 
 writeup-ceres:
   creator:
+    - noname
   url: 
+    - https://0x-noname.github.io/writeups/nyx/ceres/
 writeup-printer:
   creator:
   url: 
