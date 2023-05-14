@@ -45,3 +45,5 @@ url-deploy:
   label: <a class="newicon" href="https://mega.nz/file/sH4HEC4R#AsOD9VIeC_ZbrULzEx-kcyQpe8ey0WNZsg3V12AFI3M" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
 url-mail:
   label: <a class="newicon" href="https://mega.nz/file/5P4D0KhT#Tc81iptGXuLL8kJg95VQ7x1ZlsB28Kr86rThxqLRvyI" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
+url-external:
+  label: <a class="newicon" href="https://mega.nz/file/UChWXaYS#DkuVqrxWe_kknmCXuogbK_s7Fu83rGKCMPjdvx2Oaw8" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
