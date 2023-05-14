@@ -93,3 +93,6 @@ writeup-deploy:
 writeup-mail:
   creator:
   url:
+writeup-external:
+  creator:
+  url:
