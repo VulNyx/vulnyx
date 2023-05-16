@@ -54,6 +54,10 @@ a:hover {
   color: $hover-color;
 }
 
+a strong {
+  color: $red;
+}
+
 #title {
   padding: 1rem;
   margin: 0;
