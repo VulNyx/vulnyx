@@ -41,6 +41,6 @@ tested:
 ---
 ```
 
-The other missing information will be completed by us.
+The other missing information will be filled in by the VulNyx team.
 
 <a href="#" class="bttop">⬆️</a>
