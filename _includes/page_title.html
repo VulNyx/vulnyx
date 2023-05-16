@@ -1,6 +1,11 @@
 <header>
   <h1 id="title">
     {% if page.url != '/' %}
-    <a href="/">..</a> / {% endif %} {{ include.title }}
+      <a href="/">..</a> / 
+    {% endif %} 
+    {{ include.title }}
+    <div class="github-buttons">
+      <a class="github-button" href="https://github.com/VulNyx/vulnyx.github.io" data-icon="octicon-star" data-show-count="true" aria-label="Star VulNyx/VulNyx.github.io on GitHub">Star</a>
+    </div>
   </h1>
 </header>
