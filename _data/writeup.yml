@@ -81,7 +81,9 @@ writeup-zero:
   url: 
 writeup-zone:
   creator:
-  url: 
+    - d4t4s3c
+  url:
+    - https://d4t4s3c.medium.com/vulnyx-zone-b4305c74d7f1
 writeup-internal:
   creator:
   url:
@@ -95,6 +97,4 @@ writeup-mail:
   url:
 writeup-external:
   creator:
-    - d4t4s3c
   url:
-    - https://d4t4s3c.medium.com/vulnyx-zone-b4305c74d7f1
