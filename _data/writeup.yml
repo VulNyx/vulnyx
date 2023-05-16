@@ -94,7 +94,9 @@ writeup-deploy:
     - https://d4t4s3c.medium.com/vulnyx-deploy-fa1edf94b92a
 writeup-mail:
   creator:
+    - noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/mail/
 writeup-external:
   creator:
   url:
