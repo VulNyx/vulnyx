@@ -15,7 +15,10 @@ writeup-serve:
   url: 
     - https://0x-noname.github.io/writeups/nyx/serve
 writeup-brain:
-  url: 
+  creator:
+    - noname
+  url:
+    - https://0x-noname.github.io/writeups/nyx/brain/
 writeup-responder:
   creator:
     - elc4br4
