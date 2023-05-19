@@ -7,8 +7,10 @@ writeup-ready:
 writeup-hat:
   creator:
     - noname
+    - elc4br4
   url: 
     - https://0x-noname.github.io/writeups/nyx/hat
+    - https://elc4br4.github.io/vulnyx-hat-writeup/
 writeup-serve:
   creator:
     - noname
