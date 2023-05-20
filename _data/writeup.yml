@@ -69,7 +69,9 @@ writeup-developer:
   url: 
 writeup-hidden:
   creator:
-  url: 
+    - noname
+  url:
+    - https://0x-noname.github.io/writeups/nyx/hidden/
 writeup-real:
   creator:
   url: 
