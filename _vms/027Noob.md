@@ -1,0 +1,20 @@
+---
+level:
+  Easy:
+    -
+creator:
+  mowree:
+    -
+download:
+  url-noob:
+    -
+tested:
+  VirtualBox:
+    -
+md5:
+  md5-noob:
+    -
+writeup:
+  writeup-noob:
+    -
+---
