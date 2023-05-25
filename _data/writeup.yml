@@ -82,7 +82,9 @@ writeup-ceres:
     - https://0x-noname.github.io/writeups/nyx/ceres/
 writeup-printer:
   creator:
-  url: 
+    - noname
+  url:
+    - https://0x-noname.github.io/writeups/nyx/printer/
 writeup-zero:
   creator:
   url: 
@@ -109,7 +111,9 @@ writeup-external:
   url:
 writeup-node:
   creator:
+    - noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/node/
 writeup-key:
   creator:
   url:
