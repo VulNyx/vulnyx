@@ -50,7 +50,9 @@ writeup-fing:
     - https://d4t4s3c.medium.com/vulnyx-fing-bf3830219e00
 writeup-blog:
   creator:
-  url: 
+    - noname
+  url:
+    - https://0x-noname.github.io/writeups/nyx/blog/
 writeup-backdoor:
   creator:
   url: 
