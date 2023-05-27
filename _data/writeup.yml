@@ -58,7 +58,9 @@ writeup-backdoor:
   url: 
 writeup-tom:
   creator:
-  url: 
+    - noname
+  url:
+    - https://0x-noname.github.io/writeups/nyx/tom/
 writeup-shock:
   creator:
     - noname
