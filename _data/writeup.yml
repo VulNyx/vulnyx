@@ -87,8 +87,10 @@ writeup-ceres:
 writeup-printer:
   creator:
     - noname
+    - elc4br4
   url:
     - https://0x-noname.github.io/writeups/nyx/printer/
+    - https://elc4br4.github.io/vulnyx-printer-writeup/
 writeup-zero:
   creator:
   url: 
