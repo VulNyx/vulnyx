@@ -118,8 +118,10 @@ writeup-external:
 writeup-node:
   creator:
     - noname
+    - RiJaba1
   url:
     - https://0x-noname.github.io/writeups/nyx/node/
+    - https://youtu.be/VLp8VRzIYrI
 writeup-key:
   creator:
   url:
