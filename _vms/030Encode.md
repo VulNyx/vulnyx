@@ -1,0 +1,20 @@
+---
+level:
+  Medium:
+    -
+creator:
+  d4t4s3c:
+    -
+download:
+  url-encode:
+    -
+tested:
+  VirtualBox:
+    -
+md5:
+  md5-encode:
+    -
+writeup:
+  writeup-encode:
+    -
+---
