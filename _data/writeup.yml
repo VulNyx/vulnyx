@@ -55,7 +55,9 @@ writeup-blog:
     - https://0x-noname.github.io/writeups/nyx/blog/
 writeup-backdoor:
   creator:
-  url: 
+    - noname
+  url:
+    - https://0x-noname.github.io/writeups/nyx/backdoor/
 writeup-tom:
   creator:
     - noname
