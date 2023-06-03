@@ -148,3 +148,6 @@ writeup-encode:
 writeup-flash:
   creator:
   url:
+writeup-listen:
+  creator:
+  url:
