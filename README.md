@@ -34,6 +34,12 @@ gem install jekyll bundler
 
 6. Once the dependencies are installed, run the command ```make serve``` to start the Jekyll server.
 
+**NOTE** If the server does not start you can solve the problem with:
+
+```sh
+bundle update --bundler && bundle update && make serve
+```
+
 7. After the server has started, open a web browser and navigate to http://localhost:4000 to view the website.
 
 8. Make any necessary changes to the code or content of the website and refresh the browser to see the changes.
