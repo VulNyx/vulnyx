@@ -148,8 +148,10 @@ writeup-encode:
 writeup-flash:
   creator:
     - noname
+    - RiJaba1
   url:
     - https://0x-noname.github.io/writeups/nyx/flash
+    - https://youtu.be/-AQvzQ5jirE
 writeup-listen:
   creator:
   url:
