@@ -147,7 +147,9 @@ writeup-encode:
   url:
 writeup-flash:
   creator:
+    - noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/flash
 writeup-listen:
   creator:
   url:
