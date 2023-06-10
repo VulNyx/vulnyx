@@ -81,8 +81,10 @@ writeup-hidden:
 writeup-real:
   creator:
     - FredBrave
+    - noname
   url:
     - https://fredbrave.github.io/Real-Writeup
+    - https://0x-noname.github.io/writeups/nyx/real
 writeup-ceres:
   creator:
     - noname
