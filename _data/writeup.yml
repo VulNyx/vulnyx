@@ -99,7 +99,9 @@ writeup-printer:
     - https://elc4br4.github.io/vulnyx-printer-writeup/
 writeup-zero:
   creator:
-  url: 
+  - noname
+  url:
+  - https://0x-noname.github.io/writeups/nyx/zero
 writeup-zone:
   creator:
     - d4t4s3c
