@@ -159,3 +159,6 @@ writeup-flash:
 writeup-listen:
   creator:
   url:
+writeup-trace:
+  creator:
+  url:
