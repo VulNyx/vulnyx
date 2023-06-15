@@ -161,7 +161,9 @@ writeup-listen:
   url:
 writeup-trace:
   creator:
+    - FredBrave
   url:
+    - https://fredbrave.github.io/Trace-Writeup
 writeup-look:
   creator:
   url:
