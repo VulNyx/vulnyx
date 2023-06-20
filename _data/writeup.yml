@@ -124,7 +124,9 @@ writeup-mail:
     - https://0x-noname.github.io/writeups/nyx/mail/
 writeup-external:
   creator:
+    - noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/external
 writeup-node:
   creator:
     - noname
