@@ -146,7 +146,9 @@ writeup-noob:
     - https://youtu.be/OhliI5KmMMg
 writeup-transfer:
   creator:
+    -noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/transfer
 writeup-bund:
   creator:
   url:
