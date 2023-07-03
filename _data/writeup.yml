@@ -151,7 +151,9 @@ writeup-transfer:
     - https://0x-noname.github.io/writeups/nyx/transfer
 writeup-bund:
   creator:
+    - dirtyc0w
   url:
+    - https://youtu.be/fRHmfrgUULQ
 writeup-encode:
   creator:
    - dirtyc0w
