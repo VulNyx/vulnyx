@@ -154,8 +154,10 @@ writeup-transfer:
 writeup-bund:
   creator:
     - dirtyc0w
+    - elhackeretico
   url:
     - https://youtu.be/fRHmfrgUULQ
+    - https://elhackeretico.com/vulnyx-bund/
 writeup-encode:
   creator:
    - dirtyc0w
