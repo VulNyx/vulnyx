@@ -50,4 +50,4 @@ writeup:
 ---
 ```
 
-The other missing information will be filled in by the <a href="https://vulnyx.com" target="_blank"><b>VulNyx</b></a> team.
+The other missing information will be filled in by the <a href="https://vulnyx.com" target="_blank">`VulNyx`</a> team.
