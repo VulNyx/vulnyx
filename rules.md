@@ -38,9 +38,16 @@ creator:
 tested:
   VirtualBox:
     -
+download:
+  url-blog:
+    -
+md5:
+  md5-blog:
+    -
+writeup:
+  writeup-blog:
+    -
 ---
 ```
 
-The other missing information will be filled in by the VulNyx team.
-
-<a href="#" class="bttop">⬆️</a>
+The other missing information will be filled in by the <b>VulNyx</b> team.
