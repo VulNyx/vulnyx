@@ -70,6 +70,6 @@ md5-look:
 md5-chain:
   label: <a class="newicon" target="_blank"><img title="HASH | FCE6E6F1AEC325CFCD5839D90962577E" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-shop:
-  label: <a class="newicon" target="_blank"><img title="HASH | 881EEBBFF2820ADDA7F6808C1FDFCE6C" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - 881EEBBFF2820ADDA7F6808C1FDFCE6C" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-discover:
   label: <a class="newicon" target="_blank"><img title="HASH - B1288DE2AD25BC3C4DA2EC2E407DDF32" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
