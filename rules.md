@@ -51,3 +51,7 @@ writeup:
 ```
 
 The other missing information will be filled in by the <a href="https://vulnyx.com" target="_blank">`VulNyx`</a> team.
+
+<footer>
+  <p>© VulNyx 2023</p>
+</footer>
