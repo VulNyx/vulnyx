@@ -103,7 +103,6 @@ It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors"
   </a>
   </div>
 </article>
-<a href="#" class="bttop">⬆️</a>
 </section>
 
 {% include bin_table.html %}
