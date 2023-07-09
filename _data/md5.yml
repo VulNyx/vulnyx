@@ -62,9 +62,9 @@ md5-encode:
 md5-flash:
   label: <a class="newicon" target="_blank"><img title="HASH | AAD5989854F3F55E6E4FEFD190142448" src="assets/check.png" alt="MD5 HASH" width="25" height="25"></a>
 md5-listen:
-  label: <a class="newicon" target="_blank"><img title="HASH | F9CB83282E3B23A03D86948C51987AFC" src="assets/check.png" alt="MD5 HASH" width="25" height="25"></a>
+  label: <a class="newicon" target="_blank"><img title="HASH | F9CB83282E3B23A03D86948C51987AFC" src="assets/check.png" alt="MD5 HASH" width="30" height="30"></a>
 md5-trace:
-  label: <a class="newicon" target="_blank"><img title="HASH | 0ADED5972A6C3CD3583379DC2E6EDE8E" src="assets/check.png" alt="MD5 HASH" width="25" height="25"></a>
+  label: <a class="newicon" target="_blank"><img title="HASH | 0ADED5972A6C3CD3583379DC2E6EDE8E" src="assets/check.png" alt="MD5 HASH" width="29" height="29"></a>
 md5-look:
   label: <a class="newicon" target="_blank"><img title="HASH | F56A4A8F2457BD2A4713D34A3E60C4D6" src="assets/check.png" alt="MD5 HASH" width="28" height="28"></a>
 md5-chain:
