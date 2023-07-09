@@ -32,3 +32,7 @@ title: Submit
   </form>
 </section>
 {% endraw %}
+
+<footer>
+  <p>© VulNyx 2023</p>
+</footer>
