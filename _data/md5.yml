@@ -66,10 +66,10 @@ md5-listen:
 md5-trace:
   label: <a class="newicon" target="_blank"><img title="HASH | 0ADED5972A6C3CD3583379DC2E6EDE8E" src="assets/check.png" alt="MD5 HASH" width="25" height="25"></a>
 md5-look:
-  label: <a class="newicon" target="_blank"><img title="HASH | F56A4A8F2457BD2A4713D34A3E60C4D6" src="assets/check.png" alt="MD5 HASH" width="25" height="25"></a>
+  label: <a class="newicon" target="_blank"><img title="HASH | F56A4A8F2457BD2A4713D34A3E60C4D6" src="assets/check.png" alt="MD5 HASH" width="28" height="28"></a>
 md5-chain:
-  label: <a class="newicon" target="_blank"><img title="HASH | FCE6E6F1AEC325CFCD5839D90962577E" src="assets/check.png" alt="MD5 HASH" width="25" height="25"></a>
+  label: <a class="newicon" target="_blank"><img title="HASH | FCE6E6F1AEC325CFCD5839D90962577E" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-shop:
-  label: <a class="newicon" target="_blank"><img title="HASH | 881EEBBFF2820ADDA7F6808C1FDFCE6C" src="assets/check.png" alt="MD5 HASH" width="25" height="25"></a>
+  label: <a class="newicon" target="_blank"><img title="HASH | 881EEBBFF2820ADDA7F6808C1FDFCE6C" src="assets/check.png" alt="MD5 HASH" width="26" height="26"></a>
 md5-discover:
   label: <a class="newicon" target="_blank"><img title="HASH | B1288DE2AD25BC3C4DA2EC2E407DDF32" src="assets/check.png" alt="MD5 HASH" width="25" height="25"></a>
