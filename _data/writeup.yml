@@ -191,8 +191,10 @@ writeup-chain:
 writeup-shop:
   creator:
     - dirtyc0w
+    - noname
   url:
     - https://www.youtube.com/watch?v=zN6xapwJNvc
+    - https://0x-noname.github.io/writeups/nyx/shop
 writeup-discover:
   creator:
   url:
