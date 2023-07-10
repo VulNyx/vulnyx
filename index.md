@@ -64,7 +64,7 @@ It is a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors"
       />
     </svg>
   </a>
-  <a title="Twitter" href="https://twitter.com/vulnyx_official" target="_blank">
+  <a title="Twitter" href="https://twitter.com/VulNyxOfficial" target="_blank">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="icon icon-tabler icon-tabler-brand-twitter"
