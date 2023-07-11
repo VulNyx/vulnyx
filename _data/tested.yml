@@ -2,4 +2,4 @@
 VirtualBox: 
   label: <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="30" height="30">
 VMware:
-  label: <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="30" height="30"> <img title="VMware" alt="VirtualBox logo" src="/assets/vmware.png" width="30" height="30">
+  label: <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="30" height="30"> <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="30" height="30">
