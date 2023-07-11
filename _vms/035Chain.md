@@ -9,7 +9,7 @@ download:
   url-chain:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-chain:
