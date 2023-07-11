@@ -9,7 +9,7 @@ download:
   url-discover:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-discover:
