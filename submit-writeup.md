@@ -39,12 +39,30 @@ title: Submit
 
 <script>
   document.getElementById("myForm").addEventListener("submit", function(event) {
-
+    // Evitar que el formulario se envíe de forma predeterminada
     event.preventDefault();
     
-    alert("Submit succesfully! Thanks.");
-    
+    // Mostrar el mensaje al usuario
+    alert("¡Formulario enviado correctamente!");
 
-    this.reset();
+    // Enviar los datos del formulario
+    var form = document.getElementById("myForm");
+    var url = form.action;
+    var formData = new FormData(form);
+
+    fetch(url, {
+      method: "POST",
+      body: formData
+    })
+    .then(response => {
+      // Aquí puedes realizar acciones adicionales después de enviar los datos
+      console.log("Datos enviados correctamente");
+    })
+    .catch(error => {
+      console.error("Submit succesfully! Thanks.", error);
+    });
+    
+    // Restablecer el formulario
+    form.reset();
   });
 </script>
