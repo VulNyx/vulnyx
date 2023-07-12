@@ -9,7 +9,7 @@ download:
   url-trace:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-trace:
