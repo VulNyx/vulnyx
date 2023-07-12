@@ -7,7 +7,7 @@ title: Submit
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <section class="form-container">
-  <form class="form contact-form" action="https://formspree.io/f/xbjewngg" method="POST">
+  <form class="form contact-form" id="myForm" action="https://formspree.io/f/xbjewngg" method="POST">
     <article class="form-options">
       <a href="/submit/" class="active">
         <strong>VM</strong>
@@ -60,3 +60,28 @@ title: Submit
 <footer>
   <p>© VulNyx 2023</p>
 </footer>
+
+<script>
+  document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    alert("Submit succesfully! Thanks.");
+
+    var form = document.getElementById("myForm");
+    var url = form.action;
+    var formData = new FormData(form);
+
+    fetch(url, {
+      method: "POST",
+      body: formData
+    })
+    .then(response => {
+      console.log("Submit succesfully! Thanks.");
+    })
+    .catch(error => {
+      console.error("Error! data not sent.", error);
+    });
+    
+    form.reset();
+  });
+</script>
