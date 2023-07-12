@@ -9,7 +9,7 @@ download:
   url-flash:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-flash:
