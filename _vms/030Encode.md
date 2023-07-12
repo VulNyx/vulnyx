@@ -9,7 +9,7 @@ download:
   url-encode:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-encode:
