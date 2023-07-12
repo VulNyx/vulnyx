@@ -60,7 +60,7 @@ md5-bund:
 md5-encode:
   label: <a class="newicon" target="_blank"><img title="Hash - 2EAB5B12E3AE1637DA95CC21568B5696" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-flash:
-  label: <a class="newicon" target="_blank"><img title="Hash - AAD5989854F3F55E6E4FEFD190142448" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - 9E932C8EE1A71E3EF275DED23F8E1E41" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-listen:
   label: <a class="newicon" target="_blank"><img title="Hash - F9CB83282E3B23A03D86948C51987AFC" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-trace:
