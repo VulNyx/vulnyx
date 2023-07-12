@@ -41,7 +41,7 @@ title: Submit
   document.getElementById("myForm").addEventListener("submit", function(event) {
     event.preventDefault();
     
-    alert("¡Formulario enviado correctamente!");
+    alert("Submit succesfully! Thanks.");
 
     var form = document.getElementById("myForm");
     var url = form.action;
