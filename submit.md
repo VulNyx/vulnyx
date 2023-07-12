@@ -65,7 +65,7 @@ title: Submit
   document.getElementById("myForm").addEventListener("submit", function(event) {
     event.preventDefault();
     
-    alert("Submit succesfully! Thanks.");
+    alert("VM sent successfully! Thanks.");
 
     var form = document.getElementById("myForm");
     var url = form.action;
