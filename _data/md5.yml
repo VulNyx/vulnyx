@@ -54,7 +54,7 @@ md5-key:
 md5-noob:
   label: <a class="newicon" target="_blank"><img title="Hash - CC89902716BC8715610F51029BDDEAFA" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-transfer:
-  label: <a class="newicon" target="_blank"><img title="Hash - A5627B48811C9F01E08BBB1321CEA258" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - 83867E044FC7009B6BFBBA18DD9E96E5" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-bund:
   label: <a class="newicon" target="_blank"><img title="Hash - 4CA40A38072EECB36BD15B414A97A481" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-encode:
