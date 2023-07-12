@@ -9,7 +9,7 @@ download:
   url-ready:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-ready:
