@@ -32,7 +32,7 @@ md5-hidden:
 md5-real:
   label: <a class="newicon" target="_blank"><img title="Hash - 22B951E89FBFB00862EFE4330ABBB864" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-ceres:
-  label: <a class="newicon" target="_blank"><img title="Hash - D303E71C5827DCABBE85E19FDADE6FC8" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - 77343CAEB8DDFD67E81B353A5F5856B8" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-printer:
   label: <a class="newicon" target="_blank"><img title="Hash - 491548714193F4BA3580DE02D92AB1B0" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-zero:
