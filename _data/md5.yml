@@ -50,7 +50,7 @@ md5-external:
 md5-node:
   label: <a class="newicon" target="_blank"><img title="Hash - 2CF22B6632EA977E8519B390039A9540" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-key:
-  label: <a class="newicon" target="_blank"><img title="Hash - 89D643455A6FBA3D3CA403D12152B5BE" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - D9F7D25EEFD68119805CEB8B687EC527" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-noob:
   label: <a class="newicon" target="_blank"><img title="Hash - 333C1E2433A63F2A1B2D8D5BAF651B8D" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-transfer:
