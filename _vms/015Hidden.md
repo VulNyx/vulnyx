@@ -9,7 +9,7 @@ download:
   url-hidden:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-hidden:
