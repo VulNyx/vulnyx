@@ -44,7 +44,7 @@ md5-internal:
 md5-deploy:
   label: <a class="newicon" target="_blank"><img title="Hash - 9511312DA9CDBCE9C7227ECF93DAAB00" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-mail:
-  label: <a class="newicon" target="_blank"><img title="Hash - ECDCCBF3D84F48F207A5947A3487901D" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - 7C64A0CEC381884E5B8AD4EA0274113C" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-external:
   label: <a class="newicon" target="_blank"><img title="Hash - 7B63493346AAF11E8FCF719A691336AA" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-node:
