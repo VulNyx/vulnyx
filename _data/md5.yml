@@ -42,7 +42,7 @@ md5-zone:
 md5-internal:
   label: <a class="newicon" target="_blank"><img title="Hash - 692A0AFA2DE5AD6DCB562AE4CE11DAF8" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-deploy:
-  label: <a class="newicon" target="_blank"><img title="Hash - 9511312DA9CDBCE9C7227ECF93DAAB00" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - 8E9BA6C82CD9E39F1A1EB591AF0A6650" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-mail:
   label: <a class="newicon" target="_blank"><img title="Hash - 7C64A0CEC381884E5B8AD4EA0274113C" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-external:
