@@ -9,7 +9,7 @@ download:
   url-mail:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-mail:
