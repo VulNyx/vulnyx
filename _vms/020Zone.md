@@ -9,7 +9,7 @@ download:
   url-zone:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-zone:
