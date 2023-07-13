@@ -30,7 +30,7 @@ md5-developer:
 md5-hidden:
   label: <a class="newicon" target="_blank"><img title="Hash - 0D20C337B95D0AEA7C7351409B83C2EF" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-real:
-  label: <a class="newicon" target="_blank"><img title="Hash - 22B951E89FBFB00862EFE4330ABBB864" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - C944B5CD85ABCFB213B841EE5EFB6369" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-ceres:
   label: <a class="newicon" target="_blank"><img title="Hash - 77343CAEB8DDFD67E81B353A5F5856B8" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-printer:
