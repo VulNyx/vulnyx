@@ -44,7 +44,7 @@ url-internal:
 url-deploy:
   label: <a class="newicon" href="https://mega.nz/file/sH4HEC4R#AsOD9VIeC_ZbrULzEx-kcyQpe8ey0WNZsg3V12AFI3M" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
 url-mail:
-  label: <a class="newicon" href="https://mega.nz/file/5P4D0KhT#Tc81iptGXuLL8kJg95VQ7x1ZlsB28Kr86rThxqLRvyI" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
+  label: <a class="newicon" href="https://mega.nz/file/tHoSUTyQ#sYJQZYDbc6L5C17LBRESkAcSgsAd9QEbKB12xucGLCY" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
 url-external:
   label: <a class="newicon" href="https://mega.nz/file/4KQBjRpJ#gb8RaSreMeGHMd9wJx4tkgce-ohTjyqXHZXLK6PMNMA" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
 url-node:
