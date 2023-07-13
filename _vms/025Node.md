@@ -9,7 +9,7 @@ download:
   url-node:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-node:
