@@ -36,7 +36,7 @@ md5-ceres:
 md5-printer:
   label: <a class="newicon" target="_blank"><img title="Hash - 7F59F6E0B7D605E9AAD4B0A4004608FA" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-zero:
-  label: <a class="newicon" target="_blank"><img title="Hash - 8971966CBC12704EDFD256C381A82599" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - ADF238F9CD3723C7D580305F32CE4206" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-zone:
   label: <a class="newicon" target="_blank"><img title="Hash - 1D4296EB948CAFCADD09ACA69DDADE60" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-internal:
