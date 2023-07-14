@@ -9,7 +9,7 @@ download:
   url-backdoor:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-backdoor:
