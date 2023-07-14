@@ -9,7 +9,7 @@ download:
   url-developer:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-developer:
