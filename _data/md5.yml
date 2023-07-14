@@ -16,7 +16,7 @@ md5-doctor:
 md5-secrets:
   label: <a class="newicon" target="_blank"><img title="Hash - 5A13D45354140926DB99A85F48825D40" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-fing:
-  label: <a class="newicon" target="_blank"><img title="Hash - 5F9747F4DD7D0075046CC24534FD4220" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - AC9691A4D331E3EB63E88F4F6771549A" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-blog:
   label: <a class="newicon" target="_blank"><img title="Hash - 24B913E2A25A3A4EEE13FE96A8F22B7C" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-backdoor:
