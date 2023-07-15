@@ -9,7 +9,7 @@ download:
   url-serve:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-serve:
