@@ -14,7 +14,7 @@ md5-wrapp:
 md5-doctor:
   label: <a class="newicon" target="_blank"><img title="Hash - 201D143962185413888D27999EF1D40B" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-secrets:
-  label: <a class="newicon" target="_blank"><img title="Hash - 5A13D45354140926DB99A85F48825D40" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - AEA7FA80127ED5ACE8235F199BB0DD3F" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-fing:
   label: <a class="newicon" target="_blank"><img title="Hash - AC9691A4D331E3EB63E88F4F6771549A" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-blog:
