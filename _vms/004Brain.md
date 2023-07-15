@@ -9,7 +9,7 @@ download:
   url-brain:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-brain:
