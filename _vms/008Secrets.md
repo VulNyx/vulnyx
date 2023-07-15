@@ -9,7 +9,7 @@ download:
   url-secrets:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-secrets:
