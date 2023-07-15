@@ -10,7 +10,7 @@ md5-brain:
 md5-responder:
   label: <a class="newicon" target="_blank"><img title="Hash - 8B99BE1FD1E233B6FC9887BA23AB1AB2" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-wrapp:
-  label: <a class="newicon" target="_blank"><img title="Hash - 25647E28C55244734F75667F5CC3AAB2" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+  label: <a class="newicon" target="_blank"><img title="Hash - 204FED4FB0EB5D9B9EB2CC3987A49FDF" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-doctor:
   label: <a class="newicon" target="_blank"><img title="Hash - 57606E6482F7688B73303E7CBA78EF7C" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-secrets:
