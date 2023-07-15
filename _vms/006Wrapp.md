@@ -9,7 +9,7 @@ download:
   url-wrapp:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-wrapp:
