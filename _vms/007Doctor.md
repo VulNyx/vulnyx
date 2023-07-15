@@ -9,7 +9,7 @@ download:
   url-doctor:
     -
 tested:
-  VirtualBox:
+  VMware:
     -
 md5:
   md5-doctor:
