@@ -80,8 +80,10 @@ writeup-developer:
 writeup-hidden:
   creator:
     - noname
+    - d4t4s3c
   url:
     - https://0x-noname.github.io/writeups/nyx/hidden/
+    - https://d4t4s3c.medium.com/vulnyx-hidden-312c56f89cd3
 writeup-real:
   creator:
     - FredBrave
