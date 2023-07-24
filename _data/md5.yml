@@ -77,3 +77,5 @@ md5-belial:
   label: <a class="newicon" target="_blank"><img title="Hash - A93F34AA10BF8CCC3D92C0D6370E209A" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
 md5-jenk:
   label: <a class="newicon" target="_blank"><img title="Hash - 89DB3E6CC8C02030F6C072204958E6D8" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
+md5-beginner:
+  label: <a class="newicon" target="_blank"><img title="Hash - DB029F32025EBF43E4DAC31CBB40818B" src="assets/check.png" alt="MD5 HASH" width="27" height="27"></a>
