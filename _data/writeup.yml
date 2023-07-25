@@ -203,7 +203,9 @@ writeup-shop:
     - https://0x-noname.github.io/writeups/nyx/shop
 writeup-discover:
   creator:
+    -noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/discover
 writeup-belial:
   creator:
   url:
