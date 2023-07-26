@@ -156,7 +156,7 @@ main {
 
 .wrapper article {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 #total-vms, #total-vms + span {
@@ -176,7 +176,6 @@ main {
 }
 
 .vm-stats {
-  grid-column: 2/3;
   list-style: none;
   display: flex;
   align-items: center;
@@ -198,7 +197,7 @@ main {
 }
 
 #bin-search {
-  width: 20vw;
+  width: 100%;
   padding: 0.75rem;
   padding-left: 2rem;
   border-radius: 0.25em;
