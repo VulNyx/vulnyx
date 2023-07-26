@@ -9,9 +9,6 @@ $row: #1f1414;
 $even-row: #b65261;
 $hover-color: #86d6fc;
 $white: #ffffff;
-$column-width: 1000px;
-$grace-space: 200px;
-$layout-break: "(min-width: #{$column-width + $grace-space})";
 
 * {
   box-sizing: border-box;
@@ -34,13 +31,11 @@ code {
 
 pre {
   background: $red;
-  padding: 1em;
-  overflow-x: auto;
+  border-radius: 0.5rem;
+}
 
-  code {
-    padding: 0;
-    border-radius: 0;
-  }
+.highlight {
+  padding: 1rem;
 }
 
 a,
@@ -58,15 +53,44 @@ a strong {
   color: $red;
 }
 
-#title {
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
   padding: 1rem;
-  margin: 0;
+  border-bottom: 1px solid #727272;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.navbar a {
+  font-weight: bold;
+  border-radius: 0.5rem;
+  font-size: 1.15rem;
+  padding: 0.85rem;
+}
+
+.navbar a:hover {
+  color: inherit;
+  background-color: rgb(75, 85, 99);
+}
+
+.project-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .github-buttons {
-  display: inline-block;
-  margin-left: 10px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a.github-button {
@@ -78,8 +102,10 @@ h2 {
   margin-bottom: 1rem;
 }
 
-p {
-  margin: 1rem 0;
+p,
+#submit-rules,
+#pull-request-optional {
+  margin: 1rem;
 }
 
 h2 + ul,
@@ -91,15 +117,20 @@ p + ol {
 h2 + ul li,
 p + ol li {
   padding: 0.25rem 0;
+  line-height: 1.5rem;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 0.8fr 0.2fr;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-bottom: 1px solid #727272;
 }
 
 #vm-state {
+  max-width: 85ch;
+  line-height: 1.5rem;
   padding: 1rem;
 }
 
@@ -110,21 +141,70 @@ p + ol li {
   padding: 2px 2px;
 }
 
-// binary list and search
+// binary list and
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 80vw;
+  margin-top: 1.5rem;
+}
+
+.wrapper article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#total-vms, #total-vms + span {
+  font-size: 1.15rem;
+}
+
+.vm-stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #d99ba3;
+  font-weight: bold;
+  gap: 0.35rem;
+}
+
+.vm-stats {
+  grid-column: 2/3;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
 
 #bin-search-wrapper {
-  padding: 0.5rem;
-  margin: 2rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0.5rem;
+}
+
+.search-icon {
+  position: relative;
+  left: 35px;
 }
 
 #bin-search {
-  padding: 1em;
-  width: 100%;
+  width: 20vw;
+  padding: 0.75rem;
+  padding-left: 2rem;
   border-radius: 0.25em;
   border: 1px solid #808080;
   color: $white;
-  font-weight: bold;
   background-color: $red;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 ::-webkit-input-placeholder {
@@ -157,8 +237,9 @@ td.vvm-wal {
 }
 
 #bin-table {
-  width: 100%;
-  padding: 0.5rem;
+  margin: auto;
+  width: 80vw;
+  padding: 1.5rem 0;
   border-collapse: separate;
   border-spacing: 0;
 }
@@ -244,10 +325,13 @@ td div {
 
 // other classes
 
+.logo-wrapper {
+  margin: auto;
+}
+
 .logo {
-  float: right;
-  width: 135px;
-  height: 135px;
+  width: 65px;
+  height: 65px;
 }
 
 .function-name {
@@ -259,7 +343,8 @@ td div {
 
 .boton-easy,
 .boton-medium,
-.boton-hard {
+.boton-hard,
+.badge {
   border-radius: 0.25rem;
   padding: 0.25rem;
   color: white;
@@ -267,15 +352,18 @@ td div {
   font-size: 0.9rem;
 }
 
-.boton-easy {
+.boton-easy,
+.easy {
   background-color: #4c9b51;
 }
 
-.boton-medium {
+.boton-medium,
+.medium {
   background-color: #e1b300;
 }
 
-.boton-hard {
+.boton-hard,
+.hard {
   background-color: #ec0725;
 }
 
@@ -322,7 +410,7 @@ td div {
   display: flex;
   gap: 0.5rem;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
 }
 
 .media-links a:hover {
@@ -409,22 +497,10 @@ td div {
 footer {
   position: sticky;
   top: 100vh;
-  margin-top: 2rem;
-  padding: 0.5rem;
+  padding: 1rem;
   border-top: 1px solid #727272;
 }
 
 footer p {
   text-align: center;
-}
-
-@media #{$layout-break} {
-  body {
-    width: $column-width;
-    margin: auto;
-  }
-
-  p {
-    text-align: justify;
-  }
 }
