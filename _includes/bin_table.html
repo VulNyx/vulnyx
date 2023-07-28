@@ -36,13 +36,14 @@
       <table id="bin-table">
         <thead>
           <tr>
-            <th>VM Name</th>
+            <th>Name</th>
+            <th>Card</th>
             <th>Level</th>
             <th>Creator</th>
             <th>Tested</th>
             <th>URL</th>
             <th>MD5</th>
-            <th>Pwned</th>
+            <th>Rooted</th>
             <th>Writeups</th>
           </tr>
         </thead>
@@ -53,6 +54,7 @@
           <tr>
             {% assign filename = file.path | slice: 5, file.path.size %}
             <td class="vm-name"><span class="bin-name">{{ trimmed_filename }}</span></td>
+            <td class="card">{% include card_list.html bin=file %}</td>
             <td>{% include level_list.html bin=file %}</td>
             <td class="creator">{% include creator_list.html bin=file %}</td>
             <td class="tested">{% include tested_list.html bin=file %}</td>
