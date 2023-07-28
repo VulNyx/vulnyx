@@ -1,4 +1,7 @@
 ---
+card:
+  card-mail:
+    -
 level:
   Medium:
     -

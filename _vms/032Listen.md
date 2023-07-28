@@ -1,4 +1,7 @@
 ---
+card:
+  card-listen:
+    -
 level:
   Medium:
     -

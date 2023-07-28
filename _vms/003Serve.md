@@ -1,4 +1,7 @@
 ---
+card:
+  card-serve:
+    -
 level:
   Easy:
     -

@@ -1,4 +1,7 @@
 ---
+card:
+  card-deploy:
+    -
 level:
   Easy:
     -

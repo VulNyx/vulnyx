@@ -1,4 +1,7 @@
 ---
+card:
+  card-responder:
+    -
 level:
   Medium:
     -

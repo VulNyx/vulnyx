@@ -1,4 +1,7 @@
 ---
+card:
+  card-ready:
+    -
 level:
   Easy:
     -

@@ -1,4 +1,7 @@
 ---
+card:
+  card-backdoor:
+    -
 level:
   Hard:
     -
