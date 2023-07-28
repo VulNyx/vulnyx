@@ -79,3 +79,5 @@ url-jenk:
   label: <a class="newicon" href="https://mega.nz/file/5eYXWJRC#CKJxRZgCJC855lAVeYv-ku2W_W6tZ70RDbfJasPk1DE" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
 url-beginner:
   label: <a class="newicon" href="https://mega.nz/file/RKQ3kSZL#0wNDSRcsubxyzfJWXbXYrqVRPgIplTcQAdB-fMf-m30" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
+url-share:
+  label: <a class="newicon" href="https://mega.nz/file/leIUWRwB#0M9_9Uu9eHchWsJW9PKgIsGP_Iz1VzLr3ESVWbp8ysE" target="_blank"><img title="Download" src="assets/down.png" alt="Download logo" width="30" height="30"></a>
