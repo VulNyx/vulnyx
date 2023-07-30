@@ -154,7 +154,7 @@ writeup-noob:
     - https://youtu.be/OhliI5KmMMg
 writeup-transfer:
   creator:
-    -noname
+    - noname
   url:
     - https://0x-noname.github.io/writeups/nyx/transfer
 writeup-bund:
@@ -203,7 +203,7 @@ writeup-shop:
     - https://0x-noname.github.io/writeups/nyx/shop
 writeup-discover:
   creator:
-    -noname
+    - noname
   url:
     - https://0x-noname.github.io/writeups/nyx/discover
 writeup-belial:
