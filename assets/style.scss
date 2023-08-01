@@ -303,6 +303,55 @@ td div {
   list-style: none;
 }
 
+.card-btn {
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  color: white;
+}
+
+#Active {
+	position: relative;
+	bottom: 20px;
+	left: 210px;
+	color: green;
+	border: 2px solid green;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+#Retired {
+  position: relative;
+  display: none;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-info td {
+  text-align: left;
+}
+
+.card-title {
+  font: bold;
+}
+
+#creator {
+  color: #4c9b51;
+}
+
 .md5,
 .creator,
 .writeups {
@@ -407,6 +456,21 @@ td div {
 .boton-hard,
 .hard {
   background-color: #ec0725;
+}
+
+#Easy {
+  font: bold;
+  color: #4c9b51;
+}
+
+#Medium {
+  font: bold;
+  color: #e1b300;
+}
+
+#Hard {
+  font: bold;
+  color: #ec0725;
 }
 
 // disable diffis and platfs from sub taglist
