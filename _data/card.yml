@@ -4,203 +4,244 @@ card-ready:
   difficulty: Easy
   creator: d4t4s3c
   release: 18 April 2023 
+  status: Retired
 card-hat:
   name: Hat
   difficulty: Medium
   creator: d4t4s3c
   release: 18 April 2023
+  status: Retired
 card-serve:
   name: Serve
   difficulty: Easy
   creator: d4t4s3c
   release: 19 April 2023
+  status: Retired
 card-brain:
   name: Brain
   difficulty: Easy
   creator: d4t4sec
   release: 19 April 2023
+  status: Retired
 card-responder:
   name: Responder
   difficulty: Medium
   creator: d4t4s3c
   release: 20 April 2023
+  status: Retired
 card-wrapp:
   name: Wrapp
   difficulty: Hard
   creator: d4t4s3c
   release: 21 April 2023
+  status: Retired
 card-doctor:
   name: Doctor
   difficulty: Easy
   creator: m0w
   release: 21 April 2023
+  status: Retired
 card-secrets:
   name: Secrets
   difficulty: Medium
   creator: d4t4s3c
   release: 22 April 2023
+  status: Retired
 card-fing:
   name: Fing
   difficulty: Easy
   creator: d4t4s3c
   release: 23 April 2023
+  status: Retired
 card-blog:
   name: Blog
   difficulty: Easy
   creator: d4t4s3c
   release: 24 April 2023
+  status: Retired
 card-backdoor:
   name: Backdoor
   difficulty: Hard
   creator: d4t4s3c
   release: 26 April 2023
+  status: Retired
 card-tom:
   name: Tom
   difficulty: Medium
   creator: d4t4s3c
   release: 28 April 2023
+  status: Retired
 card-shock:
   name: Shock
   difficulty: Easy
   creator: m0w
   release: 28 April 2023
+  status: Retired
 card-developer:
   name: Developer
   difficulty: Hard
   creator: d4t4s3c
   release: 29 April 2023
+  status: Retired
 card-hidden:
   name: Hidden
   difficulty: Easy
   creator: d4t4s3c
   release: 30 April 2023
+  status: Retired
 card-real:
   name: Real
   difficulty: Easy
   creator: d4t4s3c
   release: 03 May 2023
+  status: Retired
 card-ceres:
   name: Ceres
   difficulty: Medium
   creator: d4t4s3c
   release: 03 May 2023
+  status: Retired
 card-printer:
   name: Printer
   difficulty: Easy
   creator: d4t4s3c
   release: 04 May 2023
+  status: Retired
 card-zero:
   name: Zero
   difficulty: Easy
   creator: d4t4s3c
   release: 05 May 2023
+  status: Retired
 card-zone:
   name: Zone
   difficulty: Easy
   creator: d4t4s3c
   release: 06 May 2023
+  status: Retired
 card-internal:
   name: Internal
   difficulty: Medium
   creator: d4t4s3c
   release: 08 May 2023
+  status: Retired
 card-deploy:
   name: Deploy
   difficulty: Easy
   creator: m0w
   release: 11 May 2023
+  status: Retired
 card-mail:
   name: Mail
   difficulty: Medium
   creator: d4t4s3c
   release: 14 May 2023
+  status: Retired
 card-external:
   name: External
   difficulty: Easy
   creator: d4t4s3c
   release: 14 May 2023
+  status: Retired
 card-node:
   name: Node
   difficulty: Easy
   creator: d4t4s3c
   release: 17 May 2023
+  status: Retired
 card-key:
   name: Key
   difficulty: Medium
   creator: d4t4s3c
   release: 21 May 2023
+  status: Retired
 card-noob:
   name: Noob
   difficulty: Easy
   creator: m0w
   release: 22 May 2023
+  status: Retired
 card-transfer:
   name: Transfer
   difficulty: Hard
   creator: d4t4s3c
   release: 23 May 2023
+  status: Retired
 card-bund:
   name: Bund
   difficulty: Medium
   creator: d4t4s3c
   release: 27 May 2023
+  status: Retired
 card-encode:
   name: Encode
   difficulty: Medium
   creator: d4t4s3c
   release: 29 May 2023
+  status: Retired
 card-flash:
   name: Flash
   difficulty: Easy
   creator: d4t4s3c
   release: 02 June 2023
+  status: Retired
 card-listen:
   name: Listen
   difficulty: Medium
   creator: d4t4s3c
   release: 03 June 2023
+  status: Retired
 card-trace:
   name: Trace
   difficulty: Hard
   creator: d4t4s3c
   release: 13 June 2023
+  status: Retired
 card-look:
   name: Look
   difficulty: Easy
   creator: d4t4s3c
   release: 15 June 2023
+  status: Retired
 card-chain:
   name: Chain
   difficulty: Medium
   creator: d4t4s3c
   release: 23 June 2023
+  status: Retired
 card-shop:
   name: Shop
   difficulty: Easy
   creator: d4t4s3c
   release: 25 June 2023
+  status: Retired
 card-discover:
   name: Discover
   difficulty: Medium
   creator: d4t4s3c
   release: 04 July 2023
+  status: Active
 card-belial:
   name: Belial
   difficulty: Medium
   creator: UnD3sc0n0c1d0
   release: 20 July 2023
+  status: Active
 card-jenk:
   name: Jenk
   difficulty: Medium
   creator: d4t4s3c
   release: 21 July 2023
+  status: Active
 card-beginner:
   name: Beginner
   difficulty: Easy
   creator: d4t4s3c
   release: 24 July 2023
+  status: Active
 card-share:
   name: Share
   difficulty: Easy
   creator: d4t4s3c
   release: 28 July 2023
+  status: Active
