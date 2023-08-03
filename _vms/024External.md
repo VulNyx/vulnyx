@@ -1,4 +1,7 @@
 ---
+card:
+  card-external:
+    -
 level:
   Easy:
     -

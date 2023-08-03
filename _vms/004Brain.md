@@ -1,4 +1,7 @@
 ---
+card:
+  card-brain:
+    -
 level:
   Easy:
     -

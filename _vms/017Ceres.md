@@ -1,4 +1,7 @@
 ---
+card:
+  card-ceres:
+    -
 level:
   Medium:
     -

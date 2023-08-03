@@ -1,4 +1,7 @@
 ---
+card:
+  card-look:
+    -
 level:
   Easy:
     -

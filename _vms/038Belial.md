@@ -1,4 +1,7 @@
 ---
+card:
+  card-belial:
+    -
 level:
   Medium:
     -

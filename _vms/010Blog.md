@@ -1,4 +1,7 @@
 ---
+card:
+  card-blog:
+    -
 level:
   Easy:
     -

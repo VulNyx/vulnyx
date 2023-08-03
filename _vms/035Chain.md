@@ -1,4 +1,7 @@
 ---
+card:
+  card-chain:
+    -
 level:
   Medium:
     -

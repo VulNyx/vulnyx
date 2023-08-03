@@ -1,4 +1,7 @@
 ---
+card:
+  card-doctor:
+    -
 level:
   Easy:
     -

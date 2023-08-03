@@ -1,4 +1,7 @@
 ---
+card:
+  card-jenk:
+    -
 level:
   Medium:
     -

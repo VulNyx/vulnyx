@@ -1,4 +1,7 @@
 ---
+card:
+  card-trace:
+    -
 level:
   Hard:
     -

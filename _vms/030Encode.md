@@ -1,4 +1,7 @@
 ---
+card:
+  card-encode:
+    -
 level:
   Medium:
     -

@@ -1,4 +1,7 @@
 ---
+card:
+  card-transfer:
+    -
 level:
   Hard:
     -

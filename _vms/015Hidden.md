@@ -1,4 +1,7 @@
 ---
+card:
+  card-hidden:
+    -
 level:
   Easy:
     -

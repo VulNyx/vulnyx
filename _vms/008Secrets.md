@@ -1,4 +1,7 @@
 ---
+card:
+  card-secrets:
+    -
 level:
   Medium:
     -

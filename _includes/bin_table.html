@@ -1,129 +1,178 @@
-<div id="bin-search-wrapper">
-    <input id="bin-search" type="text" placeholder="Search VM..."/>
-</div>
 <main>
-<div id="bin-table-wrapper">
-    <table id="bin-table">
+  <section class="wrapper">
+    <article>
+      <ul class="vm-stats">
+        <li>
+          <span id="total-vms"></span>
+          <span>Total VMs</span>
+        </li>
+        <li>
+          <span id="easy-vms"></span>
+          <span class="badge easy">Easy</span>
+        </li>
+        <li>
+          <span id="medium-vms"></span>
+          <span class="badge medium">Medium</span>
+        </li>
+        <li>
+          <span id="hard-vms"></span>
+          <span class="badge hard">Hard</span>
+        </li>
+      </ul>
+      <div id="bin-search-wrapper">
+        <div class="search-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20" height="20"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+            <path d="M21 21l-6 -6" />
+          </svg>
+        </div>
+        <input id="bin-search" type="text" placeholder="Search VM..." />
+      </div>
+    </article>
+    <div id="bin-table-wrapper">
+      <table id="bin-table">
         <thead>
-            <tr>
-                <th>VM Name</th>
-                <th>Level</th>
-                <th>Creator</th>
-                <th>Tested</th>
-                <th>URL</th>
-                <th>MD5</th>
-                <th>Writeups</th>
-            </tr>
+          <tr>
+            <th>Name</th>
+            <th>Card</th>
+            <th>Level</th>
+            <th>Creator</th>
+            <th>Tested</th>
+            <th>URL</th>
+            <th>MD5</th>
+            <th>Rooted</th>
+            <th>Writeups</th>
+          </tr>
         </thead>
         <tbody>
-            {% for file in site.vms reversed %}
-            {% assign filename = file.path | split: '/' | last %}
-            {% assign trimmed_filename = filename | slice: 3, filename.size | remove_first: '.md' %}
-            <tr>
+          {% for file in site.vms reversed %}
+          {% assign filename = file.path | split: '/' | last %}
+          {% assign trimmed_filename = filename | slice: 3, filename.size | remove_first: '.md' %}
+          <tr>
             {% assign filename = file.path | slice: 5, file.path.size %}
             <td class="vm-name"><span class="bin-name">{{ trimmed_filename }}</span></td>
-            <td class="level">{% include level_list.html bin=file %}</td>
+            <td class="card">{% include card_list.html bin=file %}</td>
+            <td>{% include level_list.html bin=file %}</td>
             <td class="creator">{% include creator_list.html bin=file %}</td>
             <td class="tested">{% include tested_list.html bin=file %}</td>
             <td class="url">{% include url_list.html bin=file %}</td>
             <td class="md5">{% include md5_list.html bin=file %}</td>
+            <td class="pwned">{% include pwned_list.html bin=file %}</td>
             <td class="writeups">{% include writeup_list.html bin=file %}</td>
-            </tr>
-            {% endfor %}
+          </tr>
+          {% endfor %}
         </tbody>
-    </table>
-    <p id="search-message">No matches for <span id="query"></span>. Try with other search.</p>
-</div>
+      </table>
+      <p id="search-message">No matches for <span id="query"></span>. Try with other search.</p>
+    </div>
+  </section>
 </main>
 <footer>
   <p>© VulNyx 2023</p>
 </footer>
 
 <script>
+  const setStats = () => {
+    const totalVMs = document.querySelector('#total-vms');
+    const easyVMs = document.querySelector('#easy-vms');
+    const mediumVMs = document.querySelector('#medium-vms');
+    const hardVMs = document.querySelector('#hard-vms');
+
+    totalVMs.textContent = document.querySelectorAll('.vm-name').length;
+    easyVMs.textContent = document.querySelectorAll('.boton-easy').length;
+    mediumVMs.textContent = document.querySelectorAll('.boton-medium').length;
+    hardVMs.textContent = document.querySelectorAll('.boton-hard').length;
+  }
+
+
   const filter = (query) => {
-  const queryArray = query.toLowerCase().trim().split(/ *\+/);
-  const [binPattern, ...functionPatterns] = queryArray;
+    const queryArray = query.toLowerCase().trim().split(/ *\+/);
+    const [binPattern, ...functionPatterns] = queryArray;
 
-  // filter rows
-  let noResults = true;
-  document.querySelectorAll('#bin-table tbody tr').forEach((row) => {
-    let show = true;
+    // filter rows
+    let noResults = true;
+    document.querySelectorAll('#bin-table tbody tr').forEach((row) => {
+      let show = true;
 
-    const binName = row.querySelector('.bin-name')?.innerText?.toLowerCase();
-    if (!binName?.includes(binPattern)) {
-      show = false;
-    }
+      const binName = row.querySelector('.bin-name')?.innerText?.toLowerCase();
+      if (!binName?.includes(binPattern)) {
+        show = false;
+      }
 
-    if (show) {
-      const functionElems = Array.from(row.querySelector('.functions')?.children ?? []);
-      functionPatterns.forEach((pattern) => {
-        // skip empty filters
-        if (!pattern) {
-          return;
-        }
-        // check against the pattern
-        const hasMatches = functionElems.some((item) =>
-          item.innerText?.toLowerCase()?.startsWith(pattern.toLowerCase())
-        );
-        // no function satisfies the pattern
-        if (!hasMatches) {
-          show = false;
-        }
-      });
-    }
+      if (show) {
+        const functionElems = Array.from(row.querySelector('.functions')?.children ?? []);
+        functionPatterns.forEach((pattern) => {
+          // skip empty filters
+          if (!pattern) {
+            return;
+          }
+          // check against the pattern
+          const hasMatches = functionElems.some((item) =>
+            item.innerText?.toLowerCase()?.startsWith(pattern.toLowerCase())
+          );
+          // no function satisfies the pattern
+          if (!hasMatches) {
+            show = false;
+          }
+        });
+      }
 
-    row.style.display = show ? '' : 'none';
-    noResults = noResults && !show;
-  });
+      row.style.display = show ? '' : 'none';
+      noResults = noResults && !show;
+    });
 
-  // update the search message visibility
-  const searchMessage = document.querySelector('#search-message');
-  const searchBox = document.querySelector('#bin-search');
-  const queryElem = document.querySelector('#query');
-  queryElem.textContent = searchBox.value;
-  searchMessage.style.display = noResults ? 'block' : 'none';
-}
+    // update the search message visibility
+    const searchMessage = document.querySelector('#search-message');
+    const searchBox = document.querySelector('#bin-search');
+    const queryElem = document.querySelector('#query');
+    queryElem.textContent = searchBox.value;
+    searchMessage.style.display = noResults ? 'block' : 'none';
+  }
 
-// filter on load according to the URL
-const applyFilter = () => {
-  const searchBox = document.querySelector('#bin-search');
-  const query = decodeURIComponent(location.hash.slice(1));
-  searchBox.value = query
-  filter(query);
-}
+  // filter on load according to the URL
+  const applyFilter = () => {
+    const searchBox = document.querySelector('#bin-search');
+    const query = decodeURIComponent(location.hash.slice(1));
+    searchBox.value = query
+    filter(query);
+  }
 
-const setup = () => {
-  const searchBox = document.querySelector('#bin-search');
+  const setup = () => {
+    const searchBox = document.querySelector('#bin-search');
 
-  // handle user input
-  searchBox.addEventListener('input', () => {
-    const query = searchBox.value;
-    history.replaceState(null, null, encodeURI(`#${query}`));
+    // handle user input
+    searchBox.addEventListener('input', () => {
+      const query = searchBox.value;
+      history.replaceState(null, null, encodeURI(`#${query}`));
+      applyFilter();
+    });
+
+    // handle shortcuts
+    addEventListener('keydown', (event) => {
+      // focus search box on valid keydown
+      if (event.key.toLowerCase().match(/^[+a-z]$/) &&
+        !(event.ctrlKey || event.altKey || event.metaKey)) {
+        searchBox.focus();
+        searchBox.parentElement.scrollIntoView();
+      }
+      // clear filter on escape
+      else if (event.key === 'Escape') {
+        location.hash = searchBox.value = '';
+        searchBox.focus();
+        searchBox.parentElement.scrollIntoView();
+      }
+    });
+
+    // handle URL changes
+    window.onhashchange = applyFilter;
+
+    // trigger filter on page load
     applyFilter();
-  });
+  }
 
-  // handle shortcuts
-  addEventListener('keydown', (event) => {
-    // focus search box on valid keydown
-    if (event.key.toLowerCase().match(/^[+a-z]$/) &&
-      !(event.ctrlKey || event.altKey || event.metaKey)) {
-      searchBox.focus();
-      searchBox.parentElement.scrollIntoView();
-    }
-    // clear filter on escape
-    else if (event.key === 'Escape') {
-      location.hash = searchBox.value = '';
-      searchBox.focus();
-      searchBox.parentElement.scrollIntoView();
-    }
-  });
-
-  // handle URL changes
-  window.onhashchange = applyFilter;
-
-  // trigger filter on page load
-  applyFilter();
-}
-
-setup();
+  setStats();
+  setup();
 </script>

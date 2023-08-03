@@ -1,4 +1,7 @@
 ---
+card:
+  card-shop:
+    -
 level:
   Easy:
     -

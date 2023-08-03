@@ -1,4 +1,7 @@
 ---
+card:
+  card-fing:
+    -
 level:
   Easy:
     -
