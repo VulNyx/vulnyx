@@ -6,7 +6,7 @@ level:
   Easy:
     -
 creator:
-  plot:
+  d4t4s3c:
     -
 download:
   url-plot:
