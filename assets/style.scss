@@ -71,11 +71,10 @@ header {
 .navbar a {
   font-weight: bold;
   border-radius: 0.5rem;
-  font-size: 1.15rem;
-  padding: 0.85rem;
+  padding: 0.5rem;
 }
 
-.navbar a:hover {
+.navbar a:hover, .media-links a:hover {
   color: inherit;
   background-color: rgb(75, 85, 99);
 }
@@ -352,6 +351,11 @@ td div {
   color: #4c9b51;
 }
 
+.tags {
+  color: white;
+  font-weight: bold;
+}
+
 .md5,
 .creator,
 .writeups {
@@ -514,13 +518,13 @@ td div {
 
 .media-links {
   display: flex;
-  gap: 0.5rem;
   align-items: center;
   justify-content: start;
 }
 
-.media-links a:hover {
-  scale: 1.2;
+.media-links a {
+  padding: 0.25rem;
+  border-radius: 0.5rem;
 }
 
 .form-container {
