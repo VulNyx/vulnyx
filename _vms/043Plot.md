@@ -1,0 +1,23 @@
+---
+card:
+  card-plot:
+    -
+level:
+  Easy:
+    -
+creator:
+  plot:
+    -
+download:
+  url-plot:
+    -
+tested:
+  VMware:
+    -
+md5:
+  md5-plot:
+    -
+writeup:
+  writeup-plot:
+    -
+---
