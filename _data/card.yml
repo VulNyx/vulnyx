@@ -245,3 +245,9 @@ card-share:
   creator: d4t4s3c
   release: 28 July 2023
   status: Active
+card-dark:
+  name: Dark
+  difficulty: Medium
+  creator: d4t4s3c
+  release: 01 August 2023
+  status: Active
