@@ -74,7 +74,8 @@ header {
   padding: 0.5rem;
 }
 
-.navbar a:hover, .media-links a:hover {
+.navbar a:hover,
+.media-links a:hover {
   color: inherit;
   background-color: rgb(75, 85, 99);
 }
@@ -316,15 +317,15 @@ td div {
 }
 
 #Active {
-	position: relative;
-	bottom: 20px;
-	left: 210px;
-	color: green;
-	border: 2px solid green;
-	border-radius: 0.5rem;
-	padding: 0.5rem;
-	font-size: 1.25rem;
-	font-weight: bold;
+  position: relative;
+  bottom: 20px;
+  left: 210px;
+  color: green;
+  border: 2px solid green;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 #Retired {
@@ -613,4 +614,59 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .card,
+  .tested,
+  .pwned,
+  .writeups,
+  .md5,
+  #card,
+  #tested,
+  #pwned,
+  #writeups,
+  #md5,
+  .github-buttons {
+    display: none;
+  }
+
+  .boton-easy, .boton-medium, .boton-hard{
+    padding: 0.15rem;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  th {
+    padding: 0.5rem;
+  }
+
+  td, .navbar a {
+    padding: 0.25rem;
+  }
+
+  .wrapper article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .vm-stats {
+    gap: 0.75rem
+  }
+
+  #bin-table {
+    padding: 1rem 0;
+  }
 }
