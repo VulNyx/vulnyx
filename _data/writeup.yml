@@ -2,8 +2,10 @@
 writeup-ready:
   creator:
     - d4t4s3c
+    - ShellDredd
   url: 
     - https://d4t4s3c.medium.com/vulnyx-ready-b5769807c74b
+    - https://shelldredd.github.io/writesup/ready-writeup-vulnyx.html
 writeup-hat:
   creator:
     - noname
@@ -78,8 +80,10 @@ writeup-developer:
 writeup-hidden:
   creator:
     - noname
+    - d4t4s3c
   url:
     - https://0x-noname.github.io/writeups/nyx/hidden/
+    - https://d4t4s3c.medium.com/vulnyx-hidden-312c56f89cd3
 writeup-real:
   creator:
     - FredBrave
@@ -150,7 +154,7 @@ writeup-noob:
     - https://youtu.be/OhliI5KmMMg
 writeup-transfer:
   creator:
-    -noname
+    - noname
   url:
     - https://0x-noname.github.io/writeups/nyx/transfer
 writeup-bund:
@@ -199,4 +203,29 @@ writeup-shop:
     - https://0x-noname.github.io/writeups/nyx/shop
 writeup-discover:
   creator:
+    - noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/discover
+writeup-belial:
+  creator:
+  url:
+writeup-jenk:
+  creator:
+  url:
+writeup-beginner:
+  creator:
+    - dirtyc0w
+  url:
+    - https://www.youtube.com/watch?v=Ar6XDXjj_F8
+writeup-share:
+  creator:
+    - noname
+    - dirtyc0w
+  url:
+    - https://0x-noname.github.io/writeups/nyx/share
+    - https://youtu.be/S3xTSdaQ2Ho
+writeup-dark:
+  creator:
+    - dirtyc0w
+  url:
+    - https://www.youtube.com/watch?v=i8eZbb9xq2I
