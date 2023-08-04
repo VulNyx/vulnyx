@@ -251,3 +251,9 @@ card-dark:
   creator: d4t4s3c
   release: 01 August 2023
   status: Active
+card-plot:
+  name: Plot
+  difficulty: Easy
+  creator: d4t4s3c
+  release: 03 August 2023
+  status: Active
