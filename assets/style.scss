@@ -320,9 +320,10 @@ td div {
   position: relative;
   bottom: 20px;
   left: 210px;
-  color: green;
+  background-color: green;
+  color: white;
   border: 2px solid green;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   padding: 0.5rem;
   font-size: 1.25rem;
   font-weight: bold;
@@ -331,6 +332,20 @@ td div {
 #Retired {
   position: relative;
   display: none;
+}
+
+.card-os, .card-difficulty  {
+	display: flex;
+	align-items: center;
+}
+
+.card-difficulty span {
+  margin-left: 0.5rem;
+}
+
+.card-icon-wrapper {
+	width: 25px;
+	margin: 0 0.5rem;
 }
 
 .card-info {
@@ -440,6 +455,10 @@ td div {
   color: white;
   font-weight: bold;
   font-size: 0.9rem;
+}
+
+.swal2-border {
+  border: 1px solid #bbb !important;
 }
 
 .easy, .badge-easy, #Easy {
