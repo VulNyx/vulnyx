@@ -8,15 +8,15 @@
         </li>
         <li>
           <span id="easy-vms"></span>
-          <span class="badge easy">Easy</span>
+          <span class="badge badge-easy">Easy</span>
         </li>
         <li>
           <span id="medium-vms"></span>
-          <span class="badge medium">Medium</span>
+          <span class="badge badge-medium">Medium</span>
         </li>
         <li>
           <span id="hard-vms"></span>
-          <span class="badge hard">Hard</span>
+          <span class="badge badge-hard">Hard</span>
         </li>
       </ul>
       <div id="bin-search-wrapper">
@@ -82,9 +82,9 @@
     const hardVMs = document.querySelector('#hard-vms');
 
     totalVMs.textContent = document.querySelectorAll('.vm-name').length;
-    easyVMs.textContent = document.querySelectorAll('.boton-easy').length;
-    mediumVMs.textContent = document.querySelectorAll('.boton-medium').length;
-    hardVMs.textContent = document.querySelectorAll('.boton-hard').length;
+    easyVMs.textContent = document.querySelectorAll('.easy').length;
+    mediumVMs.textContent = document.querySelectorAll('.medium').length;
+    hardVMs.textContent = document.querySelectorAll('.hard').length;
   }
 
 

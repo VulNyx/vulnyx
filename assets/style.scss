@@ -348,10 +348,6 @@ td div {
   margin-bottom: 0.5rem;
 }
 
-#creator {
-  color: #4c9b51;
-}
-
 .tags {
   color: white;
   font-weight: bold;
@@ -437,9 +433,7 @@ td div {
 
 // LEVELS BUTTONS
 
-.boton-easy,
-.boton-medium,
-.boton-hard,
+.level-btn,
 .badge {
   border-radius: 0.25rem;
   padding: 0.25rem;
@@ -448,34 +442,16 @@ td div {
   font-size: 0.9rem;
 }
 
-.boton-easy,
-.easy {
+.easy, .badge-easy, #Easy {
   background-color: #4c9b51;
 }
 
-.boton-medium,
-.medium {
+.medium, .badge-medium, #Medium {
   background-color: #e1b300;
 }
 
-.boton-hard,
-.hard {
+.hard, .badge-hard, #Hard {
   background-color: #ec0725;
-}
-
-#Easy {
-  font: bold;
-  color: #4c9b51;
-}
-
-#Medium {
-  font: bold;
-  color: #e1b300;
-}
-
-#Hard {
-  font: bold;
-  color: #ec0725;
 }
 
 // disable diffis and platfs from sub taglist

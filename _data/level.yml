@@ -1,7 +1,7 @@
 ---
 Easy:
-  label: <span class="boton-easy">Easy</span>
+  label: <span class="level-btn easy">Easy</span>
 Medium:
-  label: <span class="boton-medium">Medium</span>
+  label: <span class="level-btn medium">Medium</span>
 Hard:
-  label: <span class="boton-hard">Hard</span>
+  label: <span class="level-btn hard">Hard</span>
