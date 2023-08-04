@@ -84,7 +84,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .github-buttons {
@@ -181,7 +181,6 @@ main {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
 }
 
@@ -251,7 +250,6 @@ th,
 td {
   text-align: center;
   padding: 0.5rem;
-  border: 1px solid #808080;
 }
 
 th {
@@ -380,14 +378,15 @@ td div {
 
 #md5-hash {
   position: relative;
-  left: 10px;
+  left: 12px;
+  top: 2px;
 }
 
 .copy-btn {
   cursor: pointer;
   position: relative;
-  top: 10px;
-  left: 10px;
+  top: 11px;
+  left: 12px;
   background-color: inherit;
   border: none;
 }
@@ -520,6 +519,7 @@ td div {
 
 .media-links a {
   padding: 0.25rem;
+  margin-right: 0.1rem;
   border-radius: 0.5rem;
 }
 
