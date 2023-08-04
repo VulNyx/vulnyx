@@ -226,7 +226,7 @@ writeup-look:
   url:
     - https://d4t4s3c.medium.com/vulnyx-look-eec4cece3f6a
 writeup-chain:
-  rooted:
+  rooted: true
   creator:
   url:
 writeup-shop:
