@@ -275,3 +275,7 @@ writeup-plot:
   rooted: true
   creator:
   url:
+writeup-cap:
+  rooted: false
+  creator:
+  url:
