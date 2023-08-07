@@ -276,6 +276,6 @@ writeup-plot:
   creator:
   url:
 writeup-cap:
-  rooted: false
+  rooted: true
   creator:
   url:
