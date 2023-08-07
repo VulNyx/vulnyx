@@ -45,8 +45,10 @@ writeup-doctor:
   rooted: true
   creator:
     - noname
+    - d4t4s3c
   url: 
     - https://0x-noname.github.io/writeups/nyx/doctor
+    - https://d4t4s3c.medium.com/vulnyx-doctor-ddb716d5af0c
 writeup-secrets:
   rooted: true
   creator:
