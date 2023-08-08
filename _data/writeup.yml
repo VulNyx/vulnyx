@@ -27,8 +27,10 @@ writeup-brain:
   rooted: true
   creator:
     - noname
+    - d4t4s3c
   url:
     - https://0x-noname.github.io/writeups/nyx/brain/
+    - https://d4t4s3c.medium.com/vulnyx-brain-b9d68597dff7
 writeup-responder:
   rooted: true
   creator:
