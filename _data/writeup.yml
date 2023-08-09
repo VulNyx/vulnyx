@@ -110,9 +110,11 @@ writeup-real:
   creator:
     - FredBrave
     - noname
+    - d4t4s3c
   url:
     - https://fredbrave.github.io/Real-Writeup
     - https://0x-noname.github.io/writeups/nyx/real
+    - https://d4t4s3c.medium.com/vulnyx-real-35ee1715617
 writeup-ceres:
   rooted: true
   creator:
