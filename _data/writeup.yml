@@ -254,7 +254,9 @@ writeup-discover:
 writeup-belial:
   rooted: true
   creator:
+    - noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/belial
 writeup-jenk:
   rooted: true
   creator:
