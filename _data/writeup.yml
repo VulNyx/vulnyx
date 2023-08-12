@@ -172,9 +172,11 @@ writeup-node:
   creator:
     - noname
     - RiJaba1
+    - d4t4s3c
   url:
     - https://0x-noname.github.io/writeups/nyx/node/
     - https://youtu.be/VLp8VRzIYrI
+    - https://d4t4s3c.medium.com/vulnyx-node-ea6fbf54b8d6
 writeup-key:
   rooted: true
   creator:
