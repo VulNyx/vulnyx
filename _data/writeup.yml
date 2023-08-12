@@ -290,7 +290,9 @@ writeup-dark:
 writeup-plot:
   rooted: true
   creator:
+    - noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/plot 
 writeup-cap:
   rooted: true
   creator:
