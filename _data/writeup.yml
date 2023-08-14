@@ -98,7 +98,9 @@ writeup-shock:
 writeup-developer:
   rooted: true
   creator:
-  url: 
+    - V4iper
+  url:
+    - https://blank-ms1.github.io/posts/Developer-vulnyx
 writeup-hidden:
   rooted: true
   creator:
