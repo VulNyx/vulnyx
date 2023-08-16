@@ -300,6 +300,6 @@ writeup-cap:
   creator:
   url:
 writeup-remote:
-  rooted: false
+  rooted: true
   creator:
   url:
