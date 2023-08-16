@@ -299,3 +299,7 @@ writeup-cap:
   rooted: true
   creator:
   url:
+writeup-remote:
+  rooted: false
+  creator:
+  url:
