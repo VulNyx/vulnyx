@@ -309,3 +309,7 @@ writeup-goetia:
   rooted: true
   creator:
   url:
+writeup-slash:
+  rooted: false
+  creator:
+  url:
