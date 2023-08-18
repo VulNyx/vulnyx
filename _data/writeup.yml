@@ -305,3 +305,7 @@ writeup-remote:
   rooted: true
   creator:
   url:
+writeup-goetia:
+  rooted: false
+  creator:
+  url:
