@@ -310,6 +310,6 @@ writeup-goetia:
   creator:
   url:
 writeup-slash:
-  rooted: false
+  rooted: true
   creator:
   url:
