@@ -226,13 +226,13 @@ card-belial:
   difficulty: Medium
   creator: UnD3sc0n0c1d0
   release: 20 July 2023
-  status: Active
+  status: Retired
 card-jenk:
   name: Jenk
   difficulty: Medium
   creator: d4t4s3c
   release: 21 July 2023
-  status: Active
+  status: Retired
 card-beginner:
   name: Beginner
   difficulty: Easy
