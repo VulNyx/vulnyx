@@ -281,3 +281,9 @@ card-slash:
   creator: d4t4s3c
   release: 18 August 2023
   status: Active
+card-travel:
+  name: Travel
+  difficulty: Hard
+  creator: d4t4s3c
+  release: 24 August 2023
+  status: Active
