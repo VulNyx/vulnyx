@@ -317,3 +317,7 @@ writeup-slash:
     - FredBrave
   url:
     - https://fredbrave.github.io/Slash-Writeup
+writeup-travel:
+  rooted: false
+  creator:
+  url:
