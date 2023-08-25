@@ -318,6 +318,6 @@ writeup-slash:
   url:
     - https://fredbrave.github.io/Slash-Writeup
 writeup-travel:
-  rooted: false
+  rooted: true
   creator:
   url:
