@@ -277,8 +277,10 @@ writeup-beginner:
   rooted: true
   creator:
     - dirtyc0w
+    - d4t4s3c
   url:
     - https://www.youtube.com/watch?v=Ar6XDXjj_F8
+    - https://d4t4s3c.medium.com/vulnyx-beginner-a68b4f86d3a5
 writeup-share:
   rooted: true
   creator:
