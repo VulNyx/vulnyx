@@ -220,9 +220,11 @@ writeup-flash:
   creator:
     - noname
     - RiJaba1
+    - d4t4s3c
   url:
     - https://0x-noname.github.io/writeups/nyx/flash
     - https://youtu.be/-AQvzQ5jirE
+    - https://d4t4s3c.medium.com/vulnyx-flash-777a0e99525c
 writeup-listen:
   rooted: true
   creator:
