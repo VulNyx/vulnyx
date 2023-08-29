@@ -290,9 +290,11 @@ writeup-share:
   creator:
     - noname
     - dirtyc0w
+    - Anonimo501
   url:
     - https://0x-noname.github.io/writeups/nyx/share
     - https://youtu.be/S3xTSdaQ2Ho
+    - https://youtu.be/xJ8NifwHm2g
 writeup-dark:
   rooted: true
   creator:
