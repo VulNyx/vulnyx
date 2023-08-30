@@ -320,7 +320,9 @@ writeup-remote:
 writeup-goetia:
   rooted: true
   creator:
+    - noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/goetia
 writeup-slash:
   rooted: true
   creator:
