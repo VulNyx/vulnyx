@@ -1,0 +1,23 @@
+---
+card:
+  card-annunciation:
+    -
+level:
+  Hard:
+    -
+creator:
+  UnD3sc0n0c1d0:
+    -
+tested:
+  VirtualBox:
+    -
+download:
+  url-annunciation:
+    -
+md5:
+  md5-annunciation:
+    -
+writeup:
+  writeup-annunciation:
+    -
+---
