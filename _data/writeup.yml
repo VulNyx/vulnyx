@@ -333,3 +333,7 @@ writeup-travel:
   rooted: true
   creator:
   url:
+writeup-annunciation:
+  rooted: false
+  creator:
+  url:
