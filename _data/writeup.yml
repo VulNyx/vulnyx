@@ -338,6 +338,6 @@ writeup-travel:
   creator:
   url:
 writeup-annunciation:
-  rooted: false
+  rooted: true
   creator:
   url:
