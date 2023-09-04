@@ -281,10 +281,12 @@ writeup-beginner:
     - dirtyc0w
     - d4t4s3c
     - Anonimo501
+    - noname
   url:
     - https://www.youtube.com/watch?v=Ar6XDXjj_F8
     - https://d4t4s3c.medium.com/vulnyx-beginner-a68b4f86d3a5
     - https://www.youtube.com/watch?v=ZxIraObf97U
+    - https://0x-noname.github.io/writeups/nyx/beginner
 writeup-share:
   rooted: true
   creator:
