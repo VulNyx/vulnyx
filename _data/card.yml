@@ -250,13 +250,13 @@ card-dark:
   difficulty: Medium
   creator: d4t4s3c
   release: 01 August 2023
-  status: Active
+  status: Retired
 card-plot:
   name: Plot
   difficulty: Easy
   creator: d4t4s3c
   release: 03 August 2023
-  status: Active
+  status: Retired
 card-cap:
   name: Cap
   difficulty: Hard
