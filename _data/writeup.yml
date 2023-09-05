@@ -307,8 +307,10 @@ writeup-plot:
   rooted: true
   creator:
     - noname
+    - Anonimo501
   url:
-    - https://0x-noname.github.io/writeups/nyx/plot 
+    - https://0x-noname.github.io/writeups/nyx/plot
+    - https://www.youtube.com/watch?v=QHts4aUA_3I
 writeup-cap:
   rooted: true
   creator:
