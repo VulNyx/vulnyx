@@ -3,7 +3,7 @@ layout: page
 title: Rules
 ---
 
-## Submit Rules
+## Submit VMs
 
 - Do `not` use `content` on the VM that may `offend` other `people`.
 - Do `not` use an `external URL` to resolve the VM. (In case the link is down, the machine cannot be resolved).
@@ -17,6 +17,10 @@ title: Rules
 - If the VM requires a `domain`/`subdomain` it has to be `.nyx` (example: `domain.nyx`/`subdomain.domain.nyx`)
 - We do `not accept VM` that are on `other platforms` (The only reason is because we want to have our own machines)  
 
+## Submit Writeup
+
+- Do `not show` the `user.txt`/`root.txt` flags.
+  
 ## Pull Request (Optional)
 
 After acceptance of your machine, if you want to appear as a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">`collaborator`</a> in the official <a href="https://github.com/VulNyx/vulnyx.github.io" target="_blank">`repository`</a> you can do it as follows:
