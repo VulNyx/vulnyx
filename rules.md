@@ -3,6 +3,7 @@ layout: page
 title: Rules
 ---
 
+## VM
 
 ## Submit VM
 
