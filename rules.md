@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Rules
----
-
+---  
 ## Submit VMs
 
 - Do `not` use `content` on the VM that may `offend` other `people`.
