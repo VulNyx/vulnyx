@@ -17,10 +17,6 @@ title: Rules
 - If the VM requires a `domain`/`subdomain` it has to be `.nyx` (example: `domain.nyx`/`subdomain.domain.nyx`).
 - We do `not accept VM` that are on `other platforms` (The only reason is because we want to have our own machines).
 
-## Submit Writeup
-
-- Do `not show` the `user.txt`/`root.txt` flags.
-
 <footer>
   <p>© VulNyx 2023</p>
 </footer>
