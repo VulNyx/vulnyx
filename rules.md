@@ -3,7 +3,7 @@ layout: page
 title: Rules
 ---
 
-## Submit VMs
+## Submit VMs  
 
 - Do `not` use `content` on the VM that may `offend` other `people`.
 - Do `not` use an `external URL` to resolve the VM. (In case the link is down, the machine cannot be resolved).
@@ -17,7 +17,7 @@ title: Rules
 - If the VM requires a `domain`/`subdomain` it has to be `.nyx` (example: `domain.nyx`/`subdomain.domain.nyx`).
 - We do `not accept VM` that are on `other platforms` (The only reason is because we want to have our own machines).
 
-## Submit Writeup
+## Submit Writeup  
 
 - Do `not show` the `user.txt`/`root.txt` flags.
 
