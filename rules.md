@@ -2,12 +2,7 @@
 layout: page
 title: Rules
 ---
-
-## VM
-
 ## Submit VM
-
-
 - Do `not` use `content` on the VM that may `offend` other `people`.
 - Do `not` use an `external URL` to resolve the VM. (In case the link is down, the machine cannot be resolved).
 - The VM does `not` have to have a `graphical interface "GUI"` (Unless necessary to resolve the VM).
