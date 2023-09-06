@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Rules
----  
-## Submit VMs
+---
+
+* Submit VMs
 
 - Do `not` use `content` on the VM that may `offend` other `people`.
 - Do `not` use an `external URL` to resolve the VM. (In case the link is down, the machine cannot be resolved).
