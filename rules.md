@@ -6,7 +6,7 @@ title: Rules
 ## Submit Rules
 
 - Do `not` use `content` on the VM that may `offend` other `people`.
-- Do `not` use `external URLs` to resolve the VM. (In case the link goes down, the machine could not be resolved.)
+- Do `not` use an `external URL` to resolve the VM. (In case the link is down, the machine cannot be resolved).
 - The VM does `not` have to have a `graphical interface "GUI"` (Unless it is necessary to solve the VM)
 - `Delete` or `redirect` any `history` files to `/dev/null` (Unless it is necessary to solve the VM)
 - The VM has to have a logic from the beginning to the end.
