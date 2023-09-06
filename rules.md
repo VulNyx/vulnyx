@@ -21,7 +21,7 @@ title: Rules
 
 - Do `not show` the `user.txt`/`root.txt` flags.
 
-## Pull Request
+## Pull Request (Optional)
 
 After acceptance of your machine, if you want to appear as a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">`collaborator`</a> in the official <a href="https://github.com/VulNyx/vulnyx.github.io" target="_blank">`repository`</a> you can do it as follows:
 
