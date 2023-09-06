@@ -8,7 +8,7 @@ title: Rules
 - Do `not` use `content` on the VM that may `offend` other `people`.
 - Do `not` use an `external URL` to resolve the VM. (In case the link is down, the machine cannot be resolved).
 - The VM does `not` have to have a `graphical interface "GUI"` (Unless necessary to resolve the VM).
-- `Delete` or `redirect` any `history` files to `/dev/null` (Unless necessary to resolve the VM.).
+- `Delete` or `redirect` any `history` files to `/dev/null` (Unless necessary to resolve the VM).
 - The VM has to have a logic from the beginning to the end.
 - The creator has to test the VM to avoid possible bugs.
 - The VM has to work correctly in `VirtualBox`.
