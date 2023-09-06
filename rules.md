@@ -21,41 +21,6 @@ title: Rules
 
 - Do `not show` the `user.txt`/`root.txt` flags.
 
-## Pull Request (Optional)
-
-After acceptance of your machine, if you want to appear as a <a href="https://github.com/vulnyx/vulnyx.github.io/graphs/contributors" target="_blank">`collaborator`</a> in the official <a href="https://github.com/VulNyx/vulnyx.github.io" target="_blank">`repository`</a> you can do it as follows:
-
-1. Go to <a href="https://github.com/VulNyx/vulnyx.github.io/tree/main/_vms" target="_blank">`_vms/`</a>
-2. Click "`Add File`"
-3. Click "`Create New File`" create a file with the `name` of your `machine` with extension `.md` (example: `Blog.md`)
-
-Edit this template with your data:
-
-```
----
-level:
-  Easy:
-    -
-creator:
-  d4t4s3c:
-    -
-tested:
-  VirtualBox:
-    -
-download:
-  url-blog:
-    -
-md5:
-  md5-blog:
-    -
-writeup:
-  writeup-blog:
-    -
----
-```
-
-The other missing information will be filled in by the <a href="https://vulnyx.com" target="_blank">`VulNyx`</a> team.
-
 <footer>
   <p>© VulNyx 2023</p>
 </footer>
