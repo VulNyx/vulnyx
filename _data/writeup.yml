@@ -310,9 +310,11 @@ writeup-plot:
   creator:
     - noname
     - Anonimo501
+    - dirtyc0w
   url:
     - https://0x-noname.github.io/writeups/nyx/plot
     - https://www.youtube.com/watch?v=QHts4aUA_3I
+    - https://youtu.be/s3A1hjs0NhI
 writeup-cap:
   rooted: true
   creator:
