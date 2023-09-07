@@ -323,8 +323,10 @@ writeup-remote:
   rooted: true
   creator:
     - m3n0sd0n4ld
+    - dirtyc0w
   url:
     - https://m3n0sd0n4ld.blogspot.com/2023/08/remote-vulnyx-writeup.html
+    - https://youtu.be/O8uOrW9A5hk
 writeup-goetia:
   rooted: true
   creator:
