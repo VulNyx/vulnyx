@@ -6,7 +6,7 @@ title: Rules
 ## Submit VM
 
 - Do `not` use `content` on the VM that may `offend` other `people`.
-- Do `not` use an `external URL` to resolve the VM (In case the link is down the machine cannot be resolved).
+- Do `not` use an `external URL` to resolve the VM (If the link does not work, the machine would be unsolvable.).
 - The VM does `not` have to have a `graphical interface "GUI"` (Unless necessary to resolve the VM).
 - `Delete` or `redirect` any `history` files to `/dev/null` (Unless necessary to resolve the VM).
 - The VM has to have a logic from the beginning to the end.
