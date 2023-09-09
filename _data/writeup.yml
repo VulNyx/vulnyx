@@ -4,9 +4,11 @@ writeup-ready:
   creator:
     - d4t4s3c
     - ShellDredd
+    - noname
   url: 
     - https://d4t4s3c.medium.com/vulnyx-ready-b5769807c74b
     - https://shelldredd.github.io/writesup/ready-writeup-vulnyx.html
+    - https://0x-noname.github.io/writeups/nyx/ready
 writeup-hat:
   rooted: true
   creator:
@@ -27,8 +29,10 @@ writeup-brain:
   rooted: true
   creator:
     - noname
+    - d4t4s3c
   url:
     - https://0x-noname.github.io/writeups/nyx/brain/
+    - https://d4t4s3c.medium.com/vulnyx-brain-b9d68597dff7
 writeup-responder:
   rooted: true
   creator:
@@ -45,8 +49,10 @@ writeup-doctor:
   rooted: true
   creator:
     - noname
+    - d4t4s3c
   url: 
     - https://0x-noname.github.io/writeups/nyx/doctor
+    - https://d4t4s3c.medium.com/vulnyx-doctor-ddb716d5af0c
 writeup-secrets:
   rooted: true
   creator:
@@ -65,8 +71,10 @@ writeup-blog:
   rooted: true
   creator:
     - noname
+    - d4t4s3c
   url:
-    - https://0x-noname.github.io/writeups/nyx/blog/
+    - https://0x-noname.github.io/writeups/nyx/blog
+    - https://d4t4s3c.medium.com/vulnyx-blog-ab2ea54f17c0
 writeup-backdoor:
   rooted: true
   creator:
@@ -84,13 +92,17 @@ writeup-shock:
   creator:
     - noname
     - elc4br4
+    - d4t4s3c
   url: 
     - https://0x-noname.github.io/writeups/nyx/shock
     - https://elc4br4.github.io/vulnyx-shock-writeup
+    - https://d4t4s3c.medium.com/vulnyx-shock-a7059d85f60e
 writeup-developer:
   rooted: true
   creator:
-  url: 
+    - V4iper
+  url:
+    - https://blank-ms1.github.io/posts/Developer-vulnyx
 writeup-hidden:
   rooted: true
   creator:
@@ -104,9 +116,11 @@ writeup-real:
   creator:
     - FredBrave
     - noname
+    - d4t4s3c
   url:
     - https://fredbrave.github.io/Real-Writeup
     - https://0x-noname.github.io/writeups/nyx/real
+    - https://d4t4s3c.medium.com/vulnyx-real-35ee1715617
 writeup-ceres:
   rooted: true
   creator:
@@ -125,8 +139,10 @@ writeup-zero:
   rooted: true
   creator:
   - noname
+  - d4t4s3c
   url:
   - https://0x-noname.github.io/writeups/nyx/zero
+  - https://d4t4s3c.medium.com/vulnyx-zero-f733eec9145e
 writeup-zone:
   rooted: true
   creator:
@@ -162,9 +178,11 @@ writeup-node:
   creator:
     - noname
     - RiJaba1
+    - d4t4s3c
   url:
     - https://0x-noname.github.io/writeups/nyx/node/
     - https://youtu.be/VLp8VRzIYrI
+    - https://d4t4s3c.medium.com/vulnyx-node-ea6fbf54b8d6
 writeup-key:
   rooted: true
   creator:
@@ -204,9 +222,11 @@ writeup-flash:
   creator:
     - noname
     - RiJaba1
+    - d4t4s3c
   url:
     - https://0x-noname.github.io/writeups/nyx/flash
     - https://youtu.be/-AQvzQ5jirE
+    - https://d4t4s3c.medium.com/vulnyx-flash-777a0e99525c
 writeup-listen:
   rooted: true
   creator:
@@ -228,7 +248,9 @@ writeup-look:
 writeup-chain:
   rooted: true
   creator:
+    - noname
   url:
+    - https://0x-noname.github.io/writeups/nyx/chain
 writeup-shop:
   rooted: true
   creator:
@@ -246,7 +268,11 @@ writeup-discover:
 writeup-belial:
   rooted: true
   creator:
+    - noname
+    - UnD3sc0n0c1d0
   url:
+    - https://0x-noname.github.io/writeups/nyx/belial
+    - https://infayer.com/archivos/2247
 writeup-jenk:
   rooted: true
   creator:
@@ -255,16 +281,24 @@ writeup-beginner:
   rooted: true
   creator:
     - dirtyc0w
+    - d4t4s3c
+    - Anonimo501
+    - noname
   url:
     - https://www.youtube.com/watch?v=Ar6XDXjj_F8
+    - https://d4t4s3c.medium.com/vulnyx-beginner-a68b4f86d3a5
+    - https://www.youtube.com/watch?v=ZxIraObf97U
+    - https://0x-noname.github.io/writeups/nyx/beginner
 writeup-share:
   rooted: true
   creator:
     - noname
     - dirtyc0w
+    - Anonimo501
   url:
     - https://0x-noname.github.io/writeups/nyx/share
     - https://youtu.be/S3xTSdaQ2Ho
+    - https://youtu.be/xJ8NifwHm2g
 writeup-dark:
   rooted: true
   creator:
@@ -274,8 +308,52 @@ writeup-dark:
 writeup-plot:
   rooted: true
   creator:
+    - noname
+    - Anonimo501
+    - dirtyc0w
   url:
+    - https://0x-noname.github.io/writeups/nyx/plot
+    - https://www.youtube.com/watch?v=QHts4aUA_3I
+    - https://youtu.be/s3A1hjs0NhI
 writeup-cap:
+  rooted: true
+  creator:
+  url:
+writeup-remote:
+  rooted: true
+  creator:
+    - m3n0sd0n4ld
+    - dirtyc0w
+    - Anonimo501
+  url:
+    - https://m3n0sd0n4ld.blogspot.com/2023/08/remote-vulnyx-writeup.html
+    - https://youtu.be/O8uOrW9A5hk
+    - https://www.youtube.com/watch?v=DGcXBZnZx6c
+writeup-goetia:
+  rooted: true
+  creator:
+    - noname
+  url:
+    - https://0x-noname.github.io/writeups/nyx/goetia
+writeup-slash:
+  rooted: true
+  creator:
+    - FredBrave
+    - Anonimo501
+  url:
+    - https://fredbrave.github.io/Slash-Writeup
+    - https://youtu.be/SBKQULGgmGM
+writeup-travel:
+  rooted: true
+  creator:
+    - UnD3sc0n0c1d0
+  url:
+    - https://infayer.com/archivos/2385
+writeup-annunciation:
+  rooted: true
+  creator:
+  url:
+writeup-play:
   rooted: false
   creator:
   url:
