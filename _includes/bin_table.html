@@ -53,7 +53,7 @@
           {% assign trimmed_filename = filename | slice: 3, filename.size | remove_first: '.md' %}
           <tr>
             {% assign filename = file.path | slice: 5, file.path.size %}
-            <td class="vm-name"><span class="bin-name">{{ trimmed_filename }}</span></td>
+            <td class="vm-name" id="vm"><span class="bin-name">{{ trimmed_filename }}</span></td>
             <td class="creator">{% include creator_list.html bin=file %}</td>
             <td class="card">{% include card_list.html bin=file %}</td>
             <td>{% include level_list.html bin=file %}</td>
@@ -81,7 +81,7 @@
     const mediumVMs = document.querySelector('#medium-vms');
     const hardVMs = document.querySelector('#hard-vms');
 
-    totalVMs.textContent = document.querySelectorAll('.vm-name').length;
+    totalVMs.textContent = document.querySelectorAll('#vm').length;
     easyVMs.textContent = document.querySelectorAll('.easy').length;
     mediumVMs.textContent = document.querySelectorAll('.medium').length;
     hardVMs.textContent = document.querySelectorAll('.hard').length;
