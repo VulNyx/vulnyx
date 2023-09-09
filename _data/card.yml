@@ -293,3 +293,9 @@ card-annunciation:
   creator: UnD3sc0n0c1d0
   release: 31 August 2023
   status: Active
+card-play:
+  name: Play
+  difficulty: Easy
+  creator: d4t4s3c
+  release: 09 September 2023
+  status: Active
