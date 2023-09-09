@@ -53,6 +53,11 @@ a strong {
   color: $red;
 }
 
+
+a strong:hover {
+  opacity: 0.7;
+}
+
 header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -96,9 +101,11 @@ h2 {
   margin-bottom: 1rem;
 }
 
-p,
-#submit-rules,
-#pull-request-optional {
+#submit-vm, #submit-writeups {
+  margin: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+p {
   margin: 1rem;
 }
 
@@ -572,20 +579,20 @@ td div {
   align-items: center;
 }
 
-.contact-form {
+.submit-form {
   width: 100%;
-  max-width: 568px;
-  padding: 40px;
+  max-width: 50vw;
+  padding: 2rem;
   border-radius: 4px;
   border: 1px solid #bbb;
 }
 
-.contact-form--loading {
+.submit-form--loading {
   opacity: 0.5;
   pointer-events: none;
 }
 
-.contact-form--sent > div ~ div {
+.submit-form--sent > div ~ div {
   margin: 0;
 }
 
@@ -600,6 +607,10 @@ td div {
   border-radius: 4px;
   cursor: pointer;
   box-sizing: border-box;
+}
+
+.button:hover {
+  opacity: 0.7;
 }
 
 footer {
@@ -662,5 +673,10 @@ footer p {
 
   #bin-table {
     padding: 1rem 0;
+  }
+
+  .submit-form {
+    padding: 1rem;
+    max-width: 90vw;
   }
 }
