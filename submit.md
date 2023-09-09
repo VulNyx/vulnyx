@@ -19,11 +19,11 @@ title: Submit
     </article>
     <div>
       <label class="form-label" for="name">VM Name</label>
-      <input class="form-control" id="name" name="VM Name" type="text" required />
+      <input class="form-control" id="name" name="VM Name" type="text"  placeholder="Enter the machine name" required />
     </div>
     <div>
       <label class="form-label" for="creator">Creator</label>
-      <input class="form-control" id="creator" name="Creator" type="text" required />
+      <input class="form-control" id="creator" name="Creator" type="text"  placeholder="Enter your username" required />
     </div>
     <div>
       <label class="form-label" for="level">Level</label>
@@ -35,11 +35,11 @@ title: Submit
     </div>
     <div>
       <label class="form-label" for="url">URL</label>
-      <input class="form-control" id="url" name="URL" type="url" required />
+      <input class="form-control" id="url" name="URL" type="url" placeholder="Enter the machine public url" required />
     </div>
     <div>
       <label class="form-label" for="solution">Solution</label>
-      <textarea class="form-control" id="solution" name="Solution" required></textarea>
+      <textarea class="form-control" id="solution" name="Solution" placeholder="Explain how to solve the machine" required></textarea>
     </div>
     <div>
       <button class="button" type="submit">Submit</button>

@@ -19,11 +19,11 @@ title: Submit
     </article>
     <div>
       <label class="form-label" for="creator">Creator</label>
-      <input class="form-control" id="creator" name="Creator" type="text" required />
+      <input class="form-control" id="creator" name="Creator" type="text" placeholder="Enter your username" required />
     </div>
     <div>
       <label class="form-label" for="url">URL</label>
-      <input class="form-control" id="url" name="URL" type="url" required />
+      <input class="form-control" id="url" name="URL" type="url" placeholder="Enter the public url of your writeup" required />
     </div>
     <div>
       <button class="button" type="submit">Submit</button>
