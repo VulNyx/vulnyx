@@ -87,12 +87,6 @@ header {
   gap: 1rem;
 }
 
-.github-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 a.github-button {
   visibility: hidden;
 }
@@ -151,13 +145,14 @@ main {
 
 .wrapper {
   width: 80vw;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .wrapper article {
+  height: 75px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 0.5rem 0;
+  margin-bottom: 1rem;
 }
 
 #total-vms,
@@ -227,8 +222,8 @@ main {
   font-size: 1.25rem;
 }
 
-td.vvm-name {
-  width: 180px;
+.vm-name, .creator {
+  text-align: left;
 }
 
 td.vvm-diffi,
@@ -238,10 +233,15 @@ td.vvm-wal {
   text-align: center;
 }
 
-#bin-table {
-  margin: auto;
+#bin-table-wrapper {
   width: 80vw;
-  padding: 1.5rem 0;
+  border: 1px solid #808080;
+  border-radius: 0.25rem;
+}
+
+#bin-table {
+  width: 100%;
+  margin: auto;
   border-collapse: separate;
   border-spacing: 0;
 }
@@ -249,11 +249,15 @@ td.vvm-wal {
 th,
 td {
   text-align: center;
-  padding: 0.5rem;
+  padding: 0 1rem;
+}
+
+td {
+  height: 52px;
 }
 
 th {
-  padding: 0.75rem;
+  height: 56px;
   color: #d99ba3;
   background-color: #1d1c1c;
 }
@@ -368,12 +372,6 @@ td div {
 .tags {
   color: white;
   font-weight: bold;
-}
-
-.md5,
-.creator,
-.writeups {
-  font-size: 0.85rem;
 }
 
 .md5 {
@@ -627,14 +625,11 @@ footer p {
   .card,
   .tested,
   .pwned,
-  .writeups,
   .md5,
   #card,
   #tested,
   #pwned,
-  #writeups,
-  #md5,
-  .github-buttons {
+  #md5 {
     display: none;
   }
 
