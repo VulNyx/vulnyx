@@ -353,3 +353,7 @@ writeup-annunciation:
   rooted: true
   creator:
   url:
+writeup-play:
+  rooted: false
+  creator:
+  url:
