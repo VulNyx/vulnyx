@@ -80,6 +80,7 @@ header {
 }
 
 .navbar a:hover,
+.media-links a:hover,
 .media-links a:hover {
   color: inherit;
   background-color: rgb(75, 85, 99);
@@ -151,7 +152,6 @@ main {
 }
 
 .wrapper {
-  width: 80vw;
   margin: 1.5rem 0;
 }
 
@@ -204,7 +204,7 @@ main {
   padding: 0.75rem;
   padding-left: 2rem;
   border-radius: 0.25em;
-  border: 1px solid #808080;
+  border: 2px solid #808080;
   color: $white;
   background-color: $red;
   font-size: 1rem;
@@ -241,8 +241,7 @@ td.vvm-wal {
 }
 
 #bin-table-wrapper {
-  width: 80vw;
-  border: 1px solid #808080;
+  border: 2px solid #808080;
   border-radius: 0.25rem;
 }
 
@@ -298,6 +297,13 @@ tr:first-child th:last-child {
   border-top-right-radius: 0.25rem;
 }
 
+.card-body tr:first-child td:first-child {
+  border-top-left-radius: 0.25rem;
+}
+.card-body tr:first-child td:last-child {
+  border-top-right-radius: 0.25rem;
+}
+
 tr:last-child td:first-child {
   border-bottom-left-radius: 0.25rem;
 }
@@ -325,8 +331,21 @@ td div {
   color: white;
 }
 
-.card-body td {
-  border: 1px solid #808080;
+.card-body-wrapper {
+  border: 2px solid #808080;
+  border-radius: 0.15rem;
+}
+
+.card-body {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#card-logo {
+  position: relative;
+  top: 0.5rem;
 }
 
 #Active {
@@ -674,7 +693,9 @@ footer p {
   #bin-table {
     padding: 1rem 0;
   }
+}
 
+@media (min-width: 320px) and (max-width: 1500px) {
   .submit-form {
     padding: 1rem;
     max-width: 90vw;
