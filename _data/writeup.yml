@@ -354,6 +354,6 @@ writeup-annunciation:
   creator:
   url:
 writeup-play:
-  rooted: false
+  rooted: true
   creator:
   url:
