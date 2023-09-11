@@ -5,7 +5,7 @@
 $marked: #0000ff;
 $dark: #141414;
 $red: #bd4658;
-$row: #1f1414;
+$th: #3f2929;
 $even-row: #b65261;
 $hover-color: #86d6fc;
 $white: #ffffff;
@@ -18,9 +18,13 @@ $white: #ffffff;
 }
 
 body {
-  background: $dark;
+  background-color: #1d1c1c;
   color: $white;
   min-height: 100vh;
+}
+
+header, footer {
+  background-color: $dark;
 }
 
 code {
@@ -229,7 +233,7 @@ main {
   font-size: 1.25rem;
 }
 
-.vm-name, .creator {
+.vm-name, .creator, .first-user, .first-root {
   text-align: left;
 }
 
@@ -264,8 +268,9 @@ td {
 
 th {
   height: 56px;
-  color: #d99ba3;
-  background-color: #1d1c1c;
+  background-color: $th;
+  color: #fff;
+  border-bottom: 2px solid #808080;
 }
 
 .tested {
@@ -488,6 +493,11 @@ td div {
   border: 1px solid #bbb !important;
 }
 
+/* .floatingchat-container-wrap {
+  position: sticky !important;
+  top: 100vh !important;
+} */
+
 .easy, .badge-easy, #Easy {
   background-color: #4c9b51;
 }
@@ -654,11 +664,11 @@ footer p {
 
   .card,
   .tested,
-  .pwned,
+  .first-user,
+  .first-root,
   .md5,
   #card,
   #tested,
-  #pwned,
   #md5 {
     display: none;
   }
@@ -723,7 +733,7 @@ footer p {
     width: 90vw;
   }
 
-  .tested, #tested, .pwned, #pwned {
+  .tested, #tested {
     display: none;
   }
 }

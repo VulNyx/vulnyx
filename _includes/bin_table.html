@@ -36,23 +36,21 @@
       <table id="bin-table">
         <thead>
           <tr>
+            <th id="card">Card</th>
             <th class="vm-name">Name</th>
             <th class="creator">Creator</th>
-            <th id="card">Card</th>
             <th>Level</th>
             <th id="tested">Tested</th>
-            <th>URL</th>
+            <th>File</th>
             <th id="md5">MD5</th>
-            <th id="first-user">First User</th>
-            <th id="first-root">First Root</th>
+            <th class="first-user">First User</th>
+            <th class="first-root">First Root</th>
             <th id="writeups">Writeups</th>
           </tr>
         </thead>
         <tbody>
           {% for data in site.data.db reversed %}
           <tr>
-            <td class="vm-name" id="vm"><span class="bin-name">{{ data[1].name }}</span></td>
-            <td class="creator">{{ data[1].creator }}</td>
             <td class="card">
               <button class="card-btn" title="Show card!" onclick="showCard('{{  data[1].name }}', '{{  data[1].difficulty }}', '{{  data[1].creator }}', '{{  data[1].release }}', '{{  data[1].status }}')">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-id" width="24" height="24"
@@ -67,6 +65,8 @@
                 </svg> 
             </button>
             </td>
+            <td class="vm-name" id="vm"><span class="bin-name">{{ data[1].name }}</span></td>
+            <td class="creator">{{ data[1].creator }}</td>
             <td>
               <span class="level-btn {{ data[1].difficulty | downcase }}">{{ data[1].difficulty }}</span>
             </td>
