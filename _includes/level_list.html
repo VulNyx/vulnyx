@@ -1,6 +1,0 @@
-{% for diffi_pair in site.data.level %}
-    {% assign diffi_id = diffi_pair[0] %}
-    {% assign diffi = diffi_pair[1] %}
-    {% unless include.bin.level[diffi_id] %}{% continue %}{% endunless %}
-    {{ diffi.label }}
-{% endfor %}
