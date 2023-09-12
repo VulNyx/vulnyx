@@ -737,3 +737,9 @@ footer p {
     display: none;
   }
 }
+
+@media (min-width: 1600px) {
+  .wrapper {
+    width: 75vw;
+  }
+}
