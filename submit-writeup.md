@@ -34,7 +34,7 @@ title: Submit
         <a href="/rules" target="_blank">
           <strong>Rules</strong>
         </a> 
-        section before submitting a new vm.
+        section before submitting a new writeup.
       </small>
     </div>
   </form>
