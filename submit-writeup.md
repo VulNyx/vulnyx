@@ -29,6 +29,14 @@ title: Submit
       <button class="button" type="submit">Submit</button>
       <button class="button" type="reset">Clear</button>
     </div>
+    <div class="form-footer">
+      <small>Please read our 
+        <a href="/rules" target="_blank">
+          <strong>Rules</strong>
+        </a> 
+        section before submitting a new vm.
+      </small>
+    </div>
   </form>
 </section>
 
