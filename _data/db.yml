@@ -45,7 +45,7 @@ serve:
   name: Serve
   creator: d4t4s3c
   difficulty: Easy
-  url: https://mega.nz/file/EeoQGLCT#E8Dq-I5C_RlUgZ4sANt4fTh7mbKj693uoeUdOrtV-FI
+  url: https://mega.nz/file/YO4UlSSb#gk77b326CiVUOg2ssQy9uACS_SLl7hxv1dbHIqhIWCg
   md5: ADC6EEE14CC9D4CBD16561E73338D818
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
@@ -63,7 +63,7 @@ brain:
   name: Brain
   creator: d4t4s3c
   difficulty: Easy
-  url: https://mega.nz/file/YO4UlSSb#gk77b326CiVUOg2ssQy9uACS_SLl7hxv1dbHIqhIWCg
+  url: https://mega.nz/file/hOZjRKCQ#JsPAvJoPp4EqS4T6j6_ABjw9fnyyyaGG11qcW3VFay4
   md5: 6673F9D485307081CC40FD47E8BEC41B
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
@@ -139,8 +139,8 @@ secrets:
   name: Secrets
   creator: d4t4s3c
   difficulty: Medium
-  url: https://mega.nz/file/Ie5w0JjJ#uVXwMBWLAQKc04metFBHozlPYfnXfYttuGU_7de_69M
-  md5: 57606E6482F7688B73303E7CBA78EF7C
+  url: https://mega.nz/file/EDhnQRQZ#9N0lulFO5pbiazm_RqW2vp21D7PDY3veDj8u5u6IPCg
+  md5: AEA7FA80127ED5ACE8235F199BB0DD3F
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -197,7 +197,7 @@ backdoor:
   name: Backdoor
   creator: d4t4s3c
   difficulty: Hard
-  url: https://mega.nz/file/NepkQJDD#ElT8o_F865Dudu0UY5AtJlPN0tAk9UwVsLAvE3wLRAA
+  url: https://mega.nz/file/JWZkWbaK#dweF9LffFolkFWqyHF8VRujWh11H6rxBC7G38XX7ICs
   md5: 070FC35D80C6DDDE0D3FE76D7486784F
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
@@ -766,8 +766,8 @@ share:
   name: Share
   creator: d4t4s3c
   difficulty: Easy
-  url: https://mega.nz/file/RKQ3kSZL#0wNDSRcsubxyzfJWXbXYrqVRPgIplTcQAdB-fMf-m30
-  md5: DB029F32025EBF43E4DAC31CBB40818B
+  url: https://mega.nz/file/leIUWRwB#0M9_9Uu9eHchWsJW9PKgIsGP_Iz1VzLr3ESVWbp8ysE
+  md5: FD1F1691D748AA356204C19628084F74
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
