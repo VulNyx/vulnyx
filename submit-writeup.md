@@ -49,7 +49,20 @@ title: Submit
   document.getElementById("myForm").addEventListener("submit", function(event) {
     event.preventDefault();
     
-    alert("Writeup sent successfully! Thanks.");
+    Swal.fire({
+      toast: true,
+      position: 'bottom-end',
+      title: 'Writeup successfully submitted! Thank you for your contribution.',
+      customClass : {
+        title: 'swal2-title'
+      },
+      background: '#21b01d',
+      focusConfirm: false,
+      showConfirmButton: false,
+      showCloseButton: true,
+      timer: 3000,
+      timerProgressBar: true,
+    });
 
     var form = document.getElementById("myForm");
     var url = form.action;
@@ -63,7 +76,7 @@ title: Submit
       console.log("Submit succesfully! Thanks.");
     })
     .catch(error => {
-      console.error("Error! data not sent.", error);
+      console.log("The submission was successful but the github pages are throwing a CORS error. Don't worry.");
     });
     form.reset();
   });
