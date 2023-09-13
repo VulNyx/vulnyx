@@ -493,6 +493,14 @@ td div {
   border: 1px solid #bbb !important;
 }
 
+.swal2-title {
+  color: white !important;
+}
+
+.swal2-popup.swal2-toast {
+	box-shadow: none !important;
+}
+
 /* .floatingchat-container-wrap {
   position: sticky !important;
   top: 100vh !important;
