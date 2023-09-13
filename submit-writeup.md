@@ -5,7 +5,6 @@ title: Submit
 
 {% raw %}
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <section class="form-container">
   <form class="form submit-form" id="myForm" action="https://formspree.io/f/xbjewngg" method="POST">
     <article class="form-options">
@@ -19,11 +18,11 @@ title: Submit
     </article>
     <div>
       <label class="form-label" for="creator">Creator</label>
-      <input class="form-control" id="creator" name="Creator" type="text" placeholder="Enter your username" required />
+      <input class="form-control" id="creator" name="Creator" type="text" maxlength="15" placeholder="Enter your username" required />
     </div>
     <div>
       <label class="form-label" for="url">URL</label>
-      <input class="form-control" id="url" name="URL" type="url" placeholder="Enter the public url of your writeup" required />
+      <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+" placeholder="Enter the public url of your writeup" required />
     </div>
     <div>
       <button class="button" type="submit">Submit</button>

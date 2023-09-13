@@ -5,7 +5,6 @@ title: Submit
 
 {% raw %}
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <section class="form-container">
   <form class="form submit-form" id="myForm" action="https://formspree.io/f/xbjewngg" method="POST">
     <article class="form-options">
@@ -19,11 +18,11 @@ title: Submit
     </article>
     <div>
       <label class="form-label" for="name">VM Name</label>
-      <input class="form-control" id="name" name="VM Name" type="text"  placeholder="Enter the machine name" required />
+      <input class="form-control" id="name" name="VM Name" type="text" maxlength="20"  placeholder="Enter the machine name" required />
     </div>
     <div>
       <label class="form-label" for="creator">Creator</label>
-      <input class="form-control" id="creator" name="Creator" type="text"  placeholder="Enter your username" required />
+      <input class="form-control" id="creator" name="Creator" type="text" maxlength="15"  placeholder="Enter your username" required />
     </div>
     <div>
       <label class="form-label" for="level">Level</label>
@@ -35,11 +34,11 @@ title: Submit
     </div>
     <div>
       <label class="form-label" for="url">URL</label>
-      <input class="form-control" id="url" name="URL" type="url" placeholder="Enter the public url of your machine" required />
+      <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+" placeholder="Enter the public url of your machine" required />
     </div>
     <div>
       <label class="form-label" for="solution">Solution</label>
-      <textarea class="form-control" id="solution" name="Solution" rows="10" placeholder="Explain how to solve the machine. Indicate the steps to get the user and root flags." required></textarea>
+      <textarea class="form-control" id="solution" name="Solution" maxlength="2000" rows="10" placeholder="Explain how to solve the machine. Indicate the steps to get the user and root flags." required></textarea>
     </div>
     <div>
       <button class="button" type="submit">Submit</button>
@@ -47,7 +46,7 @@ title: Submit
     </div>
     <div class="form-footer">
       <small>Please read our 
-        <a href="https://vulnyx.github.io/rules/" target="_blank">
+        <a href="/rules" target="_blank">
           <strong>Rules</strong>
         </a> 
         section before submitting a new vm.
