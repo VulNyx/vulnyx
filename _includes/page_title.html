@@ -47,6 +47,11 @@
 </header>
 <script>
 let path = window.location.pathname.split('/')[1];
+
+if(path === 'submit-writeup') {
+  path = 'submit';
+}
+
 let navElement = document.querySelector(`#${path}`);
 let home = document.querySelector('#home');
 
