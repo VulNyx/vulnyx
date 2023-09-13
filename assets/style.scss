@@ -4,7 +4,7 @@
 // Custom Variables
 $marked: #0000ff;
 $dark: #141414;
-$red: #bd4658;
+$red: #d9534f;
 $th: #3f2929;
 $even-row: #b65261;
 $hover-color: #86d6fc;
@@ -18,7 +18,7 @@ $white: #ffffff;
 }
 
 body {
-  background-color: #1d1c1c;
+  background-color: #272626;
   color: $white;
   min-height: 100vh;
 }
@@ -66,8 +66,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  padding: 1rem;
-  border-bottom: 1px solid #727272;
+  // padding: 1rem;
 }
 
 .navbar {
@@ -79,16 +78,29 @@ header {
 
 .navbar a {
   font-weight: bold;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 1.5rem;
 }
 
-.navbar a:hover,
-.media-links a:hover,
+.active-nav {
+  color: #d9534f !important;
+  border-bottom: 2px solid #d9534f;
+}
+
+.navbar a:hover {
+  color: rgb(75, 85, 99);
+  border-bottom: 2px solid rgb(75, 85, 99);
+}
+
+.active-nav:hover {
+  cursor: default;
+  border-bottom: 2px solid #d9534f !important;
+}
+
+/* .media-links a:hover,
 .media-links a:hover {
   color: inherit;
   background-color: rgb(75, 85, 99);
-}
+} */
 
 .project-info {
   display: flex;
@@ -654,7 +666,6 @@ footer {
   position: sticky;
   top: 100vh;
   padding: 1rem;
-  border-top: 1px solid #727272;
 }
 
 footer p {

@@ -3,9 +3,9 @@
     <img class="logo" alt="VulNyx website logo" src="/assets/logo.png">
   </article>
   <nav class="navbar">
-    <a href="/">Home</a>
-    <a href="/rules">Rules</a>
-    <a href="/submit">Submit</a>
+    <a id="home" class="active-nav" href="/">Home</a>
+    <a id="rules" href="/rules">Rules</a>
+    <a id="submit" href="/submit">Submit</a>
   </nav>
   <article class="project-info">
     <div class="media-links">
@@ -45,3 +45,13 @@
     </div>
   </article>
 </header>
+<script>
+let path = window.location.pathname.split('/')[1];
+let navElement = document.querySelector(`#${path}`);
+let home = document.querySelector('#home');
+
+if(navElement) {
+  home.classList.remove("active-nav");
+  navElement.classList.toggle('active-nav');
+}
+</script>
