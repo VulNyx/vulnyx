@@ -1,16 +1,13 @@
 <header>
   <article class="logo-wrapper">
-    <img class="logo" alt="VulNyx website logo" src="/assets/vulnyx-logo.png">
+    <img class="logo" alt="VulNyx website logo" src="/assets/logo.png">
   </article>
   <nav class="navbar">
-    <a href="/">Home</a>
-    <a href="/rules">Rules</a>
-    <a href="/submit">Submit</a>
+    <a id="home" class="active-nav" href="/">Home</a>
+    <a id="rules" href="/rules">Rules</a>
+    <a id="submit" href="/submit">Submit</a>
   </nav>
   <article class="project-info">
-    <div class="github-buttons">
-      <a class="github-button" href="https://github.com/VulNyx/vulnyx.github.io" data-icon="octicon-star" data-show-count="true" aria-label="Star VulNyx/VulNyx.github.io on GitHub">Star</a>
-    </div>
     <div class="media-links">
       <a title="Discord" href="https://discord.gg/qdm3bN3Emb" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-discord" width="24"
@@ -48,3 +45,18 @@
     </div>
   </article>
 </header>
+<script>
+let path = window.location.pathname.split('/')[1];
+
+if(path === 'submit-writeup') {
+  path = 'submit';
+}
+
+let navElement = document.querySelector(`#${path}`);
+let home = document.querySelector('#home');
+
+if(navElement) {
+  home.classList.remove("active-nav");
+  navElement.classList.toggle('active-nav');
+}
+</script>

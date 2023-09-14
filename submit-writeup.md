@@ -5,9 +5,8 @@ title: Submit
 
 {% raw %}
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <section class="form-container">
-  <form class="form contact-form" id="myForm" action="https://formspree.io/f/xbjewngg" method="POST">
+  <form class="form submit-form" id="myForm" action="https://formspree.io/f/xbjewngg" method="POST">
     <article class="form-options">
       <a href="/submit/">
         <strong>VM</strong>
@@ -19,15 +18,23 @@ title: Submit
     </article>
     <div>
       <label class="form-label" for="creator">Creator</label>
-      <input class="form-control" id="creator" name="Creator" type="text" required />
+      <input class="form-control" id="creator" name="Creator" type="text" maxlength="15" placeholder="Enter your username" required />
     </div>
     <div>
       <label class="form-label" for="url">URL</label>
-      <input class="form-control" id="url" name="URL" type="url" required />
+      <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+" placeholder="Enter the public url of your writeup" required />
     </div>
     <div>
       <button class="button" type="submit">Submit</button>
       <button class="button" type="reset">Clear</button>
+    </div>
+    <div class="form-footer">
+      <small>Please read our 
+        <a href="/rules" target="_blank">
+          <strong>Rules</strong>
+        </a> 
+        section before submitting a new writeup.
+      </small>
     </div>
   </form>
 </section>
@@ -42,7 +49,20 @@ title: Submit
   document.getElementById("myForm").addEventListener("submit", function(event) {
     event.preventDefault();
     
-    alert("Writeup sent successfully! Thanks.");
+    Swal.fire({
+      toast: true,
+      position: 'bottom-end',
+      title: 'Writeup successfully submitted! Thank you for your contribution.',
+      customClass : {
+        title: 'swal2-title'
+      },
+      background: '#21b01d',
+      focusConfirm: false,
+      showConfirmButton: false,
+      showCloseButton: true,
+      timer: 3000,
+      timerProgressBar: true,
+    });
 
     var form = document.getElementById("myForm");
     var url = form.action;
@@ -56,7 +76,7 @@ title: Submit
       console.log("Submit succesfully! Thanks.");
     })
     .catch(error => {
-      console.error("Error! data not sent.", error);
+      console.log("The submission was successful but the github pages are throwing a CORS error. Don't worry.");
     });
     form.reset();
   });

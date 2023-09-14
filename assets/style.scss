@@ -4,8 +4,8 @@
 // Custom Variables
 $marked: #0000ff;
 $dark: #141414;
-$red: #bd4658;
-$row: #1f1414;
+$red: #d9534f;
+$th: #3f2929;
 $even-row: #b65261;
 $hover-color: #86d6fc;
 $white: #ffffff;
@@ -18,9 +18,13 @@ $white: #ffffff;
 }
 
 body {
-  background: $dark;
+  background-color: #272626;
   color: $white;
   min-height: 100vh;
+}
+
+header, footer {
+  background-color: $dark;
 }
 
 code {
@@ -49,7 +53,13 @@ a:hover {
   color: $hover-color;
 }
 
-a strong {
+.active strong {
+  color: $red;
+  text-decoration: underline;
+}
+
+a strong:hover {
+  opacity: 0.7;
   color: $red;
 }
 
@@ -57,8 +67,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  padding: 1rem;
-  border-bottom: 1px solid #727272;
+  // padding: 1rem;
 }
 
 .navbar {
@@ -70,11 +79,25 @@ header {
 
 .navbar a {
   font-weight: bold;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 1.5rem;
 }
 
-.navbar a:hover,
+.active-nav {
+  color: #d9534f !important;
+  border-bottom: 2px solid #d9534f;
+}
+
+.navbar a:hover {
+  color: rgb(75, 85, 99);
+  border-bottom: 2px solid rgb(75, 85, 99);
+}
+
+.active-nav:hover {
+  cursor: default;
+  border-bottom: 2px solid #d9534f !important;
+}
+
+.media-links a:hover,
 .media-links a:hover {
   color: inherit;
   background-color: rgb(75, 85, 99);
@@ -87,12 +110,6 @@ header {
   gap: 1rem;
 }
 
-.github-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 a.github-button {
   visibility: hidden;
 }
@@ -102,9 +119,11 @@ h2 {
   margin-bottom: 1rem;
 }
 
-p,
-#submit-rules,
-#pull-request-optional {
+#submit-vm, #submit-writeups {
+  margin: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+p {
   margin: 1rem;
 }
 
@@ -150,14 +169,14 @@ main {
 }
 
 .wrapper {
-  width: 80vw;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .wrapper article {
+  height: 75px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 0.5rem 0;
+  margin-bottom: 1rem;
 }
 
 #total-vms,
@@ -202,7 +221,7 @@ main {
   padding: 0.75rem;
   padding-left: 2rem;
   border-radius: 0.25em;
-  border: 1px solid #808080;
+  border: 2px solid #808080;
   color: $white;
   background-color: $red;
   font-size: 1rem;
@@ -227,8 +246,8 @@ main {
   font-size: 1.25rem;
 }
 
-td.vvm-name {
-  width: 180px;
+.vm-name, .creator, .first-user, .first-root {
+  text-align: left;
 }
 
 td.vvm-diffi,
@@ -238,10 +257,14 @@ td.vvm-wal {
   text-align: center;
 }
 
+#bin-table-wrapper {
+  border: 2px solid #808080;
+  border-radius: 0.25rem;
+}
+
 #bin-table {
+  width: 100%;
   margin: auto;
-  width: 80vw;
-  padding: 1.5rem 0;
   border-collapse: separate;
   border-spacing: 0;
 }
@@ -249,13 +272,18 @@ td.vvm-wal {
 th,
 td {
   text-align: center;
-  padding: 0.5rem;
+  padding: 0 1rem;
+}
+
+td {
+  height: 52px;
 }
 
 th {
-  padding: 0.75rem;
-  color: #d99ba3;
-  background-color: #1d1c1c;
+  height: 56px;
+  background-color: $th;
+  color: #fff;
+  border-bottom: 2px solid #808080;
 }
 
 .tested {
@@ -287,6 +315,13 @@ tr:first-child th:last-child {
   border-top-right-radius: 0.25rem;
 }
 
+.card-body tr:first-child td:first-child {
+  border-top-left-radius: 0.25rem;
+}
+.card-body tr:first-child td:last-child {
+  border-top-right-radius: 0.25rem;
+}
+
 tr:last-child td:first-child {
   border-bottom-left-radius: 0.25rem;
 }
@@ -314,8 +349,21 @@ td div {
   color: white;
 }
 
-.card-body td {
-  border: 1px solid #808080;
+.card-body-wrapper {
+  border: 2px solid #808080;
+  border-radius: 0.15rem;
+}
+
+.card-body {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#card-logo {
+  position: relative;
+  top: 0.5rem;
 }
 
 #Active {
@@ -368,12 +416,6 @@ td div {
 .tags {
   color: white;
   font-weight: bold;
-}
-
-.md5,
-.creator,
-.writeups {
-  font-size: 0.85rem;
 }
 
 .md5 {
@@ -463,6 +505,19 @@ td div {
 .swal2-border {
   border: 1px solid #bbb !important;
 }
+
+.swal2-title {
+  color: white !important;
+}
+
+.swal2-popup.swal2-toast {
+	box-shadow: none !important;
+}
+
+/* .floatingchat-container-wrap {
+  position: sticky !important;
+  top: 100vh !important;
+} */
 
 .easy, .badge-easy, #Easy {
   background-color: #4c9b51;
@@ -565,29 +620,25 @@ td div {
   gap: 1rem;
 }
 
-.form-options .active {
-  text-decoration: underline;
-}
-
 .form-footer {
   display: flex;
   align-items: center;
 }
 
-.contact-form {
+.submit-form {
   width: 100%;
-  max-width: 568px;
-  padding: 40px;
+  max-width: 50vw;
+  padding: 2rem;
   border-radius: 4px;
   border: 1px solid #bbb;
 }
 
-.contact-form--loading {
+.submit-form--loading {
   opacity: 0.5;
   pointer-events: none;
 }
 
-.contact-form--sent > div ~ div {
+.submit-form--sent > div ~ div {
   margin: 0;
 }
 
@@ -604,18 +655,21 @@ td div {
   box-sizing: border-box;
 }
 
+.button:hover {
+  opacity: 0.7;
+}
+
 footer {
   position: sticky;
   top: 100vh;
   padding: 1rem;
-  border-top: 1px solid #727272;
 }
 
 footer p {
   text-align: center;
 }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 700px) {
   header {
     display: flex;
     flex-direction: column;
@@ -626,15 +680,12 @@ footer p {
 
   .card,
   .tested,
-  .pwned,
-  .writeups,
+  .first-user,
+  .first-root,
   .md5,
   #card,
   #tested,
-  #pwned,
-  #writeups,
-  #md5,
-  .github-buttons {
+  #md5 {
     display: none;
   }
 
@@ -645,27 +696,66 @@ footer p {
     font-size: 0.8rem;
   }
 
-  th {
-    padding: 0.5rem;
-  }
-
   td, .navbar a {
     padding: 0.25rem;
   }
 
+  th, td, .level-btn, .badge {
+    padding: 0.25rem;
+    font-size: 0.75rem;;
+  }
+
+  .wrapper  {
+    width: 95vw;
+  }
+
   .wrapper article {
+    height: 125px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 1.5rem;
+  }
+
+  #bin-search-wrapper {
+    justify-content: center;
   }
 
   .vm-stats {
     gap: 0.75rem
   }
+}
 
-  #bin-table {
-    padding: 1rem 0;
+
+@media (min-width: 700px) and (max-width: 812px) {
+  #md5-hash {
+    left: 0px;
+    top: 16px;
+  }
+  
+  .copy-btn {
+    top: 0px;
+    left: 25px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1500px) {
+  .submit-form {
+    padding: 1rem;
+    max-width: 90vw;
+  }
+
+  .wrapper {
+    width: 90vw;
+  }
+
+  .tested, #tested {
+    display: none;
+  }
+}
+
+@media (min-width: 1600px) {
+  .wrapper {
+    width: 75vw;
   }
 }
