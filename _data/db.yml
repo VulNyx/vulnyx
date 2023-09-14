@@ -859,7 +859,7 @@ remote:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 16 Aug 2023
-  status: Active
+  status: Retired
 goetia:
   name: Goetia
   creator: UnD3sc0n0c1d0
@@ -876,7 +876,7 @@ goetia:
   firstUser: Powerful
   firstRoot: Powerful
   release: 18 Aug 2023
-  status: Active
+  status: Retired
 slash:
   name: Slash
   creator: d4t4s3c
@@ -896,7 +896,7 @@ slash:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 18 Aug 2023
-  status: Active
+  status: Retired
 travel:
   name: Travel
   creator: d4t4s3c
@@ -914,7 +914,7 @@ travel:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 24 Aug 2023
-  status: Active
+  status: Retired
 annunciation:
   name: Annunciation
   creator: UnD3sc0n0c1d0
@@ -927,7 +927,7 @@ annunciation:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 31 Aug 2023
-  status: Active
+  status: Retired
 play:
   name: Play
   creator: d4t4s3c
@@ -945,4 +945,18 @@ play:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 09 Sep 2023
-  status: Active
+  status: Retired
+baal: 
+  name: Baal
+  creator: UnD3sc0n0c1d0
+  difficulty: Medium
+  url: https://mega.nz/file/FHhEyIDQ#DeE5KfZi5HCSNrcB1oSY2vmjBBi9FkywLuR1zG1DCWg
+  md5: AF26FE68F0FE726DF5A80C438F1977A2
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups: 
+  firstUser: 
+  firstRoot: 
+  release: 14 Sep 2023
+  status: Retired
