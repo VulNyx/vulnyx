@@ -1,6 +1,6 @@
 <main>
   <section class="wrapper">
-    <article>
+    <article class="filters">
       <ul class="vm-stats">
         <li>
           <span id="total-vms"></span>
@@ -41,7 +41,7 @@
             <th class="creator">Creator</th>
             <th>Level</th>
             <th id="tested">Tested</th>
-            <th>File</th>
+            <th class="url">File</th>
             <th id="md5">MD5</th>
             <th class="first-user">First User</th>
             <th class="first-root">First Root</th>
@@ -49,6 +49,10 @@
           </tr>
         </thead>
         <tbody>
+          <script>
+            let writeupsArr = [];
+            let writeupObj = {};
+          </script>
           {% for data in site.data.db reversed %}
           <tr>
             <td class="card">
@@ -115,7 +119,12 @@
             <td class="writeups">
               {% if data[1].writeups %}
                 {% for url in data[1].writeups.url %}
-                  <a href="{{ url }}" title="by {{ data[1].writeups.creator[forloop.index0] }}" target="_blank">
+                  <script>
+                    writeupObj = { name: "{{ data[1].name }}", creator: "{{ data[1].writeups.creator[forloop.index0] }}", url: "{{ url }}" };
+                    writeupsArr.push(writeupObj);
+                  </script>
+                {% endfor %}
+                  <button class="writeup-btn" title="Show writeups" onclick="showWriteups('{{ data[1].name }}')">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="24" height="24"
                       viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
                       stroke-linejoin="round">
@@ -126,8 +135,14 @@
                       <line x1="12" y1="6" x2="12" y2="19" />
                       <line x1="21" y1="6" x2="21" y2="19" />
                     </svg>
-                  </a>
-               {% endfor %}
+                  </button>
+                  <section id="{{ data[1].name }}" class="modal">
+                    <article class="modal-content">
+                      <span class="close">&times;</span>
+                      <h1 class="writeup-title"></h1>
+                      <div class="writeups-container"></div>
+                    </article>
+                  </section>
               {% else %}
                 <span title="Nothing...">
                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="24" height="24"
@@ -213,6 +228,33 @@
       tooltip.style.visibility = 'hidden';
       tooltip.style.opacity = '0';
     }, 2000);
+  }
+
+  
+  function showWriteups(name) {
+    document.querySelector('body').style.overflow = 'hidden';
+    let modal = document.querySelector(`#${name}`);
+    let title = modal.querySelector('h1');
+    title.textContent = `Writeups for ${name}`;
+    let writeupsContainer = modal.querySelector('.writeups-container');
+    let span = modal.querySelector('.close');
+    modal.style.display = 'block';
+
+    span.onclick = function() {
+      modal.style.display = 'none';
+      document.querySelector('body').style.overflow = 'visible';
+    }
+
+    if(writeupsContainer.childElementCount === 0) {
+      let output = writeupsArr.filter(el => el.name === name);
+      output.forEach(el => {
+        let link = document.createElement('a');
+        link.href = el.url;
+        link.target = '_blank'
+        link.textContent = `by ${el.creator}`;
+        writeupsContainer.appendChild(link);
+      });
+    } 
   }
 
   const setStats = () => {
