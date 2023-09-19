@@ -960,3 +960,17 @@ baal:
   firstRoot: PL4GU3
   release: 14 Sep 2023
   status: Retired
+wicca: 
+  name: Wicca
+  creator: UnD3sc0n0c1d0
+  difficulty: Easy
+  url: https://mega.nz/file/YbBDjQDI#vV964toDsXFloNjT0sfIZ1mmTC23EiGUiJ3HIdDeqD8
+  md5: 6286ACAB071279A41987F599C914E51F
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 19 Sep 2023
+  status: Retired
