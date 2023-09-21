@@ -281,7 +281,7 @@ td {
 
 th {
   height: 56px;
-  background-color: $th;
+  background-color: $dark;
   color: #fff;
 }
 
@@ -292,7 +292,7 @@ th {
 }
 
 tbody tr {
-  background-color: $dark;
+  background-color: #1e2125;
 }
 
 tbody td {
@@ -300,36 +300,7 @@ tbody td {
 }
 
 tbody tr:hover {
-  background-color: #383030;
-}
-
-tbody tr:nth-child(even) {
-  background-color: $red;
-}
-
-tbody tr:nth-child(even):hover {
-  background-color: $even-row;
-}
-
-tr:first-child th:first-child {
-  border-top-left-radius: 0.25rem;
-}
-tr:first-child th:last-child {
-  border-top-right-radius: 0.25rem;
-}
-
-.card-body tr:first-child td:first-child {
-  border-top-left-radius: 0.25rem;
-}
-.card-body tr:first-child td:last-child {
-  border-top-right-radius: 0.25rem;
-}
-
-tr:last-child td:first-child {
-  border-bottom-left-radius: 0.25rem;
-}
-tr:last-child td:last-child {
-  border-bottom-right-radius: 0.25rem;
+  background-color: rgba(0,0,0,.25);
 }
 
 td div {
@@ -368,24 +339,6 @@ td div {
 #card-logo {
   position: relative;
   top: 0.5rem;
-}
-
-#Active {
-  position: relative;
-  bottom: 20px;
-  left: 210px;
-  background-color: green;
-  color: white;
-  border: 2px solid green;
-  border-radius: 0.25rem;
-  padding: 0.5rem;
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-#Retired {
-  position: relative;
-  display: none;
 }
 
 .card-os, .card-difficulty  {
@@ -526,29 +479,6 @@ details {
   cursor: pointer;
 }
 
-// bin examples
-
-.examples {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-  counter-reset: item;
-
-  li {
-    display: table-row;
-
-    &:not(:only-child):before {
-      display: table-cell;
-      font-size: 0.8rem;
-      font-weight: bold;
-      width: 3em;
-      text-align: center;
-      counter-increment: item;
-      content: "(" counter(item, lower-alpha) ")";
-    }
-  }
-}
-
 // other classes
 
 .logo-wrapper {
@@ -559,13 +489,6 @@ details {
   width: 175px;
   height: 45px;
 }
-
-.function-name {
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-// LEVELS BUTTONS
 
 .level-btn,
 .badge {
@@ -588,16 +511,7 @@ details {
 	box-shadow: none !important;
 }
 
-/* .floatingchat-container-wrap {
-  position: sticky !important;
-  top: 100vh !important;
-} */
-
-.easy, #Easy {
-  background-color: #4c9b51;
-}
-
-.badge-easy {
+.badge-easy, .easy, #Easy {
 	color: #4e8a50;
 	border: 2px solid #4e8a50;
 }
@@ -606,11 +520,7 @@ details {
 	color: #4e8a50;
 }
 
-.medium, #Medium {
-  background-color: #e1b300;
-}
-
-.badge-medium {
+.badge-medium, .medium, #Medium  {
 	color: #e1b300;
 	border: 2px solid #e1b300;
 }
@@ -619,48 +529,13 @@ details {
 	color: #e1b300;
 }
 
-.hard, #Hard {
-  background-color: #ec0725;
-}
-
-.badge-hard {
+.badge-hard, .hard, #Hard {
 	color: #ec0725;
 	border: 2px solid #ec0725;
 }
 
 #hard-vms {
 	color: #ec0725;
-}
-
-// disable diffis and platfs from sub taglist
-
-#bin-table
-  > tbody:nth-child(2)
-  > tr
-  > td:nth-child(4)
-  > ul:nth-child(1)
-  > li:nth-child(2),
-#bin-table
-  > tbody:nth-child(2)
-  > tr
-  > td:nth-child(4)
-  > ul:nth-child(1)
-  > li:nth-child(3) {
-  display: none;
-}
-
-.bttop {
-  position: fixed;
-  left: 30px;
-  bottom: 30px;
-  border-radius: 0.25em;
-  padding: 2px 2px;
-}
-
-.newicon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .media-info {
