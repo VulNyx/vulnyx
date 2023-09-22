@@ -12,7 +12,7 @@ title: Submit VM
       <a href="/submit/" class="active">
         <strong>VM</strong>
       </a> 
-      <span>|</span>
+      <span class="form-separator">|</span>
       <a href="/submit-writeup">
         <strong>Writeup</strong>
       </a> 
@@ -68,7 +68,7 @@ title: Submit VM
     
     Swal.fire({
       toast: true,
-      position: 'bottom-end',
+      position: 'bottom',
       title: 'VM successfully submitted! Thank you for your contribution.',
       customClass : {
         title: 'swal2-title'
@@ -77,7 +77,7 @@ title: Submit VM
       focusConfirm: false,
       showConfirmButton: false,
       showCloseButton: true,
-      timer: 3000,
+      timer: 7000,
       timerProgressBar: true,
     });
 
