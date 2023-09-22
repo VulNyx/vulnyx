@@ -524,6 +524,11 @@ details {
 .vm-name-btn {
   display: grid;
   grid-template-columns: 0.1fr 1fr;
+  gap: 12px;
+}
+
+.bin-name, .vm-name {
+  text-align: left;
 }
 
 .easy-dots {
