@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Submit
+title: Submit VM
 ---
 
 {% raw %}
 
+<h1 class="submit-vm">Submit a new VM</h1>
 <section class="form-container">
   <form class="form submit-form" id="myForm" action="https://formspree.io/f/xbjewngg" method="POST">
     <article class="form-options">
