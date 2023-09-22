@@ -39,7 +39,6 @@
             <th id="card">Card</th>
             <th class="vm-name">Name</th>
             <th class="creator">Creator</th>
-            <th>Level</th>
             <th id="tested">Tested</th>
             <th class="url">File</th>
             <th id="md5">MD5</th>
@@ -69,11 +68,13 @@
                 </svg> 
             </button>
             </td>
-            <td class="vm-name" id="vm"><span class="bin-name">{{ data[1].name }}</span></td>
-            <td class="creator">{{ data[1].creator }}</td>
-            <td>
-              <span class="level-btn {{ data[1].difficulty | downcase }}">{{ data[1].difficulty }}</span>
+            <td id="vm">
+              <div class="vm-name-btn level-btn {{ data[1].difficulty | downcase }}">
+                <span class="{{ data[1].difficulty | downcase }}-dots"></span>
+                <span class="bin-name">{{ data[1].name }}</span>
+              </div>  
             </td>
+            <td class="creator">{{ data[1].creator }}</td>
             <td class="tested">
               {% for img in data[1].tested %}
                 {{ img }}

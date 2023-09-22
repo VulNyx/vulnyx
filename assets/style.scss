@@ -245,7 +245,7 @@ main {
   font-size: 1.25rem;
 }
 
-.vm-name, .creator, .first-user, .first-root {
+.creator, .first-user, .first-root {
   text-align: left;
 }
 
@@ -511,27 +511,68 @@ details {
 	box-shadow: none !important;
 }
 
-.badge-easy, .easy, #Easy {
+.badge-easy, #Easy {
 	color: #4e8a50;
 	border: 2px solid #4e8a50;
+}
+
+.easy {
+  color: white;
+	background-color: #4e8a5033;
+}
+
+.vm-name-btn {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+}
+
+.easy-dots {
+  width: 16px;
+  height: 16px;
+  background: #4e8a50;
+  border-radius: 50%;
 }
 
 #easy-vms {
 	color: #4e8a50;
 }
 
-.badge-medium, .medium, #Medium  {
+.badge-medium, #Medium  {
 	color: #e1b300;
 	border: 2px solid #e1b300;
+}
+
+.medium {
+  color: white;
+	background-color: #e1b30033;
+}
+
+.medium-dots {
+  width: 16px;
+  height: 16px;
+  background: #e1b300;
+  border-radius: 50%;
 }
 
 #medium-vms {
 	color: #e1b300;
 }
 
-.badge-hard, .hard, #Hard {
+.badge-hard, #Hard {
 	color: #ec0725;
 	border: 2px solid #ec0725;
+}
+
+.hard {
+  color: white;
+	background-color: #ec072533;
+}
+
+.hard-dots {
+  width: 16px;
+  height: 16px;
+  background: #ec0725;
+  border-radius: 50%;
 }
 
 #hard-vms {
