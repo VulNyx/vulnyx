@@ -54,12 +54,12 @@ a:hover {
 }
 
 .active strong {
-  color: $red;
+  color: #daa04a;
   text-decoration: underline;
 }
 
 a strong {
-  color: $red;
+  color: #daa04a;
 }
 
 a strong:hover {
@@ -282,7 +282,13 @@ td {
 th {
   height: 56px;
   background-color: $dark;
-  color: #fff;
+  color: #daa04a;
+}
+
+.th-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1px;
 }
 
 .tested {
@@ -296,7 +302,8 @@ tbody tr {
 }
 
 tbody td {
-  border-top: 1px solid #939598;
+  border-top: 1px solid #cbc7c7;
+  color: #b2b5b9;
 }
 
 tbody tr:hover {
@@ -454,11 +461,20 @@ details {
   gap: 0.5rem;
 }
 
+.writeups-container a {
+  color: #b2b5b9;
+}
+
+.writeups-container a:hover {
+  color: #86888b;
+}
+
 .writeup-title {
   width: fit-content;
 	margin-bottom: 0.25rem;
 	position: relative;
 	bottom: 47px;
+  color: #daa04a;
 }
 
 .close {
@@ -603,7 +619,7 @@ details {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2.5rem 0;
+  margin-bottom: 1.5rem;
 }
 
 .form > div ~ div {
@@ -623,8 +639,8 @@ details {
   padding: 10px;
   font: 0.875rem/1.5 sans-serif;
   color: #ffffff;
-  background-color: $red;
-  border: 1px solid #bbb;
+  background-color: #1e2125;
+  border: 1px solid #daa04a;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -642,12 +658,20 @@ details {
   align-items: center;
 }
 
+.submit-vm {
+  text-align: center;
+  color: #daa04a;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+
 .submit-form {
   width: 100%;
   max-width: 90vw;
   padding: 2rem;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  background-color: #1e2125;
+  border: 1px solid #daa04a;
 }
 
 .submit-form--loading {
