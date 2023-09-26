@@ -52,6 +52,8 @@ title: Submit
     
     Swal.fire({
       toast: true,
+      icon: 'success',
+      iconColor: '#fff',
       position: 'bottom',
       title: 'Writeup successfully submitted! Thank you for your contribution.',
       customClass : {
@@ -61,7 +63,7 @@ title: Submit
       focusConfirm: false,
       showConfirmButton: false,
       showCloseButton: true,
-      timer: 7000,
+      timer: 7500,
       timerProgressBar: true,
     });
 
