@@ -3,9 +3,9 @@
 
 // Custom Variables
 $marked: #0000ff;
-$dark: #141414;
-$red: #d5303e;
-$th: #3f2929;
+$dark: #25272d;
+$red: #c8574e;
+$th: #78192f;
 $even-row: #cf424e;
 $hover-color: #86d6fc;
 $white: #ffffff;
@@ -18,7 +18,7 @@ $white: #ffffff;
 }
 
 body {
-  background-color: #272626;
+  background-color: #2f323a;
   color: $white;
   min-height: 100vh;
 }
@@ -54,12 +54,12 @@ a:hover {
 }
 
 .active strong {
-  color: $red;
+  color: #daa04a;
   text-decoration: underline;
 }
 
 a strong {
-  color: $red;
+  color: #daa04a;
 }
 
 a strong:hover {
@@ -83,6 +83,7 @@ header {
 .navbar a {
   font-weight: bold;
   padding: 1.5rem;
+  color: #939598;
 }
 
 .active-nav {
@@ -91,8 +92,7 @@ header {
 }
 
 .navbar a:hover {
-  color: rgb(75, 85, 99);
-  border-bottom: 2px solid rgb(75, 85, 99);
+  border-bottom: 2px solid #939598;
 }
 
 .active-nav:hover {
@@ -176,6 +176,10 @@ main {
   margin-bottom: 1rem;
 }
 
+.total-vms, .form-separator {
+  color: #daa04a;
+}
+
 #total-vms,
 #total-vms + span {
   font-size: 1.15rem;
@@ -219,7 +223,7 @@ main {
   border-radius: 0.25em;
   border: 1px solid #b9c4e4 ;
   color: $white;
-  background-color: #72757e ;
+  background-color: #939598 ;
   font-size: 1rem;
 }
 
@@ -241,7 +245,7 @@ main {
   font-size: 1.25rem;
 }
 
-.vm-name, .creator, .first-user, .first-root {
+.creator, .first-user, .first-root {
   text-align: left;
 }
 
@@ -253,7 +257,7 @@ td.vvm-wal {
 }
 
 #bin-table-wrapper {
-  border: 1px solid #808080;
+  border: 1px solid #939598;
   border-radius: 0.25rem;
   overflow: hidden;
 }
@@ -277,8 +281,14 @@ td {
 
 th {
   height: 56px;
-  background-color: $th;
-  color: #fff;
+  background-color: $dark;
+  color: #daa04a;
+}
+
+.th-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .tested {
@@ -288,40 +298,16 @@ th {
 }
 
 tbody tr {
-  background-color: $red;
+  background-color: #1e2125;
 }
 
-tbody tr:hover {
-  background-color: $even-row;
+tbody td {
+  border-top: 1px solid #cbc7c7;
+  color: #c8cbcf;
 }
 
-tbody tr:nth-child(even) {
-  background-color: $dark;
-}
-
-tbody tr:nth-child(even):hover {
-  background-color: #383030;
-}
-
-tr:first-child th:first-child {
-  border-top-left-radius: 0.25rem;
-}
-tr:first-child th:last-child {
-  border-top-right-radius: 0.25rem;
-}
-
-.card-body tr:first-child td:first-child {
-  border-top-left-radius: 0.25rem;
-}
-.card-body tr:first-child td:last-child {
-  border-top-right-radius: 0.25rem;
-}
-
-tr:last-child td:first-child {
-  border-bottom-left-radius: 0.25rem;
-}
-tr:last-child td:last-child {
-  border-bottom-right-radius: 0.25rem;
+#bin-table tr:hover {
+  background-color: rgba(0,0,0,.25);
 }
 
 td div {
@@ -362,30 +348,16 @@ td div {
   top: 0.5rem;
 }
 
-#Active {
-  position: relative;
-  bottom: 20px;
-  left: 210px;
-  background-color: green;
-  color: white;
-  border: 2px solid green;
-  border-radius: 0.25rem;
-  padding: 0.5rem;
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-#Retired {
-  position: relative;
-  display: none;
-}
-
 .card-os, .card-difficulty  {
 	display: flex;
 	align-items: center;
 }
 
-.card-difficulty span {
+.card-text {
+  color: #777171;
+}
+
+.card-difficulty-text {
   margin-left: 0.5rem;
 }
 
@@ -420,7 +392,7 @@ td div {
 
 #md5-hash {
   position: relative;
-  left: 12px;
+  left: 8px;
   top: 2px;
 }
 
@@ -428,7 +400,7 @@ td div {
   cursor: pointer;
   position: relative;
   top: 11px;
-  left: 12px;
+  left: 8px;
   background-color: inherit;
   border: none;
 }
@@ -493,11 +465,20 @@ details {
   gap: 0.5rem;
 }
 
+.writeups-container a {
+  color: #b2b5b9;
+}
+
+.writeups-container a:hover {
+  color: #86888b;
+}
+
 .writeup-title {
   width: fit-content;
 	margin-bottom: 0.25rem;
 	position: relative;
 	bottom: 47px;
+  color: #daa04a;
 }
 
 .close {
@@ -518,29 +499,6 @@ details {
   cursor: pointer;
 }
 
-// bin examples
-
-.examples {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-  counter-reset: item;
-
-  li {
-    display: table-row;
-
-    &:not(:only-child):before {
-      display: table-cell;
-      font-size: 0.8rem;
-      font-weight: bold;
-      width: 3em;
-      text-align: center;
-      counter-increment: item;
-      content: "(" counter(item, lower-alpha) ")";
-    }
-  }
-}
-
 // other classes
 
 .logo-wrapper {
@@ -551,13 +509,6 @@ details {
   width: 175px;
   height: 45px;
 }
-
-.function-name {
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-// LEVELS BUTTONS
 
 .level-btn,
 .badge {
@@ -580,52 +531,77 @@ details {
 	box-shadow: none !important;
 }
 
-/* .floatingchat-container-wrap {
-  position: sticky !important;
-  top: 100vh !important;
-} */
-
-.easy, .badge-easy, #Easy {
-  background-color: #4c9b51;
+.badge-easy, #Easy {
+	color: #4e8a50;
+	border: 2px solid #4e8a50;
 }
 
-.medium, .badge-medium, #Medium {
-  background-color: #e1b300;
+.easy {
+  color: white;
+	background-color: #4e8a5033;
 }
 
-.hard, .badge-hard, #Hard {
-  background-color: #ec0725;
+.vm-name-btn {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  gap: 12px;
 }
 
-// disable diffis and platfs from sub taglist
-
-#bin-table
-  > tbody:nth-child(2)
-  > tr
-  > td:nth-child(4)
-  > ul:nth-child(1)
-  > li:nth-child(2),
-#bin-table
-  > tbody:nth-child(2)
-  > tr
-  > td:nth-child(4)
-  > ul:nth-child(1)
-  > li:nth-child(3) {
-  display: none;
+.bin-name, .vm-name {
+  text-align: left;
 }
 
-.bttop {
-  position: fixed;
-  left: 30px;
-  bottom: 30px;
-  border-radius: 0.25em;
-  padding: 2px 2px;
+.easy-dots {
+  width: 16px;
+  height: 16px;
+  background: #4e8a50;
+  border-radius: 50%;
 }
 
-.newicon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#easy-vms {
+	color: #4e8a50;
+}
+
+.badge-medium, #Medium  {
+	color: #e1b300;
+	border: 2px solid #e1b300;
+}
+
+.medium {
+  color: white;
+	background-color: #e1b30033;
+}
+
+.medium-dots {
+  width: 16px;
+  height: 16px;
+  background: #e1b300;
+  border-radius: 50%;
+}
+
+#medium-vms {
+	color: #e1b300;
+}
+
+.badge-hard, #Hard {
+	color: #ec0725;
+	border: 2px solid #ec0725;
+}
+
+.hard {
+  color: white;
+	background-color: #ec072533;
+}
+
+.hard-dots {
+  width: 16px;
+  height: 16px;
+  background: #ec0725;
+  border-radius: 50%;
+}
+
+#hard-vms {
+	color: #ec0725;
 }
 
 .media-info {
@@ -647,7 +623,7 @@ details {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2.5rem 0;
+  margin-bottom: 1.5rem;
 }
 
 .form > div ~ div {
@@ -667,8 +643,8 @@ details {
   padding: 10px;
   font: 0.875rem/1.5 sans-serif;
   color: #ffffff;
-  background-color: $red;
-  border: 1px solid #bbb;
+  background-color: #1e2125;
+  border: 1px solid #daa04a;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -686,12 +662,20 @@ details {
   align-items: center;
 }
 
+.submit-vm {
+  text-align: center;
+  color: #daa04a;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+
 .submit-form {
   width: 100%;
   max-width: 90vw;
   padding: 2rem;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  background-color: #1e2125;
+  border: 1px solid #daa04a;
 }
 
 .submit-form--loading {
@@ -720,10 +704,20 @@ details {
   opacity: 0.7;
 }
 
+button[type="submit"] {
+  color: white;
+  background-color: $red;
+}
+
+button[type="reset"] {
+  background-color: #c8cbcf;
+}
+
 footer {
   position: sticky;
   top: 100vh;
   padding: 1rem;
+  color: #939598;
 }
 
 footer p {

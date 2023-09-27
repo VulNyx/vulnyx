@@ -1,17 +1,18 @@
 ---
 layout: page
-title: Submit
+title: Submit VM
 ---
 
 {% raw %}
 
+<h1 class="submit-vm">Submit a new VM</h1>
 <section class="form-container">
   <form class="form submit-form" id="myForm" action="https://formspree.io/f/xbjewngg" method="POST">
     <article class="form-options">
       <a href="/submit/" class="active">
         <strong>VM</strong>
       </a> 
-      <span>|</span>
+      <span class="form-separator">|</span>
       <a href="/submit-writeup">
         <strong>Writeup</strong>
       </a> 
@@ -67,7 +68,9 @@ title: Submit
     
     Swal.fire({
       toast: true,
-      position: 'bottom-end',
+      icon: 'success',
+      iconColor: '#fff',
+      position: 'bottom',
       title: 'VM successfully submitted! Thank you for your contribution.',
       customClass : {
         title: 'swal2-title'
@@ -76,7 +79,7 @@ title: Submit
       focusConfirm: false,
       showConfirmButton: false,
       showCloseButton: true,
-      timer: 3000,
+      timer: 7500,
       timerProgressBar: true,
     });
 
