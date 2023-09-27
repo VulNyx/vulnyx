@@ -306,7 +306,7 @@ tbody td {
   color: #c8cbcf;
 }
 
-tbody tr:hover {
+#bin-table tr:hover {
   background-color: rgba(0,0,0,.25);
 }
 
@@ -392,7 +392,7 @@ td div {
 
 #md5-hash {
   position: relative;
-  left: 12px;
+  left: 8px;
   top: 2px;
 }
 
@@ -400,7 +400,7 @@ td div {
   cursor: pointer;
   position: relative;
   top: 11px;
-  left: 12px;
+  left: 8px;
   background-color: inherit;
   border: none;
 }
