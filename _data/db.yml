@@ -988,3 +988,17 @@ wicca:
   firstRoot: punt4n0 
   release: 19 Sep 2023
   status: Retired
+fire: 
+  name: Fire
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/hfwwgZQS#PrlxyDa-eAT_PtA66Qx1Hb255gpxCXKFhTUQkH75qpw
+  md5: 8E7B911887615582EA250B28C5690385
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups: 
+  firstUser:
+  firstRoot:
+  release: 29 Sep 2023
+  status: Retired
