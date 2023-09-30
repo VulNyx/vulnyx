@@ -997,8 +997,12 @@ fire:
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
-  writeups: 
-  firstUser: ethicrash
-  firstRoot: ethicrash
+  writeups:
+    creator:
+      - punt4n0
+    url:
+      - https://drive.proton.me/urls/FPMMW7GXWW#nJYxR0959fk4
+  firstUser: Ethicrash
+  firstRoot: Ethicrash
   release: 29 Sep 2023
   status: Retired
