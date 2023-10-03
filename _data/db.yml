@@ -945,9 +945,11 @@ play:
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups: 
     creator:
-      - dirtyc0w 
+      - dirtyc0w
+      - Anonimo501
     url:
       - https://youtu.be/I_g1g-69H0w
+      - https://youtu.be/jwvOXzRjws8?si=LujsG5fDh01q5sr3
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 09 Sep 2023
