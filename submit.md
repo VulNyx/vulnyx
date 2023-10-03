@@ -34,8 +34,20 @@ title: Submit VM
       </select>
     </div>
     <div>
+      <label class="form-label" for="creator">User Flag</label>
+      <input class="form-control" id="user-flag" name="UserFlag" type="text" maxlength="32"  placeholder="Enter the user flag" required />
+    </div>
+    <div>
+      <label class="form-label" for="creator">Root Flag</label>
+      <input class="form-control" id="root-flag" name="RootFlag" type="text" maxlength="32"  placeholder="Enter the root flag" required />
+    </div>
+    <div>
       <label class="form-label" for="url">URL</label>
       <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+" placeholder="Enter the public url of your machine" required />
+    </div>
+    <div>
+      <label class="form-label" for="solution">Tags</label>
+      <textarea class="form-control" id="tags" name="Tags" maxlength="200" rows="1" placeholder="Indicate the main tags that identify the machine separated by commas." required></textarea>
     </div>
     <div>
       <label class="form-label" for="solution">Solution</label>
