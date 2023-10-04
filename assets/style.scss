@@ -204,6 +204,7 @@ main {
 }
 
 #bin-search-wrapper {
+  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
@@ -214,6 +215,16 @@ main {
 .search-icon {
   position: relative;
   left: 35px;
+}
+
+.clear-search {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
 }
 
 #bin-search {

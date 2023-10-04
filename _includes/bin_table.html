@@ -30,6 +30,7 @@
           </svg>
         </div>
         <input id="bin-search" type="text" placeholder="Search by machine name..." />
+        <button class="clear-search" title="Clear search" onclick="clearSearch()">Clear</button>
       </div>
     </article>
     <div id="bin-table-wrapper">
@@ -281,11 +282,17 @@
     hardVMs.textContent = document.querySelectorAll('.hard').length;
   }
 
+  const clearSearch = () => {
+    const searchBox = document.querySelector('#bin-search');
+    const clearSearch = document.querySelector('.clear-search');
+    clearSearch.style.display = 'none';
+    searchBox.value = '';
+    location.hash = '';
+  }
 
   const filter = (query) => {
     const queryArray = query.toLowerCase().trim().split(/ *\+/);
     const [binPattern, ...functionPatterns] = queryArray;
-    console.log(query);
 
     // filter rows
     let noResults = true;
@@ -295,21 +302,6 @@
       const binName = row.querySelector('.bin-name')?.innerText?.toLowerCase();
       if (!binName?.includes(binPattern)) {
         show = false;
-      }
-
-      if (show) {
-        const functionElems = Array.from(row.querySelector('.functions')?.children ?? []);
-        functionPatterns.forEach((pattern) => {
-          if (!pattern) {
-            return;
-          }
-          const hasMatches = functionElems.some((item) =>
-            item.innerText?.toLowerCase()?.startsWith(pattern.toLowerCase())
-          );
-          if (!hasMatches) {
-            show = false;
-          }
-        });
       }
 
       row.style.display = show ? '' : 'none';
@@ -334,8 +326,10 @@
 
   const setup = () => {
     const searchBox = document.querySelector('#bin-search');
+    const clearSearch = document.querySelector('.clear-search');
 
     searchBox.addEventListener('input', () => {
+      clearSearch.style.display = 'block';
       let query = searchBox.value;
       history.replaceState(null, null, encodeURI(`#${query}`));
       applyFilter();
@@ -344,6 +338,7 @@
     searchBox.addEventListener('keydown', (event) => {
       if (event.key === 'Escape') {
         location.hash = searchBox.value = '';
+        clearSearch.style.display = 'none';
       }
     });
 
