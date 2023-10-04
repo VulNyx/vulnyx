@@ -285,6 +285,7 @@
   const filter = (query) => {
     const queryArray = query.toLowerCase().trim().split(/ *\+/);
     const [binPattern, ...functionPatterns] = queryArray;
+    console.log(query);
 
     // filter rows
     let noResults = true;
@@ -299,15 +300,12 @@
       if (show) {
         const functionElems = Array.from(row.querySelector('.functions')?.children ?? []);
         functionPatterns.forEach((pattern) => {
-          // skip empty filters
           if (!pattern) {
             return;
           }
-          // check against the pattern
           const hasMatches = functionElems.some((item) =>
             item.innerText?.toLowerCase()?.startsWith(pattern.toLowerCase())
           );
-          // no function satisfies the pattern
           if (!hasMatches) {
             show = false;
           }
@@ -337,34 +335,19 @@
   const setup = () => {
     const searchBox = document.querySelector('#bin-search');
 
-    // handle user input
     searchBox.addEventListener('input', () => {
-      const query = searchBox.value;
+      let query = searchBox.value;
       history.replaceState(null, null, encodeURI(`#${query}`));
       applyFilter();
     });
 
-    // handle shortcuts
-    addEventListener('keydown', (event) => {
-      // focus search box on valid keydown
-      if (event.key.toLowerCase().match(/^[+a-z]$/) &&
-        !(event.ctrlKey || event.altKey || event.metaKey)) {
-        searchBox.focus();
-        searchBox.parentElement.scrollIntoView();
-      }
-      // clear filter on escape
-      else if (event.key === 'Escape') {
+    searchBox.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
         location.hash = searchBox.value = '';
-        searchBox.focus();
-        searchBox.parentElement.scrollIntoView();
       }
     });
 
-    // handle URL changes
     window.onhashchange = applyFilter;
-
-    // trigger filter on page load
-    applyFilter();
   }
 
   setStats();
