@@ -839,7 +839,11 @@ cap:
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
-  writeups: 
+  writeups:
+    creator:
+      - noname
+    url:
+      - https://0x-noname.github.io/writeups/nyx/cap
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 05 Aug 2023
