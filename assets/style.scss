@@ -204,6 +204,7 @@ main {
 }
 
 #bin-search-wrapper {
+  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
@@ -214,6 +215,16 @@ main {
 .search-icon {
   position: relative;
   left: 35px;
+}
+
+.clear-search {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
 }
 
 #bin-search {
@@ -301,7 +312,7 @@ tbody tr {
   background-color: #1e2125;
 }
 
-tbody td {
+#bin-table td {
   border-top: 1px solid #daa04a;
   color: #c8cbcf;
 }
@@ -331,8 +342,8 @@ td div {
 }
 
 .card-body-wrapper {
-  border: 1px solid #808080;
-  border-radius: 0.15rem;
+  border: 1px solid #cbc7c7;
+  border-radius: 0.25rem;
   overflow: hidden;
 }
 
@@ -341,6 +352,15 @@ td div {
   margin: auto;
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.card-os {
+  border: none;
+}
+
+.card-creator, .card-difficulty, .card-release {
+  border-top: 1px solid #cbc7c7;
+  color: #c8cbcf;
 }
 
 #card-logo {
@@ -532,13 +552,13 @@ details {
 }
 
 .badge-easy, #Easy {
-	color: #4e8a50;
-	border: 2px solid #4e8a50;
+	color: #28a745;
+	border: 2px solid #28a745;
 }
 
 .easy {
   color: white;
-	background-color: #4e8a5033;
+	background-color: #28a74533;
 }
 
 .vm-name-btn {
@@ -554,12 +574,12 @@ details {
 .easy-dots {
   width: 16px;
   height: 16px;
-  background: #4e8a50;
+  background: #28a745;
   border-radius: 50%;
 }
 
 #easy-vms {
-	color: #4e8a50;
+	color: #28a745;
 }
 
 .badge-medium, #Medium  {
