@@ -382,8 +382,8 @@ zone:
      - d4t4s3c
     url:
      - https://d4t4s3c.medium.com/vulnyx-zone-b4305c74d7f1
-  firstUser: 
-  firstRoot: 
+  firstUser: noname
+  firstRoot: noname
   release: 06 May 2023
   status: Retired
 internal:
