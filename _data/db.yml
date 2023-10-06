@@ -1020,3 +1020,17 @@ fire:
   firstRoot: Ethicrash
   release: 29 Sep 2023
   status: Retired
+robot: 
+  name: Robot
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/ZKhBhT4L#mPD0e-0FuDhiyqD4R9b9N0T9qAFWLIjKnc1UkcpoHyA 
+  md5: 527D8CC8DB8A2C58D94CA8EA8C8D0CC7
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 06 Oct 2023
+  status: Retired
