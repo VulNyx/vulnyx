@@ -646,9 +646,11 @@ look:
     creator:
       - d4t4s3c
       - ElPingüinoDeMario
+      - Anonimo501
     url:
       - https://d4t4s3c.medium.com/vulnyx-look-eec4cece3f6a
       - https://www.youtube.com/watch?v=VZJcSKccJ7w
+      - https://www.youtube.com/watch?v=13FrbwiMJco
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 15 Jun 2023
@@ -1032,7 +1034,7 @@ robot:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
-  firstUser:
-  firstRoot:
+  firstUser: ct0l4
+  firstRoot: ct0l4
   release: 06 Oct 2023
   status: Retired
