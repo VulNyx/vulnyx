@@ -452,8 +452,10 @@ external:
   writeups: 
     creator:
       - noname
+      - ElPingüinoDeMario
     url:
       - https://0x-noname.github.io/writeups/nyx/external
+      - https://www.youtube.com/watch?v=12LnMyMnf4Q
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 14 May 2023
