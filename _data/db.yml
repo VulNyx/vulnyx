@@ -1038,6 +1038,10 @@ robot:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - punt4n0
+    url:
+      - https://drive.proton.me/urls/RAESWGR5PW#ZlCGna2euREZ
   firstUser: ct0l4
   firstRoot: ct0l4
   release: 06 Oct 2023
