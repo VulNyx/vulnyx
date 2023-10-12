@@ -1046,8 +1046,10 @@ robot:
   writeups:
     creator:
       - punt4n0
+      - d4t4s3c
     url:
       - https://drive.proton.me/urls/RAESWGR5PW#ZlCGna2euREZ
+      - https://d4t4s3c.medium.com/vulnyx-robot-c33d7531a09c
   firstUser: ct0l4
   firstRoot: ct0l4
   release: 06 Oct 2023
