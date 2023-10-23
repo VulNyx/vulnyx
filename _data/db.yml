@@ -1064,8 +1064,8 @@ access:
   name: Access
   creator: d4t4s3c
   difficulty: Medium
-  url: https://mega.nz/file/5TpjhbgI#db7KIFRZpDNGTcMP_jIB3FP2wpp86dGYyajd2fdwo0U
-  md5: C7C87F84A63E827019784DB2BFB30040
+  url: https://mega.nz/file/dWxnGBKR#KEsuzl9P80gJrd-3WpSWUptKvaX3lEWifrSQW87Zzno
+  md5: 40EC453C0976A330E9D62A20EBBB5E6E
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
