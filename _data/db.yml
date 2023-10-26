@@ -1082,3 +1082,17 @@ access:
   firstRoot: ethicrash2
   release: 21 Oct 2023
   status: Retired
+basic: 
+  name: Basic
+  creator: m0w
+  difficulty: Easy
+  url: https://mega.nz/file/NLxF1RKL#I_rw8N2SjXAJ8R4vB8YKYZUursOxlFujqhFACsgrdmw
+  md5: 6D2EED28DEEB0967D8FA454BFCD95ED5
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 26 Oct 2023
+  status: Retired
