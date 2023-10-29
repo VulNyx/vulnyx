@@ -1094,6 +1094,10 @@ basic:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - d4t4s3c
+    url:
+      - https://d4t4s3c.medium.com/vulnyx-basic-922bc7907525
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 26 Oct 2023
