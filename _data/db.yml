@@ -1096,8 +1096,10 @@ basic:
   writeups:
     creator:
       - d4t4s3c
+      - dirtyc0w
     url:
       - https://d4t4s3c.medium.com/vulnyx-basic-922bc7907525
+      - https://youtu.be/7oA3dJWP_v4
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 26 Oct 2023
