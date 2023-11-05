@@ -1114,3 +1114,17 @@ basic:
   firstRoot: PL4GU3
   release: 26 Oct 2023
   status: Retired
+monitor: 
+  name: Monitor
+  creator: d4t4s3c
+  difficulty: Hard
+  url: https://mega.nz/file/wGI3SQTK#K3AMSoUqYe9Rku6c0ZzFxk0wrTBh0zT9Js3zRRgV3o4
+  md5: BAB2B5D3066056D2D644395A9D0D371A
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 05 Nov 2023
+  status: Retired
