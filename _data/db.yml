@@ -1103,11 +1103,13 @@ basic:
       - dirtyc0w
       - ProxyProgrammer
       - FredBrave
+      - ElPingüinoDeMario
     url:
       - https://d4t4s3c.medium.com/vulnyx-basic-922bc7907525
       - https://youtu.be/7oA3dJWP_v4
       - https://www.youtube.com/watch?v=0XOOinfpnIk
       - https://fredbrave.github.io/Basic-Writeup
+      - https://www.youtube.com/watch?v=Wma8u4hh3oQ
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 26 Oct 2023
