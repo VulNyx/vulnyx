@@ -1124,7 +1124,7 @@ monitor:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
-  firstUser:
-  firstRoot:
+  firstUser: ethicrash2
+  firstRoot: ethicrash2
   release: 05 Nov 2023
   status: Retired
