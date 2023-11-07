@@ -1043,9 +1043,11 @@ fire:
     creator:
       - punt4n0
       - dirtyc0w
+      - noname
     url:
       - https://drive.proton.me/urls/FPMMW7GXWW#nJYxR0959fk4
       - https://youtu.be/S-PXi5G7Noo
+      - https://0x-noname.github.io/writeups/nyx/fire
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 29 Sep 2023
@@ -1106,12 +1108,14 @@ basic:
       - ProxyProgrammer
       - FredBrave
       - ElPingüinoDeMario
+      - noname
     url:
       - https://d4t4s3c.medium.com/vulnyx-basic-922bc7907525
       - https://youtu.be/7oA3dJWP_v4
       - https://www.youtube.com/watch?v=0XOOinfpnIk
       - https://fredbrave.github.io/Basic-Writeup
       - https://www.youtube.com/watch?v=Wma8u4hh3oQ
+      - https://0x-noname.github.io/writeups/nyx/basic
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 26 Oct 2023
