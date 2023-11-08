@@ -188,9 +188,11 @@ blog:
     creator:
       - noname
       - d4t4s3c
+      - Anonimo501
     url:
       - https://0x-noname.github.io/writeups/nyx/blog
       - https://d4t4s3c.medium.com/vulnyx-blog-ab2ea54f17c0
+      - https://youtu.be/7jxDWCdQCow
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 24 Apr 2023
