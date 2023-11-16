@@ -13,9 +13,9 @@ title: Rules
 - To keep a consistency over the machines, flags must be a `md5` string.
 - `Delete` or `redirect` any `history` files to `/dev/null` (Unless necessary to resolve the VM).
 - The VM does `not` have to have a `graphical interface "GUI"` (Unless necessary to resolve the VM).
+- The VM must have the `flags`: (`user.txt` & `root.txt`) located in `/home/[user]/user.txt` & `/root/root.txt`.
 - If the VM requires a `domain`/`subdomain` it has to be `.nyx` (example: `domain.nyx`/`subdomain.domain.nyx`).
 - Do `not` use an `external URL` to resolve the VM (If the link does not work, the machine would be unsolvable).
-- The VM must have the `flags`: (`user.txt` & `root.txt`) located in `/home/[user]/user.txt` & `/root/root.txt`.
 - We do `not accept VM` that are on `other platforms` (The only reason is because we want to have our own machines).
 - If the VM requires a `brute force attack`, enter a `password` that does `not exceed the first 5000 lines` of `rockyou.txt` (To avoid unnecessary long waits).
 
