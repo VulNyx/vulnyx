@@ -176,7 +176,7 @@ main {
   margin-bottom: 1rem;
 }
 
-.total-vms, .form-separator {
+.total-vms {
   color: #daa04a;
 }
 
@@ -669,14 +669,6 @@ details {
   box-sizing: border-box;
 }
 
-.form-options {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  gap: 1rem;
-}
-
 .form-footer {
   display: flex;
   align-items: center;
@@ -684,7 +676,6 @@ details {
 
 .submit-vm {
   text-align: center;
-  color: #daa04a;
   margin: 1.5rem 0;
   font-size: 1.5rem;
 }
