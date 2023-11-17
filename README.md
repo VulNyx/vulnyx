@@ -1,6 +1,6 @@
 # VulNyx
 
-VulNyx is a website that contains a list of vulnerable machines that are Unix based.
+VulNyx is a free platform for hackers where you can learn & practice cybersecurity with our vulnerable virtual machines.
 
 Find the project at [https://vulnyx.com](VulNyx.com)
 

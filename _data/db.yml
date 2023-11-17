@@ -5,6 +5,7 @@ ready:
   difficulty: Easy
   url: https://mega.nz/file/paBF3YjB#uQS9ds46g4ip_hQOLl65RpfwyzoLSYxGsy3jfNmUJ9Y
   md5: C924A88E2F47758F4E4030D73A4155BA
+  size: 640MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -25,6 +26,7 @@ hat:
   difficulty: Medium
   url: https://mega.nz/file/EeoQGLCT#E8Dq-I5C_RlUgZ4sANt4fTh7mbKj693uoeUdOrtV-FI
   md5: 9B9EA1F1C09EB82FCD33F95769393083
+  size: 657MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -47,6 +49,7 @@ serve:
   difficulty: Easy
   url: https://mega.nz/file/YO4UlSSb#gk77b326CiVUOg2ssQy9uACS_SLl7hxv1dbHIqhIWCg
   md5: ADC6EEE14CC9D4CBD16561E73338D818
+  size: 941MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -65,6 +68,7 @@ brain:
   difficulty: Easy
   url: https://mega.nz/file/hOZjRKCQ#JsPAvJoPp4EqS4T6j6_ABjw9fnyyyaGG11qcW3VFay4
   md5: 6673F9D485307081CC40FD47E8BEC41B
+  size: 899MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -85,6 +89,7 @@ responder:
   difficulty: Medium
   url: https://mega.nz/file/9XBBnI4Y#0nyyUgcForsjy-51_3Cfn02wxOmFfSfblAe6GLQEwrs
   md5: F04EF5B743189A9BC6A5EC357B99DB62
+  size: 676MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -103,6 +108,7 @@ wrapp:
   difficulty: Hard
   url: https://mega.nz/file/UWg3EC5K#8wYJGNbsM9qWgtVwdQFdeF3KHJSUe-67InRorzFjcAk
   md5: 204FED4FB0EB5D9B9EB2CC3987A49FDF
+  size: 1,27GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -121,6 +127,7 @@ doctor:
   difficulty: Easy
   url: https://mega.nz/file/Ie5w0JjJ#uVXwMBWLAQKc04metFBHozlPYfnXfYttuGU_7de_69M
   md5: 57606E6482F7688B73303E7CBA78EF7C
+  size: 722MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -141,6 +148,7 @@ secrets:
   difficulty: Medium
   url: https://mega.nz/file/EDhnQRQZ#9N0lulFO5pbiazm_RqW2vp21D7PDY3veDj8u5u6IPCg
   md5: AEA7FA80127ED5ACE8235F199BB0DD3F
+  size: 689MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -159,6 +167,7 @@ fing:
   difficulty: Easy
   url: https://mega.nz/file/EGZHGCzQ#5Zf6vSxUIOZ9u5WcpmV9r5jJqyGqfCXMMAN-WzsnisM
   md5: AC9691A4D331E3EB63E88F4F6771549A
+  size: 1,09GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -166,9 +175,11 @@ fing:
      creator:
       - noname
       - d4t4s3c
+      - Anonimo501
      url: 
       - https://0x-noname.github.io/writeups/nyx/fing
       - https://d4t4s3c.medium.com/vulnyx-fing-bf3830219e00
+      - https://youtu.be/9hmDECYbdVI
   firstUser: noname
   firstRoot: noname
   release: 23 Apr 2023
@@ -179,6 +190,7 @@ blog:
   difficulty: Easy
   url: https://mega.nz/file/NepkQJDD#ElT8o_F865Dudu0UY5AtJlPN0tAk9UwVsLAvE3wLRAA
   md5: 24B913E2A25A3A4EEE13FE96A8F22B7C
+  size: 766MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -186,9 +198,11 @@ blog:
     creator:
       - noname
       - d4t4s3c
+      - Anonimo501
     url:
       - https://0x-noname.github.io/writeups/nyx/blog
       - https://d4t4s3c.medium.com/vulnyx-blog-ab2ea54f17c0
+      - https://youtu.be/7jxDWCdQCow
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 24 Apr 2023
@@ -199,6 +213,7 @@ backdoor:
   difficulty: Hard
   url: https://mega.nz/file/JWZkWbaK#dweF9LffFolkFWqyHF8VRujWh11H6rxBC7G38XX7ICs
   md5: 070FC35D80C6DDDE0D3FE76D7486784F
+  size: 1,27GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -217,6 +232,7 @@ tom:
   difficulty: Medium
   url: https://mega.nz/file/ILRhEApD#-rZ-I8U3vPyUkDfatHWUC_PYv1Q0Z2o7zUkjusVJ-Lo
   md5: 2AF90F5EF3D1C6CD232867F8B705CD0C
+  size: 1,21GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -235,6 +251,7 @@ shock:
   difficulty: Easy
   url: https://mega.nz/file/hGwhjaDD#bHUuqbbJUuNk4W3MJNAcQvoil7Qla6tydRmzzjOnYZ0
   md5: 97DA6D7BA6CB43815E05A7A02EC6D2DC
+  size: 1,18GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
   writeups: 
@@ -256,6 +273,7 @@ developer:
   difficulty: Hard
   url: https://mega.nz/file/JTIElLzT#5-2495kE7QrQpscdVMfsAfX2-hmtX0MsjU3_9Vj1kG0
   md5: 1C49318595BBD153844974C1C551E6C5
+  size: 1,54GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -274,6 +292,7 @@ hidden:
   difficulty: Easy
   url: https://mega.nz/file/tSJ1zQIa#jQvTxHwwjCuIOCZvrbPp_m5jkNG7Z4fBHXmaNFsnD10
   md5: C9723ECA1A653D13FB9901F055321C7B
+  size: 1,29GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -294,6 +313,7 @@ real:
   difficulty: Easy
   url: https://mega.nz/file/FOZxHbKB#LLYTQBQLGLYTVdlMMJ27mLc23pGN0XjFlg4vgHvh5Qw
   md5: C944B5CD85ABCFB213B841EE5EFB6369
+  size: 992MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -316,6 +336,7 @@ ceres:
   difficulty: Medium
   url: https://mega.nz/file/1KA33QxC#ouo6Og4MWyAg9oZvkASWDWZQunGoSN4s55fP7QuJwRE
   md5: 77343CAEB8DDFD67E81B353A5F5856B8
+  size: 633MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -334,16 +355,19 @@ printer:
   difficulty: Easy
   url: https://mega.nz/file/5TQznIyA#KkIOUDPj4J59mJ5DAorkXA5YZKotZcBsU3Hv8MpFnqw
   md5: 491548714193F4BA3580DE02D92AB1B0
+  size: 1,01GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups: 
     creator:
       - noname
-      - d4t4s3c
+      - elc4br4
+      - Anonimo501
     url:
-      - https://0x-noname.github.io/writeups/nyx/zero
-      - https://d4t4s3c.medium.com/vulnyx-zero-f733eec9145e
+      - https://0x-noname.github.io/writeups/nyx/printer
+      - https://elc4br4.github.io/vulnyx-printer-writeup
+      - https://www.youtube.com/watch?v=NA8yfzcX738
   firstUser: noname
   firstRoot: noname
   release: 04 May 2023
@@ -354,6 +378,7 @@ zero:
   difficulty: Easy
   url: https://mega.nz/file/1PhSiIzJ#PLqnG7RqINrslFtnKZW8YRjORLZcghlYWcz5CmA0DeE
   md5: ADF238F9CD3723C7D580305F32CE4206
+  size: 1,7GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -361,9 +386,13 @@ zero:
     creator:
       - noname
       - d4t4s3c
+      - RiJaba1
+      - ElPingüinoDeMario
     url:
       - https://0x-noname.github.io/writeups/nyx/zero
       - https://d4t4s3c.medium.com/vulnyx-zero-f733eec9145e
+      - https://www.youtube.com/watch?v=A0ym7Lm0O-0
+      - https://www.youtube.com/watch?v=Fx0OD5bSUQ4
   firstUser: noname
   firstRoot: noname
   release: 05 May 2023
@@ -374,16 +403,21 @@ zone:
   difficulty: Easy
   url: https://mega.nz/file/BTxFlaBD#z9R7NouQMj749pBCRBV_vpG0YkUm70FMQCwyOHgRTwo
   md5: 1D4296EB948CAFCADD09ACA69DDADE60
+  size: 888MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups: 
     creator:
      - d4t4s3c
+     - noname
+     - Anonimo501
     url:
      - https://d4t4s3c.medium.com/vulnyx-zone-b4305c74d7f1
-  firstUser: 
-  firstRoot: 
+     - https://0x-noname.github.io/writeups/nyx/zone
+     - https://youtu.be/1lg19wydW04
+  firstUser: noname
+  firstRoot: noname
   release: 06 May 2023
   status: Retired
 internal:
@@ -392,6 +426,7 @@ internal:
   difficulty: Medium
   url: https://mega.nz/file/5OJVSL6Z#pepNANVzpLKKRCiDRbyZPH2QE-miaoE3I8iuGettkj4
   md5: 37544C3BC503D485588F9DCA05AD34AD
+  size: 1,12GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -410,6 +445,7 @@ deploy:
   difficulty: Easy
   url: https://mega.nz/file/hChzxZRD#B8SPfvvjIIv6rbwxKHL9mKXPK7ihKmCkXGvEyZogH8g
   md5: 8E9BA6C82CD9E39F1A1EB591AF0A6650
+  size: 1,23GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -428,6 +464,7 @@ mail:
   difficulty: Medium
   url: https://mega.nz/file/tHoSUTyQ#sYJQZYDbc6L5C17LBRESkAcSgsAd9QEbKB12xucGLCY
   md5: 7C64A0CEC381884E5B8AD4EA0274113C
+  size: 1,45GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -446,14 +483,19 @@ external:
   difficulty: Easy
   url: https://mega.nz/file/4KQBjRpJ#gb8RaSreMeGHMd9wJx4tkgce-ohTjyqXHZXLK6PMNMA
   md5: 7B63493346AAF11E8FCF719A691336AA
+  size: 1,51GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups: 
     creator:
       - noname
+      - ElPingüinoDeMario
+      - Anonimo501
     url:
       - https://0x-noname.github.io/writeups/nyx/external
+      - https://www.youtube.com/watch?v=12LnMyMnf4Q
+      - https://www.youtube.com/watch?v=1S_YnPXr0H8&t=1s
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 14 May 2023
@@ -464,6 +506,7 @@ node:
   difficulty: Easy
   url: https://mega.nz/file/MDg2UQQI#kELwNPP55S_sHbfSp_ZMkjSImwDpYkbXXYH7eENKYJo
   md5: 18B31E6382D5B3581ABEE22608D36F3F
+  size: 1,71GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -486,6 +529,7 @@ key:
   difficulty: Medium
   url: https://mega.nz/file/BWYmWY4B#THJ0042QThkt37kn_pqwvnTu7cbyv-NK33LjhGXWm1g
   md5: D9F7D25EEFD68119805CEB8B687EC527
+  size: 671MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -504,6 +548,7 @@ noob:
   difficulty: Easy
   url: https://mega.nz/file/YOQ0BZwC#m_L7tMBLokoFdPB_7w-RAqkP9SaMi7fM7he1f_9VozQ
   md5: 333C1E2433A63F2A1B2D8D5BAF651B8D
+  size: 1,16GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -511,9 +556,13 @@ noob:
     creator:
       - d4t4s3c
       - RiJaba1
+      - Anonimo501
+      - noname
     url:
       - https://d4t4s3c.medium.com/vulnyx-noob-2ea75b8157d3
       - https://youtu.be/OhliI5KmMMg
+      - https://www.youtube.com/watch?v=w1smn5WcCoc
+      - https://0x-noname.github.io/writeups/nyx/noob
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 22 May 2023
@@ -524,6 +573,7 @@ transfer:
   difficulty: Hard
   url: https://mega.nz/file/tHITFIzK#PANZ8ICp-G6ehcj2dqwQd2m9_gFNsKIxP2BCgjgO-2g
   md5: 83867E044FC7009B6BFBBA18DD9E96E5
+  size: 560MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -542,6 +592,7 @@ bund:
   difficulty: Medium
   url: https://mega.nz/file/VLpnWJbC#TRrYWz_XnSJXmqkEJoau52rHbDLX5ABWxm_lzAd4MOU
   md5: 4CA40A38072EECB36BD15B414A97A481
+  size: 1,69GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -562,6 +613,7 @@ encode:
   difficulty: Medium
   url: https://mega.nz/file/xXpxkAbR#KdeS1cr2CH3qqQJDKYQZqvZEXRKHcq_WipWOxN8ArEM
   md5: 6F584602B88F2D263FAA9F808430667A
+  size: 3,48GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -580,6 +632,7 @@ flash:
   difficulty: Easy
   url: https://mega.nz/file/VWQkDIYA#oQtpnmxgmvMos4oNRwOOXhJEiau2OcBFZ0T0_BflXpM
   md5: 9E932C8EE1A71E3EF275DED23F8E1E41
+  size: 1,18GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -588,10 +641,12 @@ flash:
       - noname
       - RiJaba1
       - d4t4s3c
+      - UnD3sc0n0c1d0
     url:
       - https://0x-noname.github.io/writeups/nyx/flash
       - https://youtu.be/-AQvzQ5jirE
       - https://d4t4s3c.medium.com/vulnyx-flash-777a0e99525c
+      - https://infayer.com/archivos/2526
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 02 Jun 2023
@@ -602,13 +657,16 @@ listen:
   difficulty: Medium
   url: https://mega.nz/file/1ewjkC7Y#D1jD2ciHN9q2-a7_uCAfrZzh06z5YklOpwAS0440Ro0
   md5: F9CB83282E3B23A03D86948C51987AFC
+  size: 759MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
   writeups: 
     creator:
       - dirtyc0w
+      - ElPingüinoDeMario
     url:
       - https://youtu.be/ndCbbo0SWI0
+      - https://www.youtube.com/watch?v=kIE2N3hwuXg
   firstUser: FredBrave
   firstRoot: FredBrave
   release: 03 Jun 2023
@@ -619,6 +677,7 @@ trace:
   difficulty: Hard
   url: https://mega.nz/file/tK5FmTaR#Zynqly-lx6QmhSN3L9oVWD7YuMNN4dYWx6FrT-q7wXY
   md5: F55DD0CEE2B0A41946552E07274DEF66
+  size: 1,26GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -637,14 +696,19 @@ look:
   difficulty: Easy
   url: https://mega.nz/file/8LpTVITZ#Cygpo3PGzVZioQyemEsd7Q1X8d9Mi66Lu3OxeV6aVBs
   md5: 24585DCA6C2FF675490B9BE6413B0155
+  size: 1,09GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups: 
     creator:
       - d4t4s3c
+      - ElPingüinoDeMario
+      - Anonimo501
     url:
       - https://d4t4s3c.medium.com/vulnyx-look-eec4cece3f6a
+      - https://www.youtube.com/watch?v=VZJcSKccJ7w
+      - https://www.youtube.com/watch?v=13FrbwiMJco
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 15 Jun 2023
@@ -655,6 +719,7 @@ chain:
   difficulty: Medium
   url: https://mega.nz/file/IP5nATZS#LPw81YD2cT8d_sJaCLAy31ZBZNWSfJR1wAKXMrJSt1U
   md5: 615FF0D38B658B1DBD3045039F3ACCDA
+  size: 1,21GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -673,6 +738,7 @@ shop:
   difficulty: Easy
   url: https://mega.nz/file/gLxSBQgA#vGX0ZobWAK4laFclsK0ZX8u-1CHvm7Eg6CcoJOTrOJo
   md5: 93DB21631B1C65EB3A1DED8ED4DC8C82
+  size: 1GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -681,10 +747,12 @@ shop:
       - dirtyc0w
       - noname
       - Anonimo501
+      - ElPingüinoDeMario
     url:
       - https://www.youtube.com/watch?v=zN6xapwJNvc
       - https://0x-noname.github.io/writeups/nyx/shop
       - https://youtu.be/b4CWXvN_jho
+      - https://www.youtube.com/watch?v=V1Rl9wfq8wU
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 25 Jun 2023
@@ -695,6 +763,7 @@ discover:
   difficulty: Medium
   url: https://mega.nz/file/sXpgTZLJ#UoIBqy6z6WvFMy55KEgtwE5rwVYJ8OubGH5titS4YnI
   md5: 9186579DAC5878F8C626868E559FA7DB
+  size: 1,14GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -713,6 +782,7 @@ belial:
   difficulty: Medium
   url: https://mega.nz/file/9WZCSA6S#LZ0YB-1eeIK8DsCcETIvJAteZf7dXSta3586KIJI0xI
   md5: 4765FD2A953676D1A86175793882A2B8
+  size: 1,7GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
   writeups: 
@@ -732,14 +802,17 @@ jenk:
   difficulty: Medium
   url: https://mega.nz/file/5eYXWJRC#CKJxRZgCJC855lAVeYv-ku2W_W6tZ70RDbfJasPk1DE
   md5: 89DB3E6CC8C02030F6C072204958E6D8
+  size: 1,88GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
       - noname
+      - ElPingüinoDeMario
     url:
       - https://0x-noname.github.io/writeups/nyx/jenk
+      - https://www.youtube.com/watch?v=WwRSjtb5M-c&t=472s
   firstUser: Powerful
   firstRoot: Powerful
   release: 21 Jul 2023
@@ -750,6 +823,7 @@ beginner:
   difficulty: Easy
   url: https://mega.nz/file/RKQ3kSZL#0wNDSRcsubxyzfJWXbXYrqVRPgIplTcQAdB-fMf-m30
   md5: DB029F32025EBF43E4DAC31CBB40818B
+  size: 1,51GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -774,6 +848,7 @@ share:
   difficulty: Easy
   url: https://mega.nz/file/leIUWRwB#0M9_9Uu9eHchWsJW9PKgIsGP_Iz1VzLr3ESVWbp8ysE
   md5: FD1F1691D748AA356204C19628084F74
+  size: 1,26GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -796,6 +871,7 @@ dark:
   difficulty: Medium
   url: https://mega.nz/file/ADpWVQpR#0Ca_d0cz0hlh8rGGdVhN9F0-Ji-VC86KisGraTolSr8
   md5: 22A695EB89158B9B730E2929E488E8A7
+  size: 1,65GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -814,6 +890,7 @@ plot:
   difficulty: Easy
   url: https://mega.nz/file/pW4HhDZC#PgJx6gVGHmVtptSORA6z-LFfLFwnYqi_MY3iv_X27SY
   md5: 0D0310EEEEDB861D9A0A0CD7A1A53118
+  size: 1,19GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -836,6 +913,7 @@ cap:
   difficulty: Hard
   url: https://mega.nz/file/wOZGVY4K#iLIBN4JVlZBYcCriQ40WQL_r3HSsUkGuF-SglTLdb6c
   md5: 151F3B8BA8AD5B19A6400F8F00827F32
+  size: 1,09GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -854,6 +932,7 @@ remote:
   difficulty: Easy
   url: https://mega.nz/file/QexH2aqZ#zvIs29fXq0NCjRf3pPoBPJSQcbdwzh7r1c9Mbg3axvY
   md5: 06AC87EDF2A48EE144AA280CCCAABE54
+  size: 1,2GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -876,6 +955,7 @@ goetia:
   difficulty: Easy
   url: https://mega.nz/file/ZbwBCIYR#Q6jBr8g5GWQ1Qjt89E74M-qxi_ng1Tkxc14wZSoxAf0
   md5: A3966C021AD255703BB65A04CF38050D
+  size: 1GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
   writeups: 
@@ -893,6 +973,7 @@ slash:
   difficulty: Easy
   url: https://mega.nz/file/ZHBgiZgQ#uumpvmxYnA451vs5r-rk8NBWm3VOErIakBMSEff4nPo
   md5: 947AE8CBE982F3777A922D4BE7E2C34E
+  size: 1,06GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -913,6 +994,7 @@ travel:
   difficulty: Hard
   url: https://mega.nz/file/8GZSiBRD#RRqWdFQ0khcWe-zI8q3PT82DQIT5CCyGwqc5C7iO0m8
   md5: E34702261479D91A52C2622E12112561
+  size: 1,7GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -931,6 +1013,7 @@ annunciation:
   difficulty: Hard
   url: https://mega.nz/file/4KhUXZ4Y#e6dB2MnPu7Ug5n0_yHt0bqgcrhOesKS2XHkJ3FpS34o
   md5: E6F10A8DAA67B8E2F96F0EA3A65E0287
+  size: 913MB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
   writeups: 
@@ -944,6 +1027,7 @@ play:
   difficulty: Easy
   url: https://mega.nz/file/kaIhmLYa#LIrwaUiY6KdyesgiBV5KpxyV7NpZvJwxRrQtm7RsM2Q
   md5: DD9EEFDFE2549FFA3E76167DE6195D93
+  size: 1,18GB
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -964,6 +1048,7 @@ baal:
   difficulty: Medium
   url: https://mega.nz/file/FHhEyIDQ#DeE5KfZi5HCSNrcB1oSY2vmjBBi9FkywLuR1zG1DCWg
   md5: AF26FE68F0FE726DF5A80C438F1977A2
+  size: 1,82GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -978,6 +1063,7 @@ wicca:
   difficulty: Easy
   url: https://mega.nz/file/YbBDjQDI#vV964toDsXFloNjT0sfIZ1mmTC23EiGUiJ3HIdDeqD8
   md5: 6286ACAB071279A41987F599C914E51F
+  size: 1,17GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -986,10 +1072,14 @@ wicca:
       - punt4n0
       - dirtyc0w
       - Anonimo501
+      - ElPingüinoDeMario
+      - noname
     url:
       - https://drive.proton.me/urls/ZX1Z6B6P98#AdSKatXI3pUm
       - https://youtu.be/8Wk0BHFAVck
       - https://www.youtube.com/watch?v=ubwXTo2KrnE
+      - https://www.youtube.com/watch?v=HNDtBEG53ds
+      - https://0x-noname.github.io/writeups/nyx/wicca
   firstUser: punt4n0 
   firstRoot: punt4n0 
   release: 19 Sep 2023
@@ -1000,15 +1090,142 @@ fire:
   difficulty: Easy
   url: https://mega.nz/file/hfwwgZQS#PrlxyDa-eAT_PtA66Qx1Hb255gpxCXKFhTUQkH75qpw
   md5: 8E7B911887615582EA250B28C5690385
+  size: 1,51GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
       - punt4n0
+      - dirtyc0w
+      - noname
     url:
       - https://drive.proton.me/urls/FPMMW7GXWW#nJYxR0959fk4
-  firstUser: Ethicrash
-  firstRoot: Ethicrash
+      - https://youtu.be/S-PXi5G7Noo
+      - https://0x-noname.github.io/writeups/nyx/fire
+  firstUser: ethicrash2
+  firstRoot: ethicrash2
   release: 29 Sep 2023
+  status: Retired
+robot: 
+  name: Robot
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/ZKhBhT4L#mPD0e-0FuDhiyqD4R9b9N0T9qAFWLIjKnc1UkcpoHyA 
+  md5: 527D8CC8DB8A2C58D94CA8EA8C8D0CC7
+  size: 1,48GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+    creator:
+      - punt4n0
+      - d4t4s3c
+    url:
+      - https://drive.proton.me/urls/RAESWGR5PW#ZlCGna2euREZ
+      - https://d4t4s3c.medium.com/vulnyx-robot-c33d7531a09c
+  firstUser: ct0l4
+  firstRoot: ct0l4
+  release: 06 Oct 2023
+  status: Retired
+access: 
+  name: Access
+  creator: d4t4s3c
+  difficulty: Medium
+  url: https://mega.nz/file/dWxnGBKR#KEsuzl9P80gJrd-3WpSWUptKvaX3lEWifrSQW87Zzno
+  md5: 40EC453C0976A330E9D62A20EBBB5E6E
+  size: 1,55GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+    creator:
+      - dirtyc0w
+      - ProxyProgrammer
+    url:
+      - https://youtu.be/ctdjr8Ar0pI
+      - https://www.youtube.com/watch?v=8tj7p2p9sMg
+  firstUser: ethicrash2
+  firstRoot: ethicrash2
+  release: 21 Oct 2023
+  status: Retired
+basic: 
+  name: Basic
+  creator: m0w
+  difficulty: Easy
+  url: https://mega.nz/file/NLxF1RKL#I_rw8N2SjXAJ8R4vB8YKYZUursOxlFujqhFACsgrdmw
+  md5: 6D2EED28DEEB0967D8FA454BFCD95ED5
+  size: 1,17GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+    creator:
+      - d4t4s3c
+      - dirtyc0w
+      - ProxyProgrammer
+      - FredBrave
+      - ElPingüinoDeMario
+      - noname
+    url:
+      - https://d4t4s3c.medium.com/vulnyx-basic-922bc7907525
+      - https://youtu.be/7oA3dJWP_v4
+      - https://www.youtube.com/watch?v=0XOOinfpnIk
+      - https://fredbrave.github.io/Basic-Writeup
+      - https://www.youtube.com/watch?v=Wma8u4hh3oQ
+      - https://0x-noname.github.io/writeups/nyx/basic
+  firstUser: PL4GU3
+  firstRoot: PL4GU3
+  release: 26 Oct 2023
+  status: Retired
+monitor: 
+  name: Monitor
+  creator: d4t4s3c
+  difficulty: Hard
+  url: https://mega.nz/file/wGI3SQTK#K3AMSoUqYe9Rku6c0ZzFxk0wrTBh0zT9Js3zRRgV3o4
+  md5: BAB2B5D3066056D2D644395A9D0D371A
+  size: 1,12GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser: ethicrash2
+  firstRoot: ethicrash2
+  release: 05 Nov 2023
+  status: Retired
+first: 
+  name: First
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/5TQzgCYR#hgRKBMq0PlXt-41irAXxKDjweuB1klnaytyERyOum3I
+  md5: 78F180FD54142756FB80ECBA7AC4B175
+  size: 3,95GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+  writeups:
+    creator:
+      - d4t4s3c
+    url:
+      - https://d4t4s3c.medium.com/vulnyx-first-3f9694ff0f1f
+  firstUser: ethicrash2
+  firstRoot: ethicrash2
+  release: 11 Nov 2023
+  status: Retired
+air: 
+  name: Air
+  creator: noname
+  difficulty: Easy
+  url: https://mega.nz/file/VfokWYTL#zxmghbjw19OjICKavj2uXAL9tz7xs_ZqyoMJkiCH0YE
+  md5: 0D77B427EBB393FE6A21263F6DD78BE9
+  size: 539MB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+  writeups:
+    creator:
+      - noname
+    url:
+      - https://0x-noname.github.io/writeups/nyx/air
+  firstUser: PL4GU3
+  firstRoot: PL4GU3
+  release: 12 Nov 2023
   status: Retired
