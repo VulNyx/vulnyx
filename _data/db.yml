@@ -1238,6 +1238,7 @@ bind:
   size: 779MB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
   firstUser:
   firstRoot:
