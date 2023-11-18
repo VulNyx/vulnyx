@@ -1229,3 +1229,17 @@ air:
   firstRoot: PL4GU3
   release: 12 Nov 2023
   status: Retired
+bind:
+  name: Bind
+  creator: d4t4s3c
+  difficulty: Medium
+  url: https://mega.nz/file/JPwmHSqJ#ukRhRHuvzqogXp2Xvbgi0ku5cKVjXHXh-r1bDw_bMM0
+  md5: C87A28831901A4729BEEBD00F4452E52
+  size: 779MB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 18 Nov 2023
+  status: Retired
