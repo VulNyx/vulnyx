@@ -1250,3 +1250,18 @@ bind:
   firstRoot: PL4GU3
   release: 18 Nov 2023
   status: Retired
+code:
+  name: Code
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/RD4UFDpD#y85e3y0AAfdd2cAS9DIbcyzZFyVg-EP-l7tBA0kw-Nc
+  md5: 48ADCF51A03E3C373D39499317522014
+  size: 805MB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 21 Nov 2023
+  status: Retired
