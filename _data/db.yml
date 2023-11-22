@@ -1265,3 +1265,18 @@ code:
   firstRoot: ethicrash2
   release: 21 Nov 2023
   status: Retired
+unit:
+  name: Unit
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/EbQGybII#N0eSY8SDTR5IiRuhcfwLpraizWFImHE73e1H597v3Kw
+  md5: 4518732F2D94C6859E5E9899DDCB50FD
+  size: 864MB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 22 Nov 2023
+  status: Retired
