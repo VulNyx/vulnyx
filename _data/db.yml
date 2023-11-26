@@ -155,8 +155,10 @@ secrets:
   writeups: 
     creator:
       - FredBrave
+      - noname
     url:
-      - https://fredbrave.github.io/Secrets-Writeup/
+      - https://fredbrave.github.io/Secrets-Writeup
+      - https://0x-noname.github.io/writeups/nyx/secrets
   firstUser: FredBrave
   firstRoot: FredBrave
   release: 22 Apr 2023
@@ -452,8 +454,10 @@ deploy:
   writeups: 
     creator:
       - d4t4s3c
+      - noname
     url:
       - https://d4t4s3c.medium.com/vulnyx-deploy-fa1edf94b92a
+      - https://0x-noname.github.io/writeups/nyx/deploy
   firstUser: noname
   firstRoot: noname
   release: 11 May 2023
@@ -1205,8 +1209,10 @@ first:
   writeups:
     creator:
       - d4t4s3c
+      - noname
     url:
       - https://d4t4s3c.medium.com/vulnyx-first-3f9694ff0f1f
+      - https://0x-noname.github.io/writeups/nyx/first
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 11 Nov 2023
@@ -1243,9 +1249,11 @@ bind:
     creator:
       - PL4GU3
       - d4t4s3c
+      - noname
     url:
       - https://youtu.be/ZM2fVkwUogM
       - https://d4t4s3c.medium.com/vulnyx-bind-a6fe32791142
+      - https://0x-noname.github.io/writeups/nyx/bind
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 18 Nov 2023
