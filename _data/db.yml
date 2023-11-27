@@ -730,8 +730,10 @@ chain:
   writeups: 
     creator:
       - noname
+      - ElPingüinoDeMario
     url:
       - https://0x-noname.github.io/writeups/nyx/chain
+      - https://www.youtube.com/watch?v=FzW54cygDV0
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 23 Jun 2023
