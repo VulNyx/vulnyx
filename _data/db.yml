@@ -35,10 +35,12 @@ hat:
       - noname
       - elc4br4
       - d4t4s3c
+      - kerszi
     url: 
       - https://0x-noname.github.io/writeups/nyx/hat
       - https://elc4br4.github.io/vulnyx-hat-writeup
       - https://d4t4s3c.medium.com/vulnyx-hat-be1fc796ef2e
+      - https://kerszl.github.io/hacking/walkthrough/hat
   firstUser: noname
   firstRoot: noname
   release: 18 Apr 2023
@@ -76,9 +78,11 @@ brain:
     creator:
       - noname
       - d4t4s3c
+      - kerszi
     url:
       - https://0x-noname.github.io/writeups/nyx/brain/
       - https://d4t4s3c.medium.com/vulnyx-brain-b9d68597dff7 
+      - https://kerszl.github.io/hacking/walkthrough/brain/
   firstUser: m0w
   firstRoot: m0w
   release: 19 Apr 2023
@@ -155,8 +159,10 @@ secrets:
   writeups: 
     creator:
       - FredBrave
+      - noname
     url:
-      - https://fredbrave.github.io/Secrets-Writeup/
+      - https://fredbrave.github.io/Secrets-Writeup
+      - https://0x-noname.github.io/writeups/nyx/secrets
   firstUser: FredBrave
   firstRoot: FredBrave
   release: 22 Apr 2023
@@ -239,8 +245,10 @@ tom:
   writeups: 
     creator:
       - noname
+      - kerszi
     url:
-      - https://0x-noname.github.io/writeups/nyx/tom/
+      - https://0x-noname.github.io/writeups/nyx/tom
+      - https://kerszl.github.io/hacking/walkthrough/tom
   firstUser: noname
   firstRoot: noname
   release: 28 Apr 2023
@@ -452,8 +460,10 @@ deploy:
   writeups: 
     creator:
       - d4t4s3c
+      - noname
     url:
       - https://d4t4s3c.medium.com/vulnyx-deploy-fa1edf94b92a
+      - https://0x-noname.github.io/writeups/nyx/deploy
   firstUser: noname
   firstRoot: noname
   release: 11 May 2023
@@ -726,8 +736,10 @@ chain:
   writeups: 
     creator:
       - noname
+      - ElPingüinoDeMario
     url:
       - https://0x-noname.github.io/writeups/nyx/chain
+      - https://www.youtube.com/watch?v=FzW54cygDV0
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 23 Jun 2023
@@ -1205,8 +1217,10 @@ first:
   writeups:
     creator:
       - d4t4s3c
+      - noname
     url:
       - https://d4t4s3c.medium.com/vulnyx-first-3f9694ff0f1f
+      - https://0x-noname.github.io/writeups/nyx/first
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 11 Nov 2023
@@ -1228,4 +1242,80 @@ air:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 12 Nov 2023
+  status: Retired
+bind:
+  name: Bind
+  creator: d4t4s3c
+  difficulty: Medium
+  url: https://mega.nz/file/JPwmHSqJ#ukRhRHuvzqogXp2Xvbgi0ku5cKVjXHXh-r1bDw_bMM0
+  md5: C87A28831901A4729BEEBD00F4452E52
+  size: 779MB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+    creator:
+      - PL4GU3
+      - d4t4s3c
+      - noname
+    url:
+      - https://youtu.be/ZM2fVkwUogM
+      - https://d4t4s3c.medium.com/vulnyx-bind-a6fe32791142
+      - https://0x-noname.github.io/writeups/nyx/bind
+  firstUser: PL4GU3
+  firstRoot: PL4GU3
+  release: 18 Nov 2023
+  status: Retired
+code:
+  name: Code
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/RD4UFDpD#y85e3y0AAfdd2cAS9DIbcyzZFyVg-EP-l7tBA0kw-Nc
+  md5: 48ADCF51A03E3C373D39499317522014
+  size: 805MB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+    creator:
+      - noname
+    url:
+      - https://0x-noname.github.io/writeups/nyx/code
+  firstUser: ethicrash2
+  firstRoot: ethicrash2
+  release: 21 Nov 2023
+  status: Retired
+unit:
+  name: Unit
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/EbQGybII#N0eSY8SDTR5IiRuhcfwLpraizWFImHE73e1H597v3Kw
+  md5: 4518732F2D94C6859E5E9899DDCB50FD
+  size: 864MB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser: punt4n0
+  firstRoot: punt4n0
+  release: 22 Nov 2023
+  status: Retired
+raw:
+  name: Raw
+  creator: d4t4s3c
+  difficulty: Hard
+  url: https://mega.nz/file/Ye5gSZrJ#ghYRAFmyGilHW-VMoJIBcC2x8CaQA-aBVH7kB660_zQ
+  md5: A1A12019615A15B01A5E8C806D3C4B4C
+  size: 1,8GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+    creator:
+      - PL4GU3
+    url:
+      - https://youtu.be/KSjt9CQmU2M
+  firstUser: PL4GU3
+  firstRoot: PL4GU3
+  release: 29 Nov 2023
   status: Retired
