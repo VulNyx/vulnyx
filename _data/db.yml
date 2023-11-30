@@ -35,10 +35,12 @@ hat:
       - noname
       - elc4br4
       - d4t4s3c
+      - kerszi
     url: 
       - https://0x-noname.github.io/writeups/nyx/hat
       - https://elc4br4.github.io/vulnyx-hat-writeup
       - https://d4t4s3c.medium.com/vulnyx-hat-be1fc796ef2e
+      - https://kerszl.github.io/hacking/walkthrough/hat
   firstUser: noname
   firstRoot: noname
   release: 18 Apr 2023
@@ -76,9 +78,11 @@ brain:
     creator:
       - noname
       - d4t4s3c
+      - kerszi
     url:
       - https://0x-noname.github.io/writeups/nyx/brain/
       - https://d4t4s3c.medium.com/vulnyx-brain-b9d68597dff7 
+      - https://kerszl.github.io/hacking/walkthrough/brain/
   firstUser: m0w
   firstRoot: m0w
   release: 19 Apr 2023
@@ -241,8 +245,10 @@ tom:
   writeups: 
     creator:
       - noname
+      - kerszi
     url:
-      - https://0x-noname.github.io/writeups/nyx/tom/
+      - https://0x-noname.github.io/writeups/nyx/tom
+      - https://kerszl.github.io/hacking/walkthrough/tom
   firstUser: noname
   firstRoot: noname
   release: 28 Apr 2023
