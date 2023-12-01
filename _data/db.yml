@@ -1319,3 +1319,18 @@ raw:
   firstRoot: PL4GU3
   release: 29 Nov 2023
   status: Retired
+mux:
+  name: Mux
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/pKpSCA6a#1CGYVsurfkzCfGOe81i7atXpxe_TBURU7Ba5AqrjMFE
+  md5: BFE504890283F9CFAF835076E30F45BF
+  size: 1,14GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser: punt4n0
+  firstRoot: punt4n0
+  release: 01 Dec 2023
+  status: Retired

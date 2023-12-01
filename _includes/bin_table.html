@@ -4,19 +4,19 @@
       <ul class="vm-stats">
         <li class="total-vms">
           <span id="total-vms"></span>
-          <span>Total VMs</span>
+          <span onclick="resetTable()">Total VMs</span>
         </li>
         <li>
           <span id="easy-vms"></span>
-          <span class="badge badge-easy">Easy</span>
+          <span class="badge badge-easy" onclick="filterTable('easy')">Easy</span>
         </li>
         <li>
           <span id="medium-vms"></span>
-          <span class="badge badge-medium">Medium</span>
+          <span class="badge badge-medium" onclick="filterTable('medium')">Medium</span>
         </li>
         <li>
           <span id="hard-vms"></span>
-          <span class="badge badge-hard">Hard</span>
+          <span class="badge badge-hard" onclick="filterTable('hard')">Hard</span>
         </li>
       </ul>
       <div id="bin-search-wrapper">
@@ -243,6 +243,26 @@
     }, 2000);
   }
 
+   function filterTable(difficulty) {
+      var rows = document.getElementById('bin-table').getElementsByTagName('tr');
+      for (var i = 1; i < rows.length; i++) { // Comienza desde 1 para omitir el encabezado de la tabla
+          var row = rows[i];
+          var levelButton = row.querySelector('.level-btn'); // Encuentra el botón de nivel en la fila
+
+          if (levelButton && levelButton.classList.contains(difficulty)) {
+              row.style.display = ''; // Muestra la fila si coincide con la dificultad
+          } else {
+              row.style.display = 'none'; // Oculta la fila si no coincide
+          }
+      }
+  }
+
+  function resetTable() {
+    var rows = document.getElementById('bin-table').getElementsByTagName('tr');
+    for (var i = 1; i < rows.length; i++) {
+        rows[i].style.display = ''; // Muestra todas las filas
+    }
+  }
   
   function showWriteups(name) {
     document.querySelector('body').style.overflow = 'hidden';
