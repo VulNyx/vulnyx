@@ -1334,3 +1334,18 @@ mux:
   firstRoot: punt4n0
   release: 01 Dec 2023
   status: Retired
+infected:
+  name: Infected
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/YWohmBqJ#TztP97EVyI-4D42Y-jRFNUzdHTKbRXhzIPk_g23UABc
+  md5: DA4D099B6DAF8CAD4D1C317ECA3368E2
+  size: 0,97GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 02 Dec 2023
+  status: Retired  
