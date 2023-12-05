@@ -68,36 +68,16 @@ a strong:hover {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  // padding: 1rem;
-}
-
-.navbar {
-  display: flex;
+  grid-template-columns: 1fr 2fr 1fr;
+  // gap: 1rem;
   align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
+  padding: 0.5rem;
 }
 
-.navbar a {
-  font-weight: bold;
-  padding: 1.5rem;
-  color: #939598;
-}
-
-.active-nav {
-  color: #daa04a !important;
-  border-bottom: 2px solid #daa04a;
-}
-
-.navbar a:hover {
-  border-bottom: 2px solid #939598;
-}
-
-.active-nav:hover {
-  cursor: default;
-  border-bottom: 2px solid #daa04a !important;
+#page-title {
+  margin: 0;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 .project-info {
@@ -166,13 +146,15 @@ main {
 }
 
 .wrapper {
+  width: 1300px;
   margin: 1.5rem 0;
 }
 
-.filters {
-  height: 75px;
+.actions {
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
   margin-bottom: 1rem;
 }
 
@@ -182,7 +164,7 @@ main {
 
 #total-vms,
 #total-vms + span {
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   width: 100px;
   text-align: center;
 }
@@ -196,11 +178,92 @@ main {
   gap: 0.35rem;
 }
 
+.vm-stats button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  gap: 0.35rem;
+}
+
 .vm-stats {
+  height: 100%;
   list-style: none;
   display: flex;
-  align-items: center;
+  align-items: end;
   gap: 1rem;
+}
+
+ .submit-btns {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.filters {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+#text-filter {
+  text-align: center;
+  color: #a4b1cd;
+}
+
+.level-btns, #text-filter {
+  width: 100%;
+}
+
+.level-btns {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.level-filter {
+  cursor: pointer;
+  width: 65px;
+	border-radius: 1rem;
+	padding: 0.5rem;
+	border: none;
+	background-color: #a4b1cd ;
+	color: white;
+}
+
+.level-filter.hidden {
+  opacity: 50%;
+}
+
+.submit-btns {
+  justify-content: end;
+}
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+	border-radius: 0.25rem;
+	padding: 0.5rem;
+	border: none;
+	background-color: rgb(14, 165, 233);
+	color: white;
+}
+
+.submit-btn:hover {
+  background-color: rgb(2, 132, 199);
 }
 
 #bin-search-wrapper {
@@ -214,7 +277,8 @@ main {
 
 .search-icon {
   position: relative;
-  left: 35px;
+  left: 38px;
+  top: 2px;
 }
 
 .clear-search {
@@ -224,18 +288,18 @@ main {
   padding: 0.25rem;
   border-radius: 0.25rem;
   cursor: pointer;
-  border: none;
+  background-color: #c8cbcf;
+  border: 1px solid transparent;
 }
 
 #bin-search {
-  width: 100%;
-  padding: 0.75rem;
-  padding-left: 2rem;
-  border-radius: 0.25em;
-  border: 1px solid #b9c4e4 ;
-  color: $white;
-  background-color: #939598 ;
-  font-size: 1rem;
+	padding: 0.75rem;
+	padding-left: 2.2rem;
+	border-radius: 0.25em;
+	border: none;
+	color: white;
+	background-color: #000000;
+	font-size: 1rem;
 }
 
 ::-webkit-input-placeholder {
@@ -539,6 +603,10 @@ details {
   font-size: 0.9rem;
 }
 
+.row.hidden {
+  display: none;
+}
+
 .swal2-border {
   border: 1px solid #bbb !important;
 }
@@ -621,7 +689,16 @@ details {
 }
 
 #hard-vms {
-	color: #ec0725;
+  color: #ec0725;
+}
+
+.badge-writeups {
+  color: #daa04a;
+  border: 2px solid #daa04a;
+}
+
+#total-writeups {
+  color: #daa04a;
 }
 
 .media-info {
@@ -637,6 +714,10 @@ details {
   align-items: center;
   justify-content: start;
   gap: 1rem;
+}
+
+.media-links a:hover {
+  transform: scale(1.1);
 }
 
 .form-container {
@@ -662,9 +743,9 @@ details {
   width: 100%;
   padding: 10px;
   font: 0.875rem/1.5 sans-serif;
-  color: #ffffff;
-  background-color: #1e2125;
-  border: 1px solid #daa04a;
+  color: #141414;
+  background-color: lightgray;
+  border: 1px solid #939598;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -760,10 +841,6 @@ footer p {
     display: none;
   }
 
-  .navbar a {
-    padding: 0.35rem;
-  }
-
   th, td, .level-btn, .badge {
     padding: 0.25rem;
     font-size: 0.85rem;
@@ -773,7 +850,7 @@ footer p {
     width: 95vw;
   }
 
-  .filters {
+  .actions {
     height: 125px;
     display: flex;
     flex-direction: column;
@@ -805,8 +882,7 @@ footer p {
 
 @media (min-width: 500px) and (max-width: 1500px) {
   .submit-form {
-    padding: 1rem;
-    max-width: 90vw;
+    max-width: 80vw;
   }
 
   .wrapper {
