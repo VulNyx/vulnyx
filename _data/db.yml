@@ -1351,8 +1351,10 @@ infected:
   writeups:
     creator:
       - dirtyc0w
+      - d4t4s3c
     url:
       - https://youtu.be/b25NqrayWsU
+      - https://d4t4s3c.medium.com/vulnyx-infected-88c9723d0635
   firstUser: dirtyc0w
   firstRoot: dirtyc0w
   release: 02 Dec 2023
