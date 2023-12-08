@@ -1300,8 +1300,10 @@ unit:
   writeups:
     creator:
       - noname
+      - d4t4s3c
     url:
       - https://0x-noname.github.io/writeups/nyx/unit
+      - https://d4t4s3c.medium.com/vulnyx-unit-43fc8016d7c6
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 22 Nov 2023
