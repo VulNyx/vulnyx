@@ -1367,3 +1367,18 @@ infected:
   firstRoot: dirtyc0w
   release: 02 Dec 2023
   status: Retired  
+agent:
+  name: Agent
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/FKB3BZJa#07OrqDmQA1C-991Ao-X7vfnlTbNLZZvdcDSWDA5vsNc
+  md5: 0CEB53AD86A486C6632F28AA08D1BD35
+  size: 1,28GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 10 Dec 2023
+  status: Retired
