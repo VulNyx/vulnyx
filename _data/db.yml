@@ -1382,6 +1382,10 @@ agent:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - s0yn3m3s1s
+    url:
+      - https://medium.com/@s0yn3m3s1s/vulnyx-agent-e19e259b1462
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 10 Dec 2023
