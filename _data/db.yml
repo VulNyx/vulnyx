@@ -1344,8 +1344,8 @@ mux:
       - d4t4s3c
       - noname
     url:
-      https://d4t4s3c.medium.com/vulnyx-mux-87bb6d6e1891
-      - https://0x-noname.github.io/writeups/nyx/mux/
+      - https://d4t4s3c.medium.com/vulnyx-mux-87bb6d6e1891
+      - https://0x-noname.github.io/writeups/nyx/mux
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 01 Dec 2023
