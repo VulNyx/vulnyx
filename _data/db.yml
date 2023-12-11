@@ -1401,7 +1401,11 @@ hunter:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
-  firstUser:
-  firstRoot:
+    creator:
+      - PL4GU3
+    url:
+      - https://youtu.be/KlORwuzu5iw
+  firstUser: PL4GU3
+  firstRoot: PL4GU3
   release: 11 Dec 2023
   status: Retired
