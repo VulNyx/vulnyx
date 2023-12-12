@@ -1388,8 +1388,10 @@ agent:
   writeups:
     creator:
       - s0yn3m3s1s
+      - noname
     url:
       - https://medium.com/@s0yn3m3s1s/vulnyx-agent-e19e259b1462
+      - https://0x-noname.github.io/writeups/nyx/agent
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 10 Dec 2023
