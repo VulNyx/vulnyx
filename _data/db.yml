@@ -1303,9 +1303,11 @@ unit:
     creator:
       - noname
       - d4t4s3c
+      - s0yn3m3s1s
     url:
       - https://0x-noname.github.io/writeups/nyx/unit
       - https://d4t4s3c.medium.com/vulnyx-unit-43fc8016d7c6
+      - https://medium.com/@s0yn3m3s1s/vulnyx-unit-822e3f21438c
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 22 Nov 2023
