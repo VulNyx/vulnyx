@@ -60,6 +60,7 @@
           <path d="M4 11a9 9 0 0 1 9 9" />
         </svg>
       </a>
+      <button type="button" class="submit-btn">Submit VM</button>
     </div>
   </article>
 </header>
@@ -85,14 +86,22 @@
         </li>
       </ul>
       <div class="filters">
-        <span id="text-filter">Filter by</span>
-        <div class="level-btns">
-          <button class="level-filter" id="basic" data-difficulty="easy" title="Easy" onclick="filterTable('easy')">Easy</button>
-          <button class="level-filter" id="medium" data-difficulty="medium" title="Medium" onclick="filterTable('medium')">Medium</button>
-          <button class="level-filter" id="hard" data-difficulty="hard" title="Hard" onclick="filterTable('hard')">Hard</button>
-        </div>
-      </div>
-      <div class="submit-btns">
+        <button type="button" class="filter-by">
+          Filter by
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 9l6 6l6 -6" />
+          </svg>
+        </button>
+        <button type="button" class="order-by">
+          Order by
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 9l6 6l6 -6" />
+          </svg>
+        </button>
         <div id="bin-search-wrapper">
           <div class="search-icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24"
@@ -105,8 +114,14 @@
           </div>
           <input id="bin-search" type="text" placeholder="Search by name..." />
           <button class="clear-search" title="Clear search" onclick="clearSearch()">Clear</button>
-          <button type="button" class="submit-btn" title="Submit VM">Submit VM</button>
         </div>
+        <!-- <button type="button" class="submit-btn" title="Submit VM">Submit VM</button> -->
+        <!-- <span id="text-filter">Filter by</span>
+        <div class="level-btns">
+          <button class="level-filter" id="basic" data-difficulty="easy" title="Easy" onclick="filterTable('easy')">Easy</button>
+          <button class="level-filter" id="medium" data-difficulty="medium" title="Medium" onclick="filterTable('medium')">Medium</button>
+          <button class="level-filter" id="hard" data-difficulty="hard" title="Hard" onclick="filterTable('hard')">Hard</button>
+        </div> -->
       </div>
     </article>
     <div id="bin-table-wrapper">
@@ -118,6 +133,7 @@
             <th class="creator">Creator</th>
             <th id="tested">Tested</th>
             <th class="url">File</th>
+            <th class="size">Size</th>
             <th id="md5">MD5</th>
             <th class="first-user">$ First User</th>
             <th class="first-root"># First Root</th>
@@ -169,6 +185,9 @@
                   <path d="M12 4l0 12" />
                 </svg>
               </a>
+            </td>
+            <td class="size">
+              <span id="size">{{ data[1].size }}</span>
             </td>
             <td class="md5">
               <span id="md5-hash" title="{{ data[1].md5 }}">

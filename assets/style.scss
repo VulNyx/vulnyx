@@ -153,7 +153,7 @@ main {
 .actions {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
   margin-bottom: 1rem;
 }
@@ -198,23 +198,13 @@ main {
   gap: 1rem;
 }
 
- .submit-btns {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: end;
-  justify-content: end;
-  gap: 1rem;
-}
-
 .filters {
   height: 100%;
   width: 100%;
   display: flex;
   align-items: end;
-  flex-direction: column;
-  justify-content: center;
-  gap: 0.35rem;
+  justify-content: end;
+  gap: 0.5rem;
 }
 
 #text-filter {
@@ -246,8 +236,16 @@ main {
   opacity: 50%;
 }
 
-.submit-btns {
-  justify-content: end;
+.filter-by, .order-by {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+	border-radius: 0.25rem;
+	padding: 0.75rem 1rem;
+	border: none;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
 }
 
 .submit-btn {
@@ -258,27 +256,27 @@ main {
 	border-radius: 0.25rem;
 	padding: 0.5rem;
 	border: none;
-	background-color: rgb(14, 165, 233);
+  background-color: rgba(14, 165, 233, 0.6);
 	color: white;
 }
 
+.filter-by:hover, .order-by:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
 .submit-btn:hover {
-  background-color: rgb(2, 132, 199);
+  background-color: rgba(14, 165, 233, 0.9);
 }
 
 #bin-search-wrapper {
   position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  gap: 0.5rem;
 }
 
 .search-icon {
   position: relative;
-  left: 38px;
-  top: 2px;
+  left: 6px;
+  top: 36px;
+  width: fit-content;
 }
 
 .clear-search {
@@ -298,7 +296,7 @@ main {
 	border-radius: 0.25em;
 	border: none;
 	color: white;
-	background-color: #000000;
+  background-color: rgba(0,0,0,0.4);
 	font-size: 1rem;
 }
 
@@ -320,7 +318,7 @@ main {
   font-size: 1.25rem;
 }
 
-.creator, .first-user, .first-root {
+.creator, .first-user, .first-root, .size {
   text-align: left;
 }
 
@@ -391,6 +389,11 @@ td div {
   justify-content: center;
   list-style: none;
 }
+
+#size {
+  color: #c8cbcf;
+}
+
 
 .card-btn {
   cursor: pointer;
@@ -590,8 +593,8 @@ details {
 }
 
 .logo {
-  width: 180px;
-  height: 50px;
+  width: 200px;
+  height: 35px;
 }
 
 .level-btn,
@@ -896,7 +899,7 @@ footer p {
 
 @media (min-width: 1600px) {
   .wrapper {
-    width: 75vw;
+    width: 65vw;
   }
 }
 
