@@ -461,9 +461,11 @@ deploy:
     creator:
       - d4t4s3c
       - noname
+      - Condor
     url:
       - https://d4t4s3c.medium.com/vulnyx-deploy-fa1edf94b92a
       - https://0x-noname.github.io/writeups/nyx/deploy
+      - https://youtu.be/mjYXNAzfMOI?si=Olnc0vtqfhQgOMqa
   firstUser: noname
   firstRoot: noname
   release: 11 May 2023
@@ -1047,9 +1049,11 @@ play:
     creator:
       - dirtyc0w
       - Anonimo501
+      - d4t4s3c
     url:
       - https://youtu.be/I_g1g-69H0w
       - https://youtu.be/jwvOXzRjws8?si=LujsG5fDh01q5sr3
+      - https://d4t4s3c.medium.com/vulnyx-play-47539caf729b
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 09 Sep 2023
@@ -1298,8 +1302,12 @@ unit:
   writeups:
     creator:
       - noname
+      - d4t4s3c
+      - s0yn3m3s1s
     url:
       - https://0x-noname.github.io/writeups/nyx/unit
+      - https://d4t4s3c.medium.com/vulnyx-unit-43fc8016d7c6
+      - https://medium.com/@s0yn3m3s1s/vulnyx-unit-822e3f21438c
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 22 Nov 2023
@@ -1334,6 +1342,14 @@ mux:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - d4t4s3c
+      - noname
+      - s0yn3m3s1s
+    url:
+      - https://d4t4s3c.medium.com/vulnyx-mux-87bb6d6e1891
+      - https://0x-noname.github.io/writeups/nyx/mux
+      - https://medium.com/@s0yn3m3s1s/vulnyx-mux-d28c81bea56f
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 01 Dec 2023
@@ -1351,9 +1367,51 @@ infected:
   writeups:
     creator:
       - dirtyc0w
+      - d4t4s3c
     url:
       - https://youtu.be/b25NqrayWsU
+      - https://d4t4s3c.medium.com/vulnyx-infected-88c9723d0635
   firstUser: dirtyc0w
   firstRoot: dirtyc0w
   release: 02 Dec 2023
   status: Retired  
+agent:
+  name: Agent
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/FKB3BZJa#07OrqDmQA1C-991Ao-X7vfnlTbNLZZvdcDSWDA5vsNc
+  md5: 0CEB53AD86A486C6632F28AA08D1BD35
+  size: 1,28GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+    creator:
+      - s0yn3m3s1s
+      - noname
+    url:
+      - https://medium.com/@s0yn3m3s1s/vulnyx-agent-e19e259b1462
+      - https://0x-noname.github.io/writeups/nyx/agent
+  firstUser: ethicrash2
+  firstRoot: ethicrash2
+  release: 10 Dec 2023
+  status: Retired
+hunter:
+  name: Hunter
+  creator: d4t4s3c
+  difficulty: Medium
+  url: https://mega.nz/file/ZPwglJLY#uVIV9ybYO9Tu5IKr9I4svVj0Qx4TCvKz4Iv1umpkOrQ
+  md5: D8823D5EB181CD0038490C610F65A88C
+  size: 1,01GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+    creator:
+      - PL4GU3
+    url:
+      - https://youtu.be/KlORwuzu5iw
+  firstUser: PL4GU3
+  firstRoot: PL4GU3
+  release: 11 Dec 2023
+  status: Retired
