@@ -78,6 +78,7 @@ header {
   margin: 0;
   font-size: 1.25rem;
   text-align: center;
+  color: #daa04a;
 }
 
 .project-info {
@@ -375,7 +376,7 @@ tbody tr {
 }
 
 #bin-table td {
-  border-top: 1px solid #daa04a;
+  /* border-top: 1px solid #daa04a; */
   color: #c8cbcf;
 }
 
@@ -593,8 +594,8 @@ details {
 }
 
 .logo {
-  width: 200px;
-  height: 35px;
+  width: 160px;
+  height: 24px;
 }
 
 .level-btn,
