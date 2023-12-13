@@ -824,9 +824,11 @@ jenk:
     creator:
       - noname
       - ElPingüinoDeMario
+      - xerosec
     url:
       - https://0x-noname.github.io/writeups/nyx/jenk
       - https://www.youtube.com/watch?v=WwRSjtb5M-c&t=472s
+      - https://www.youtube.com/watch?v=OZgU-gStEIo
   firstUser: Powerful
   firstRoot: Powerful
   release: 21 Jul 2023
