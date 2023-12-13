@@ -60,7 +60,73 @@
           <path d="M4 11a9 9 0 0 1 9 9" />
         </svg>
       </a>
-      <button type="button" class="submit-btn">Submit VM</button>
+      <button type="button" class="submit-btn" onclick="showVMForm()">Submit VM</button>
+      <section class="form-vm">
+        <article class="form-container">
+          <div class="form-title">
+            <h1 class="submit-vm">New VM Submission</h1>
+            <span class="close-form">&times;</span>
+          </div>
+          <form class="form submit-form" id="vmForm" action="https://formspree.io/f/xbjewngg" method="POST">
+            <div class="form-field">
+              <label class="form-label" for="name">Name</label>
+              <input class="form-control" id="name" name="Name" type="text" maxlength="20" placeholder="Enter the machine name"
+                required />
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="creator">Creator</label>
+              <input class="form-control" id="creator" name="Creator" type="text" maxlength="15" placeholder="Enter your username"
+                required />
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="level">Level</label>
+              <select class="form-control" id="level" name="Level" required>
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="creator">User Flag</label>
+              <input class="form-control" id="user-flag" name="UserFlag" type="text" maxlength="32"
+                placeholder="Enter the user flag" required />
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="creator">Root Flag</label>
+              <input class="form-control" id="root-flag" name="RootFlag" type="text" maxlength="32"
+                placeholder="Enter the root flag" required />
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="url">URL</label>
+              <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+"
+                placeholder="Enter the public url of your machine" required />
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="solution">Tags</label>
+              <textarea class="form-control" id="tags" name="Tags" maxlength="200" rows="2"
+                placeholder="Indicate the main tags that identify the machine separated by commas." required></textarea>
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="solution">Solution</label>
+              <textarea class="form-control" id="solution" name="Solution" maxlength="2000" rows="10"
+                placeholder="Explain how to solve the machine. Indicate the steps to get the user and root flags."
+                required></textarea>
+            </div>
+            <div class="form-btns">
+              <button class="button" type="submit">Submit</button>
+              <button class="button" type="reset">Clear</button>
+            </div>
+            <div class="form-footer">
+              <small>Please read our
+                <a href="/rules" target="_blank">
+                  <strong>Rules</strong>
+                </a>
+                section before submitting a new vm.
+              </small>
+            </div>
+          </form>
+        </article>
+    </section>    
     </div>
   </article>
 </header>
@@ -234,7 +300,7 @@
                   <line x1="21" y1="6" x2="21" y2="19" />
                 </svg>
               </button>
-              <button class="writeup-btn" title="Add writeup">
+              <button class="writeup-btn" title="Add writeup" onclick="showWriteupForm('{{ data[1].name }}')">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24"
                   viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -263,7 +329,7 @@
                   <line x1="21" y1="6" x2="21" y2="19" />
                 </svg>
               </span>
-              <button class="writeup-btn" title="Add writeup">
+              <button class="writeup-btn" title="Add writeup" onclick="showWriteupForm('writeup', '{{ data[1].name }}')">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24"
                   viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -272,6 +338,60 @@
                   <path d="M12 9v6" />
                 </svg>
               </button>
+              <section class="form-writeup">
+                <article class="form-container">
+                  <div class="form-title">
+                    <h1 class="submit-writeup"></h1>
+                    <span class="close-form">&times;</span>
+                  </div>
+                  <form class="form submit-form" id="writeupForm" action="https://formspree.io/f/xbjewngg" method="POST">
+                    <div class="form-field">
+                      <label class="form-label" for="creator">Creator</label>
+                      <input class="form-control" id="creator" name="Creator" type="text" maxlength="15" placeholder="Enter your username" required />
+                    </div>
+                    <div class="form-field">
+                      <label class="form-label" for="url">URL</label>
+                      <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+" placeholder="Enter the public url of your writeup" required />
+                    </div>
+                    <div class="form-field">
+                      <label class="form-label" for="language">Content Type</label>
+                      <div class="form-checkbox">      
+                        <input type="radio" id="text" name="Content-Type" value="text" checked>
+                        <label for="text">Text</label>
+                        <input type="radio" id="video" name="Content-Type" value="video">
+                        <label for="video">Video</label>
+                      </div>
+                    </div>
+                    <div class="form-field">
+                      <label class="form-label" for="language">Language</label>
+                      <select class="form-control" id="language" name="Language" required>
+                          <option value="EN">English</option>
+                          <option value="ES">Español</option>
+                          <option value="FR">Français</option>
+                          <option value="DE">Deutsch</option>
+                          <option value="PT">Português</option>
+                          <option value="Other">Other</option>
+                      </select>
+                    </div>
+                    <div class="form-field">
+                      <label class="form-label" for="opinion">Opinion (Optional)</label>
+                      <textarea class="form-control" id="opinion" name="Opinion" maxlength="2000" rows="5" placeholder="Your opinion will only be shared with the VulNyx team and will be helpful as feedback. You are free to review or rate the machine as you want."></textarea>
+                    </div>
+                    <div class="form-btns">
+                      <button class="button" type="submit">Submit</button>
+                      <button class="button" type="reset">Clear</button>
+                    </div>
+                    <div class="form-footer">
+                      <small>Please read our 
+                        <a href="/rules" target="_blank">
+                          <strong>Rules</strong>
+                        </a> 
+                        section before submitting a new writeup.
+                      </small>
+                    </div>
+                  </form>
+                </article>
+              </section>              
               {% endif %}
             </td>
           </tr>
@@ -400,6 +520,109 @@
       });
     }
   }
+
+  const showVMForm = () => {
+    document.querySelector('body').style.overflow = 'hidden';
+    let title = document.querySelector('.submit-writeup');
+    let modal = document.querySelector('.form-vm');
+    modal.style.display = 'block';
+    
+    let span = modal.querySelector('.close-form');
+    span.onclick = function () {
+      modal.style.display = 'none';
+      document.querySelector('body').style.overflow = 'visible';
+    }
+  }
+
+  document.getElementById("vmForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    Swal.fire({
+      toast: true,
+      icon: 'success',
+      iconColor: '#fff',
+      position: 'bottom',
+      title: 'VM successfully submitted! Thank you for your contribution.',
+      customClass : {
+        title: 'swal2-title'
+      },
+      background: '#21b01d',
+      focusConfirm: false,
+      showConfirmButton: false,
+      showCloseButton: true,
+      timer: 7500,
+      timerProgressBar: true,
+    });
+
+    var form = document.getElementById("vmForm");
+    var url = form.action;
+    var formData = new FormData(form);
+
+    fetch(url, {
+      method: "POST",
+      body: formData
+    })
+    .then(response => {
+      console.log("VM successfully submitted! Thanks.");
+    })
+    .catch(error => {
+      console.log("The submission was successful but the github pages are throwing a CORS error. Don't worry.");
+    });
+    
+    form.reset();
+  });
+
+
+  const showWriteupForm = (name) => {
+    document.querySelector('body').style.overflow = 'hidden';
+    let title = document.querySelector('.submit-writeup');
+    title.textContent = `Writeup submission for ${name}`;
+    let modal = document.querySelector('.form-writeup');
+    modal.style.display = 'block';
+    
+    let span = modal.querySelector('.close-form');
+    span.onclick = function () {
+      modal.style.display = 'none';
+      document.querySelector('body').style.overflow = 'visible';
+    }
+  }
+
+  document.getElementById("writeupForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    Swal.fire({
+      toast: true,
+      icon: 'success',
+      iconColor: '#fff',
+      position: 'bottom',
+      title: 'Writeup successfully submitted! Thank you for your contribution.',
+      customClass : {
+        title: 'swal2-title'
+      },
+      background: '#21b01d',
+      focusConfirm: false,
+      showConfirmButton: false,
+      showCloseButton: true,
+      timer: 7500,
+      timerProgressBar: true,
+    });
+
+    var form = document.getElementById("writeupForm");
+    var url = form.action;
+    var formData = new FormData(form);
+
+    fetch(url, {
+      method: "POST",
+      body: formData
+    })
+    .then(response => {
+      console.log("Writeup successfully submitted! Thanks.");
+    })
+    .catch(error => {
+      console.log("The submission was successful but the github pages are throwing a CORS error. Don't worry.");
+    });
+    form.reset();
+  });
 
   const setStats = () => {
     const totalVMs = document.querySelector('#total-vms');
