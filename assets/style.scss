@@ -369,6 +369,7 @@ th {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
 }
 
 tbody tr {
@@ -525,7 +526,7 @@ details {
   display: none; 
   position: fixed;
   z-index: 1;
-  padding-top: 50vh;
+  padding-top: 45vh;
   left: 0;
   top: 0;
   width: 100%; 
@@ -533,6 +534,20 @@ details {
   overflow: hidden;
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.4);
+}
+
+.form-writeup {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  padding-top: 10vh;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.6);
 }
 
 .modal-content {
@@ -582,7 +597,18 @@ details {
 	cursor: pointer;
 }
 
-.close:hover {
+.close-writeup {
+	width: 100%;
+	display: flex;
+	justify-content: end;
+	color: #ccc;
+	font-family: serif;
+	font-size: 2em;
+	line-height: 1.2;
+	cursor: pointer;
+}
+
+.close:hover, .close-writeup:hover {
   color: #f27474;
   cursor: pointer;
 }
@@ -725,10 +751,45 @@ details {
 }
 
 .form-container {
-  display: flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1.5rem;
+	flex-direction: column;
+	background: #1e2125;
+	border-radius: 0.25rem;
+	padding: 2rem;
+	width: 40vw;
+	margin: auto;
+}
+
+.form-title {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 1.5rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-field {
+	display: flex;
+	align-items: start;
+	justify-content: start;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+
+.form-checkbox {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.form-btns {
+ display: flex;
+ align-items: center;
+ justify-content: start;
+ gap: 0.5rem;
 }
 
 .form > div ~ div {
@@ -757,30 +818,22 @@ details {
 .form-footer {
   display: flex;
   align-items: center;
+  justify-content: start;
 }
 
-.submit-vm {
-  text-align: center;
-  margin: 1.5rem 0;
-  font-size: 1.5rem;
+.submit-vm, .submit-writeup {
+	text-align: start;
+  font-size: 1.15rem;
+  margin: 0;
 }
 
 .submit-form {
-  width: 100%;
-  max-width: 90vw;
-  padding: 2rem;
-  border-radius: 4px;
-  background-color: #1e2125;
-  border: 1px solid #daa04a;
-}
-
-.submit-form--loading {
-  opacity: 0.5;
-  pointer-events: none;
-}
-
-.submit-form--sent > div ~ div {
-  margin: 0;
+	width: 100%;
+	max-width: 90vw;
+	/* padding: 2rem; */
+	/* border-radius: 4px; */
+	/* background-color: #1e2125; */
+	/* border: 1px solid #daa04a; */
 }
 
 .button {
@@ -885,10 +938,6 @@ footer p {
 }
 
 @media (min-width: 500px) and (max-width: 1500px) {
-  .submit-form {
-    max-width: 80vw;
-  }
-
   .wrapper {
     width: 90vw;
   }
@@ -901,11 +950,5 @@ footer p {
 @media (min-width: 1600px) {
   .wrapper {
     width: 65vw;
-  }
-}
-
-@media (min-width: 1000px) {
-  .submit-form  {
-    width: 50vw;
   }
 }
