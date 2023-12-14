@@ -70,15 +70,15 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   // gap: 1rem;
-  align-items: center;
+  // align-items: center;
   padding: 0.5rem;
 }
 
 #page-title {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   text-align: center;
-  color: #daa04a;
+  color: #939598;
 }
 
 .project-info {
@@ -350,7 +350,7 @@ td {
 }
 
 td {
-  height: 52px;
+  height: 42px;
 }
 
 th {
@@ -879,7 +879,7 @@ footer p {
   header {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     gap: 0.5rem;
   }
