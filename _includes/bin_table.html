@@ -67,7 +67,7 @@
             <h1 class="submit-vm">New VM Submission</h1>
             <span class="close-form">&times;</span>
           </div>
-          <form class="form submit-form" id="vmForm" action="https://formspree.io/f/xbjewngg" method="POST">
+          <form class="form submit-form" id="vmForm" action="https://discord.com/api/webhooks/1106339439652904980/cV0q-O-LmbSeE1IOA0EbBgpETfSr2C4BILqij9GByCH3Sd30fFXTLah7O9eCio_tyKE6" method="POST">
             <div class="form-field">
               <label class="form-label" for="name">Name</label>
               <input class="form-control" id="name" name="Name" type="text" maxlength="20" placeholder="Enter the machine name"
@@ -344,7 +344,7 @@
                     <h1 class="submit-writeup"></h1>
                     <span class="close-form">&times;</span>
                   </div>
-                  <form class="form submit-form" id="writeupForm" action="https://formspree.io/f/xbjewngg" method="POST">
+                  <form class="form submit-form" id="writeupForm" action="https://discord.com/api/webhooks/1106339439652904980/cV0q-O-LmbSeE1IOA0EbBgpETfSr2C4BILqij9GByCH3Sd30fFXTLah7O9eCio_tyKE6" method="POST">
                     <div class="form-field">
                       <label class="form-label" for="creator">Creator</label>
                       <input class="form-control" id="creator" name="Creator" type="text" maxlength="15" placeholder="Enter your username" required />
@@ -356,9 +356,9 @@
                     <div class="form-field">
                       <label class="form-label" for="language">Content Type</label>
                       <div class="form-checkbox">      
-                        <input type="radio" id="text" name="Content-Type" value="text" checked>
+                        <input type="radio" id="text" name="ContentType" value="Text" checked>
                         <label for="text">Text</label>
-                        <input type="radio" id="video" name="Content-Type" value="video">
+                        <input type="radio" id="video" name="ContentType" value="Video">
                         <label for="video">Video</label>
                       </div>
                     </div>
@@ -371,6 +371,7 @@
                           <option value="DE">Deutsch</option>
                           <option value="PT">Português</option>
                           <option value="Other">Other</option>
+                          <option value="None">None(Just Video)</option>
                       </select>
                     </div>
                     <div class="form-field">
@@ -534,44 +535,70 @@
     }
   }
 
-  document.getElementById("vmForm").addEventListener("submit", function(event) {
+  const vmForm= document.getElementById('vmForm');
+  vmForm.addEventListener('submit', function (event) {
     event.preventDefault();
-    
-    Swal.fire({
-      toast: true,
-      icon: 'success',
-      iconColor: '#fff',
-      position: 'bottom',
-      title: 'VM successfully submitted! Thank you for your contribution.',
-      customClass : {
-        title: 'swal2-title'
-      },
-      background: '#21b01d',
-      focusConfirm: false,
-      showConfirmButton: false,
-      showCloseButton: true,
-      timer: 7500,
-      timerProgressBar: true,
+
+    const formData = {};
+    new FormData(vmForm).forEach((value, key) => {
+      formData[key] = value;
     });
 
-    var form = document.getElementById("vmForm");
-    var url = form.action;
-    var formData = new FormData(form);
+    const payload = {
+        content: 'New VM Submission:',
+        embeds: [
+          {
+            title: 'VM Information',
+            fields: [
+              { name: 'Name', value: formData.Name },
+              { name: 'Creator', value: formData.Creator },
+              { name: 'Level', value: formData.Level },
+              { name: 'User Flag', value: formData.UserFlag },
+              { name: 'Root Flag', value: formData.RootFlag },
+              { name: 'URL', value: formData.URL },
+              { name: 'Tags', value: formData.Tags },
+              { name: 'Solution', value: formData.Solution },
+            ],
+          },
+        ],
+      };
 
-    fetch(url, {
-      method: "POST",
-      body: formData
-    })
-    .then(response => {
-      console.log("VM successfully submitted! Thanks.");
-    })
-    .catch(error => {
-      console.log("The submission was successful but the github pages are throwing a CORS error. Don't worry.");
-    });
-    
-    form.reset();
+      fetch(vmForm.action, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+      })
+      .then(() => {
+        Swal.fire({
+          toast: true,
+          icon: 'success',
+          iconColor: '#fff',
+          position: 'bottom',
+          title: 'VM successfully submitted! Thank you for your contribution.',
+          customClass : {
+            title: 'swal2-title'
+          },
+          background: '#21b01d',
+          focusConfirm: false,
+          showConfirmButton: false,
+          showCloseButton: true,
+          timer: 7500,
+          timerProgressBar: true,
+        });
+        vmForm.reset();
+      })
+      .catch(error => {
+        console.error('There was an error in the server:', error);
+      });
+      
   });
-
 
   const showWriteupForm = (name) => {
     document.querySelector('body').style.overflow = 'hidden';
@@ -587,41 +614,66 @@
     }
   }
 
-  document.getElementById("writeupForm").addEventListener("submit", function(event) {
+  const writeupForm = document.getElementById('writeupForm');
+  writeupForm.addEventListener('submit', function (event) {
     event.preventDefault();
-    
-    Swal.fire({
-      toast: true,
-      icon: 'success',
-      iconColor: '#fff',
-      position: 'bottom',
-      title: 'Writeup successfully submitted! Thank you for your contribution.',
-      customClass : {
-        title: 'swal2-title'
-      },
-      background: '#21b01d',
-      focusConfirm: false,
-      showConfirmButton: false,
-      showCloseButton: true,
-      timer: 7500,
-      timerProgressBar: true,
+
+    const formData = {};
+    new FormData(writeupForm).forEach((value, key) => {
+      formData[key] = value;
     });
 
-    var form = document.getElementById("writeupForm");
-    var url = form.action;
-    var formData = new FormData(form);
+    const payload = {
+        content: 'New Writeup Submission:',
+        embeds: [
+          {
+            title: 'Writeup Information',
+            fields: [
+              { name: 'Creator', value: formData.Creator },
+              { name: 'URL', value: formData.URL },
+              { name: 'ContentType', value: formData.ContentType },
+              { name: 'Language', value: formData.Language},
+              { name: 'Opinion', value: formData.Opinion },
+            ],
+          },
+        ],
+      };
 
-    fetch(url, {
-      method: "POST",
-      body: formData
-    })
-    .then(response => {
-      console.log("Writeup successfully submitted! Thanks.");
-    })
-    .catch(error => {
-      console.log("The submission was successful but the github pages are throwing a CORS error. Don't worry.");
-    });
-    form.reset();
+      fetch(writeupForm.action, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+      })
+      .then(() => {
+        Swal.fire({
+          toast: true,
+          icon: 'success',
+          iconColor: '#fff',
+          position: 'bottom',
+          title: 'Writeup successfully submitted! Thank you for your contribution.',
+          customClass : {
+            title: 'swal2-title'
+          },
+          background: '#21b01d',
+          focusConfirm: false,
+          showConfirmButton: false,
+          showCloseButton: true,
+          timer: 7500,
+          timerProgressBar: true,
+        });
+        writeupForm.reset();
+      })
+      .catch(error => {
+        console.error('There was an error in the server:', error);
+      });
+      
   });
 
   const setStats = () => {
