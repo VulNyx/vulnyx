@@ -152,14 +152,30 @@
         </li>
       </ul>
       <div class="filters">
-        <button type="button" class="filter-by">
-          Filter by
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M6 9l6 6l6 -6" />
-          </svg>
-        </button>
+        <div class="filter-wrapper">
+          <button type="button" class="filter-by" onclick="toggleFilters()" onmouseover="showFilters()">
+            Filter by
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M6 9l6 6l6 -6" />
+            </svg>
+          </button>
+          <div class="filter-options" onmouseleave="hideFilters()">
+            <div class="level-filter">
+              <input type="checkbox" id="basic" name="basic" data-difficulty="easy" title="Easy" checked onclick="filterTable('easy')"/>
+              <label for="easy">Easy</label>
+            </div>
+            <div class="level-filter">
+              <input type="checkbox" id="medium" name="medium" data-difficulty="medium" title="Medium" checked onclick="filterTable('medium')"/>
+              <label for="medium">Medium</label>
+            </div>
+            <div class="level-filter">
+              <input type="checkbox" id="hard" name="hard" data-difficulty="hard" title="Hard" checked onclick="filterTable('hard')"/>
+              <label for="hard">Hard</label>
+            </div>
+          </div>
+        </div>
         <button type="button" class="order-by">
           Order by
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20"
@@ -181,13 +197,6 @@
           <input id="bin-search" type="text" placeholder="Search by name..." />
           <button class="clear-search" title="Clear search" onclick="clearSearch()">Clear</button>
         </div>
-        <!-- <button type="button" class="submit-btn" title="Submit VM">Submit VM</button> -->
-        <!-- <span id="text-filter">Filter by</span>
-        <div class="level-btns">
-          <button class="level-filter" id="basic" data-difficulty="easy" title="Easy" onclick="filterTable('easy')">Easy</button>
-          <button class="level-filter" id="medium" data-difficulty="medium" title="Medium" onclick="filterTable('medium')">Medium</button>
-          <button class="level-filter" id="hard" data-difficulty="hard" title="Hard" onclick="filterTable('hard')">Hard</button>
-        </div> -->
       </div>
     </article>
     <div id="bin-table-wrapper">
@@ -483,13 +492,12 @@
     for (let i = 1; i < rows.length; i++) {
         let row = rows[i];
         let levelButton = row.querySelector('.level-btn');
-        console.log(row)
         if (levelButton && levelButton.classList.contains(difficulty)) {
           row.classList.toggle('hidden');
         }
     }
 
-    let difficultyButton = document.querySelector(`button[data-difficulty="${difficulty}"]`);
+    let difficultyButton = document.querySelector(`input[data-difficulty="${difficulty}"]`);
     if (difficultyButton) {
         difficultyButton.classList.toggle('hidden');
     }
@@ -696,6 +704,23 @@
     clearSearch.style.display = 'none';
     searchBox.value = '';
     location.hash = '';
+  }
+
+  const toggleFilters= () => {
+    let filtersDiv = document.querySelector('.filter-options');
+    filtersDiv.style.display === 'block' ? filtersDiv.style.display = 'none' : filtersDiv.style.display = 'block';
+  }
+
+  const showFilters= () => {
+    let filtersDiv = document.querySelector('.filter-options');
+    filtersDiv.style.display =  'block';
+  }
+
+  const hideFilters= () => {
+    let filtersDiv = document.querySelector('.filter-options');
+    setTimeout(() => {
+      filtersDiv.style.display =  'none';
+    }, 200);
   }
 
   const filter = (query) => {

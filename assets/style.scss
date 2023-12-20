@@ -200,6 +200,7 @@ main {
 }
 
 .filters {
+  position: relative;
   height: 100%;
   width: 100%;
   display: flex;
@@ -213,28 +214,25 @@ main {
   color: #a4b1cd;
 }
 
-.level-btns, #text-filter {
+#text-filter {
   width: 100%;
 }
 
-.level-btns {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
+.filter-options{
+  display: none;
+  position: absolute;
+  top: 72px;
+  background-color: rgb(0,0,0);
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
 }
 
 .level-filter {
-  cursor: pointer;
-  width: 65px;
-	border-radius: 1rem;
-	padding: 0.5rem;
-	border: none;
-	background-color: #a4b1cd ;
-	color: white;
-}
-
-.level-filter.hidden {
-  opacity: 50%;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	padding: 0.25rem 0;
+	gap: 0.5rem;
 }
 
 .filter-by, .order-by {
@@ -281,14 +279,15 @@ main {
 }
 
 .clear-search {
-  display: none;
-  position: absolute;
-  right: 1rem;
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  background-color: #c8cbcf;
-  border: 1px solid transparent;
+	display: none;
+	position: absolute;
+	right: 6px;
+	padding: 0.25rem;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	background-color: #c8cbcf;
+	border: 1px solid transparent;
+	top: 36px;
 }
 
 #bin-search {
@@ -889,14 +888,10 @@ footer p {
   }
 
   .card,
+  #card,
   .tested,
   .first-user,
-  .first-root,
-  .md5,
-  .url,
-  #card,
-  #tested,
-  #md5 {
+  .first-root {
     display: none;
   }
 
@@ -905,7 +900,7 @@ footer p {
     font-size: 0.85rem;
   }
 
-  .wrapper  {
+  .wrapper, .form-container  {
     width: 95vw;
   }
 
@@ -918,11 +913,34 @@ footer p {
   }
 
   #bin-search-wrapper {
-    justify-content: center;
+    max-width: 150px;
   }
 
   .vm-stats {
     gap: 0.75rem
+  }
+
+  .filters {
+    align-items: center;
+    justify-content: start;
+  }
+
+  .filter-by, .order-by, #bin-search {
+    padding: 0.5rem;
+  }
+
+  #bin-search {
+    padding-left: 2rem;
+  }
+  
+  .card-container {
+    gap: 0;
+  }
+
+  #card-logo {
+    top: 1rem;
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -939,12 +957,12 @@ footer p {
   }
 }
 
-@media (min-width: 500px) and (max-width: 1500px) {
+@media (min-width: 300px) and (max-width: 1500px) {
   .wrapper {
-    width: 90vw;
+    width: 95vw;
   }
 
-  .tested, #tested {
+  .tested, #tested, .md5, #md5, .size, .url {
     display: none;
   }
 }
