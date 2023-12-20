@@ -1398,10 +1398,12 @@ agent:
       - s0yn3m3s1s
       - noname
       - iTrox
+      - d4t4s3c
     url:
       - https://medium.com/@s0yn3m3s1s/vulnyx-agent-e19e259b1462
       - https://0x-noname.github.io/writeups/nyx/agent
       - https://github.com/iTroxB/VULNYX-WRITEUPS/blob/main/writeups/VULNYX-Agent.pdf
+      - https://d4t4s3c.medium.com/vulnyx-agent-16b00379d627
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 10 Dec 2023
