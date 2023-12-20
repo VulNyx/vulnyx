@@ -1372,11 +1372,13 @@ infected:
       - d4t4s3c
       - condor
       - noname
+      - iTrox
     url:
       - https://youtu.be/b25NqrayWsU
       - https://d4t4s3c.medium.com/vulnyx-infected-88c9723d0635
       - https://youtu.be/I8o_lKWquYE?si=uNimjyxFUjRzs9Sc
       - https://0x-noname.github.io/writeups/nyx/infected
+      - https://github.com/iTroxB/VULNYX-WRITEUPS/blob/main/writeups/VULNYX-Infected.pdf
   firstUser: dirtyc0w
   firstRoot: dirtyc0w
   release: 02 Dec 2023
