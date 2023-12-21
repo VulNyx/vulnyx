@@ -67,25 +67,31 @@ a strong:hover {
 }
 
 header {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  // gap: 1rem;
-  // align-items: center;
-  padding: 0.5rem;
-}
-
-#page-title {
-  margin: 0;
-  font-size: 1.15rem;
-  text-align: center;
-  color: #939598;
-}
-
-.project-info {
+	width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  padding: 1rem;
+}
+
+.header-container {
+  width: 90vw;
+  display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+}
+
+#page-title {
+	margin: auto;
+	font-size: 1.15rem;
+	text-align: center;
+	color: #daa04a;
+}
+
+.project-info {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	gap: 1rem;
 }
 
 a.github-button {
@@ -147,14 +153,14 @@ main {
 }
 
 .wrapper {
-  width: 1300px;
-  margin: 1.5rem 0;
+  width: 90vw;
+  margin: 1rem 0;
 }
 
 .actions {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   margin-bottom: 1rem;
 }
@@ -165,7 +171,7 @@ main {
 
 #total-vms,
 #total-vms + span {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   width: 100px;
   text-align: center;
 }
@@ -249,14 +255,12 @@ main {
 }
 
 .submit-btn {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  font-size: 1rem;
+	cursor: pointer;
+	font-size: 1rem;
 	border-radius: 0.25rem;
-	padding: 0.5rem;
+	padding: 0.75rem 1rem;
 	border: none;
-  background-color: rgba(14, 165, 233, 0.6);
+	background-color: rgba(14, 165, 233, 0.6);
 	color: white;
 }
 
@@ -350,7 +354,7 @@ td {
 }
 
 td {
-  height: 42px;
+  height: 50px;
 }
 
 th {
@@ -618,7 +622,9 @@ details {
 // other classes
 
 .logo-wrapper {
-  margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: start;
 }
 
 .logo {
@@ -629,10 +635,17 @@ details {
 .level-btn,
 .badge {
   border-radius: 0.25rem;
-  padding: 0.25rem;
   color: white;
   font-weight: bold;
   font-size: 0.9rem;
+}
+
+.badge {
+  padding: 0.75rem 1rem;
+}
+
+.level-btn {
+  padding: 0.25rem;
 }
 
 .row.hidden {
@@ -653,7 +666,7 @@ details {
 
 .badge-easy, #Easy {
 	color: #28a745;
-	border: 2px solid #28a745;
+	background-color: #28a74533;
 }
 
 .easy {
@@ -684,7 +697,7 @@ details {
 
 .badge-medium, #Medium  {
 	color: #e1b300;
-	border: 2px solid #e1b300;
+	background-color: #e1b30033;
 }
 
 .medium {
@@ -705,7 +718,7 @@ details {
 
 .badge-hard, #Hard {
 	color: #ec0725;
-	border: 2px solid #ec0725;
+	background-color: #ec072533;
 }
 
 .hard {
@@ -726,7 +739,7 @@ details {
 
 .badge-writeups {
   color: #daa04a;
-  border: 2px solid #daa04a;
+  background-color: #daa04a33;
 }
 
 #total-writeups {
@@ -969,7 +982,7 @@ footer p {
 }
 
 @media (min-width: 1600px) {
-  .wrapper {
-    width: 65vw;
+  .wrapper, .header-container {
+    width: 80vw;
   }
 }
