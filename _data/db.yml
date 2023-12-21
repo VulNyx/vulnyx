@@ -1185,6 +1185,7 @@ basic:
       - FredBrave
       - ElPingüinoDeMario
       - noname
+      - s0yn3m3s1s
     url:
       - https://d4t4s3c.medium.com/vulnyx-basic-922bc7907525
       - https://youtu.be/7oA3dJWP_v4
@@ -1192,6 +1193,7 @@ basic:
       - https://fredbrave.github.io/Basic-Writeup
       - https://www.youtube.com/watch?v=Wma8u4hh3oQ
       - https://0x-noname.github.io/writeups/nyx/basic
+      - https://medium.com/@s0yn3m3s1s/vulnyx-basic-15442c48f4e9
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 26 Oct 2023
