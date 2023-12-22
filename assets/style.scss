@@ -254,14 +254,21 @@ main {
 	color: white;
 }
 
-.submit-btn {
+.submit-btn, .submit-user-flag, .submit-root-flag {
 	cursor: pointer;
 	font-size: 1rem;
 	border-radius: 0.25rem;
 	padding: 0.75rem 1rem;
 	border: none;
-	background-color: rgba(14, 165, 233, 0.6);
+	background-color: #daa04a;
 	color: white;
+}
+
+.submit-user-flag, .submit-root-flag {
+  padding: 0.25rem;
+  background-color: transparent;
+  border: 1px solid #daa04a;
+  color: #daa04a;
 }
 
 .filter-by:hover, .order-by:hover {
@@ -269,7 +276,12 @@ main {
 }
 
 .submit-btn:hover {
-  background-color: rgba(14, 165, 233, 0.9);
+  background-color: #daa04ab3;
+}
+
+.submit-user-flag:hover, .submit-root-flag:hover {
+  background-color: #daa04a;
+  color: white;
 }
 
 #bin-search-wrapper {
@@ -526,7 +538,7 @@ details {
   cursor: pointer;
 }
 
-.modal, .form-writeup, .form-vm  {
+.modal, .form-writeup, .form-vm, .form-flag  {
   display: none; 
   position: fixed;
   z-index: 1;
@@ -537,7 +549,7 @@ details {
   height: 100%;
 }
 
-.form-writeup, .form-vm, .modal {
+.form-writeup, .form-vm, .form-flag, .modal {
   background-color: rgba(0,0,0,0.6);
 }
 
@@ -546,7 +558,7 @@ details {
   overflow: hidden;
 }
 
-.form-writeup {
+.form-writeup, .form-flag {
   padding-top: 10vh;
   overflow: scroll;
 }
@@ -836,7 +848,7 @@ details {
   justify-content: start;
 }
 
-.submit-vm, .submit-writeup {
+.submit-vm, .submit-writeup, .submit-flag {
 	text-align: start;
   font-size: 1.15rem;
   margin: 0;
@@ -914,7 +926,7 @@ footer p {
     font-size: 0.85rem;
   }
 
-  .wrapper, .form-container  {
+  .form-container  {
     width: 95vw;
   }
 
@@ -972,7 +984,7 @@ footer p {
 }
 
 @media (min-width: 300px) and (max-width: 1500px) {
-  .wrapper {
+  .wrapper, .header-container {
     width: 95vw;
   }
 

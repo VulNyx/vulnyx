@@ -211,8 +211,8 @@
             <th class="url">File</th>
             <th class="size">Size</th>
             <th id="md5">MD5</th>
-            <th class="first-user">$ First User</th>
-            <th class="first-root"># First Root</th>
+            <th class="first-user">First User</th>
+            <th class="first-root">First Root</th>
             <th id="writeups">Writeups</th>
           </tr>
         </thead>
@@ -288,8 +288,20 @@
               </button>
               <div class="tooltip">Copied!</div>
             </td>
-            <td class="first-user">{{ data[1].firstUser }}</td>
-            <td class="first-root">{{ data[1].firstRoot }}</td>
+            {% if data[1].firstUser %}
+            <td class="first-user">$ {{ data[1].firstUser }}</td>
+            {% else %}
+            <td class="first-user">
+              <button type="button" class="submit-user-flag" title="Submit flag" onclick="showFlagForm('user', '{{ data[1].name }}')">Submit Flag</button>
+            </td>
+            {% endif %}
+            {% if data[1].firstRoot %}
+            <td class="first-root"># {{ data[1].firstRoot }}</td>
+            {% else %}
+            <td class="first-root">
+              <button type="button" class="submit-root-flag" title="Submit flag" onclick="showFlagForm('root', '{{ data[1].name }}')">Submit Flag</button>
+            </td>
+            {% endif %}
             <td class="writeups">
               {% if data[1].writeups %}
               {% for url in data[1].writeups.url %}
@@ -411,6 +423,33 @@
       </table>
       <p id="search-message">No matches for <span id="query"></span>. Try with other search.</p>
     </div>
+    <section class="form-flag">
+      <article class="form-container">
+        <div class="form-title">
+          <h1 class="submit-flag"></h1>
+          <span class="close-form">&times;</span>
+        </div>
+        <form class="form submit-form" id="flagForm" action="https://discord.com/api/webhooks/1106339439652904980/cV0q-O-LmbSeE1IOA0EbBgpETfSr2C4BILqij9GByCH3Sd30fFXTLah7O9eCio_tyKE6" method="POST">
+          <div class="form-field">
+            <label class="form-label" for="username">Username</label>
+            <input class="form-control" id="username" name="Username" type="text" maxlength="15" placeholder="Enter your username" required />
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="flag">Flag</label>
+            <input class="form-control" id="flag" name="Flag" type="text" maxlength="32"
+              placeholder="Enter the flag" required />
+          </div>
+          <div class="form-btns">
+            <button class="button" type="submit">Submit</button>
+            <button class="button" type="reset">Clear</button>
+          </div>
+          <div class="form-footer">
+            <small>As this is a static page, the information is not automatically updated, so you may not be the first to send it, we apologise in advance.
+            </small>
+          </div>
+        </form>
+      </article>
+    </section>
   </section>
 </main>
 <footer>
@@ -682,7 +721,79 @@
       .catch(error => {
         console.error('There was an error in the server:', error);
       });
-      
+  });
+
+
+  const showFlagForm = (type, vmname) => {
+    document.querySelector('body').style.overflow = 'hidden';
+    let title = document.querySelector('.submit-flag');
+    title.textContent = `First ${type} flag submission for ${vmname}`;
+    let modal = document.querySelector('.form-flag');
+    modal.style.display = 'block';
+    
+    let span = modal.querySelector('.close-form');
+    span.onclick = function () {
+      modal.style.display = 'none';
+      document.querySelector('body').style.overflow = 'visible';
+    }
+  }
+
+  const flagForm = document.getElementById('flagForm');
+  flagForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const formData = {};
+    new FormData(flagForm).forEach((value, key) => {
+      formData[key] = value;
+    });
+
+    const payload = {
+        content: document.querySelector('.submit-flag').textContent,
+        embeds: [
+          {
+            title: 'Flag Information',
+            fields: [
+              { name: 'Username', value: formData.Username },
+              { name: 'Flag', value: formData.Flag },
+            ],
+          },
+        ],
+      };
+
+      fetch(flagForm.action, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+      })
+      .then(() => {
+        Swal.fire({
+          toast: true,
+          icon: 'success',
+          iconColor: '#fff',
+          position: 'bottom',
+          title: 'Flag successfully submitted! Thank you for your contribution.',
+          customClass : {
+            title: 'swal2-title'
+          },
+          background: '#21b01d',
+          focusConfirm: false,
+          showConfirmButton: false,
+          showCloseButton: true,
+          timer: 7500,
+          timerProgressBar: true,
+        });
+        flagForm.reset();
+      })
+      .catch(error => {
+        console.error('There was an error in the server:', error);
+      });
   });
 
   const setStats = () => {
