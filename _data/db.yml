@@ -824,9 +824,11 @@ jenk:
     creator:
       - noname
       - ElPingüinoDeMario
+      - xerosec
     url:
       - https://0x-noname.github.io/writeups/nyx/jenk
       - https://www.youtube.com/watch?v=WwRSjtb5M-c&t=472s
+      - https://www.youtube.com/watch?v=OZgU-gStEIo
   firstUser: Powerful
   firstRoot: Powerful
   release: 21 Jul 2023
@@ -892,8 +894,10 @@ dark:
   writeups: 
     creator:
       - dirtyc0w
+      - ElPingüinoDeMario
     url:
       - https://www.youtube.com/watch?v=i8eZbb9xq2I
+      - https://www.youtube.com/watch?v=3Ix3dSTSWPE
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 01 Aug 2023
@@ -1183,6 +1187,7 @@ basic:
       - FredBrave
       - ElPingüinoDeMario
       - noname
+      - s0yn3m3s1s
     url:
       - https://d4t4s3c.medium.com/vulnyx-basic-922bc7907525
       - https://youtu.be/7oA3dJWP_v4
@@ -1190,6 +1195,7 @@ basic:
       - https://fredbrave.github.io/Basic-Writeup
       - https://www.youtube.com/watch?v=Wma8u4hh3oQ
       - https://0x-noname.github.io/writeups/nyx/basic
+      - https://medium.com/@s0yn3m3s1s/vulnyx-basic-15442c48f4e9
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 26 Oct 2023
@@ -1368,9 +1374,15 @@ infected:
     creator:
       - dirtyc0w
       - d4t4s3c
+      - condor
+      - noname
+      - iTrox
     url:
       - https://youtu.be/b25NqrayWsU
       - https://d4t4s3c.medium.com/vulnyx-infected-88c9723d0635
+      - https://youtu.be/I8o_lKWquYE?si=uNimjyxFUjRzs9Sc
+      - https://0x-noname.github.io/writeups/nyx/infected
+      - https://github.com/iTroxB/VULNYX-WRITEUPS/blob/main/writeups/VULNYX-Infected.pdf
   firstUser: dirtyc0w
   firstRoot: dirtyc0w
   release: 02 Dec 2023
@@ -1389,9 +1401,13 @@ agent:
     creator:
       - s0yn3m3s1s
       - noname
+      - iTrox
+      - d4t4s3c
     url:
       - https://medium.com/@s0yn3m3s1s/vulnyx-agent-e19e259b1462
       - https://0x-noname.github.io/writeups/nyx/agent
+      - https://github.com/iTroxB/VULNYX-WRITEUPS/blob/main/writeups/VULNYX-Agent.pdf
+      - https://d4t4s3c.medium.com/vulnyx-agent-16b00379d627
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 10 Dec 2023
@@ -1409,8 +1425,12 @@ hunter:
   writeups:
     creator:
       - PL4GU3
+      - d4t4s3c
+      - noname
     url:
       - https://youtu.be/KlORwuzu5iw
+      - https://d4t4s3c.medium.com/vulnyx-hunter-37f1c954b0ec
+      - https://0x-noname.github.io/writeups/nyx/hunter
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 11 Dec 2023
