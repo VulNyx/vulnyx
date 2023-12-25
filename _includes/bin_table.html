@@ -1,36 +1,203 @@
-<main>
-  <section class="wrapper">
-    <article class="filters">
-      <ul class="vm-stats">
-        <li class="total-vms">
-          <span id="total-vms"></span>
-          <span onclick="resetTable()">Total VMs</span>
-        </li>
-        <li>
-          <span id="easy-vms"></span>
-          <span class="badge badge-easy" onclick="filterTable('easy')">Easy</span>
-        </li>
-        <li>
-          <span id="medium-vms"></span>
-          <span class="badge badge-medium" onclick="filterTable('medium')">Medium</span>
-        </li>
-        <li>
-          <span id="hard-vms"></span>
-          <span class="badge badge-hard" onclick="filterTable('hard')">Hard</span>
-        </li>
-      </ul>
-      <div id="bin-search-wrapper">
-        <div class="search-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20" height="20"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+<header>
+  <section class="header-container">
+    <article class="logo-wrapper">
+      <img class="logo" alt="VulNyx website logo" src="/assets/logo.png">
+    </article>
+    <h1 id="page-title">Welcome to the hacker zone! Enjoy playing with our <span id="total-vms"></span> machines!</h1>
+    <article class="project-info">
+      <div class="media-links">
+        <a title="Support us on Ko-fi" href="https://ko-fi.com/vulnyx" target="_blank">
+          <img width="28" height="24" loading="lazy" src="https://storage.ko-fi.com/cdn/kofi_stroke_cup.svg" alt="Ko-fi Logo" loading="eager">
+        </a>
+        <a title="Discord" href="https://discord.gg/qdm3bN3Emb" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-discord" width="24"
+            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#5865F2" fill="none" stroke-linecap="round"
             stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-            <path d="M21 21l-6 -6" />
+            <circle cx="9" cy="12" r="1" />
+            <circle cx="15" cy="12" r="1" />
+            <path d="M7.5 7.5c3.5 -1 5.5 -1 9 0" />
+            <path d="M7 16.5c3.5 1 6.5 1 10 0" />
+            <path
+              d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5" />
+            <path
+              d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5" />
           </svg>
+        </a>
+        <a title="LinkedIn" href="https://www.linkedin.com/company/vulnyx-official/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24"
+            height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0077B5" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+            <path d="M8 11l0 5" />
+            <path d="M8 8l0 .01" />
+            <path d="M12 16l0 -5" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+          </svg>
+        </a>
+        <a title="Twitter" href="https://twitter.com/VulNyxOfficial" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24"
+            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#1D9BF0" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+          </svg>
+        </a>
+        <a title="Mail" href="mailto:vulnyx@protonmail.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24"
+            viewBox="0 0 24 24" stroke-width="2" stroke="#8a90c7" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="3" y="5" width="18" height="14" rx="2" />
+            <polyline points="3 7 12 13 21 7" />
+          </svg>
+        </a>
+        <a title="RSS" href="/feed/rss.xml" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            <path d="M4 4a16 16 0 0 1 16 16" />
+            <path d="M4 11a9 9 0 0 1 9 9" />
+          </svg>
+        </a>
+        <section class="form-vm">
+          <article class="form-container">
+            <div class="form-title">
+              <h1 class="submit-vm">New VM Submission</h1>
+              <span class="close-form">&times;</span>
+            </div>
+            <form class="form submit-form" id="vmForm" action="https://discord.com/api/webhooks/1106339439652904980/cV0q-O-LmbSeE1IOA0EbBgpETfSr2C4BILqij9GByCH3Sd30fFXTLah7O9eCio_tyKE6" method="POST">
+              <div class="form-field">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" id="name" name="Name" type="text" maxlength="20" placeholder="Enter the machine name"
+                  required />
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="creator">Creator</label>
+                <input class="form-control" id="creator" name="Creator" type="text" maxlength="15" placeholder="Enter your username"
+                  required />
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="level">Level</label>
+                <select class="form-control" id="level" name="Level" required>
+                  <option value="Easy">Easy</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Hard">Hard</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="creator">User Flag</label>
+                <input class="form-control" id="user-flag" name="UserFlag" type="text" maxlength="32"
+                  placeholder="Enter the user flag" required />
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="creator">Root Flag</label>
+                <input class="form-control" id="root-flag" name="RootFlag" type="text" maxlength="32"
+                  placeholder="Enter the root flag" required />
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="url">URL</label>
+                <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+"
+                  placeholder="Enter the public url of your machine" required />
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="solution">Tags</label>
+                <textarea class="form-control" id="tags" name="Tags" maxlength="200" rows="2"
+                  placeholder="Indicate the main tags that identify the machine separated by commas." required></textarea>
+              </div>
+              <div class="form-field">
+                <label class="form-label" for="solution">Solution</label>
+                <textarea class="form-control" id="solution" name="Solution" maxlength="2000" rows="10"
+                  placeholder="Explain how to solve the machine. Indicate the steps to get the user and root flags."
+                  required></textarea>
+              </div>
+              <div class="form-btns">
+                <button class="button" type="submit">Submit</button>
+                <button class="button" type="reset">Clear</button>
+              </div>
+              <div class="form-footer">
+                <small>Please read our
+                  <a href="/rules" target="_blank">
+                    <strong>Rules</strong>
+                  </a>
+                  section before submitting a new vm.
+                </small>
+              </div>
+            </form>
+          </article>
+      </section>    
+      </div>
+    </article>
+  </section>
+</header>
+<main>
+  <section class="wrapper">
+    <article class="actions">
+      <ul class="vm-stats">
+        <li title="Easy VMs">
+          <span id="easy-vms" class="badge badge-easy"></span>
+        </li>
+        <li title="Medium VMs">
+          <span id="medium-vms" class="badge badge-medium"></span>
+        </li>
+        <li title="Hard VMs">
+          <span id="hard-vms" class="badge badge-hard"></span>
+        </li>
+        <li title="Total Writeups">
+          <span id="total-writeups" class="badge badge-writeups"></span>
+        </li>
+      </ul>
+      <div class="filters">
+        <div class="filter-wrapper">
+          <button type="button" class="filter-by" onclick="toggleFilters()" onmouseover="showFilters()">
+            Filter by
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M6 9l6 6l6 -6" />
+            </svg>
+          </button>
+          <div class="filter-options" onmouseleave="hideFilters()">
+            <div class="level-filter">
+              <input type="checkbox" id="basic" name="basic" data-difficulty="easy" title="Easy" checked onclick="filterTable('easy')"/>
+              <label for="easy">Easy</label>
+            </div>
+            <div class="level-filter">
+              <input type="checkbox" id="medium" name="medium" data-difficulty="medium" title="Medium" checked onclick="filterTable('medium')"/>
+              <label for="medium">Medium</label>
+            </div>
+            <div class="level-filter">
+              <input type="checkbox" id="hard" name="hard" data-difficulty="hard" title="Hard" checked onclick="filterTable('hard')"/>
+              <label for="hard">Hard</label>
+            </div>
+          </div>
         </div>
-        <input id="bin-search" type="text" placeholder="Search by machine name..." />
-        <button class="clear-search" title="Clear search" onclick="clearSearch()">Clear</button>
+        <button type="button" class="order-by">
+          Order by
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 9l6 6l6 -6" />
+          </svg>
+        </button>
+        <div id="bin-search-wrapper">
+          <div class="search-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24"
+              viewBox="0 0 24 24" stroke-width="2.5" stroke="#999999" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+              <path d="M21 21l-6 -6" />
+            </svg>
+          </div>
+          <input id="bin-search" type="text" placeholder="Search by name..." />
+          <button class="clear-search" title="Clear search" onclick="clearSearch()">Clear</button>
+        </div>
+        <button type="button" class="submit-btn" onclick="showVMForm()">Submit VM</button>
       </div>
     </article>
     <div id="bin-table-wrapper">
@@ -42,9 +209,10 @@
             <th class="creator">Creator</th>
             <th id="tested">Tested</th>
             <th class="url">File</th>
+            <th class="size">Size</th>
             <th id="md5">MD5</th>
-            <th class="first-user">$ First User</th>
-            <th class="first-root"># First Root</th>
+            <th class="first-user">First User</th>
+            <th class="first-root">First Root</th>
             <th id="writeups">Writeups</th>
           </tr>
         </thead>
@@ -54,49 +222,53 @@
             let writeupObj = {};
           </script>
           {% for data in site.data.db reversed %}
-          <tr>
+          <tr class="row">
             <td class="card">
-              <button class="card-btn" title="Show card!" onclick="showCard('{{  data[1].name }}', '{{  data[1].difficulty }}', '{{  data[1].creator }}', '{{  data[1].release }}', '{{  data[1].status }}')">
+              <button class="card-btn" title="Show card!"
+                onclick="showCard('{{  data[1].name }}', '{{  data[1].difficulty }}', '{{  data[1].creator }}', '{{  data[1].release }}', '{{  data[1].status }}')">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-id" width="24" height="24"
-                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#7b6993" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
-                    <path d="M9 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-                    <path d="M15 8l2 0" />
-                    <path d="M15 12l2 0" />
-                    <path d="M7 16l10 0" />
-                </svg> 
-            </button>
+                  viewBox="0 0 24 24" stroke-width="1.5" stroke="#7b6993" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+                  <path d="M9 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                  <path d="M15 8l2 0" />
+                  <path d="M15 12l2 0" />
+                  <path d="M7 16l10 0" />
+                </svg>
+              </button>
             </td>
             <td id="vm">
               <div class="vm-name-btn level-btn {{ data[1].difficulty | downcase }}">
                 <span class="{{ data[1].difficulty | downcase }}-dots"></span>
                 <span class="bin-name">{{ data[1].name }}</span>
-              </div>  
+              </div>
             </td>
             <td class="creator">{{ data[1].creator }}</td>
             <td class="tested">
               {% for img in data[1].tested %}
-                {{ img }}
+              {{ img }}
               {% endfor %}
             </td>
             <td class="url">
               <a href="{{ data[1].url }}" target="_blank" title="Download VM">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="24" height="24"
-                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#d9534f" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
-                    <path d="M7 11l5 5l5 -5" />
-                    <path d="M12 4l0 12" />
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="24"
+                  height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#d9534f" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+                  <path d="M7 11l5 5l5 -5" />
+                  <path d="M12 4l0 12" />
                 </svg>
               </a>
             </td>
+            <td class="size">
+              <span id="size">{{ data[1].size }}</span>
+            </td>
             <td class="md5">
               <span id="md5-hash" title="{{ data[1].md5 }}">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-info" width="24" height="24"
-                  viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd9904" fill="none" stroke-linecap="round"
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-info" width="24"
+                  height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd9904" fill="none" stroke-linecap="round"
                   stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M14 3v4a1 1 0 0 0 1 1h4" />
@@ -116,48 +288,133 @@
               </button>
               <div class="tooltip">Copied!</div>
             </td>
+            {% if data[1].firstUser %}
             <td class="first-user">{{ data[1].firstUser }}</td>
+            {% else %}
+            <td class="first-user">
+              <button type="button" class="submit-user-flag" title="Submit flag" onclick="showFlagForm('user', '{{ data[1].name }}')">Submit Flag</button>
+            </td>
+            {% endif %}
+            {% if data[1].firstRoot %}
             <td class="first-root">{{ data[1].firstRoot }}</td>
+            {% else %}
+            <td class="first-root">
+              <button type="button" class="submit-root-flag" title="Submit flag" onclick="showFlagForm('root', '{{ data[1].name }}')">Submit Flag</button>
+            </td>
+            {% endif %}
             <td class="writeups">
               {% if data[1].writeups %}
-                {% for url in data[1].writeups.url %}
-                  <script>
-                    writeupObj = { name: "{{ data[1].name }}", creator: "{{ data[1].writeups.creator[forloop.index0] }}", url: "{{ url }}" };
-                    writeupsArr.push(writeupObj);
-                  </script>
-                {% endfor %}
-                  <button class="writeup-btn" title="Show writeups" onclick="showWriteups('{{ data[1].name }}')">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="24" height="24"
-                      viewBox="0 0 24 24" stroke-width="1.5" stroke="#5865F2" fill="none" stroke-linecap="round"
-                      stroke-linejoin="round">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-                      <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-                      <line x1="3" y1="6" x2="3" y2="19" />
-                      <line x1="12" y1="6" x2="12" y2="19" />
-                      <line x1="21" y1="6" x2="21" y2="19" />
-                    </svg>
-                  </button>
-                  <section id="{{ data[1].name }}" class="modal">
-                    <article class="modal-content">
-                      <span class="close">&times;</span>
-                      <h1 class="writeup-title"></h1>
-                      <div class="writeups-container"></div>
-                    </article>
-                  </section>
+              {% for url in data[1].writeups.url %}
+              <script>
+                writeupObj = { name: "{{ data[1].name }}", creator: "{{ data[1].writeups.creator[forloop.index0] }}", url: "{{ url }}" };
+                writeupsArr.push(writeupObj);
+              </script>
+              {% endfor %}
+              <button class="writeup-btn" title="Show writeups" onclick="showWriteups('{{ data[1].name }}')">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="24" height="24"
+                  viewBox="0 0 24 24" stroke-width="1.5" stroke="#5865F2" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                  <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                  <line x1="3" y1="6" x2="3" y2="19" />
+                  <line x1="12" y1="6" x2="12" y2="19" />
+                  <line x1="21" y1="6" x2="21" y2="19" />
+                </svg>
+              </button>
+              <button class="add-writeup-btn" title="Add writeup" onclick="showWriteupForm('{{ data[1].name }}')">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24"
+                  viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                  <path d="M9 12h6" />
+                  <path d="M12 9v6" />
+                </svg>
+              </button>
+              <section id="{{ data[1].name }}" class="modal">
+                <article class="modal-content">
+                  <span class="close">&times;</span>
+                  <h1 class="writeup-title"></h1>
+                  <div class="writeups-container"></div>
+                </article>
+              </section>
               {% else %}
-                <span title="Nothing...">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="24" height="24"
-                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" opacity="0.2" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-                    <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-                    <line x1="3" y1="6" x2="3" y2="19" />
-                    <line x1="12" y1="6" x2="12" y2="19" />
-                    <line x1="21" y1="6" x2="21" y2="19" />
-                  </svg>
-                </span>
+              <span title="Nothing...">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="24" height="24"
+                  viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" opacity="0.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                  <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                  <line x1="3" y1="6" x2="3" y2="19" />
+                  <line x1="12" y1="6" x2="12" y2="19" />
+                  <line x1="21" y1="6" x2="21" y2="19" />
+                </svg>
+              </span>
+              <button class="add-writeup-btn" title="Add writeup" onclick="showWriteupForm('{{ data[1].name }}')">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24"
+                  viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                  <path d="M9 12h6" />
+                  <path d="M12 9v6" />
+                </svg>
+              </button>
+              <section class="form-writeup">
+                <article class="form-container">
+                  <div class="form-title">
+                    <h1 class="submit-writeup"></h1>
+                    <span class="close-form">&times;</span>
+                  </div>
+                  <form class="form submit-form" id="writeupForm" action="https://discord.com/api/webhooks/1106339439652904980/cV0q-O-LmbSeE1IOA0EbBgpETfSr2C4BILqij9GByCH3Sd30fFXTLah7O9eCio_tyKE6" method="POST">
+                    <div class="form-field">
+                      <label class="form-label" for="creator">Creator</label>
+                      <input class="form-control" id="creator" name="Creator" type="text" maxlength="15" placeholder="Enter your username" required />
+                    </div>
+                    <div class="form-field">
+                      <label class="form-label" for="url">URL</label>
+                      <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+" placeholder="Enter the public url of your writeup" required />
+                    </div>
+                    <div class="form-field">
+                      <label class="form-label" for="language">Content Type</label>
+                      <div class="form-checkbox">      
+                        <input type="radio" id="text" name="ContentType" value="Text" checked>
+                        <label for="text">Text</label>
+                        <input type="radio" id="video" name="ContentType" value="Video">
+                        <label for="video">Video</label>
+                      </div>
+                    </div>
+                    <div class="form-field">
+                      <label class="form-label" for="language">Language</label>
+                      <select class="form-control" id="language" name="Language" required>
+                          <option value="EN">English</option>
+                          <option value="ES">Español</option>
+                          <option value="FR">Français</option>
+                          <option value="DE">Deutsch</option>
+                          <option value="PT">Português</option>
+                          <option value="Other">Other</option>
+                          <option value="None">None(Just Video)</option>
+                      </select>
+                    </div>
+                    <div class="form-field">
+                      <label class="form-label" for="opinion">Opinion (Optional)</label>
+                      <textarea class="form-control" id="opinion" name="Opinion" maxlength="2000" rows="5" placeholder="Your opinion will only be shared with the VulNyx team and will be helpful as feedback. You are free to review or rate the machine as you want."></textarea>
+                    </div>
+                    <div class="form-btns">
+                      <button class="button" type="submit">Submit</button>
+                      <button class="button" type="reset">Clear</button>
+                    </div>
+                    <div class="form-footer">
+                      <small>Please read our 
+                        <a href="/rules" target="_blank">
+                          <strong>Rules</strong>
+                        </a> 
+                        section before submitting a new writeup.
+                      </small>
+                    </div>
+                  </form>
+                </article>
+              </section>              
               {% endif %}
             </td>
           </tr>
@@ -166,19 +423,49 @@
       </table>
       <p id="search-message">No matches for <span id="query"></span>. Try with other search.</p>
     </div>
+    <section class="form-flag">
+      <article class="form-container">
+        <div class="form-title">
+          <h1 class="submit-flag"></h1>
+          <span class="close-form">&times;</span>
+        </div>
+        <form class="form submit-form" id="flagForm" action="https://discord.com/api/webhooks/1106339439652904980/cV0q-O-LmbSeE1IOA0EbBgpETfSr2C4BILqij9GByCH3Sd30fFXTLah7O9eCio_tyKE6" method="POST">
+          <div class="form-field">
+            <label class="form-label" for="username">Username</label>
+            <input class="form-control" id="username" name="Username" type="text" maxlength="15" placeholder="Enter your username" required />
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="flag">Flag</label>
+            <input class="form-control" id="flag" name="Flag" type="text" maxlength="32"
+              placeholder="Enter the flag" required />
+          </div>
+          <div class="form-btns">
+            <button class="button" type="submit">Submit</button>
+            <button class="button" type="reset">Clear</button>
+          </div>
+          <div class="form-footer">
+            <small>As this is a static page, the information is not automatically updated, so you may not be the first to send it, we apologise in advance.
+            </small>
+          </div>
+        </form>
+      </article>
+    </section>
   </section>
 </main>
 <footer>
-  <p>© VulNyx 2023</p>
+  <div class="footer-logo">
+    <img src="assets/logoSM.png" alt="VulNyx small footer logo" loading="lazy">
+  </div>
+  <p>© VulNyx 2023. All rights reserved.</p>
 </footer>
 <script>
   function showCard(name, difficulty, creator, release, status) {
-      Swal.fire({
-          background: '#141414',
-          width: '36rem',
-          customClass: 'swal2-border',
-          padding: '3rem 0',
-          html: `  
+    Swal.fire({
+      background: '#141414',
+      width: '36rem',
+      customClass: 'swal2-border',
+      padding: '3rem 0',
+      html: `  
               <article class="card-container">
                   <div class="logo-wrapper">
                       <img id="card-logo" src="/assets/card.png" alt="VulNyx Logo" width="250" height="250">
@@ -224,9 +511,9 @@
                   </div>
               </article>
               `,
-          showConfirmButton: false,
-          showCloseButton: true
-      })
+      showConfirmButton: false,
+      showCloseButton: true
+    })
   }
 
   function copyToClipboard(button) {
@@ -243,27 +530,22 @@
     }, 2000);
   }
 
-   function filterTable(difficulty) {
-      var rows = document.getElementById('bin-table').getElementsByTagName('tr');
-      for (var i = 1; i < rows.length; i++) { // Comienza desde 1 para omitir el encabezado de la tabla
-          var row = rows[i];
-          var levelButton = row.querySelector('.level-btn'); // Encuentra el botón de nivel en la fila
+  function filterTable(difficulty) {
+    let rows = document.getElementById('bin-table').getElementsByTagName('tr');
+    for (let i = 1; i < rows.length; i++) {
+        let row = rows[i];
+        let levelButton = row.querySelector('.level-btn');
+        if (levelButton && levelButton.classList.contains(difficulty)) {
+          row.classList.toggle('hidden');
+        }
+    }
 
-          if (levelButton && levelButton.classList.contains(difficulty)) {
-              row.style.display = ''; // Muestra la fila si coincide con la dificultad
-          } else {
-              row.style.display = 'none'; // Oculta la fila si no coincide
-          }
-      }
-  }
-
-  function resetTable() {
-    var rows = document.getElementById('bin-table').getElementsByTagName('tr');
-    for (var i = 1; i < rows.length; i++) {
-        rows[i].style.display = ''; // Muestra todas las filas
+    let difficultyButton = document.querySelector(`input[data-difficulty="${difficulty}"]`);
+    if (difficultyButton) {
+        difficultyButton.classList.toggle('hidden');
     }
   }
-  
+
   function showWriteups(name) {
     document.querySelector('body').style.overflow = 'hidden';
     let modal = document.querySelector(`#${name}`);
@@ -273,33 +555,262 @@
     let span = modal.querySelector('.close');
     modal.style.display = 'block';
 
-    span.onclick = function() {
+    span.onclick = function () {
       modal.style.display = 'none';
       document.querySelector('body').style.overflow = 'visible';
     }
 
-    if(writeupsContainer.childElementCount === 0) {
+    if (writeupsContainer.childElementCount === 0) {
       let output = writeupsArr.filter(el => el.name === name);
       output.forEach(el => {
         let link = document.createElement('a');
+        link.id = "writeup"
         link.href = el.url;
         link.target = '_blank'
         link.textContent = `by ${el.creator}`;
         writeupsContainer.appendChild(link);
       });
-    } 
+    }
   }
+
+  const showVMForm = () => {
+    document.querySelector('body').style.overflow = 'hidden';
+    let title = document.querySelector('.submit-writeup');
+    let modal = document.querySelector('.form-vm');
+    modal.style.display = 'block';
+    
+    let span = modal.querySelector('.close-form');
+    span.onclick = function () {
+      modal.style.display = 'none';
+      document.querySelector('body').style.overflow = 'visible';
+    }
+  }
+
+  const vmForm= document.getElementById('vmForm');
+  vmForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const formData = {};
+    new FormData(vmForm).forEach((value, key) => {
+      formData[key] = value;
+    });
+
+    const payload = {
+        content: 'New VM Submission:',
+        embeds: [
+          {
+            title: 'VM Information',
+            fields: [
+              { name: 'Name', value: formData.Name },
+              { name: 'Creator', value: formData.Creator },
+              { name: 'Level', value: formData.Level },
+              { name: 'User Flag', value: formData.UserFlag },
+              { name: 'Root Flag', value: formData.RootFlag },
+              { name: 'URL', value: formData.URL },
+              { name: 'Tags', value: formData.Tags },
+              { name: 'Solution', value: formData.Solution },
+            ],
+          },
+        ],
+      };
+
+      fetch(vmForm.action, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+      })
+      .then(() => {
+        Swal.fire({
+          toast: true,
+          icon: 'success',
+          iconColor: '#fff',
+          position: 'bottom',
+          title: 'VM successfully submitted! Thank you for your contribution.',
+          customClass : {
+            title: 'swal2-title'
+          },
+          background: '#21b01d',
+          focusConfirm: false,
+          showConfirmButton: false,
+          showCloseButton: true,
+          timer: 7500,
+          timerProgressBar: true,
+        });
+        vmForm.reset();
+      })
+      .catch(error => {
+        console.error('There was an error in the server:', error);
+      });
+      
+  });
+
+  const showWriteupForm = (name) => {
+    document.querySelector('body').style.overflow = 'hidden';
+    let title = document.querySelector('.submit-writeup');
+    title.textContent = `Writeup submission for ${name}`;
+    let modal = document.querySelector('.form-writeup');
+    modal.style.display = 'block';
+    
+    let span = modal.querySelector('.close-form');
+    span.onclick = function () {
+      modal.style.display = 'none';
+      document.querySelector('body').style.overflow = 'visible';
+    }
+  }
+
+  const writeupForm = document.getElementById('writeupForm');
+  writeupForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const formData = {};
+    new FormData(writeupForm).forEach((value, key) => {
+      formData[key] = value;
+    });
+
+    const payload = {
+        content: 'New Writeup Submission:',
+        embeds: [
+          {
+            title: 'Writeup Information',
+            fields: [
+              { name: 'Creator', value: formData.Creator },
+              { name: 'URL', value: formData.URL },
+              { name: 'ContentType', value: formData.ContentType },
+              { name: 'Language', value: formData.Language},
+              { name: 'Opinion', value: formData.Opinion },
+            ],
+          },
+        ],
+      };
+
+      fetch(writeupForm.action, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+      })
+      .then(() => {
+        Swal.fire({
+          toast: true,
+          icon: 'success',
+          iconColor: '#fff',
+          position: 'bottom',
+          title: 'Writeup successfully submitted! Thank you for your contribution.',
+          customClass : {
+            title: 'swal2-title'
+          },
+          background: '#21b01d',
+          focusConfirm: false,
+          showConfirmButton: false,
+          showCloseButton: true,
+          timer: 7500,
+          timerProgressBar: true,
+        });
+        writeupForm.reset();
+      })
+      .catch(error => {
+        console.error('There was an error in the server:', error);
+      });
+  });
+
+
+  const showFlagForm = (type, vmname) => {
+    document.querySelector('body').style.overflow = 'hidden';
+    let title = document.querySelector('.submit-flag');
+    title.textContent = `First ${type} flag submission for ${vmname}`;
+    let modal = document.querySelector('.form-flag');
+    modal.style.display = 'block';
+    
+    let span = modal.querySelector('.close-form');
+    span.onclick = function () {
+      modal.style.display = 'none';
+      document.querySelector('body').style.overflow = 'visible';
+    }
+  }
+
+  const flagForm = document.getElementById('flagForm');
+  flagForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const formData = {};
+    new FormData(flagForm).forEach((value, key) => {
+      formData[key] = value;
+    });
+
+    const payload = {
+        content: document.querySelector('.submit-flag').textContent,
+        embeds: [
+          {
+            title: 'Flag Information',
+            fields: [
+              { name: 'Username', value: formData.Username },
+              { name: 'Flag', value: formData.Flag },
+            ],
+          },
+        ],
+      };
+
+      fetch(flagForm.action, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+      })
+      .then(() => {
+        Swal.fire({
+          toast: true,
+          icon: 'success',
+          iconColor: '#fff',
+          position: 'bottom',
+          title: 'Flag successfully submitted! Thank you for your contribution.',
+          customClass : {
+            title: 'swal2-title'
+          },
+          background: '#21b01d',
+          focusConfirm: false,
+          showConfirmButton: false,
+          showCloseButton: true,
+          timer: 7500,
+          timerProgressBar: true,
+        });
+        flagForm.reset();
+      })
+      .catch(error => {
+        console.error('There was an error in the server:', error);
+      });
+  });
 
   const setStats = () => {
     const totalVMs = document.querySelector('#total-vms');
     const easyVMs = document.querySelector('#easy-vms');
     const mediumVMs = document.querySelector('#medium-vms');
     const hardVMs = document.querySelector('#hard-vms');
+    const totalWriteups = document.querySelector('#total-writeups');
 
     totalVMs.textContent = document.querySelectorAll('#vm').length;
-    easyVMs.textContent = document.querySelectorAll('.easy').length;
-    mediumVMs.textContent = document.querySelectorAll('.medium').length;
-    hardVMs.textContent = document.querySelectorAll('.hard').length;
+    easyVMs.textContent = `${document.querySelectorAll('.easy').length} Easy`;
+    mediumVMs.textContent = `${document.querySelectorAll('.medium').length} Medium`;
+    hardVMs.textContent = `${document.querySelectorAll('.hard').length} Hard`;
+    totalWriteups.textContent = `${writeupsArr.length} Writeups`;
   }
 
   const clearSearch = () => {
@@ -308,6 +819,23 @@
     clearSearch.style.display = 'none';
     searchBox.value = '';
     location.hash = '';
+  }
+
+  const toggleFilters= () => {
+    let filtersDiv = document.querySelector('.filter-options');
+    filtersDiv.style.display === 'block' ? filtersDiv.style.display = 'none' : filtersDiv.style.display = 'block';
+  }
+
+  const showFilters= () => {
+    let filtersDiv = document.querySelector('.filter-options');
+    filtersDiv.style.display =  'block';
+  }
+
+  const hideFilters= () => {
+    let filtersDiv = document.querySelector('.filter-options');
+    setTimeout(() => {
+      filtersDiv.style.display =  'none';
+    }, 200);
   }
 
   const filter = (query) => {
@@ -363,6 +891,7 @@
     });
 
     window.onhashchange = applyFilter;
+    applyFilter();
   }
 
   setStats();
