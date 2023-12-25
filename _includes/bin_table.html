@@ -6,7 +6,7 @@
     <h1 id="page-title">Welcome to the hacker zone! Enjoy playing with our <span id="total-vms"></span> machines!</h1>
     <article class="project-info">
       <div class="media-links">
-        <a title="Support us on Ko-fi" href="https://ko-fi.com/vulnyx">
+        <a title="Support us on Ko-fi" href="https://ko-fi.com/vulnyx" target="_blank">
           <img width="28" height="24" loading="lazy" src="https://storage.ko-fi.com/cdn/kofi_stroke_cup.svg" alt="Ko-fi Logo" loading="eager">
         </a>
         <a title="Discord" href="https://discord.gg/qdm3bN3Emb" target="_blank">
@@ -289,14 +289,14 @@
               <div class="tooltip">Copied!</div>
             </td>
             {% if data[1].firstUser %}
-            <td class="first-user">$ {{ data[1].firstUser }}</td>
+            <td class="first-user">{{ data[1].firstUser }}</td>
             {% else %}
             <td class="first-user">
               <button type="button" class="submit-user-flag" title="Submit flag" onclick="showFlagForm('user', '{{ data[1].name }}')">Submit Flag</button>
             </td>
             {% endif %}
             {% if data[1].firstRoot %}
-            <td class="first-root"># {{ data[1].firstRoot }}</td>
+            <td class="first-root">{{ data[1].firstRoot }}</td>
             {% else %}
             <td class="first-root">
               <button type="button" class="submit-root-flag" title="Submit flag" onclick="showFlagForm('root', '{{ data[1].name }}')">Submit Flag</button>
@@ -322,7 +322,7 @@
                   <line x1="21" y1="6" x2="21" y2="19" />
                 </svg>
               </button>
-              <button class="writeup-btn" title="Add writeup" onclick="showWriteupForm('{{ data[1].name }}')">
+              <button class="add-writeup-btn" title="Add writeup" onclick="showWriteupForm('{{ data[1].name }}')">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24"
                   viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -351,7 +351,7 @@
                   <line x1="21" y1="6" x2="21" y2="19" />
                 </svg>
               </span>
-              <button class="writeup-btn" title="Add writeup" onclick="showWriteupForm('{{ data[1].name }}')">
+              <button class="add-writeup-btn" title="Add writeup" onclick="showWriteupForm('{{ data[1].name }}')">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="24" height="24"
                   viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -453,6 +453,9 @@
   </section>
 </main>
 <footer>
+  <div class="footer-logo">
+    <img src="assets/logoSM.png" alt="VulNyx small footer logo" loading="lazy">
+  </div>
   <p>© VulNyx 2023. All rights reserved.</p>
 </footer>
 <script>
