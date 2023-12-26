@@ -152,7 +152,7 @@
         </li>
       </ul>
       <div class="filters">
-        <div class="filter-wrapper">
+        <div class="filter-wrapper" onmouseleave="hideFilters()">
           <button type="button" class="filter-by" onclick="toggleFilters()" onmouseover="showFilters()">
             Filter by
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20"
@@ -161,7 +161,7 @@
               <path d="M6 9l6 6l6 -6" />
             </svg>
           </button>
-          <div class="filter-options" onmouseleave="hideFilters()">
+          <div class="filter-options">
             <div class="level-filter">
               <input type="checkbox" id="basic" name="basic" data-difficulty="easy" title="Easy" checked onclick="filterTable('easy')"/>
               <label for="easy">Easy</label>
