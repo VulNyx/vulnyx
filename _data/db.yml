@@ -717,10 +717,12 @@ look:
       - d4t4s3c
       - ElPingüinoDeMario
       - Anonimo501
+      - noname
     url:
       - https://d4t4s3c.medium.com/vulnyx-look-eec4cece3f6a
       - https://www.youtube.com/watch?v=VZJcSKccJ7w
       - https://www.youtube.com/watch?v=13FrbwiMJco
+      - https://0x-noname.github.io/writeups/nyx/look
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 15 Jun 2023
@@ -917,10 +919,12 @@ plot:
       - noname
       - Anonimo501
       - dirtyc0w
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/plot
       - https://www.youtube.com/watch?v=QHts4aUA_3I
       - https://youtu.be/s3A1hjs0NhI
+      - https://www.youtube.com/watch?v=KvCo2230JPc&t=1868s
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 03 Aug 2023
@@ -959,10 +963,12 @@ remote:
       - m3n0sd0n4ld
       - dirtyc0w
       - Anonimo501
+      - SoyBett0
     url:
       - https://m3n0sd0n4ld.blogspot.com/2023/08/remote-vulnyx-writeup.html
       - https://youtu.be/O8uOrW9A5hk
       - https://www.youtube.com/watch?v=DGcXBZnZx6c
+      - https://www.youtube.com/watch?v=14ygioOxQcI
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 16 Aug 2023
@@ -999,9 +1005,11 @@ slash:
     creator:
       - FredBrave
       - Anonimo501
+      - SoyBett0
     url:
       - https://fredbrave.github.io/Slash-Writeup
       - https://youtu.be/SBKQULGgmGM
+      - https://www.youtube.com/watch?v=Rj78_TMXuBw
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 18 Aug 2023
@@ -1054,10 +1062,12 @@ play:
       - dirtyc0w
       - Anonimo501
       - d4t4s3c
+      - SoyBett0
     url:
       - https://youtu.be/I_g1g-69H0w
       - https://youtu.be/jwvOXzRjws8?si=LujsG5fDh01q5sr3
       - https://d4t4s3c.medium.com/vulnyx-play-47539caf729b
+      - https://www.youtube.com/watch?v=lc9vJzH-vrU&t=543s
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 09 Sep 2023
@@ -1094,12 +1104,14 @@ wicca:
       - Anonimo501
       - ElPingüinoDeMario
       - noname
+      - SoyBett0
     url:
       - https://drive.proton.me/urls/ZX1Z6B6P98#AdSKatXI3pUm
       - https://youtu.be/8Wk0BHFAVck
       - https://www.youtube.com/watch?v=ubwXTo2KrnE
       - https://www.youtube.com/watch?v=HNDtBEG53ds
       - https://0x-noname.github.io/writeups/nyx/wicca
+      - https://www.youtube.com/watch?v=CGKzmAsDuVQ&t=43s
   firstUser: punt4n0 
   firstRoot: punt4n0 
   release: 19 Sep 2023
@@ -1119,10 +1131,12 @@ fire:
       - punt4n0
       - dirtyc0w
       - noname
+      - SoyBett0
     url:
       - https://drive.proton.me/urls/FPMMW7GXWW#nJYxR0959fk4
       - https://youtu.be/S-PXi5G7Noo
       - https://0x-noname.github.io/writeups/nyx/fire
+      - https://www.youtube.com/watch?v=uqRCntRJlgQ
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 29 Sep 2023
@@ -1188,6 +1202,7 @@ basic:
       - ElPingüinoDeMario
       - noname
       - s0yn3m3s1s
+      - SoyBett0
     url:
       - https://d4t4s3c.medium.com/vulnyx-basic-922bc7907525
       - https://youtu.be/7oA3dJWP_v4
@@ -1196,6 +1211,7 @@ basic:
       - https://www.youtube.com/watch?v=Wma8u4hh3oQ
       - https://0x-noname.github.io/writeups/nyx/basic
       - https://medium.com/@s0yn3m3s1s/vulnyx-basic-15442c48f4e9
+      - https://www.youtube.com/watch?v=E0tcGYi25Lc&t=1294s
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 26 Oct 2023
@@ -1228,9 +1244,11 @@ first:
     creator:
       - d4t4s3c
       - noname
+      - SoyBett0
     url:
       - https://d4t4s3c.medium.com/vulnyx-first-3f9694ff0f1f
       - https://0x-noname.github.io/writeups/nyx/first
+      - https://www.youtube.com/watch?v=RjVjXfnE0nI
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 11 Nov 2023
@@ -1247,8 +1265,10 @@ air:
   writeups:
     creator:
       - noname
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/air
+      - https://www.youtube.com/watch?v=z6s9nCBVFGk&t=1559s
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 12 Nov 2023
@@ -1289,8 +1309,10 @@ code:
   writeups:
     creator:
       - noname
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/code
+      - https://www.youtube.com/watch?v=AnpjF0yReH4&t=1489s
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 21 Nov 2023
@@ -1310,10 +1332,12 @@ unit:
       - noname
       - d4t4s3c
       - s0yn3m3s1s
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/unit
       - https://d4t4s3c.medium.com/vulnyx-unit-43fc8016d7c6
       - https://medium.com/@s0yn3m3s1s/vulnyx-unit-822e3f21438c
+      - https://www.youtube.com/watch?v=E5rNUQIeswc&t=1347s
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 22 Nov 2023
@@ -1352,10 +1376,12 @@ mux:
       - d4t4s3c
       - noname
       - s0yn3m3s1s
+      - SoyBett0
     url:
       - https://d4t4s3c.medium.com/vulnyx-mux-87bb6d6e1891
       - https://0x-noname.github.io/writeups/nyx/mux
       - https://medium.com/@s0yn3m3s1s/vulnyx-mux-d28c81bea56f
+      - https://www.youtube.com/watch?v=GFz-nqgskTU&t=666s
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 01 Dec 2023
@@ -1377,12 +1403,14 @@ infected:
       - condor
       - noname
       - iTrox
+      - SoyBett0
     url:
       - https://youtu.be/b25NqrayWsU
       - https://d4t4s3c.medium.com/vulnyx-infected-88c9723d0635
       - https://youtu.be/I8o_lKWquYE?si=uNimjyxFUjRzs9Sc
       - https://0x-noname.github.io/writeups/nyx/infected
       - https://github.com/iTroxB/VULNYX-WRITEUPS/blob/main/writeups/VULNYX-Infected.pdf
+      - https://www.youtube.com/watch?v=WCDKPQX5fEU&t=2540s
   firstUser: dirtyc0w
   firstRoot: dirtyc0w
   release: 02 Dec 2023
@@ -1403,11 +1431,13 @@ agent:
       - noname
       - iTrox
       - d4t4s3c
+      - SoyBett0
     url:
       - https://medium.com/@s0yn3m3s1s/vulnyx-agent-e19e259b1462
       - https://0x-noname.github.io/writeups/nyx/agent
       - https://github.com/iTroxB/VULNYX-WRITEUPS/blob/main/writeups/VULNYX-Agent.pdf
       - https://d4t4s3c.medium.com/vulnyx-agent-16b00379d627
+      - https://www.youtube.com/watch?v=ArI776jukgY&t=1195s
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 10 Dec 2023
