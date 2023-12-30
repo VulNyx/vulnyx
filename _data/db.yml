@@ -1446,12 +1446,14 @@ agent:
       - iTrox
       - d4t4s3c
       - SoyBett0
+      - Neobrain
     url:
       - https://medium.com/@s0yn3m3s1s/vulnyx-agent-e19e259b1462
       - https://0x-noname.github.io/writeups/nyx/agent
       - https://github.com/iTroxB/VULNYX-WRITEUPS/blob/main/writeups/VULNYX-Agent.pdf
       - https://d4t4s3c.medium.com/vulnyx-agent-16b00379d627
       - https://www.youtube.com/watch?v=ArI776jukgY&t=1195s
+      - https://www.neobrain.es/2023/12/30/vulnyx-agent-walkthrough
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 10 Dec 2023
