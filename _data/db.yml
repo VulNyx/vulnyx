@@ -1485,3 +1485,18 @@ hunter:
   firstRoot: PL4GU3
   release: 11 Dec 2023
   status: Retired
+load:
+  name: Load
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/kW5UTbyS#fIMALTqt2OgIFxIgdOqU-5cKDyU6xzi2AhIjJ5zxSjU
+  md5: F628715C9CF38601A352F7D4F927A72A
+  size: 996MB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 01 Jan 2024
+  status: Retired
