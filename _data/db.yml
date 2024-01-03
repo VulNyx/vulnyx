@@ -1501,9 +1501,11 @@ load:
     creator:
       - PL4GU3
       - condor
+      - noname
     url:
       - https://www.youtube.com/watch?v=mO6nI2taJBE
       - https://youtu.be/Xe1hF9-GLxI?si=bqIoB9b7XRnfChdN
+      - https://0x-noname.github.io/writeups/nyx/load
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 01 Jan 2024
