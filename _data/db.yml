@@ -1398,12 +1398,14 @@ mux:
       - s0yn3m3s1s
       - SoyBett0
       - iTrox
+      - Neobrain
     url:
       - https://d4t4s3c.medium.com/vulnyx-mux-87bb6d6e1891
       - https://0x-noname.github.io/writeups/nyx/mux
       - https://medium.com/@s0yn3m3s1s/vulnyx-mux-d28c81bea56f
       - https://www.youtube.com/watch?v=GFz-nqgskTU&t=666s
       - https://github.com/iTroxB/VULNYX-WRITEUPS/blob/main/writeups/VULNYX-Mux.pdf
+      - https://youtu.be/SeiCXBw7upc?si=okGnqP3a24DIgziV
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 01 Dec 2023
