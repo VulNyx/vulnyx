@@ -1468,6 +1468,7 @@ agent:
       - SoyBett0
       - Neobrain
       - ShellDredd
+      - condor
     url:
       - https://medium.com/@s0yn3m3s1s/vulnyx-agent-e19e259b1462
       - https://0x-noname.github.io/writeups/nyx/agent
@@ -1476,6 +1477,7 @@ agent:
       - https://www.youtube.com/watch?v=ArI776jukgY&t=1195s
       - https://www.neobrain.es/2023/12/30/vulnyx-agent-walkthrough
       - https://wiki.delicioushack.com/vulnyx-writeups/agent-ctf-writeup-es
+      - https://www.youtube.com/watch?v=IvoIbLWrJPw&t=50s
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 10 Dec 2023
