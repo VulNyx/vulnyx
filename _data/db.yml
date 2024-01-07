@@ -1227,6 +1227,7 @@ basic:
       - noname
       - s0yn3m3s1s
       - SoyBett0
+      - Neobrain
     url:
       - https://d4t4s3c.medium.com/vulnyx-basic-922bc7907525
       - https://youtu.be/7oA3dJWP_v4
@@ -1236,6 +1237,7 @@ basic:
       - https://0x-noname.github.io/writeups/nyx/basic
       - https://medium.com/@s0yn3m3s1s/vulnyx-basic-15442c48f4e9
       - https://www.youtube.com/watch?v=E0tcGYi25Lc&t=1294s
+      - https://www.youtube.com/watch?v=5yWjJyDEDjU
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 26 Oct 2023
