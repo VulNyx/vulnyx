@@ -1265,9 +1265,9 @@ first:
   name: First
   creator: d4t4s3c
   difficulty: Easy
-  url: https://mega.nz/file/5TQzgCYR#hgRKBMq0PlXt-41irAXxKDjweuB1klnaytyERyOum3I
-  md5: 78F180FD54142756FB80ECBA7AC4B175
-  size: 3,95GB
+  url: https://mega.nz/file/pGYB0ZhY#EOU58xEkdp2SCPRrUpAdnYaRWJrfjrcUYkvkqCZFVv8
+  md5: 4026E8560BDAABA2E9DD172DD8CED98A
+  size: 3,93GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
   writeups:
@@ -1283,7 +1283,7 @@ first:
   firstRoot: ethicrash2
   release: 11 Nov 2023
   status: Retired
-air: 
+air:
   name: Air
   creator: noname
   difficulty: Easy
