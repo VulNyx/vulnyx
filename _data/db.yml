@@ -1065,10 +1065,6 @@ annunciation:
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
   writeups:
-    creator:
-      - PL4GU3
-    url:
-      - https://www.youtube.com/watch?v=b9Gg4pcEOGE
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 31 Aug 2023
