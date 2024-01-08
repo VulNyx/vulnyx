@@ -360,63 +360,7 @@
                   <path d="M9 12h6" />
                   <path d="M12 9v6" />
                 </svg>
-              </button>
-              <section class="form-writeup">
-                <article class="form-container">
-                  <div class="form-title">
-                    <h1 class="submit-writeup"></h1>
-                    <span class="close-form">&times;</span>
-                  </div>
-                  <p class="form-text">Fill in the form with your writeup information. It will be published after a review and will be available to anyone on the website.</p>
-                  <form class="form submit-form" id="writeupForm" action="https://discord.com/api/webhooks/1191687344558985288/H_YoDPZfiNwneujdCKwDkA17OjQeLN2yrATHKFAdBlc8X4qK95YZQZHHi_E5S8FNCVCE" method="POST">
-                    <div class="form-field">
-                      <label class="form-label" for="creator">Creator</label>
-                      <input class="form-control" id="creator" name="Creator" type="text" maxlength="15" placeholder="Enter your username" required />
-                    </div>
-                    <div class="form-field">
-                      <label class="form-label" for="url">URL</label>
-                      <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+" placeholder="Enter the public url of your writeup" required />
-                    </div>
-                    <div class="form-field">
-                      <label class="form-label" for="language">Content Type</label>
-                      <div class="form-checkbox">      
-                        <input type="radio" id="text" name="ContentType" value="Text" checked>
-                        <label for="text">Text</label>
-                        <input type="radio" id="video" name="ContentType" value="Video">
-                        <label for="video">Video</label>
-                      </div>
-                    </div>
-                    <div class="form-field">
-                      <label class="form-label" for="language">Language</label>
-                      <select class="form-control" id="language" name="Language" required>
-                          <option value="EN">English</option>
-                          <option value="ES">Español</option>
-                          <option value="FR">Français</option>
-                          <option value="DE">Deutsch</option>
-                          <option value="PT">Português</option>
-                          <option value="Other">Other</option>
-                          <option value="None">None(Just Video)</option>
-                      </select>
-                    </div>
-                    <div class="form-field">
-                      <label class="form-label" for="opinion">Opinion (Optional)</label>
-                      <textarea class="form-control" id="opinion" name="Opinion" maxlength="2000" rows="5" placeholder="Your opinion will only be shared with the VulNyx team and will be helpful as feedback. You are free to review or rate the machine as you want."></textarea>
-                    </div>
-                    <div class="form-btns">
-                      <button class="button" type="submit">Submit</button>
-                      <button class="button" type="reset">Clear</button>
-                    </div>
-                    <div class="form-footer">
-                      <small>Please read our 
-                        <a href="/rules" target="_blank">
-                          <strong>Rules</strong>
-                        </a> 
-                        section before submitting a new writeup.
-                      </small>
-                    </div>
-                  </form>
-                </article>
-              </section>              
+              </button>             
               {% endif %}
             </td>
           </tr>
@@ -425,6 +369,62 @@
       </table>
       <p id="search-message">No matches for <span id="query"></span>. Try with other search.</p>
     </div>
+    <section class="form-writeup">
+      <article class="form-container">
+        <div class="form-title">
+          <h1 class="submit-writeup"></h1>
+          <span class="close-form">&times;</span>
+        </div>
+        <p class="form-text">Fill in the form with your writeup information. It will be published after a review and will be available to anyone on the website.</p>
+        <form class="form submit-form" id="writeupForm" action="https://discord.com/api/webhooks/1191687344558985288/H_YoDPZfiNwneujdCKwDkA17OjQeLN2yrATHKFAdBlc8X4qK95YZQZHHi_E5S8FNCVCE" method="POST">
+          <div class="form-field">
+            <label class="form-label" for="creator">Creator</label>
+            <input class="form-control" id="creator" name="Creator" type="text" maxlength="15" placeholder="Enter your username" required />
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="url">URL</label>
+            <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+" placeholder="Enter the public url of your writeup" required />
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="language">Content Type</label>
+            <div class="form-checkbox">      
+              <input type="radio" id="text" name="ContentType" value="Text" checked>
+              <label for="text">Text</label>
+              <input type="radio" id="video" name="ContentType" value="Video">
+              <label for="video">Video</label>
+            </div>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="language">Language</label>
+            <select class="form-control" id="language" name="Language" required>
+                <option value="EN">English</option>
+                <option value="ES">Español</option>
+                <option value="FR">Français</option>
+                <option value="DE">Deutsch</option>
+                <option value="PT">Português</option>
+                <option value="Other">Other</option>
+                <option value="None">None(Just Video)</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="opinion">Opinion (Optional)</label>
+            <textarea class="form-control" id="opinion" name="Opinion" maxlength="2000" rows="5" placeholder="Your opinion will only be shared with the VulNyx team and will be helpful as feedback. You are free to review or rate the machine as you want."></textarea>
+          </div>
+          <div class="form-btns">
+            <button class="button" type="submit">Submit</button>
+            <button class="button" type="reset">Clear</button>
+          </div>
+          <div class="form-footer">
+            <small>Please read our 
+              <a href="/rules" target="_blank">
+                <strong>Rules</strong>
+              </a> 
+              section before submitting a new writeup.
+            </small>
+          </div>
+        </form>
+      </article>
+    </section> 
     <section class="form-flag">
       <article class="form-container">
         <div class="form-title">
