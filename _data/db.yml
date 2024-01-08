@@ -1046,7 +1046,7 @@ travel:
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
-  writeups: 
+  writeups:
     creator:
       - UnD3sc0n0c1d0
     url:
@@ -1065,6 +1065,10 @@ annunciation:
   tested: 
     - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
   writeups:
+    creator:
+      - PL4GU3
+    url:
+      - https://youtu.be/b9Gg4pcEOGE
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 31 Aug 2023
