@@ -532,11 +532,13 @@ node:
       - RiJaba1
       - d4t4s3c
       - SoyBett0
+      - ShellDredd
     url:
       - https://0x-noname.github.io/writeups/nyx/node/
       - https://youtu.be/VLp8VRzIYrI
       - https://d4t4s3c.medium.com/vulnyx-node-ea6fbf54b8d6
       - https://www.youtube.com/watch?v=uIWW5A1U-Z8
+      - https://wiki.delicioushack.com/vulnyx-writeups/node-ctf-writeup-es
   firstUser: noname
   firstRoot: noname
   release: 17 May 2023
