@@ -463,11 +463,13 @@ deploy:
       - noname
       - condor
       - ElPingüinoDeMario
+      - SoyBett0
     url:
       - https://d4t4s3c.medium.com/vulnyx-deploy-fa1edf94b92a
       - https://0x-noname.github.io/writeups/nyx/deploy
       - https://youtu.be/mjYXNAzfMOI?si=Olnc0vtqfhQgOMqa
       - https://www.youtube.com/watch?v=2cngaZ6CSzo
+      - https://www.youtube.com/watch?v=bH8QpywGFS8
   firstUser: noname
   firstRoot: noname
   release: 11 May 2023
