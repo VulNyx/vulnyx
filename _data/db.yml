@@ -7,7 +7,7 @@ ready:
   md5: C924A88E2F47758F4E4030D73A4155BA
   size: 640MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -28,7 +28,7 @@ hat:
   md5: 9B9EA1F1C09EB82FCD33F95769393083
   size: 657MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -53,7 +53,7 @@ serve:
   md5: ADC6EEE14CC9D4CBD16561E73338D818
   size: 941MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -72,7 +72,7 @@ brain:
   md5: 6673F9D485307081CC40FD47E8BEC41B
   size: 899MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -95,7 +95,7 @@ responder:
   md5: F04EF5B743189A9BC6A5EC357B99DB62
   size: 676MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -114,7 +114,7 @@ wrapp:
   md5: 204FED4FB0EB5D9B9EB2CC3987A49FDF
   size: 1,27GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -133,7 +133,7 @@ doctor:
   md5: 57606E6482F7688B73303E7CBA78EF7C
   size: 722MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -154,7 +154,7 @@ secrets:
   md5: AEA7FA80127ED5ACE8235F199BB0DD3F
   size: 689MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -175,7 +175,7 @@ fing:
   md5: AC9691A4D331E3EB63E88F4F6771549A
   size: 1,09GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
      creator:
@@ -198,7 +198,7 @@ blog:
   md5: 24B913E2A25A3A4EEE13FE96A8F22B7C
   size: 766MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -221,7 +221,7 @@ backdoor:
   md5: 070FC35D80C6DDDE0D3FE76D7486784F
   size: 1,27GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -240,7 +240,7 @@ tom:
   md5: 2AF90F5EF3D1C6CD232867F8B705CD0C
   size: 1,21GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -261,7 +261,7 @@ shock:
   md5: 97DA6D7BA6CB43815E05A7A02EC6D2DC
   size: 1,18GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
     creator:
       - noname
@@ -283,7 +283,7 @@ developer:
   md5: 1C49318595BBD153844974C1C551E6C5
   size: 1,54GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -302,7 +302,7 @@ hidden:
   md5: C9723ECA1A653D13FB9901F055321C7B
   size: 1,29GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -323,7 +323,7 @@ real:
   md5: C944B5CD85ABCFB213B841EE5EFB6369
   size: 992MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -346,7 +346,7 @@ ceres:
   md5: 77343CAEB8DDFD67E81B353A5F5856B8
   size: 633MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -365,7 +365,7 @@ printer:
   md5: 491548714193F4BA3580DE02D92AB1B0
   size: 1,01GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -388,7 +388,7 @@ zero:
   md5: ADF238F9CD3723C7D580305F32CE4206
   size: 1,7GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -413,7 +413,7 @@ zone:
   md5: 1D4296EB948CAFCADD09ACA69DDADE60
   size: 888MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -436,7 +436,7 @@ internal:
   md5: 37544C3BC503D485588F9DCA05AD34AD
   size: 1,12GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -455,7 +455,7 @@ deploy:
   md5: 8E9BA6C82CD9E39F1A1EB591AF0A6650
   size: 1,23GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -480,7 +480,7 @@ mail:
   md5: 7C64A0CEC381884E5B8AD4EA0274113C
   size: 1,45GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -499,7 +499,7 @@ external:
   md5: 7B63493346AAF11E8FCF719A691336AA
   size: 1,51GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -524,7 +524,7 @@ node:
   md5: 18B31E6382D5B3581ABEE22608D36F3F
   size: 1,71GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -551,7 +551,7 @@ key:
   md5: D9F7D25EEFD68119805CEB8B687EC527
   size: 671MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -570,7 +570,7 @@ noob:
   md5: 333C1E2433A63F2A1B2D8D5BAF651B8D
   size: 1,16GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -597,7 +597,7 @@ transfer:
   md5: 83867E044FC7009B6BFBBA18DD9E96E5
   size: 560MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -616,7 +616,7 @@ bund:
   md5: 4CA40A38072EECB36BD15B414A97A481
   size: 1,69GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -637,7 +637,7 @@ encode:
   md5: 6F584602B88F2D263FAA9F808430667A
   size: 3,48GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -656,7 +656,7 @@ flash:
   md5: 9E932C8EE1A71E3EF275DED23F8E1E41
   size: 1,18GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -683,7 +683,7 @@ listen:
   md5: F9CB83282E3B23A03D86948C51987AFC
   size: 759MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
     creator:
       - dirtyc0w
@@ -705,7 +705,7 @@ trace:
   md5: F55DD0CEE2B0A41946552E07274DEF66
   size: 1,26GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -724,7 +724,7 @@ look:
   md5: 24585DCA6C2FF675490B9BE6413B0155
   size: 1,09GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -751,7 +751,7 @@ chain:
   md5: 615FF0D38B658B1DBD3045039F3ACCDA
   size: 1,21GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -772,7 +772,7 @@ shop:
   md5: 93DB21631B1C65EB3A1DED8ED4DC8C82
   size: 1GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -799,7 +799,7 @@ discover:
   md5: 9186579DAC5878F8C626868E559FA7DB
   size: 1,14GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -818,7 +818,7 @@ belial:
   md5: 4765FD2A953676D1A86175793882A2B8
   size: 1,7GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
     creator:
       - noname
@@ -838,7 +838,7 @@ jenk:
   md5: 89DB3E6CC8C02030F6C072204958E6D8
   size: 1,88GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -861,7 +861,7 @@ beginner:
   md5: DB029F32025EBF43E4DAC31CBB40818B
   size: 1,51GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -888,7 +888,7 @@ share:
   md5: FD1F1691D748AA356204C19628084F74
   size: 1,26GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -915,7 +915,7 @@ dark:
   md5: 22A695EB89158B9B730E2929E488E8A7
   size: 1,65GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -936,7 +936,7 @@ plot:
   md5: 0D0310EEEEDB861D9A0A0CD7A1A53118
   size: 1,19GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -961,7 +961,7 @@ cap:
   md5: 151F3B8BA8AD5B19A6400F8F00827F32
   size: 1,09GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -980,7 +980,7 @@ remote:
   md5: 06AC87EDF2A48EE144AA280CCCAABE54
   size: 1,2GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1005,7 +1005,7 @@ goetia:
   md5: A3966C021AD255703BB65A04CF38050D
   size: 1GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
     creator:
       - noname
@@ -1023,7 +1023,7 @@ slash:
   md5: 947AE8CBE982F3777A922D4BE7E2C34E
   size: 1,06GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1046,7 +1046,7 @@ travel:
   md5: E34702261479D91A52C2622E12112561
   size: 1,7GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1065,7 +1065,7 @@ annunciation:
   md5: E6F10A8DAA67B8E2F96F0EA3A65E0287
   size: 913MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
     creator:
       - PL4GU3
@@ -1083,7 +1083,7 @@ play:
   md5: DD9EEFDFE2549FFA3E76167DE6195D93
   size: 1,18GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1108,7 +1108,7 @@ baal:
   md5: AF26FE68F0FE726DF5A80C438F1977A2
   size: 1,82GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1127,7 +1127,7 @@ wicca:
   md5: 6286ACAB071279A41987F599C914E51F
   size: 1,17GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1156,7 +1156,7 @@ fire:
   md5: 8E7B911887615582EA250B28C5690385
   size: 1,51GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1181,7 +1181,7 @@ robot:
   md5: 527D8CC8DB8A2C58D94CA8EA8C8D0CC7
   size: 1,48GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1202,7 +1202,7 @@ access:
   md5: 40EC453C0976A330E9D62A20EBBB5E6E
   size: 1,55GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1223,7 +1223,7 @@ basic:
   md5: 6D2EED28DEEB0967D8FA454BFCD95ED5
   size: 1,17GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1258,7 +1258,7 @@ monitor:
   md5: BAB2B5D3066056D2D644395A9D0D371A
   size: 1,12GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1277,7 +1277,7 @@ first:
   md5: 4026E8560BDAABA2E9DD172DD8CED98A
   size: 3,93GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
     creator:
       - d4t4s3c
@@ -1299,7 +1299,7 @@ air:
   md5: 0D77B427EBB393FE6A21263F6DD78BE9
   size: 539MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
     creator:
       - noname
@@ -1319,7 +1319,7 @@ bind:
   md5: C87A28831901A4729BEEBD00F4452E52
   size: 779MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1342,7 +1342,7 @@ code:
   md5: 48ADCF51A03E3C373D39499317522014
   size: 805MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1363,7 +1363,7 @@ unit:
   md5: 4518732F2D94C6859E5E9899DDCB50FD
   size: 864MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1388,7 +1388,7 @@ raw:
   md5: A1A12019615A15B01A5E8C806D3C4B4C
   size: 1,8GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1407,7 +1407,7 @@ mux:
   md5: BFE504890283F9CFAF835076E30F45BF
   size: 1,14GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1436,7 +1436,7 @@ infected:
   md5: DA4D099B6DAF8CAD4D1C317ECA3368E2
   size: 0,97GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1465,7 +1465,7 @@ agent:
   md5: 0CEB53AD86A486C6632F28AA08D1BD35
   size: 1,28GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1498,7 +1498,7 @@ hunter:
   md5: D8823D5EB181CD0038490C610F65A88C
   size: 1,01GB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
@@ -1523,7 +1523,7 @@ load:
   md5: F628715C9CF38601A352F7D4F927A72A
   size: 996MB
   tested:
-    - <img title="VirtualBox" alt="VirtualBox logo" src="assets/vbox.png" width="25" height="25">
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
     creator:
