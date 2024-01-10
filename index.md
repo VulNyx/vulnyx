@@ -1,6 +1,5 @@
 ---
-layout: page
-title: VulNyx
+layout: main
 ---
 
-{% include bin_table.html %}
+{% include main.html %}
