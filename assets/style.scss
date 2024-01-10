@@ -98,29 +98,16 @@ a.github-button {
   visibility: hidden;
 }
 
-h1,
-h2 {
-  margin-bottom: 1rem;
-}
-
 #submit-vm, #submit-writeups {
   margin: 1.5rem 1.5rem 1rem 1.5rem;
 }
 
 p {
-  margin: 1rem;
-}
-
-h2 + ul,
-p + ol {
   margin: 1rem 0;
-  padding-left: 3rem;
 }
 
-h2 + ul li,
-p + ol li {
-  padding: 0.25rem 0;
-  line-height: 1.5rem;
+h2 + ul  {
+  line-height: 1.15rem;
 }
 
 .container {
@@ -539,13 +526,13 @@ details {
 }
 
 .modal, .form-writeup, .form-vm, .form-flag  {
-  display: none; 
+  display: none;
   position: fixed;
   z-index: 1;
   padding-top: 45vh;
   left: 0;
   top: 0;
-  width: 100%; 
+  width: 100%;
   height: 100%;
 }
 
@@ -909,8 +896,6 @@ footer p {
 }
 
 .footer-logo {
-	width: 100%;
-	margin: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -919,6 +904,18 @@ footer p {
 .footer-logo img {
   width: 50px;
   height: 50px;
+}
+
+#rules-warning {
+  margin: 0 0 1rem 0;
+}
+
+.rules-heading {
+  margin: 1.5rem 0;
+}
+
+.rules-list {
+  padding: 0 1rem;
 }
 
 @media (min-width: 320px) and (max-width: 700px) {
@@ -1000,7 +997,7 @@ footer p {
   .vm-stats, .filters {
     gap: 0.25rem;
   }
-  
+
   .card-container {
     gap: 0;
   }
@@ -1018,7 +1015,7 @@ footer p {
     left: 0px;
     top: 16px;
   }
-  
+
   .copy-btn {
     top: 0px;
     left: 25px;
