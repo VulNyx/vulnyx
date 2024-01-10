@@ -420,10 +420,12 @@ zone:
      - d4t4s3c
      - noname
      - Anonimo501
+     - SoyBett0
     url:
      - https://d4t4s3c.medium.com/vulnyx-zone-b4305c74d7f1
      - https://0x-noname.github.io/writeups/nyx/zone
      - https://youtu.be/1lg19wydW04
+     - https://www.youtube.com/watch?v=M7Jq5KHC-KA
   firstUser: noname
   firstRoot: noname
   release: 06 May 2023
@@ -463,11 +465,13 @@ deploy:
       - noname
       - condor
       - ElPingüinoDeMario
+      - SoyBett0
     url:
       - https://d4t4s3c.medium.com/vulnyx-deploy-fa1edf94b92a
       - https://0x-noname.github.io/writeups/nyx/deploy
       - https://youtu.be/mjYXNAzfMOI?si=Olnc0vtqfhQgOMqa
       - https://www.youtube.com/watch?v=2cngaZ6CSzo
+      - https://www.youtube.com/watch?v=bH8QpywGFS8
   firstUser: noname
   firstRoot: noname
   release: 11 May 2023
