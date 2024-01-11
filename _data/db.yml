@@ -372,10 +372,12 @@ printer:
       - noname
       - elc4br4
       - Anonimo501
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/printer
       - https://elc4br4.github.io/vulnyx-printer-writeup
       - https://www.youtube.com/watch?v=NA8yfzcX738
+      - https://www.youtube.com/watch?v=e0TWbe-RDqQ
   firstUser: noname
   firstRoot: noname
   release: 04 May 2023
