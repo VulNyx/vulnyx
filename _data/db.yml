@@ -36,11 +36,13 @@ hat:
       - elc4br4
       - d4t4s3c
       - kerszi
+      - ElPingüinoDeMario
     url:
       - https://0x-noname.github.io/writeups/nyx/hat
       - https://elc4br4.github.io/vulnyx-hat-writeup
       - https://d4t4s3c.medium.com/vulnyx-hat-be1fc796ef2e
       - https://kerszl.github.io/hacking/walkthrough/hat
+      - https://www.youtube.com/watch?v=a5RwI6KXf-I
   firstUser: noname
   firstRoot: noname
   release: 18 Apr 2023
