@@ -1563,7 +1563,7 @@ cache:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
-  firstUser:
+  firstUser: punt4n0
   firstRoot:
   release: 12 Jan 2024
   status: Retired
