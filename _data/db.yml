@@ -1548,3 +1548,18 @@ load:
   firstRoot: PL4GU3
   release: 01 Jan 2024
   status: Retired
+cache:
+  name: Cache
+  creator: d4t4s3c
+  difficulty: Medium
+  url: https://mega.nz/file/ISRDDaRJ#0ek-PMojpA3QFSkVjWZa1YfYYlpEr3cLx-u72_GhpPg
+  md5: 4D1C894BBA332CBB59A1F2A84CD04B0B
+  size: 1,27GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 12 Jan 2024
+  status: Retired
