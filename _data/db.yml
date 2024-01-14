@@ -355,8 +355,10 @@ ceres:
   writeups:
     creator:
       - noname
+      - condor
     url:
-      - https://0x-noname.github.io/writeups/nyx/ceres/
+      - https://0x-noname.github.io/writeups/nyx/ceres
+      - https://youtu.be/L_wKgiuZtcw
   firstUser: noname
   firstRoot: noname
   release: 03 May 2023
