@@ -210,37 +210,46 @@ main {
 }
 
 .filter-options{
-  display: none;
-  position: absolute;
-  top: 37px;
-  background-color: rgb(0,0,0);
-  border-radius: 0.25rem;
-  padding: 0.5rem;
-  z-index: 10;
+	display: none;
+  	position: absolute;
+  	top: 37px;
+  	background-color: #1e2125;
+  	border-radius: 0.25rem;
+  	padding: 0.5rem;
+  	z-index: 10;
 }
 
 .level-filter {
 	display: flex;
 	align-items: center;
 	font-size: 14px;
-	padding: 0.25rem 0;
-	gap: 0.5rem;
+	padding: 0.5rem 0;
+	gap: 1rem;
+	width: 100%;
+}
+
+.level-filter:hover {
+	background-color: #212529; /* Color de fondo más claro al hacer hover */
+}
+
+.filter-by {
+  	display: flex;
+  	align-items: center;
+  	cursor: pointer;
+  	font-size: 1rem;
+	border-radius: 0.25rem;
+	padding: 0.5rem;
+	border: none;
+	background-color: #1e2125;
+	color: white;
+}
+
+.filter-by:hover, .order-by:hover {
+	background-color: #212529;
 }
 
 .order-by {
   display: none;
-}
-
-.filter-by {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  font-size: 1rem;
-	border-radius: 0.25rem;
-	padding: 0.5rem;
-	border: none;
-	background-color: rgba(0,0,0,0.4);
-	color: white;
 }
 
 .submit-btn, .submit-user-flag, .submit-root-flag {
@@ -255,10 +264,6 @@ main {
 
 .submit-user-flag, .submit-root-flag {
   padding: 0.35rem;
-}
-
-.filter-by:hover, .order-by:hover {
-  background-color: rgba(0,0,0,0.8);
 }
 
 .submit-btn:hover, .submit-user-flag:hover, .submit-root-flag:hover {
