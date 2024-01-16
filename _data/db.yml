@@ -310,9 +310,11 @@ hidden:
     creator:
       - noname
       - d4t4s3c
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/hidden/
       - https://d4t4s3c.medium.com/vulnyx-hidden-312c56f89cd3
+      - https://www.youtube.com/watch?v=hjOUB7Ey1wI
   firstUser: noname
   firstRoot: noname
   release: 30 Apr 2023
@@ -404,11 +406,13 @@ zero:
       - d4t4s3c
       - RiJaba1
       - ElPingüinoDeMario
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/zero
       - https://d4t4s3c.medium.com/vulnyx-zero-f733eec9145e
       - https://www.youtube.com/watch?v=A0ym7Lm0O-0
       - https://www.youtube.com/watch?v=Fx0OD5bSUQ4
+      - https://www.youtube.com/watch?v=VwSRUwhYXxc
   firstUser: noname
   firstRoot: noname
   release: 05 May 2023
