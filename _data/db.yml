@@ -13,9 +13,11 @@ ready:
     creator:
       - d4t4s3c
       - noname
+      - loco0000
     url:
       - https://d4t4s3c.medium.com/vulnyx-ready-b5769807c74b
       - https://0x-noname.github.io/writeups/nyx/ready
+      - https://github.com/Loco00003/Machines-solved/blob/main/Vulnyx/Ready.md
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 18 Apr 2023
