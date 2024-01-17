@@ -100,8 +100,7 @@
               <form class="form submit-form" id="vmForm">
                 <div class="form-field">
                   <label class="form-label" for="name">Name</label>
-                  <input class="form-control" id="name" name="Name" type="text" maxlength="20"
-                    placeholder="Enter the machine name" required />
+                  <input class="form-control" id="name" name="Name" type="text" maxlength="20" placeholder="Enter the machine name" required="" autocomplete="off">
                 </div>
                 <div class="form-field">
                   <label class="form-label" for="creator">Creator</label>
@@ -474,8 +473,7 @@
           <form class="form submit-form" id="flagForm">
             <div class="form-field">
               <label class="form-label" for="username">Username</label>
-              <input class="form-control" id="username" name="Username" type="text" maxlength="15"
-                placeholder="Enter your username" required />
+              <input class="form-control" id="username" name="Username" type="text" maxlength="15" placeholder="Enter your username" required="" autocomplete="username">
             </div>
             <div class="form-field">
               <label class="form-label" for="flag">Flag</label>
@@ -916,22 +914,20 @@
       location.hash = '';
     }
 
-    const toggleFilters = () => {
+   const toggleFilters = () => {
       let filtersDiv = document.querySelector('.filter-options');
-      filtersDiv.style.display === 'block' ? filtersDiv.style.display = 'none' : filtersDiv.style.display = 'block';
+      filtersDiv.style.display = filtersDiv.style.display === 'block' ? 'none' : 'block';
     }
 
-    const showFilters = () => {
-      let filtersDiv = document.querySelector('.filter-options');
-      filtersDiv.style.display = 'block';
+    // función auxiliar para manejar el cambio de estado del display. Se reduce la duplicación del código
+    const setFilterDisplay = (display) => {
+      const filtersDiv = document.querySelector('.filter-options');
+      filtersDiv.style.display = display;
     }
+    
+    const showFilters = () => setFilterDisplay('block');
 
-    const hideFilters = () => {
-      let filtersDiv = document.querySelector('.filter-options');
-      setTimeout(() => {
-        filtersDiv.style.display = 'none';
-      }, 200);
-    }
+    const hideFilters = () => setTimeout(() => setFilterDisplay('none'), 200);
 
     const filter = (query) => {
       const queryArray = query.toLowerCase().trim().split(/ *\+/);
@@ -972,7 +968,8 @@
       const clearSearch = document.querySelector('.clear-search');
 
       searchBox.addEventListener('input', () => {
-        clearSearch.style.display = 'block';
+        //cuando el input está vacío, el boton clear desaparece.
+        clearSearch.style.display = searchBox.value ? 'block' : 'none';
         let query = searchBox.value;
         history.replaceState(null, null, encodeURI(`#${query}`));
         applyFilter();
@@ -981,7 +978,7 @@
       searchBox.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') {
           location.hash = searchBox.value = '';
-          clearSearch.style.display = 'none';
+            clearSearch.style.display = searchBox.value ? 'block' : 'none';
         }
       });
 
