@@ -271,10 +271,12 @@ shock:
       - noname
       - elc4br4
       - d4t4s3c
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/shock
       - https://elc4br4.github.io/vulnyx-shock-writeup
       - https://d4t4s3c.medium.com/vulnyx-shock-a7059d85f60e
+      - https://www.youtube.com/watch?v=sgqBo91vr4Y
   firstUser: noname
   firstRoot: noname
   release: 28 Apr 2023
