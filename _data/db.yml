@@ -1,6 +1,7 @@
 ---
 ready:
   name: Ready
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/paBF3YjB#uQS9ds46g4ip_hQOLl65RpfwyzoLSYxGsy3jfNmUJ9Y
@@ -24,6 +25,7 @@ ready:
   status: Retired
 hat:
   name: Hat
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/EeoQGLCT#E8Dq-I5C_RlUgZ4sANt4fTh7mbKj693uoeUdOrtV-FI
@@ -51,6 +53,7 @@ hat:
   status: Retired
 serve:
   name: Serve
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/YO4UlSSb#gk77b326CiVUOg2ssQy9uACS_SLl7hxv1dbHIqhIWCg
@@ -70,6 +73,7 @@ serve:
   status: Retired
 brain:
   name: Brain
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/hOZjRKCQ#JsPAvJoPp4EqS4T6j6_ABjw9fnyyyaGG11qcW3VFay4
@@ -93,6 +97,7 @@ brain:
   status: Retired
 responder:
   name: Responder
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/9XBBnI4Y#0nyyUgcForsjy-51_3Cfn02wxOmFfSfblAe6GLQEwrs
@@ -112,6 +117,7 @@ responder:
   status: Retired
 wrapp:
   name: Wrapp
+  os: Linux
   creator: d4t4s3c
   difficulty: Hard
   url: https://mega.nz/file/UWg3EC5K#8wYJGNbsM9qWgtVwdQFdeF3KHJSUe-67InRorzFjcAk
@@ -131,6 +137,7 @@ wrapp:
   status: Retired
 doctor:
   name: Doctor
+  os: Linux
   creator: m0w
   difficulty: Easy
   url: https://mega.nz/file/Ie5w0JjJ#uVXwMBWLAQKc04metFBHozlPYfnXfYttuGU_7de_69M
@@ -152,6 +159,7 @@ doctor:
   status: Retired
 secrets:
   name: Secrets
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/EDhnQRQZ#9N0lulFO5pbiazm_RqW2vp21D7PDY3veDj8u5u6IPCg
@@ -173,6 +181,7 @@ secrets:
   status: Retired
 fing:
   name: Fing
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/EGZHGCzQ#5Zf6vSxUIOZ9u5WcpmV9r5jJqyGqfCXMMAN-WzsnisM
@@ -198,6 +207,7 @@ fing:
   status: Retired
 blog:
   name: Blog
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/NepkQJDD#ElT8o_F865Dudu0UY5AtJlPN0tAk9UwVsLAvE3wLRAA
@@ -221,6 +231,7 @@ blog:
   status: Retired
 backdoor:
   name: Backdoor
+  os: Linux
   creator: d4t4s3c
   difficulty: Hard
   url: https://mega.nz/file/JWZkWbaK#dweF9LffFolkFWqyHF8VRujWh11H6rxBC7G38XX7ICs
@@ -240,6 +251,7 @@ backdoor:
   status: Retired
 tom:
   name: Tom
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/ILRhEApD#-rZ-I8U3vPyUkDfatHWUC_PYv1Q0Z2o7zUkjusVJ-Lo
@@ -261,6 +273,7 @@ tom:
   status: Retired
 shock:
   name: Shock
+  os: Linux
   creator: m0w
   difficulty: Easy
   url: https://mega.nz/file/hGwhjaDD#bHUuqbbJUuNk4W3MJNAcQvoil7Qla6tydRmzzjOnYZ0
@@ -285,6 +298,7 @@ shock:
   status: Retired
 developer:
   name: Developer
+  os: Linux
   creator: d4t4s3c
   difficulty: Hard
   url: https://mega.nz/file/JTIElLzT#5-2495kE7QrQpscdVMfsAfX2-hmtX0MsjU3_9Vj1kG0
@@ -304,6 +318,7 @@ developer:
   status: Retired
 hidden:
   name: Hidden
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/tSJ1zQIa#jQvTxHwwjCuIOCZvrbPp_m5jkNG7Z4fBHXmaNFsnD10
@@ -327,6 +342,7 @@ hidden:
   status: Retired
 real:
   name: Real
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/FOZxHbKB#LLYTQBQLGLYTVdlMMJ27mLc23pGN0XjFlg4vgHvh5Qw
@@ -352,6 +368,7 @@ real:
   status: Retired
 ceres:
   name: Ceres
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/1KA33QxC#ouo6Og4MWyAg9oZvkASWDWZQunGoSN4s55fP7QuJwRE
@@ -373,6 +390,7 @@ ceres:
   status: Retired
 printer:
   name: Printer
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/5TQznIyA#KkIOUDPj4J59mJ5DAorkXA5YZKotZcBsU3Hv8MpFnqw
@@ -398,6 +416,7 @@ printer:
   status: Retired
 zero:
   name: Zero
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/1PhSiIzJ#PLqnG7RqINrslFtnKZW8YRjORLZcghlYWcz5CmA0DeE
@@ -425,6 +444,7 @@ zero:
   status: Retired
 zone:
   name: Zone
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/BTxFlaBD#z9R7NouQMj749pBCRBV_vpG0YkUm70FMQCwyOHgRTwo
@@ -450,6 +470,7 @@ zone:
   status: Retired
 internal:
   name: Internal
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/5OJVSL6Z#pepNANVzpLKKRCiDRbyZPH2QE-miaoE3I8iuGettkj4
@@ -469,6 +490,7 @@ internal:
   status: Retired
 deploy:
   name: Deploy
+  os: Linux
   creator: m0w
   difficulty: Easy
   url: https://mega.nz/file/hChzxZRD#B8SPfvvjIIv6rbwxKHL9mKXPK7ihKmCkXGvEyZogH8g
@@ -496,6 +518,7 @@ deploy:
   status: Retired
 mail:
   name: Mail
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/tHoSUTyQ#sYJQZYDbc6L5C17LBRESkAcSgsAd9QEbKB12xucGLCY
@@ -515,6 +538,7 @@ mail:
   status: Retired
 external:
   name: External
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/4KQBjRpJ#gb8RaSreMeGHMd9wJx4tkgce-ohTjyqXHZXLK6PMNMA
@@ -540,6 +564,7 @@ external:
   status: Retired
 node:
   name: Node
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/MDg2UQQI#kELwNPP55S_sHbfSp_ZMkjSImwDpYkbXXYH7eENKYJo
@@ -567,6 +592,7 @@ node:
   status: Retired
 key:
   name: Key
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/BWYmWY4B#THJ0042QThkt37kn_pqwvnTu7cbyv-NK33LjhGXWm1g
@@ -586,6 +612,7 @@ key:
   status: Retired
 noob:
   name: Noob
+  os: Linux
   creator: m0w
   difficulty: Easy
   url: https://mega.nz/file/YOQ0BZwC#m_L7tMBLokoFdPB_7w-RAqkP9SaMi7fM7he1f_9VozQ
@@ -613,6 +640,7 @@ noob:
   status: Retired
 transfer:
   name: Transfer
+  os: Linux
   creator: d4t4s3c
   difficulty: Hard
   url: https://mega.nz/file/tHITFIzK#PANZ8ICp-G6ehcj2dqwQd2m9_gFNsKIxP2BCgjgO-2g
@@ -632,6 +660,7 @@ transfer:
   status: Retired
 bund:
   name: Bund
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/VLpnWJbC#TRrYWz_XnSJXmqkEJoau52rHbDLX5ABWxm_lzAd4MOU
@@ -653,6 +682,7 @@ bund:
   status: Retired
 encode:
   name: Encode
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/xXpxkAbR#KdeS1cr2CH3qqQJDKYQZqvZEXRKHcq_WipWOxN8ArEM
@@ -672,6 +702,7 @@ encode:
   status: Retired
 flash:
   name: Flash
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/VWQkDIYA#oQtpnmxgmvMos4oNRwOOXhJEiau2OcBFZ0T0_BflXpM
@@ -699,6 +730,7 @@ flash:
   status: Retired
 listen:
   name: Listen
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/1ewjkC7Y#D1jD2ciHN9q2-a7_uCAfrZzh06z5YklOpwAS0440Ro0
@@ -721,6 +753,7 @@ listen:
   status: Retired
 trace:
   name: Trace
+  os: Linux
   creator: d4t4s3c
   difficulty: Hard
   url: https://mega.nz/file/tK5FmTaR#Zynqly-lx6QmhSN3L9oVWD7YuMNN4dYWx6FrT-q7wXY
@@ -740,6 +773,7 @@ trace:
   status: Retired
 look:
   name: Look
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/8LpTVITZ#Cygpo3PGzVZioQyemEsd7Q1X8d9Mi66Lu3OxeV6aVBs
@@ -767,6 +801,7 @@ look:
   status: Retired
 chain:
   name: Chain
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/IP5nATZS#LPw81YD2cT8d_sJaCLAy31ZBZNWSfJR1wAKXMrJSt1U
@@ -788,6 +823,7 @@ chain:
   status: Retired
 shop:
   name: Shop
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/gLxSBQgA#vGX0ZobWAK4laFclsK0ZX8u-1CHvm7Eg6CcoJOTrOJo
@@ -815,6 +851,7 @@ shop:
   status: Retired
 discover:
   name: Discover
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/sXpgTZLJ#UoIBqy6z6WvFMy55KEgtwE5rwVYJ8OubGH5titS4YnI
@@ -834,6 +871,7 @@ discover:
   status: Retired
 belial:
   name: Belial
+  os: Linux
   creator: UnD3sc0n0c1d0
   difficulty: Medium
   url: https://mega.nz/file/9WZCSA6S#LZ0YB-1eeIK8DsCcETIvJAteZf7dXSta3586KIJI0xI
@@ -854,6 +892,7 @@ belial:
   status: Retired
 jenk:
   name: Jenk
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/5eYXWJRC#CKJxRZgCJC855lAVeYv-ku2W_W6tZ70RDbfJasPk1DE
@@ -877,6 +916,7 @@ jenk:
   status: Retired
 beginner:
   name: Beginner
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/RKQ3kSZL#0wNDSRcsubxyzfJWXbXYrqVRPgIplTcQAdB-fMf-m30
@@ -904,6 +944,7 @@ beginner:
   status: Retired
 share:
   name: Share
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/leIUWRwB#0M9_9Uu9eHchWsJW9PKgIsGP_Iz1VzLr3ESVWbp8ysE
@@ -931,6 +972,7 @@ share:
   status: Retired
 dark:
   name: Dark
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/ADpWVQpR#0Ca_d0cz0hlh8rGGdVhN9F0-Ji-VC86KisGraTolSr8
@@ -952,6 +994,7 @@ dark:
   status: Retired
 plot:
   name: Plot
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/pW4HhDZC#PgJx6gVGHmVtptSORA6z-LFfLFwnYqi_MY3iv_X27SY
@@ -977,6 +1020,7 @@ plot:
   status: Retired
 cap:
   name: Cap
+  os: Linux
   creator: d4t4s3c
   difficulty: Hard
   url: https://mega.nz/file/wOZGVY4K#iLIBN4JVlZBYcCriQ40WQL_r3HSsUkGuF-SglTLdb6c
@@ -996,6 +1040,7 @@ cap:
   status: Retired
 remote:
   name: Remote
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/QexH2aqZ#zvIs29fXq0NCjRf3pPoBPJSQcbdwzh7r1c9Mbg3axvY
@@ -1023,6 +1068,7 @@ remote:
   status: Retired
 goetia:
   name: Goetia
+  os: Linux
   creator: UnD3sc0n0c1d0
   difficulty: Easy
   url: https://mega.nz/file/ZbwBCIYR#Q6jBr8g5GWQ1Qjt89E74M-qxi_ng1Tkxc14wZSoxAf0
@@ -1041,6 +1087,7 @@ goetia:
   status: Retired
 slash:
   name: Slash
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/ZHBgiZgQ#uumpvmxYnA451vs5r-rk8NBWm3VOErIakBMSEff4nPo
@@ -1064,6 +1111,7 @@ slash:
   status: Retired
 travel:
   name: Travel
+  os: Linux
   creator: d4t4s3c
   difficulty: Hard
   url: https://mega.nz/file/8GZSiBRD#RRqWdFQ0khcWe-zI8q3PT82DQIT5CCyGwqc5C7iO0m8
@@ -1083,6 +1131,7 @@ travel:
   status: Retired
 annunciation:
   name: Annunciation
+  os: Linux
   creator: UnD3sc0n0c1d0
   difficulty: Hard
   url: https://mega.nz/file/4KhUXZ4Y#e6dB2MnPu7Ug5n0_yHt0bqgcrhOesKS2XHkJ3FpS34o
@@ -1101,6 +1150,7 @@ annunciation:
   status: Retired
 play:
   name: Play
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/kaIhmLYa#LIrwaUiY6KdyesgiBV5KpxyV7NpZvJwxRrQtm7RsM2Q
@@ -1126,6 +1176,7 @@ play:
   status: Retired
 baal:
   name: Baal
+  os: Linux
   creator: UnD3sc0n0c1d0
   difficulty: Medium
   url: https://mega.nz/file/FHhEyIDQ#DeE5KfZi5HCSNrcB1oSY2vmjBBi9FkywLuR1zG1DCWg
@@ -1145,6 +1196,7 @@ baal:
   status: Retired
 wicca:
   name: Wicca
+  os: Linux
   creator: UnD3sc0n0c1d0
   difficulty: Easy
   url: https://mega.nz/file/YbBDjQDI#vV964toDsXFloNjT0sfIZ1mmTC23EiGUiJ3HIdDeqD8
@@ -1174,6 +1226,7 @@ wicca:
   status: Retired
 fire:
   name: Fire
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/hfwwgZQS#PrlxyDa-eAT_PtA66Qx1Hb255gpxCXKFhTUQkH75qpw
@@ -1199,6 +1252,7 @@ fire:
   status: Retired
 robot:
   name: Robot
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/ZKhBhT4L#mPD0e-0FuDhiyqD4R9b9N0T9qAFWLIjKnc1UkcpoHyA
@@ -1220,6 +1274,7 @@ robot:
   status: Retired
 access:
   name: Access
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/dWxnGBKR#KEsuzl9P80gJrd-3WpSWUptKvaX3lEWifrSQW87Zzno
@@ -1241,6 +1296,7 @@ access:
   status: Retired
 basic:
   name: Basic
+  os: Linux
   creator: m0w
   difficulty: Easy
   url: https://mega.nz/file/NLxF1RKL#I_rw8N2SjXAJ8R4vB8YKYZUursOxlFujqhFACsgrdmw
@@ -1276,6 +1332,7 @@ basic:
   status: Retired
 monitor:
   name: Monitor
+  os: Linux
   creator: d4t4s3c
   difficulty: Hard
   url: https://mega.nz/file/wGI3SQTK#K3AMSoUqYe9Rku6c0ZzFxk0wrTBh0zT9Js3zRRgV3o4
@@ -1295,6 +1352,7 @@ monitor:
   status: Retired
 first:
   name: First
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/pGYB0ZhY#EOU58xEkdp2SCPRrUpAdnYaRWJrfjrcUYkvkqCZFVv8
@@ -1317,6 +1375,7 @@ first:
   status: Retired
 air:
   name: Air
+  os: Linux
   creator: noname
   difficulty: Easy
   url: https://mega.nz/file/VfokWYTL#zxmghbjw19OjICKavj2uXAL9tz7xs_ZqyoMJkiCH0YE
@@ -1337,6 +1396,7 @@ air:
   status: Retired
 bind:
   name: Bind
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/JPwmHSqJ#ukRhRHuvzqogXp2Xvbgi0ku5cKVjXHXh-r1bDw_bMM0
@@ -1360,6 +1420,7 @@ bind:
   status: Retired
 code:
   name: Code
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/RD4UFDpD#y85e3y0AAfdd2cAS9DIbcyzZFyVg-EP-l7tBA0kw-Nc
@@ -1381,6 +1442,7 @@ code:
   status: Retired
 unit:
   name: Unit
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/EbQGybII#N0eSY8SDTR5IiRuhcfwLpraizWFImHE73e1H597v3Kw
@@ -1406,6 +1468,7 @@ unit:
   status: Retired
 raw:
   name: Raw
+  os: Linux
   creator: d4t4s3c
   difficulty: Hard
   url: https://mega.nz/file/Ye5gSZrJ#ghYRAFmyGilHW-VMoJIBcC2x8CaQA-aBVH7kB660_zQ
@@ -1425,6 +1488,7 @@ raw:
   status: Retired
 mux:
   name: Mux
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/pKpSCA6a#1CGYVsurfkzCfGOe81i7atXpxe_TBURU7Ba5AqrjMFE
@@ -1454,6 +1518,7 @@ mux:
   status: Retired
 infected:
   name: Infected
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/YWohmBqJ#TztP97EVyI-4D42Y-jRFNUzdHTKbRXhzIPk_g23UABc
@@ -1483,6 +1548,7 @@ infected:
   status: Retired
 agent:
   name: Agent
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/FKB3BZJa#07OrqDmQA1C-991Ao-X7vfnlTbNLZZvdcDSWDA5vsNc
@@ -1516,6 +1582,7 @@ agent:
   status: Retired
 hunter:
   name: Hunter
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/ZPwglJLY#uVIV9ybYO9Tu5IKr9I4svVj0Qx4TCvKz4Iv1umpkOrQ
@@ -1541,6 +1608,7 @@ hunter:
   status: Retired
 load:
   name: Load
+  os: Linux
   creator: d4t4s3c
   difficulty: Easy
   url: https://mega.nz/file/kW5UTbyS#fIMALTqt2OgIFxIgdOqU-5cKDyU6xzi2AhIjJ5zxSjU
@@ -1570,6 +1638,7 @@ load:
   status: Retired
 cache:
   name: Cache
+  os: Linux
   creator: d4t4s3c
   difficulty: Medium
   url: https://mega.nz/file/ISRDDaRJ#0ek-PMojpA3QFSkVjWZa1YfYYlpEr3cLx-u72_GhpPg
