@@ -1652,10 +1652,12 @@ cache:
       - dirtyc0w
       - d4t4s3c
       - noname
+      - condor
     url:
       - https://youtu.be/L_wKgiuZtcw
       - https://d4t4s3c.medium.com/vulnyx-cache-9ff1ba2e9a5b
       - https://0x-noname.github.io/writeups/nyx/cache
+      - https://youtu.be/DnKVGjjv6Fg?si=3Pkw8CcEvJgvXAqs
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 12 Jan 2024
