@@ -1670,7 +1670,7 @@ experience:
   url: https://mega.nz/file/NLxlWQqL#DLTZH1LY2LaMFs3hd03RfiEq0QwRR10qwMUHwbvowLM
   md5: 314B492EE87D21052CC41134AD435637
   size: 755MB
-  tested: https://mega.nz/file/NLxlWQqL#DLTZH1LY2LaMFs3hd03RfiEq0QwRR10qwMUHwbvowLM
+  tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
   firstUser:
