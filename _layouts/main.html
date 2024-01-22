@@ -237,6 +237,7 @@
           <thead>
             <tr>
               <th id="card">Card</th>
+              <th id="os">OS</th>
               <th class="vm-name">Name</th>
               <th class="creator">Creator</th>
               <th id="tested">Tested</th>
@@ -269,6 +270,9 @@
                     <path d="M7 16l10 0" />
                   </svg>
                 </button>
+              </td>
+              <td class="os">
+                <img title="{{data[1].os}}" alt="{{data[1].os}}" icon src="/assets/{{data[1].os}}.svg" width="22" height="22">
               </td>
               <td id="vm">
                 <div class="vm-name-btn level-btn {{ data[1].difficulty | downcase }}">
