@@ -438,12 +438,14 @@ zero:
       - RiJaba1
       - ElPingüinoDeMario
       - SoyBett0
+      - Rodgar
     url:
       - https://0x-noname.github.io/writeups/nyx/zero
       - https://d4t4s3c.medium.com/vulnyx-zero-f733eec9145e
       - https://www.youtube.com/watch?v=A0ym7Lm0O-0
       - https://www.youtube.com/watch?v=Fx0OD5bSUQ4
       - https://www.youtube.com/watch?v=VwSRUwhYXxc
+      - https://rodgar.gitbook.io/rodgar/ctf-writeups/vulnyx/vulnyx-zero
   firstUser: noname
   firstRoot: noname
   release: 05 May 2023
