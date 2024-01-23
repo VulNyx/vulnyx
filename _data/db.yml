@@ -154,9 +154,11 @@ doctor:
     creator:
       - noname
       - d4t4s3c
+      - Rodgar
     url:
       - https://0x-noname.github.io/writeups/nyx/doctor
       - https://d4t4s3c.medium.com/vulnyx-doctor-ddb716d5af0c
+      - https://rodgar.gitbook.io/rodgar/ctf-writeups/vulnyx/vulnyx-doctor
   firstUser: noname
   firstRoot: noname
   release: 21 Apr 2023
