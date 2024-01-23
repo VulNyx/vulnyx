@@ -67,8 +67,10 @@ serve:
   writeups:
     creator:
       - noname
+      - loco0000
     url:
       - https://0x-noname.github.io/writeups/nyx/serve
+      - https://loco00003.github.io/locoweb/machines/vulnyx/easy-machines/serve-vulnyx
   firstUser: kentone
   firstRoot: kentone
   release: 19 Apr 2023
