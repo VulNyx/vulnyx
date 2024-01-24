@@ -239,7 +239,6 @@
               <th id="card">Card</th>
               <th id="os">OS</th>
               <th class="vm-name">Name</th>
-              <th class="creator">Creator</th>
               <th id="tested">Tested</th>
               <th class="url">File</th>
               <th class="size">Size</th>
@@ -272,7 +271,7 @@
                 </button>
               </td>
               <td class="os">
-                <img title="{{data[1].os}}" alt="{{data[1].os}}" icon src="/assets/{{data[1].os}}.svg" width="22" height="22">
+                <img title="{{data[1].os}} VM" alt="{{data[1].os}} icon" src="/assets/{{data[1].os}}.svg" width="22" height="22" loading="lazy">
               </td>
               <td id="vm">
                 <div class="vm-name-btn level-btn {{ data[1].difficulty | downcase }}">
@@ -280,7 +279,6 @@
                   <span class="bin-name">{{ data[1].name }}</span>
                 </div>
               </td>
-              <td class="creator">{{ data[1].creator }}</td>
               <td class="tested">
                 {% for img in data[1].tested %}
                 {{ img }}
@@ -927,7 +925,7 @@
       const filtersDiv = document.querySelector('.filter-options');
       filtersDiv.style.display = display;
     }
-    
+
     const showFilters = () => setFilterDisplay('block');
 
     const hideFilters = () => setTimeout(() => setFilterDisplay('none'), 200);
