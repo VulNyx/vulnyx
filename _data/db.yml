@@ -155,10 +155,12 @@ doctor:
       - noname
       - d4t4s3c
       - Rodgar
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/doctor
       - https://d4t4s3c.medium.com/vulnyx-doctor-ddb716d5af0c
       - https://rodgar.gitbook.io/rodgar/ctf-writeups/vulnyx/vulnyx-doctor
+      - https://www.youtube.com/watch?v=FbrN8EbZyl4
   firstUser: noname
   firstRoot: noname
   release: 21 Apr 2023
@@ -229,10 +231,12 @@ blog:
       - noname
       - d4t4s3c
       - Anonimo501
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/blog
       - https://d4t4s3c.medium.com/vulnyx-blog-ab2ea54f17c0
       - https://youtu.be/7jxDWCdQCow
+      - https://www.youtube.com/watch?v=mcJ9wvYX7h4
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 24 Apr 2023
