@@ -272,7 +272,7 @@
                 </button>
               </td>
               <td class="os">
-                <img title="{{data[1].os}}" alt="{{data[1].os}}" icon src="/assets/{{data[1].os}}.svg" width="22" height="22">
+                <img title="{{data[1].os}} VM" alt="{{data[1].os}} icon" src="/assets/{{data[1].os}}.svg" width="22" height="22" loading="lazy">
               </td>
               <td id="vm">
                 <div class="vm-name-btn level-btn {{ data[1].difficulty | downcase }}">
@@ -927,7 +927,7 @@
       const filtersDiv = document.querySelector('.filter-options');
       filtersDiv.style.display = display;
     }
-    
+
     const showFilters = () => setFilterDisplay('block');
 
     const hideFilters = () => setTimeout(() => setFilterDisplay('none'), 200);
