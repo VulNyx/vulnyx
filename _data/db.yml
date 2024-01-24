@@ -1403,9 +1403,11 @@ air:
     creator:
       - noname
       - SoyBett0
+      - n3philax
     url:
       - https://0x-noname.github.io/writeups/nyx/air
       - https://www.youtube.com/watch?v=z6s9nCBVFGk&t=1559s
+      - https://blog.n3philax.cl/vulnyx-air
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 12 Nov 2023
