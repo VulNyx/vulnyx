@@ -375,8 +375,12 @@ th {
   gap: 0.5rem;
 }
 
-tbody tr {
-  background-color: #1e2125;
+tbody tr:nth-child(even) {
+  background-color: rgba(30, 33, 37, 0.7);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(30, 33, 37);
 }
 
 #bin-table td {
@@ -385,7 +389,7 @@ tbody tr {
 }
 
 #bin-table tr:hover {
-  background-color: rgba(0,0,0,.25);
+  background-color: rgba(0,0,0, 0.5);
 }
 
 td div {
