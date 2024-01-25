@@ -618,8 +618,10 @@ key:
   writeups:
     creator:
       - dirtyc0w
+      - noanme
     url:
       - https://youtu.be/gfBnyF9is70
+      - https://0x-noname.github.io/writeups/nyx/key
   firstUser: dirtyc0w
   firstRoot: dirtyc0w
   release: 21 May 2023
