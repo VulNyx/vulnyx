@@ -68,9 +68,11 @@ serve:
     creator:
       - noname
       - loco0000
+      - SoyBett0
     url:
       - https://0x-noname.github.io/writeups/nyx/serve
       - https://loco00003.github.io/locoweb/machines/vulnyx/easy-machines/serve-vulnyx
+      - https://www.youtube.com/watch?v=4gdGXTVfrAU
   firstUser: kentone
   firstRoot: kentone
   release: 19 Apr 2023
