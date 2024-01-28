@@ -1729,6 +1729,12 @@ shared:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - condor
+      - punt4n0
+    url:
+      - https://youtu.be/VFF8RgqY4Bg?si=9BtmXRyfE3OO-1AV
+      - https://drive.proton.me/urls/KAD640CZ40#7S3nz6b3bEyG
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 23 Jan 2024
