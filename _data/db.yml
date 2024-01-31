@@ -1710,9 +1710,11 @@ experience:
     creator:
       - PL4GU3
       - d4t4s3c
+      - noname
     url:
       - https://www.youtube.com/watch?v=4kv8Uj9xU_w
       - https://d4t4s3c.medium.com/vulnyx-experience-aa54d19c9d6a
+      - https://0x-noname.github.io/writeups/nyx/experience
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 21 Jan 2024
@@ -1732,9 +1734,11 @@ shared:
     creator:
       - condor
       - punt4n0
+      - noname
     url:
       - https://youtu.be/VFF8RgqY4Bg?si=9BtmXRyfE3OO-1AV
       - https://drive.proton.me/urls/KAD640CZ40#7S3nz6b3bEyG
+      - https://0x-noname.github.io/writeups/nyx/shared
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 23 Jan 2024
