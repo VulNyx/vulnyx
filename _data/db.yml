@@ -832,9 +832,11 @@ chain:
     creator:
       - noname
       - ElPingüinoDeMario
+      - Luca Wolffart
     url:
       - https://0x-noname.github.io/writeups/nyx/chain
       - https://www.youtube.com/watch?v=FzW54cygDV0
+      - https://github.com/wolffart-luca/Vulnyx/blob/main/chain.txt
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 23 Jun 2023
