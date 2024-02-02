@@ -346,10 +346,12 @@ hidden:
       - noname
       - d4t4s3c
       - SoyBett0
+      - FjRamirez
     url:
       - https://0x-noname.github.io/writeups/nyx/hidden/
       - https://d4t4s3c.medium.com/vulnyx-hidden-312c56f89cd3
       - https://www.youtube.com/watch?v=hjOUB7Ey1wI
+      - https://www.youtube.com/watch?v=Axwb8Pcnlqk
   firstUser: noname
   firstRoot: noname
   release: 30 Apr 2023
