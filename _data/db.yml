@@ -1757,10 +1757,6 @@ eternal:
   name: Eternal
   os: Windows
   creator: d4t4s3c
-    creator:
-      - PL4GU3
-    url:
-      - https://youtu.be/qsThlR63L4M
   difficulty: Easy
   url: https://mega.nz/file/kPIiwRhZ#wiO8ddEp3LN7fZLfjF77A--VJtB8wsp6qakYJyx1wfU
   md5: 1E7EF6D6CD544092F9B55475A5430AEA
@@ -1768,6 +1764,10 @@ eternal:
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
+    creator:
+      - PL4GU3
+    url:
+      - https://youtu.be/qsThlR63L4M
   firstUser: x3rox
   firstRoot: x3rox
   release: 03 Feb 2024
