@@ -1753,3 +1753,18 @@ shared:
   firstRoot: suraxddq
   release: 23 Jan 2024
   status: Retired
+eternal:
+  name: Eternal
+  os: Windows
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/kPIiwRhZ#wiO8ddEp3LN7fZLfjF77A--VJtB8wsp6qakYJyx1wfU
+  md5: 1E7EF6D6CD544092F9B55475A5430AEA
+  size: 3,11GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 03 Feb 2024
+  status: Retired
