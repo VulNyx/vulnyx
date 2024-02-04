@@ -1719,10 +1719,12 @@ experience:
       - PL4GU3
       - d4t4s3c
       - noname
+      - condor
     url:
       - https://www.youtube.com/watch?v=4kv8Uj9xU_w
       - https://d4t4s3c.medium.com/vulnyx-experience-aa54d19c9d6a
       - https://0x-noname.github.io/writeups/nyx/experience
+      - https://youtu.be/ml3YyBH2dMI?si=wZVh1l1A3GCGxvL3
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 21 Jan 2024
