@@ -1756,7 +1756,7 @@ shared:
       - https://drive.proton.me/urls/KAD640CZ40#7S3nz6b3bEyG
       - https://0x-noname.github.io/writeups/nyx/shared
       - https://youtu.be/yUYwYTiG9-0?si=P9w-DJCgegkcUb77
-      - https://github.com/wolffart-luca/Vulnyx/blob/main/shared.txt
+      - https://github.com/wolffart-luca/Vulnyx/blob/main/shared.md
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 23 Jan 2024
