@@ -1782,3 +1782,19 @@ eternal:
   firstRoot: x3rox
   release: 03 Feb 2024
   status: Retired
+druid:
+  name: Druid
+  os: Linux
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/sbJFTSzD#QFjfGfC6IJtZ0hvngGZxFnidiln9rWleY2kY4tlQ-eE
+  md5: F9D505A3662AC3FB8B0C7CE0A6DA6702
+  size: 1,2GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 07 Feb 2024
+  status: Retired
