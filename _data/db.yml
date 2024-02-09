@@ -1804,3 +1804,19 @@ druid:
   firstRoot: x3rox
   release: 07 Feb 2024
   status: Retired
+dump:
+  name: Dump
+  os: Linux
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/8XxySASb#CN7SPFQk29xl8eeK1osc-ZhC-eQpk6Z8AFMIVjVtKg4
+  md5: B8FF8716F3FE74A8D5398C858ED81CAB
+  size: 0,99GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 09 Feb 2024
+  status: Retired
