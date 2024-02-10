@@ -526,12 +526,14 @@ deploy:
       - condor
       - ElPingüinoDeMario
       - SoyBett0
+      - zunderrub
     url:
       - https://d4t4s3c.medium.com/vulnyx-deploy-fa1edf94b92a
       - https://0x-noname.github.io/writeups/nyx/deploy
       - https://youtu.be/mjYXNAzfMOI?si=Olnc0vtqfhQgOMqa
       - https://www.youtube.com/watch?v=2cngaZ6CSzo
       - https://www.youtube.com/watch?v=bH8QpywGFS8
+      - https://www.youtube.com/watch?v=hLSAPCnq1tI&t=3946s
   firstUser: noname
   firstRoot: noname
   release: 11 May 2023
