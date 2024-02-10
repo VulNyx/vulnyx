@@ -526,7 +526,7 @@ deploy:
       - condor
       - ElPingüinoDeMario
       - SoyBett0
-      - zunderrub
+      - zunderrubLive
     url:
       - https://d4t4s3c.medium.com/vulnyx-deploy-fa1edf94b92a
       - https://0x-noname.github.io/writeups/nyx/deploy
