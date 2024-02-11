@@ -43,7 +43,7 @@ hat:
       - d4t4s3c
       - kerszi
       - ElPingüinoDeMario
-      -condor
+      - condor
     url:
       - https://0x-noname.github.io/writeups/nyx/hat
       - https://elc4br4.github.io/vulnyx-hat-writeup
