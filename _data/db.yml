@@ -1838,3 +1838,19 @@ dump:
   firstRoot: PL4GU3
   release: 09 Feb 2024
   status: Retired
+gen:
+  name: Gen
+  os: Linux
+  creator: d4t4s3c
+  difficulty: Hard
+  url: https://mega.nz/file/oKhlgajB#6Ptx6YYs6uSCJW53LmqMMeZxw1p-xGZQ-9AMrf9KPn8
+  md5: D2A34B980B075F6A4FF20B3C68A5E626
+  size: 1,03GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 13 Feb 2024
+  status: Retired
