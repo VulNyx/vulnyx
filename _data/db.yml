@@ -1307,11 +1307,13 @@ robot:
       - d4t4s3c
       - zunderrub
       - calderondiego
+      - zunderrubLive
     url:
       - https://drive.proton.me/urls/RAESWGR5PW#ZlCGna2euREZ
       - https://d4t4s3c.medium.com/vulnyx-robot-c33d7531a09c
       - https://zunderrub.gitbook.io/untitled/ctfs-writteups/vulnyx/robot
       - https://calderondiego.gitbook.io/writeups
+      - https://www.youtube.com/watch?v=krB3SZHVFQs
   firstUser: ct0l4
   firstRoot: ct0l4
   release: 06 Oct 2023
