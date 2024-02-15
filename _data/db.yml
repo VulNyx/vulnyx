@@ -1852,10 +1852,10 @@ gen:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
-  creator:
-    - punt4n0
-  url:
-    - https://drive.proton.me/urls/1XFCEB5AE8#25RTNTXqAyHG
+    creator:
+      - punt4n0
+    url:
+      - https://drive.proton.me/urls/1XFCEB5AE8#25RTNTXqAyHG
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 13 Feb 2024
