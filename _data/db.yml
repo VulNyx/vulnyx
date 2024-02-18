@@ -117,8 +117,10 @@ responder:
   writeups:
     creator:
       - elc4br4
+      - condor
     url:
       - https://elc4br4.github.io/vulnyx-responder-writeup
+      - https://youtu.be/NBKXXFva1-E?si=arQBXDoY2V1cxmk4
   firstUser: noname
   firstRoot: noname
   release: 20 Apr 2023
