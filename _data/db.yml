@@ -1811,9 +1811,11 @@ druid:
     creator:
       - PL4GU3
       - condor
+      - m44lr0m
     url:
       - https://youtu.be/H4OUxTHAqR4
       - https://youtu.be/351HgfmiWd4?si=4UdcbwzTYNkZumlL
+      - https://m44lr0m.vercel.app/writeups/druid-vulnyx
   firstUser: x3rox
   firstRoot: x3rox
   release: 07 Feb 2024
