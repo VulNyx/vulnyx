@@ -1866,3 +1866,23 @@ gen:
   firstRoot: punt4n0
   release: 13 Feb 2024
   status: Retired
+
+
+
+
+friends:
+  name: Friends
+  os: Linux
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/hPZhnJRQ#32gsNoO67uu3ZG4U__gpf0hr4NUBEpKFeOCBK0FBgmU
+  md5: 82C5BCC45CE3B2B37E1D95B146E8BD1F
+  size: 1,51GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 19 Feb 2024
+  status: Retired
