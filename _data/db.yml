@@ -1866,10 +1866,6 @@ gen:
   firstRoot: punt4n0
   release: 13 Feb 2024
   status: Retired
-
-
-
-
 friends:
   name: Friends
   os: Linux
@@ -1882,7 +1878,7 @@ friends:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
-  firstUser:
-  firstRoot:
+  firstUser: suraxddq
+  firstRoot: suraxddq
   release: 19 Feb 2024
   status: Retired
