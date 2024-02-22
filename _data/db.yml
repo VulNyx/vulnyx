@@ -1904,6 +1904,10 @@ lost:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - PL4GU3
+    url:
+      - https://www.youtube.com/watch?v=DotcLaHbHoQ
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 22 Feb 2024
