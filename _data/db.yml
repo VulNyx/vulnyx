@@ -6,7 +6,7 @@ ready:
   difficulty: Easy
   url: https://mega.nz/file/paBF3YjB#uQS9ds46g4ip_hQOLl65RpfwyzoLSYxGsy3jfNmUJ9Y
   md5: C924A88E2F47758F4E4030D73A4155BA
-  size: 640MB
+  size: 0,64GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -32,7 +32,7 @@ hat:
   difficulty: Medium
   url: https://mega.nz/file/EeoQGLCT#E8Dq-I5C_RlUgZ4sANt4fTh7mbKj693uoeUdOrtV-FI
   md5: 9B9EA1F1C09EB82FCD33F95769393083
-  size: 657MB
+  size: 0,65GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -62,7 +62,7 @@ serve:
   difficulty: Easy
   url: https://mega.nz/file/YO4UlSSb#gk77b326CiVUOg2ssQy9uACS_SLl7hxv1dbHIqhIWCg
   md5: ADC6EEE14CC9D4CBD16561E73338D818
-  size: 941MB
+  size: 0,94GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -86,7 +86,7 @@ brain:
   difficulty: Easy
   url: https://mega.nz/file/hOZjRKCQ#JsPAvJoPp4EqS4T6j6_ABjw9fnyyyaGG11qcW3VFay4
   md5: 6673F9D485307081CC40FD47E8BEC41B
-  size: 899MB
+  size: 0,89GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -110,7 +110,7 @@ responder:
   difficulty: Medium
   url: https://mega.nz/file/9XBBnI4Y#0nyyUgcForsjy-51_3Cfn02wxOmFfSfblAe6GLQEwrs
   md5: F04EF5B743189A9BC6A5EC357B99DB62
-  size: 676MB
+  size: 0,67GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -152,7 +152,7 @@ doctor:
   difficulty: Easy
   url: https://mega.nz/file/Ie5w0JjJ#uVXwMBWLAQKc04metFBHozlPYfnXfYttuGU_7de_69M
   md5: 57606E6482F7688B73303E7CBA78EF7C
-  size: 722MB
+  size: 0,72GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -178,7 +178,7 @@ secrets:
   difficulty: Medium
   url: https://mega.nz/file/EDhnQRQZ#9N0lulFO5pbiazm_RqW2vp21D7PDY3veDj8u5u6IPCg
   md5: AEA7FA80127ED5ACE8235F199BB0DD3F
-  size: 689MB
+  size: 0,68GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -228,7 +228,7 @@ blog:
   difficulty: Easy
   url: https://mega.nz/file/NepkQJDD#ElT8o_F865Dudu0UY5AtJlPN0tAk9UwVsLAvE3wLRAA
   md5: 24B913E2A25A3A4EEE13FE96A8F22B7C
-  size: 766MB
+  size: 0,76GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -371,7 +371,7 @@ real:
   difficulty: Easy
   url: https://mega.nz/file/FOZxHbKB#LLYTQBQLGLYTVdlMMJ27mLc23pGN0XjFlg4vgHvh5Qw
   md5: C944B5CD85ABCFB213B841EE5EFB6369
-  size: 992MB
+  size: 0,99GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -397,7 +397,7 @@ ceres:
   difficulty: Medium
   url: https://mega.nz/file/1KA33QxC#ouo6Og4MWyAg9oZvkASWDWZQunGoSN4s55fP7QuJwRE
   md5: 77343CAEB8DDFD67E81B353A5F5856B8
-  size: 633MB
+  size: 0,63GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -475,7 +475,7 @@ zone:
   difficulty: Easy
   url: https://mega.nz/file/BTxFlaBD#z9R7NouQMj749pBCRBV_vpG0YkUm70FMQCwyOHgRTwo
   md5: 1D4296EB948CAFCADD09ACA69DDADE60
-  size: 888MB
+  size: 0,88GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -629,7 +629,7 @@ key:
   difficulty: Medium
   url: https://mega.nz/file/BWYmWY4B#THJ0042QThkt37kn_pqwvnTu7cbyv-NK33LjhGXWm1g
   md5: D9F7D25EEFD68119805CEB8B687EC527
-  size: 671MB
+  size: 0,67GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -679,7 +679,7 @@ transfer:
   difficulty: Hard
   url: https://mega.nz/file/tHITFIzK#PANZ8ICp-G6ehcj2dqwQd2m9_gFNsKIxP2BCgjgO-2g
   md5: 83867E044FC7009B6BFBBA18DD9E96E5
-  size: 560MB
+  size: 0,56GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -769,7 +769,7 @@ listen:
   difficulty: Medium
   url: https://mega.nz/file/1ewjkC7Y#D1jD2ciHN9q2-a7_uCAfrZzh06z5YklOpwAS0440Ro0
   md5: F9CB83282E3B23A03D86948C51987AFC
-  size: 759MB
+  size: 0,75GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
@@ -1180,7 +1180,7 @@ annunciation:
   difficulty: Hard
   url: https://mega.nz/file/4KhUXZ4Y#e6dB2MnPu7Ug5n0_yHt0bqgcrhOesKS2XHkJ3FpS34o
   md5: E6F10A8DAA67B8E2F96F0EA3A65E0287
-  size: 913MB
+  size: 0,91GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
@@ -1434,7 +1434,7 @@ air:
   difficulty: Easy
   url: https://mega.nz/file/VfokWYTL#zxmghbjw19OjICKavj2uXAL9tz7xs_ZqyoMJkiCH0YE
   md5: 0D77B427EBB393FE6A21263F6DD78BE9
-  size: 539MB
+  size: 0,53GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
@@ -1457,7 +1457,7 @@ bind:
   difficulty: Medium
   url: https://mega.nz/file/JPwmHSqJ#ukRhRHuvzqogXp2Xvbgi0ku5cKVjXHXh-r1bDw_bMM0
   md5: C87A28831901A4729BEEBD00F4452E52
-  size: 779MB
+  size: 0,77GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -1481,7 +1481,7 @@ code:
   difficulty: Easy
   url: https://mega.nz/file/RD4UFDpD#y85e3y0AAfdd2cAS9DIbcyzZFyVg-EP-l7tBA0kw-Nc
   md5: 48ADCF51A03E3C373D39499317522014
-  size: 805MB
+  size: 0,80GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -1503,7 +1503,7 @@ unit:
   difficulty: Easy
   url: https://mega.nz/file/EbQGybII#N0eSY8SDTR5IiRuhcfwLpraizWFImHE73e1H597v3Kw
   md5: 4518732F2D94C6859E5E9899DDCB50FD
-  size: 864MB
+  size: 0,86GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -1677,7 +1677,7 @@ load:
   difficulty: Easy
   url: https://mega.nz/file/kW5UTbyS#fIMALTqt2OgIFxIgdOqU-5cKDyU6xzi2AhIjJ5zxSjU
   md5: F628715C9CF38601A352F7D4F927A72A
-  size: 996MB
+  size: 0,99GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
@@ -1733,7 +1733,7 @@ experience:
   difficulty: Easy
   url: https://mega.nz/file/NLxlWQqL#DLTZH1LY2LaMFs3hd03RfiEq0QwRR10qwMUHwbvowLM
   md5: 314B492EE87D21052CC41134AD435637
-  size: 755MB
+  size: 0,75GB
   tested:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
   writeups:
