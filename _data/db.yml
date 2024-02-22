@@ -533,6 +533,7 @@ deploy:
       - ElPingüinoDeMario
       - SoyBett0
       - zunderrubLive
+      - Luca Wolffart
     url:
       - https://d4t4s3c.medium.com/vulnyx-deploy-fa1edf94b92a
       - https://0x-noname.github.io/writeups/nyx/deploy
@@ -540,6 +541,7 @@ deploy:
       - https://www.youtube.com/watch?v=2cngaZ6CSzo
       - https://www.youtube.com/watch?v=bH8QpywGFS8
       - https://www.youtube.com/watch?v=hLSAPCnq1tI&t=3946s
+      - https://github.com/wolffart-luca/Vulnyx/blob/main/deploy.md
   firstUser: noname
   firstRoot: noname
   release: 11 May 2023
