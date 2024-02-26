@@ -1918,3 +1918,19 @@ lost:
   firstRoot: suraxddq
   release: 22 Feb 2024
   status: Retired
+leak:
+  name: Leak
+  os: Linux
+  creator: d4t4s3c
+  difficulty: Medium
+  url: https://mega.nz/file/UL42iLiS#L_nlv8UKpkUz8ozrV5sC989jB9UJ108YREjIqqGFqaQ
+  md5: B827E0017EFA3C867B487AB728377DED
+  size: 1,99GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 26 Feb 2024
+  status: Retired
