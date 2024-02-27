@@ -1931,6 +1931,6 @@ leak:
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
   firstUser: punt4n0
-  firstRoot:
+  firstRoot: punt4n0
   release: 26 Feb 2024
   status: Retired
