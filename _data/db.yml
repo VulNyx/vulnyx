@@ -1932,6 +1932,10 @@ leak:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - punt4n0
+    url:
+      - https://drive.proton.me/urls/5YH59WC5ZR#8BP30R0ZFqmt
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 26 Feb 2024
