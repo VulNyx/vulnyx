@@ -44,6 +44,7 @@ hat:
       - kerszi
       - ElPingüinoDeMario
       - condor
+      - Luca Wolffart
     url:
       - https://0x-noname.github.io/writeups/nyx/hat
       - https://elc4br4.github.io/vulnyx-hat-writeup
@@ -51,6 +52,7 @@ hat:
       - https://kerszl.github.io/hacking/walkthrough/hat
       - https://www.youtube.com/watch?v=a5RwI6KXf-I
       - https://youtu.be/KQ9fSxn1jzc?si=78CotwWUsKh3Dp4s
+      - https://github.com/wolffart-luca/Vulnyx/blob/main/hat.md
   firstUser: noname
   firstRoot: noname
   release: 18 Apr 2023
