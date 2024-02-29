@@ -1954,6 +1954,10 @@ plex:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - m44lr0m
+    url:
+      - https://m44lr0m.vercel.app/writeups/plex-vulnyx
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 28 Feb 2024
