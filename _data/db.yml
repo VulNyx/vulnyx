@@ -1959,9 +1959,11 @@ plex:
     creator:
       - m44lr0m
       - punt4n0
+      - d4t4s3c
     url:
       - https://m44lr0m.vercel.app/writeups/plex-vulnyx
       - https://drive.proton.me/urls/NGYX04X8GW#DeZtBaKIzXn2
+      - https://d4t4s3c.medium.com/vulnyx-plex-14da36a19b76
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 28 Feb 2024
