@@ -1599,6 +1599,7 @@ infected:
       - noname
       - iTrox
       - SoyBett0
+      - SmashTec
     url:
       - https://youtu.be/b25NqrayWsU
       - https://d4t4s3c.medium.com/vulnyx-infected-88c9723d0635
@@ -1606,6 +1607,7 @@ infected:
       - https://0x-noname.github.io/writeups/nyx/infected
       - https://github.com/iTroxB/VULNYX-WRITEUPS/blob/main/writeups/VULNYX-Infected.pdf
       - https://www.youtube.com/watch?v=WCDKPQX5fEU&t=2540s
+      - https://www.smashtec.net/post/vulnyx-infected-write-ups-read-team
   firstUser: dirtyc0w
   firstRoot: dirtyc0w
   release: 02 Dec 2023
