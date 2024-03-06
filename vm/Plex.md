@@ -1,1 +1,1 @@
-![Plex]("/vm/Plex.png")
+![Plex]("Plex.png")
