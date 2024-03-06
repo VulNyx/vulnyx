@@ -1,1 +1,1 @@
-![Plex]("Plex.png")
+![]("https://vulnyx.com/vm/Plex.png")
