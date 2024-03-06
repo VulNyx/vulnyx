@@ -781,10 +781,12 @@ listen:
       - dirtyc0w
       - ElPingüinoDeMario
       - noname
+      - Luca Wolffart
     url:
       - https://youtu.be/ndCbbo0SWI0
       - https://www.youtube.com/watch?v=kIE2N3hwuXg
       - https://0x-noname.github.io/writeups/nyx/listen
+      - https://github.com/wolffart-luca/Vulnyx/blob/main/listen.md
   firstUser: FredBrave
   firstRoot: FredBrave
   release: 03 Jun 2023
