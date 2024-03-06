@@ -14,3 +14,9 @@ defaults:
       path: '_vms'
     values:
       layout: bin
+
+  - scope:
+      path: "vm"
+      type: "image"
+    values:
+      layout: "none"
