@@ -830,6 +830,7 @@ look:
       - noname
       - SoyBett0
       - zunderrub
+      - Luca Wolffart
     url:
       - https://d4t4s3c.medium.com/vulnyx-look-eec4cece3f6a
       - https://www.youtube.com/watch?v=VZJcSKccJ7w
@@ -837,6 +838,7 @@ look:
       - https://0x-noname.github.io/writeups/nyx/look
       - https://www.youtube.com/watch?v=x6Feo9QzHhU
       - https://zunderrub.gitbook.io/untitled/ctfs-writteups/vulnyx/look
+      - https://github.com/wolffart-luca/Vulnyx/blob/main/look.md
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 15 Jun 2023
