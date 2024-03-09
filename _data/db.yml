@@ -1994,3 +1994,19 @@ plex:
   firstRoot: punt4n0
   release: 28 Feb 2024
   status: Retired
+jerry:
+  name: Jerry
+  os: Linux
+  creator: J4ckie0x17
+  difficulty: Hard
+  url: https://mega.nz/file/tORjBJSR#Gru95xSSgIohetCFUfThdAnq8tn87XPCeLOyzoZb_IE
+  md5: CF49B344F7D98A7465658580E6669F4C
+  size: 1,16GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 09 Mar 2024
+  status: Retired
