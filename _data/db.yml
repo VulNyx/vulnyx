@@ -1865,11 +1865,13 @@ dump:
       - cybertodash
       - condor
       - SmashTec
+      - noname
     url:
       - https://youtu.be/CN979nHd_GY
       - https://medium.com/@cybertodash/vulnyx-dump-0f83995b5fa4
       - https://www.youtube.com/watch?v=ucr6gILf35U
       - https://www.smashtec.net/post/vulnyx-dump-write-ups-red-team
+      - https://0x-noname.github.io/writeups/nyx/dump
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 09 Feb 2024
@@ -1913,9 +1915,11 @@ friends:
     creator:
       - PL4GU3
       - d4t4s3c
+      - noname
     url:
       - https://youtu.be/v4ZKkuT9xCk
       - https://d4t4s3c.medium.com/vulnyx-friends-fd4eff11ac84
+      - https://0x-noname.github.io/writeups/nyx/friends
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 19 Feb 2024
@@ -1961,9 +1965,11 @@ leak:
     creator:
       - punt4n0
       - PL4GU3
+      - noname
     url:
       - https://drive.proton.me/urls/5YH59WC5ZR#8BP30R0ZFqmt
       - https://youtu.be/0J0cbhE7Gsc
+      - https://0x-noname.github.io/writeups/nyx/leak
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 26 Feb 2024
