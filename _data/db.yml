@@ -2012,6 +2012,10 @@ jerry:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - J4ckie0x17
+    url:
+      - https://youtu.be/CPoH0YVZSQ8
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 09 Mar 2024
