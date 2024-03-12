@@ -1840,10 +1840,12 @@ druid:
       - PL4GU3
       - condor
       - m44lr0m
+      - Juanito.bat
     url:
       - https://youtu.be/H4OUxTHAqR4
       - https://youtu.be/351HgfmiWd4?si=4UdcbwzTYNkZumlL
       - https://m44lr0m.vercel.app/writeups/druid-vulnyx
+      - https://drive.google.com/file/d/1Jvj8TOUd7IlVdyJ0_OON5AqbzN_HyCc5/view?pli=1
   firstUser: x3rox
   firstRoot: x3rox
   release: 07 Feb 2024
