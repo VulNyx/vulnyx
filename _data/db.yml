@@ -247,12 +247,14 @@ blog:
       - Anonimo501
       - SoyBett0
       - 404azz
+      - ElPingüinoDeMario
     url:
       - https://0x-noname.github.io/writeups/nyx/blog
       - https://d4t4s3c.medium.com/vulnyx-blog-ab2ea54f17c0
       - https://youtu.be/7jxDWCdQCow
       - https://www.youtube.com/watch?v=mcJ9wvYX7h4
       - https://404azz.github.io/posts/Blog_Writeup
+      - https://www.youtube.com/watch?v=mttZbFkuOS0
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 24 Apr 2023
@@ -1230,12 +1232,14 @@ play:
       - d4t4s3c
       - SoyBett0
       - noname
+      - ElPingüinoDeMario
     url:
       - https://youtu.be/I_g1g-69H0w
       - https://youtu.be/jwvOXzRjws8?si=LujsG5fDh01q5sr3
       - https://d4t4s3c.medium.com/vulnyx-play-47539caf729b
       - https://www.youtube.com/watch?v=lc9vJzH-vrU&t=543s
       - https://0x-noname.github.io/writeups/nyx/play
+      - https://www.youtube.com/watch?v=7eG3N_c3fBI
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 09 Sep 2023
@@ -1586,6 +1590,7 @@ mux:
       - miiguelitx
       - FjRamirez
       - ManuelGRegal
+      - ElPingüinoDeMario
     url:
       - https://d4t4s3c.medium.com/vulnyx-mux-87bb6d6e1891
       - https://0x-noname.github.io/writeups/nyx/mux
@@ -1596,6 +1601,7 @@ mux:
       - https://miiguelitx.blogspot.com/2024/01/maquina-mux-vulnyx-writeup-es.html
       - https://www.youtube.com/watch?v=AHrCuJj3G1g
       - https://youtu.be/07GF75FD7YM
+      - https://www.youtube.com/watch?v=8TaxBo6hzwg
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 01 Dec 2023
@@ -1620,6 +1626,7 @@ infected:
       - iTrox
       - SoyBett0
       - SmashTec
+      - ElPingüinoDeMario
     url:
       - https://youtu.be/b25NqrayWsU
       - https://d4t4s3c.medium.com/vulnyx-infected-88c9723d0635
@@ -1628,6 +1635,7 @@ infected:
       - https://github.com/iTroxB/VULNYX-WRITEUPS/blob/main/writeups/VULNYX-Infected.pdf
       - https://www.youtube.com/watch?v=WCDKPQX5fEU&t=2540s
       - https://www.smashtec.net/post/vulnyx-infected-write-ups-read-team
+      - https://www.youtube.com/watch?v=yaVmF7GwfNM
   firstUser: dirtyc0w
   firstRoot: dirtyc0w
   release: 02 Dec 2023
@@ -1774,11 +1782,13 @@ experience:
       - d4t4s3c
       - noname
       - condor
+      - ElPingüinoDeMario
     url:
       - https://www.youtube.com/watch?v=4kv8Uj9xU_w
       - https://d4t4s3c.medium.com/vulnyx-experience-aa54d19c9d6a
       - https://0x-noname.github.io/writeups/nyx/experience
       - https://youtu.be/ml3YyBH2dMI?si=wZVh1l1A3GCGxvL3
+      - https://www.youtube.com/watch?v=tqBetqxlmtc
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 21 Jan 2024
@@ -1801,12 +1811,14 @@ shared:
       - noname
       - J4ckie0x17
       - Luca Wolffart
+      - ElPingüinoDeMario
     url:
       - https://youtu.be/VFF8RgqY4Bg?si=9BtmXRyfE3OO-1AV
       - https://drive.proton.me/urls/KAD640CZ40#7S3nz6b3bEyG
       - https://0x-noname.github.io/writeups/nyx/shared
       - https://youtu.be/yUYwYTiG9-0?si=P9w-DJCgegkcUb77
       - https://github.com/wolffart-luca/Vulnyx/blob/main/shared.md
+      - https://www.youtube.com/watch?v=874SuhedjBA
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 23 Jan 2024
@@ -1926,10 +1938,12 @@ friends:
       - PL4GU3
       - d4t4s3c
       - noname
+      - ElPingüinoDeMario
     url:
       - https://youtu.be/v4ZKkuT9xCk
       - https://d4t4s3c.medium.com/vulnyx-friends-fd4eff11ac84
       - https://0x-noname.github.io/writeups/nyx/friends
+      - https://www.youtube.com/watch?v=qE-CHqR6qVA
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 19 Feb 2024
@@ -1951,11 +1965,13 @@ lost:
       - J4ckie0x17
       - condor
       - Luca Wolffart
+      - ElPingüinoDeMario
     url:
       - https://www.youtube.com/watch?v=DotcLaHbHoQ
       - https://youtu.be/ikrLt38_MY8?si=gjnfy6XGutnHWIC7
       - https://www.youtube.com/watch?v=0CXdXnwNWmA
       - https://github.com/wolffart-luca/Vulnyx/blob/main/lost.md
+      - https://www.youtube.com/watch?v=Eyq1K2UHy7A
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 22 Feb 2024
@@ -2028,8 +2044,10 @@ jerry:
   writeups:
     creator:
       - J4ckie0x17
+      - ElPingüinoDeMario
     url:
       - https://youtu.be/CPoH0YVZSQ8
+      - https://www.youtube.com/watch?v=oHKBvbVpOiA
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 09 Mar 2024
