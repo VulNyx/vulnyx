@@ -1539,11 +1539,13 @@ unit:
       - d4t4s3c
       - s0yn3m3s1s
       - SoyBett0
+      - OiQ
     url:
       - https://0x-noname.github.io/writeups/nyx/unit
       - https://d4t4s3c.medium.com/vulnyx-unit-43fc8016d7c6
       - https://medium.com/@s0yn3m3s1s/vulnyx-unit-822e3f21438c
       - https://www.youtube.com/watch?v=E5rNUQIeswc&t=1347s
+      - https://medium.com/@OiQ/vulnyx-unit-walkthrough-2e4540f5ff4b
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 22 Nov 2023
