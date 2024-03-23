@@ -218,6 +218,7 @@ fing:
       - SoyBett0
       - n3philax
       - ManuelGRegal
+      - zunderrubLive
      url:
       - https://0x-noname.github.io/writeups/nyx/fing
       - https://d4t4s3c.medium.com/vulnyx-fing-bf3830219e00
@@ -225,6 +226,7 @@ fing:
       - https://youtu.be/S7MsVNG3HX4
       - https://blog.n3philax.cl/vulnyx-fing
       - https://www.youtube.com/watch?v=EZoPM6I6Ve8
+      - https://www.youtube.com/watch?v=wfkNYHhC4pQ
   firstUser: noname
   firstRoot: noname
   release: 23 Apr 2023
@@ -1018,12 +1020,14 @@ share:
       - Anonimo501
       - SoyBett0
       - d4t4s3c
+      - zunderrubLive
     url:
       - https://0x-noname.github.io/writeups/nyx/share
       - https://youtu.be/S3xTSdaQ2Ho
       - https://youtu.be/xJ8NifwHm2g
       - https://www.youtube.com/watch?v=P42P6VEkNJw
       - https://d4t4s3c.medium.com/vulnyx-share-bac32aab6b9d
+      - https://www.youtube.com/watch?v=NLALEKn4JtM
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 28 Jul 2023
@@ -2027,6 +2031,7 @@ plex:
       - SmashTec
       - noname
       - condor
+      - zunderrubLive
     url:
       - https://m44lr0m.vercel.app/writeups/plex-vulnyx
       - https://drive.proton.me/urls/NGYX04X8GW#DeZtBaKIzXn2
@@ -2034,6 +2039,7 @@ plex:
       - https://www.smashtec.net/post/vulnyx-plex-write-ups-read-team
       - https://0x-noname.github.io/writeups/nyx/plex
       - https://youtu.be/Ibkc7WiLujg?si=ZcZcWznz4dXdQZsS
+      - https://www.youtube.com/watch?v=pRd3dCwlNfI
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 28 Feb 2024
