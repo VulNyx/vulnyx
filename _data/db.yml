@@ -2032,6 +2032,7 @@ plex:
       - noname
       - condor
       - zunderrubLive
+      - blackpist0l
     url:
       - https://m44lr0m.vercel.app/writeups/plex-vulnyx
       - https://drive.proton.me/urls/NGYX04X8GW#DeZtBaKIzXn2
@@ -2040,6 +2041,7 @@ plex:
       - https://0x-noname.github.io/writeups/nyx/plex
       - https://youtu.be/Ibkc7WiLujg?si=ZcZcWznz4dXdQZsS
       - https://www.youtube.com/watch?v=pRd3dCwlNfI
+      - https://blackpist0l.hashnode.dev/plex-vulnyx-machine
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 28 Feb 2024
