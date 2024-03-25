@@ -2072,3 +2072,19 @@ jerry:
   firstRoot: suraxddq
   release: 09 Mar 2024
   status: Retired
+future:
+  name: Future
+  os: Linux
+  creator: J4ckie0x17
+  difficulty: Medium
+  url: https://mega.nz/file/4TgxFbxD#8fx7NpBoMv0hOpzuV0I8qQq8UYAOXH-eoGdEiG_FQMU
+  md5: 5A6911316CFCC5A4F06EB9D7AB31D217
+  size: 1,25GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 25 Mar 2024
+  status: Retired
