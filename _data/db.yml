@@ -2033,6 +2033,7 @@ plex:
       - condor
       - zunderrubLive
       - blackpist0l
+      - Nobdev
     url:
       - https://m44lr0m.vercel.app/writeups/plex-vulnyx
       - https://drive.proton.me/urls/NGYX04X8GW#DeZtBaKIzXn2
@@ -2042,6 +2043,7 @@ plex:
       - https://youtu.be/Ibkc7WiLujg?si=ZcZcWznz4dXdQZsS
       - https://www.youtube.com/watch?v=pRd3dCwlNfI
       - https://blackpist0l.hashnode.dev/plex-vulnyx-machine
+      - https://devnoobs.gitbook.io/plataformas/plataformas/vulnyx/maquina-plex
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 28 Feb 2024
