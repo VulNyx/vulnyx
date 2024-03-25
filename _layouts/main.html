@@ -716,7 +716,7 @@
     const showWriteupForm = (name) => {
       document.querySelector('body').style.overflow = 'hidden';
       let title = document.querySelector('.submit-writeup');
-      title.textContent = `**Writeup** submission for **${name}**`;
+      title.textContent = `Writeup submission for ${name}`;
       let modal = document.querySelector('.form-writeup');
       modal.style.display = 'block';
 
@@ -808,7 +808,7 @@
     const showFlagForm = (type, vmname) => {
       document.querySelector('body').style.overflow = 'hidden';
       let title = document.querySelector('.submit-flag');
-      title.textContent = `**First ${type}** flag submission for **${vmname}**`;
+      title.textContent = `First ${type} flag submission for ${vmname}`;
       let modal = document.querySelector('.form-flag');
       modal.style.display = 'block';
 
