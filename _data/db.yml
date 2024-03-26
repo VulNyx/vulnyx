@@ -18,6 +18,7 @@ ready:
       - SoyBett0
       - SmashTec
       - OiQ
+      - dahyx
     url:
       - https://d4t4s3c.medium.com/vulnyx-ready-b5769807c74b
       - https://0x-noname.github.io/writeups/nyx/ready
@@ -25,6 +26,7 @@ ready:
       - https://www.youtube.com/watch?v=cP7t_vC5y-0
       - https://www.smashtec.net/post/vulnyx-ready-write-ups-blue-team
       - https://medium.com/@OiQ/vulnyx-readywalkthrough-e8ac533a676a
+      - https://medium.com/@mohamedahi31/vulnyx-ready-walkthrough-5963021dee92
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 18 Apr 2023
