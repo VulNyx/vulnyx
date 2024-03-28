@@ -2116,3 +2116,19 @@ hackingstation:
   firstRoot: suraxddq
   release: 27 Mar 2024
   status: Retired
+diff3r3nts3c:
+  name: Diff3r3ntS3c
+  os: Linux
+  creator: HackCommander
+  difficulty: Easy
+  url: https://mega.nz/file/JbIATL4D#PJ8SlkQF02qy5oeP_-zVubur4CU6psfe77KMitPCxmw
+  md5: 01E5A72B26BBD3E6A089DDD0AE370C00
+  size: 1,01GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 28 Mar 2024
+  status: Retired
