@@ -2130,6 +2130,10 @@ diff3r3nts3c:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - Anonimo501
+    url:
+      - https://youtu.be/qugXQxNYC64
   firstUser: Flo2699
   firstRoot: Flo2699
   release: 28 Mar 2024
