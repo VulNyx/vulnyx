@@ -774,12 +774,14 @@ flash:
       - d4t4s3c
       - UnD3sc0n0c1d0
       - SoyBett0
+      - bmrx845
     url:
       - https://0x-noname.github.io/writeups/nyx/flash
       - https://youtu.be/-AQvzQ5jirE
       - https://d4t4s3c.medium.com/vulnyx-flash-777a0e99525c
       - https://infayer.com/archivos/2526
       - https://www.youtube.com/watch?v=7e0M8EV8B7o
+      - https://brmx845.github.io/writeups/vulnyx/machines/Flash.html
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 02 Jun 2023
