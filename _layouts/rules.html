@@ -104,49 +104,58 @@
       <h2 class="rules-heading">About VMs</h2>
       <ul class="rules-list">
         <li>
-          <p>Platform Exclusivity: Only submit your VM on our platform.</p>
+          <p><span class="header-color"><strong>Platform Exclusivity:</strong></span> We do not accept VMs that are available on other platforms (VM owner is always the creator).</p>
         </li>
         <li>
-          <p>Test Your VM: Make sure your VM works without bugs before submitting.</p>
+          <p><span class="header-color"><strong>Test Your VM:</strong></span> Make sure your VM works and can be resolved without errors before submitting it.</p>
         </li>
         <li>
-          <p>File Format and Logic: Use only one .ova file and ensure a logical flow in your VM.</p>
+          <p><span class="header-color"><strong>File Format and Logic:</strong></span> Use only one <span class="text-color">.ova</span> file and ensure a logical flow in your VM.</p>
         </li>
         <li>
-          <p>Content Sensitivity: Avoid offensive content to maintain a positive environment.</p>
+          <p><span class="header-color"><strong>Content Sensitivity:</strong></span> Avoid offensive content to maintain a positive environment.</p>
         </li>
         <li>
-          <p>Compatibility: Ensure your VM works in VirtualBox (VMware is optional).</p>
+          <p><span class="header-color"><strong>Compatibility:</strong></span> Ensure your VM works in <span class="text-color">VirtualBox</span> (<span class="text-color">VMware</span> is optional).</p>
         </li>
         <li>
-          <p>Consistent Flags: Flags must be md5 strings for consistency over the machines.</p>
+          <p><span class="header-color"><strong>Flags Format:</strong></span> The flags must be <span class="text-color">MD5</span> strings to maintain consistency across machines.</p>
         </li>
         <li>
-          <p>Clean History Files: Delete or redirect history files for security, unless necessary to solve the VM.</p>
+          <p><span class="header-color"><strong>Protect GRUB:</strong></span> Create a password at boot to prevent access before resolution.</p>
         </li>
         <li>
-          <p>No Unnecessary GUI: VMs don't need a graphical interface unless necessary.</p>
+          <p><span class="header-color"><strong>Rabbit Hole:</strong></span> Don't overload the machine with traps that contribute nothing.</p>
         </li>
         <li>
-          <p>Flag Locations: Flags should be in /home/[user]/user.txt & /root/root.txt.</p>
+          <p><span class="header-color"><strong>Clean History Files:</strong></span> Delete or redirect history files (<span class="text-color">.bash_hystory</span>/<span class="text-color">.mysql_history</span>) to <span class="text-color">/dev/null</span> (unless necessary to resolve the VM).</p>
         </li>
         <li>
-          <p>Domain Naming: If a domain/subdomain is needed, use .nyx (e.g.,domain.nyx/subdomain.domain.nyx).</p>
+          <p><span class="header-color"><strong>No unnecessary GUI:</strong></span> Virtual machines cannot have a graphical interface (allowed only when necessary for resolution)</p>
         </li>
         <li>
-          <p>Avoid External Links: Don't use external URLs to resolve the VM; keep it self-contained.</p>
+          <p><span class="header-color"><strong>Flag Locations:</strong></span> Flags should be in <span class="text-color">/home/[user]/user.txt</span> & <span class="text-color">/root/root.txt</span>.</p>
         </li>
         <li>
-          <p>Brute Force Limit: If brute force is needed, use a password from the first 5000 lines of rockyou.txt.</p>
+          <p><span class="header-color"><strong>Domain Naming:</strong></span> If you need a domain/subdomain, use the <span class="text-color">.nyx</span> TLD (example: <span class="text-color">domain.nyx</span>/<span class="text-color">subdomain.domain.nyx</span>).</p>
+        </li>
+        <li>
+          <p><span class="header-color"><strong>Avoid External Links:</strong></span> Do not use external URLs that affect the resolution of the VM, keep it autonomous.</p>
+        </li>
+        <li>
+          <p><span class="header-color"><strong>Brute Force Limit:</strong></span> If brute force is required, do not use a password that exceeds the <span class="text-color">first 5000 lines</span> of <span class="text-color">rockyou.txt</span>.</p>
         </li>
       </ul>
       <h2 class="rules-heading">About Writeups</h2>
       <ul class="rules-list">
         <li>
-          <p>Keep Flags Confidential: Don't reveal user.txt & root.txt flags in your writeup.</p>
+          <p><span class="header-color"><strong>Keep Flags Confidential:</strong></span> Don't reveal <span class="text-color">user.txt</span> & <span class="text-color">root.txt</span> flags in your writeup.</p>
         </li>
         <li>
-          <p>Status: Writeups with dead links will be removed when noticed.</p>
+          <p><span class="header-color"><strong>Status:</strong></span> Writeups with inactive links and displaying the flags will be removed when detected.</p>
+        </li>
+        <li>
+          <p><span class="header-color"><strong>Malicious Links:</strong></span> Do not use <span class="text-color">URL Shortener</span> or <span class="text-color">IPLogger</span> in links.</p>
         </li>
       </ul>
     </section>
