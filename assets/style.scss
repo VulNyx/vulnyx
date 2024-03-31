@@ -1,15 +1,6 @@
 ---
 ---
 
-// Custom Variables
-$marked: #0000ff;
-$dark: #25272d;
-$red: #c8574e;
-$th: #78192f;
-$even-row: #cf424e;
-$hover-color: #86d6fc;
-$white: #ffffff;
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,12 +10,12 @@ $white: #ffffff;
 
 body {
   background-color: #2f323a;
-  color: $white;
+  color: #ffffff;
   min-height: 100vh;
 }
 
 header, footer {
-  background-color: $dark;
+  background-color: #25272d;
 }
 
 code {
@@ -34,7 +25,7 @@ code {
 }
 
 pre {
-  background: $red;
+  background: #c8574e;
   border-radius: 0.5rem;
 }
 
@@ -46,11 +37,11 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: $white;
+  color: #ffffff;
 }
 
 a:hover {
-  color: $hover-color;
+  color: #86d6fc;
 }
 
 .active strong {
@@ -125,13 +116,12 @@ h2 + ul  {
 }
 
 #vm-state a {
-  background: $red;
+  background: #c8574e;
   font-weight: bold;
   border-radius: 0.25em;
   padding: 2px 2px;
 }
 
-// binary list and
 main {
   display: flex;
   flex-direction: column;
@@ -634,8 +624,6 @@ details {
   cursor: pointer;
 }
 
-// other classes
-
 .logo-wrapper {
 	display: flex;
 	align-items: center;
@@ -892,7 +880,7 @@ details {
 
 button[type="submit"] {
   color: white;
-  background-color: $red;
+  background-color: #c8574e;
 }
 
 button[type="reset"] {
@@ -932,6 +920,14 @@ footer p {
 
 .rules-list {
   padding: 0 1rem;
+}
+
+.rules-list .header-color {
+  color: #3fa8f4;
+}
+
+.rules-list .text-color {
+  color: #ec5353;
 }
 
 @media (min-width: 320px) and (max-width: 700px) {
