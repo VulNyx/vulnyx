@@ -2142,3 +2142,19 @@ diff3r3nts3c:
   firstRoot: Flo2699
   release: 28 Mar 2024
   status: Retired
+sun:
+  name: Sun
+  os: Linux
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/dXhCQCSZ#OS3Ufi6G0MbmjPsIdgbdekkQ5NYWzFfVO_y0taVOLh8
+  md5: 58D4ADBEE6806F20B465B0BD345FD2AE
+  size: 1,02GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 01 Apr 2024
+  status: Retired
