@@ -2116,10 +2116,12 @@ hackingstation:
       - noname
       - HackCommander
       - Anonimo501
+      - blackpist0l
     url:
       - https://0x-noname.github.io/writeups/nyx/hs
       - https://hackcommander.github.io/posts/2024/03/31/vulnyx-hackingstation
       - https://youtu.be/NtbyS7u4nvs
+      - https://blackpist0l.hashnode.dev/hackingstation-vulnyx-machine
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 27 Mar 2024
