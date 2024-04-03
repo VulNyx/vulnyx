@@ -1879,7 +1879,7 @@ druid:
       - https://youtu.be/H4OUxTHAqR4
       - https://youtu.be/351HgfmiWd4?si=4UdcbwzTYNkZumlL
       - https://m44lr0m.vercel.app/writeups/druid-vulnyx
-      - https://drive.google.com/file/d/1Jvj8TOUd7IlVdyJ0_OON5AqbzN_HyCc5/view?pli=1
+      - https://umaware.blogspot.com/2024/03/druid-vulnyx.html
   firstUser: x3rox
   firstRoot: x3rox
   release: 07 Feb 2024
@@ -2042,6 +2042,7 @@ plex:
       - zunderrubLive
       - blackpist0l
       - Nobdev
+      - Juanito.bat
     url:
       - https://m44lr0m.vercel.app/writeups/plex-vulnyx
       - https://drive.proton.me/urls/NGYX04X8GW#DeZtBaKIzXn2
@@ -2052,6 +2053,7 @@ plex:
       - https://www.youtube.com/watch?v=pRd3dCwlNfI
       - https://blackpist0l.hashnode.dev/plex-vulnyx-machine
       - https://devnoobs.gitbook.io/plataformas/plataformas/vulnyx/maquina-plex
+      - https://umaware.blogspot.com/2024/04/plex-vulnyx.html
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 28 Feb 2024
