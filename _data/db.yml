@@ -2166,6 +2166,10 @@ sun:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
+    creator:
+      - Rami3l
+    url:
+      - https://github.com/hesrami/Writeups/blob/main/Vulnyx-Writeups/Vulnyx%20-%20Sun.md
   firstUser: J4ckie0x17
   firstRoot: J4ckie0x17
   release: 01 Apr 2024
