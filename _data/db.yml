@@ -1853,9 +1853,11 @@ eternal:
     creator:
       - PL4GU3
       - noname
+      - blackpist0l
     url:
       - https://youtu.be/qsThlR63L4M
       - https://0x-noname.github.io/writeups/nyx/eternal
+      - https://blackpist0l.hashnode.dev/ethernal-vulnyx-machine
   firstUser: x3rox
   firstRoot: x3rox
   release: 03 Feb 2024
