@@ -159,7 +159,7 @@ doctor:
   name: Doctor
   os: Linux
   creator: m0w
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/Ie5w0JjJ#uVXwMBWLAQKc04metFBHozlPYfnXfYttuGU_7de_69M
   md5: 57606E6482F7688B73303E7CBA78EF7C
   size: 0,72GB
@@ -209,7 +209,7 @@ fing:
   name: Fing
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/EGZHGCzQ#5Zf6vSxUIOZ9u5WcpmV9r5jJqyGqfCXMMAN-WzsnisM
   md5: AC9691A4D331E3EB63E88F4F6771549A
   size: 1,09GB
@@ -313,7 +313,7 @@ shock:
   name: Shock
   os: Linux
   creator: m0w
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/hGwhjaDD#bHUuqbbJUuNk4W3MJNAcQvoil7Qla6tydRmzzjOnYZ0
   md5: 97DA6D7BA6CB43815E05A7A02EC6D2DC
   size: 1,18GB
@@ -388,7 +388,7 @@ real:
   name: Real
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/FOZxHbKB#LLYTQBQLGLYTVdlMMJ27mLc23pGN0XjFlg4vgHvh5Qw
   md5: C944B5CD85ABCFB213B841EE5EFB6369
   size: 0,99GB
@@ -462,7 +462,7 @@ zero:
   name: Zero
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/1PhSiIzJ#PLqnG7RqINrslFtnKZW8YRjORLZcghlYWcz5CmA0DeE
   md5: ADF238F9CD3723C7D580305F32CE4206
   size: 1,7GB
@@ -540,7 +540,7 @@ deploy:
   name: Deploy
   os: Linux
   creator: m0w
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/hChzxZRD#B8SPfvvjIIv6rbwxKHL9mKXPK7ihKmCkXGvEyZogH8g
   md5: 8E9BA6C82CD9E39F1A1EB591AF0A6650
   size: 1,23GB
@@ -622,7 +622,7 @@ node:
   name: Node
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/MDg2UQQI#kELwNPP55S_sHbfSp_ZMkjSImwDpYkbXXYH7eENKYJo
   md5: 18B31E6382D5B3581ABEE22608D36F3F
   size: 1,71GB
@@ -672,7 +672,7 @@ noob:
   name: Noob
   os: Linux
   creator: m0w
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/YOQ0BZwC#m_L7tMBLokoFdPB_7w-RAqkP9SaMi7fM7he1f_9VozQ
   md5: 333C1E2433A63F2A1B2D8D5BAF651B8D
   size: 1,16GB
@@ -837,7 +837,7 @@ look:
   name: Look
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/8LpTVITZ#Cygpo3PGzVZioQyemEsd7Q1X8d9Mi66Lu3OxeV6aVBs
   md5: 24585DCA6C2FF675490B9BE6413B0155
   size: 1,09GB
@@ -986,7 +986,7 @@ beginner:
   name: Beginner
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/RKQ3kSZL#0wNDSRcsubxyzfJWXbXYrqVRPgIplTcQAdB-fMf-m30
   md5: DB029F32025EBF43E4DAC31CBB40818B
   size: 1,51GB
@@ -1014,7 +1014,7 @@ share:
   name: Share
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/leIUWRwB#0M9_9Uu9eHchWsJW9PKgIsGP_Iz1VzLr3ESVWbp8ysE
   md5: FD1F1691D748AA356204C19628084F74
   size: 1,26GB
@@ -1068,7 +1068,7 @@ plot:
   name: Plot
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/pW4HhDZC#PgJx6gVGHmVtptSORA6z-LFfLFwnYqi_MY3iv_X27SY
   md5: 0D0310EEEEDB861D9A0A0CD7A1A53118
   size: 1,19GB
@@ -1280,7 +1280,7 @@ wicca:
   name: Wicca
   os: Linux
   creator: UnD3sc0n0c1d0
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/YbBDjQDI#vV964toDsXFloNjT0sfIZ1mmTC23EiGUiJ3HIdDeqD8
   md5: 6286ACAB071279A41987F599C914E51F
   size: 1,17GB
@@ -1338,7 +1338,7 @@ robot:
   name: Robot
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/ZKhBhT4L#mPD0e-0FuDhiyqD4R9b9N0T9qAFWLIjKnc1UkcpoHyA
   md5: 527D8CC8DB8A2C58D94CA8EA8C8D0CC7
   size: 1,48GB
@@ -1388,7 +1388,7 @@ basic:
   name: Basic
   os: Linux
   creator: m0w
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/NLxF1RKL#I_rw8N2SjXAJ8R4vB8YKYZUursOxlFujqhFACsgrdmw
   md5: 6D2EED28DEEB0967D8FA454BFCD95ED5
   size: 1,17GB
@@ -1446,7 +1446,7 @@ first:
   name: First
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/pGYB0ZhY#EOU58xEkdp2SCPRrUpAdnYaRWJrfjrcUYkvkqCZFVv8
   md5: 4026E8560BDAABA2E9DD172DD8CED98A
   size: 3,93GB
@@ -1588,7 +1588,7 @@ mux:
   name: Mux
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/pKpSCA6a#1CGYVsurfkzCfGOe81i7atXpxe_TBURU7Ba5AqrjMFE
   md5: BFE504890283F9CFAF835076E30F45BF
   size: 1,14GB
@@ -1626,7 +1626,7 @@ infected:
   name: Infected
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/YWohmBqJ#TztP97EVyI-4D42Y-jRFNUzdHTKbRXhzIPk_g23UABc
   md5: DA4D099B6DAF8CAD4D1C317ECA3368E2
   size: 0,97GB
@@ -1660,7 +1660,7 @@ agent:
   name: Agent
   os: Linux
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/FKB3BZJa#07OrqDmQA1C-991Ao-X7vfnlTbNLZZvdcDSWDA5vsNc
   md5: 0CEB53AD86A486C6632F28AA08D1BD35
   size: 1,28GB
@@ -1786,7 +1786,7 @@ experience:
   name: Experience
   os: Windows
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/NLxlWQqL#DLTZH1LY2LaMFs3hd03RfiEq0QwRR10qwMUHwbvowLM
   md5: 314B492EE87D21052CC41134AD435637
   size: 0,75GB
@@ -1845,7 +1845,7 @@ eternal:
   name: Eternal
   os: Windows
   creator: d4t4s3c
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/kPIiwRhZ#wiO8ddEp3LN7fZLfjF77A--VJtB8wsp6qakYJyx1wfU
   md5: 1E7EF6D6CD544092F9B55475A5430AEA
   size: 3,11GB
@@ -2112,7 +2112,7 @@ hackingstation:
   name: HackingStation
   os: Linux
   creator: HackCommander
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/4fxRjYSR#_YfvrIH-paOBjRTNNwrX4hokIRUoqlU3LkKiIUYQZFI
   md5: 3376088A48785F1B9DAD1EDFE480717B
   size: 1,88GB
@@ -2138,7 +2138,7 @@ diff3r3nts3c:
   name: Diff3r3ntS3c
   os: Linux
   creator: HackCommander
-  difficulty: Easy
+  difficulty: Low
   url: https://mega.nz/file/JbIATL4D#PJ8SlkQF02qy5oeP_-zVubur4CU6psfe77KMitPCxmw
   md5: 01E5A72B26BBD3E6A089DDD0AE370C00
   size: 1,01GB

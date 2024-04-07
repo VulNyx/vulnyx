@@ -741,6 +741,27 @@ details {
   color: #ec0725;
 }
 
+.badge-low, #Low {
+  color: #00FFFF;
+  background-color: #00FFFF33;
+}
+
+.low {
+  color: white;
+  background-color: #00FFFF33;
+}
+
+.low-dots {
+  width: 16px;
+  height: 16px;
+  background: #00FFFF;
+  border-radius: 50%;
+}
+
+#low-vms {
+  color: #00FFFF;
+}
+
 .badge-writeups {
   color: #daa04a;
   background-color: #daa04a33;

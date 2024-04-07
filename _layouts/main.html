@@ -119,6 +119,7 @@
                 <div class="form-field">
                   <label class="form-label" for="level">Level</label>
                   <select class="form-control" id="level" name="Level" required>
+                    <option value="Low">Low</option>
                     <option value="Easy">Easy</option>
                     <option value="Medium">Medium</option>
                     <option value="Hard">Hard</option>
@@ -174,6 +175,9 @@
     <section class="wrapper">
       <article class="actions">
         <ul class="vm-stats">
+          <li title="Low VMs">
+            <span id="low-vms" class="badge badge-low"></span>
+          </li>
           <li title="Easy VMs">
             <span id="easy-vms" class="badge badge-easy"></span>
           </li>
@@ -199,6 +203,11 @@
               </svg>
             </button>
             <div class="filter-options">
+              <div class="level-filter">
+                <input type="checkbox" id="low" name="low" data-difficulty="low" title="Low" checked
+                  onclick="filterTable('low')" />
+                <label for="low">Low</label>
+              </div>
               <div class="level-filter">
                 <input type="checkbox" id="easy" name="easy" data-difficulty="easy" title="Easy" checked
                   onclick="filterTable('easy')" />
@@ -904,12 +913,14 @@
 
     const setStats = () => {
       const totalVMs = document.querySelector('#total-vms');
+      const lowVMs = document.querySelector('#low-vms');
       const easyVMs = document.querySelector('#easy-vms');
       const mediumVMs = document.querySelector('#medium-vms');
       const hardVMs = document.querySelector('#hard-vms');
       const totalWriteups = document.querySelector('#total-writeups');
 
       totalVMs.textContent = document.querySelectorAll('#vm').length;
+      lowVMs.textContent = `${document.querySelectorAll('.low').length} Low`;
       easyVMs.textContent = `${document.querySelectorAll('.easy').length} Easy`;
       mediumVMs.textContent = `${document.querySelectorAll('.medium').length} Medium`;
       hardVMs.textContent = `${document.querySelectorAll('.hard').length} Hard`;
