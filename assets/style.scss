@@ -255,13 +255,13 @@ main {
   background-color: #daa04ab3;
 }
 
-#bin-search-wrapper {
+#vm-search-wrapper {
   display: flex;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 0.25rem;
 }
 
-#bin-search-wrapper:focus {
+#vm-search-wrapper:focus {
   outline-style: solid;
 }
 
@@ -284,7 +284,7 @@ main {
   top: 6px;
 }
 
-#bin-search {
+#vm-search {
   padding: 0.5rem;
   border: none;
   color: white;
@@ -322,13 +322,13 @@ td.vvm-wal {
   text-align: center;
 }
 
-#bin-table-wrapper {
+#vm-table-wrapper {
   border-radius: 0.25rem;
   max-height: calc(100vh - 205px);
   overflow-y: scroll;
 }
 
-#bin-table {
+#vm-table {
   width: 100%;
   margin: auto;
   border-collapse: separate;
@@ -375,11 +375,11 @@ tbody tr:nth-child(odd) {
   background-color: rgb(30, 33, 37);
 }
 
-#bin-table td {
+#vm-table td {
   color: #c8cbcf;
 }
 
-#bin-table tr:hover {
+#vm-table tr:hover {
   background-color: rgba(0,0,0, 0.5);
 }
 
@@ -684,7 +684,7 @@ details {
   gap: 12px;
 }
 
-.bin-name, .vm-name {
+.vm-name, .vm-name {
   text-align: left;
 }
 
@@ -974,7 +974,7 @@ footer p {
     display: none;
   }
 
-  #bin-search {
+  #vm-search {
     width: 160px;
   }
 

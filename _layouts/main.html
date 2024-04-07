@@ -225,7 +225,7 @@
               <path d="M6 9l6 6l6 -6" />
             </svg>
           </button>
-          <div id="bin-search-wrapper">
+          <div id="vm-search-wrapper">
             <div class="search-icon">
               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24"
                 viewBox="0 0 24 24" stroke-width="2.5" stroke="#999999" fill="none" stroke-linecap="round"
@@ -235,14 +235,14 @@
                 <path d="M21 21l-6 -6" />
               </svg>
             </div>
-            <input id="bin-search" type="text" placeholder="Search by name..." />
+            <input id="vm-search" type="text" placeholder="Search by name..." />
             <button class="clear-search" title="Clear search" onclick="clearSearch()">Clear</button>
           </div>
           <button type="button" class="submit-btn" onclick="showVMForm()">Submit VM</button>
         </div>
       </article>
-      <div id="bin-table-wrapper">
-        <table id="bin-table">
+      <div id="vm-table-wrapper">
+        <table id="vm-table">
           <thead>
             <tr>
               <th id="card">Card</th>
@@ -285,7 +285,7 @@
               <td id="vm">
                 <div class="vm-name-btn level-btn {{ data[1].difficulty | downcase }}">
                   <span class="{{ data[1].difficulty | downcase }}-dots"></span>
-                  <span class="bin-name">{{ data[1].name }}</span>
+                  <span class="vm-name">{{ data[1].name }}</span>
                 </div>
               </td>
               <td class="tested">
@@ -551,7 +551,7 @@
                                     <span class="card-text">Difficulty:</span>
                                     <div class="card-difficulty-text vm-name-btn level-btn ${difficulty.toLowerCase()}">
                                       <span class="${difficulty.toLowerCase()}-dots"></span>
-                                      <span class="bin-name">${difficulty}</span>
+                                      <span class="vm-name">${difficulty}</span>
                                     </div>
                                   </td>
                               </tr>
@@ -586,7 +586,7 @@
     }
 
     function filterTable(difficulty) {
-      let rows = document.getElementById('bin-table').getElementsByTagName('tr');
+      let rows = document.getElementById('vm-table').getElementsByTagName('tr');
       for (let i = 1; i < rows.length; i++) {
         let row = rows[i];
         let levelButton = row.querySelector('.level-btn');
@@ -917,7 +917,7 @@
     }
 
     const clearSearch = () => {
-      const searchBox = document.querySelector('#bin-search');
+      const searchBox = document.querySelector('#vm-search');
       const clearSearch = document.querySelector('.clear-search');
       clearSearch.style.display = 'none';
       searchBox.value = '';
@@ -941,15 +941,15 @@
 
     const filter = (query) => {
       const queryArray = query.toLowerCase().trim().split(/ *\+/);
-      const [binPattern, ...functionPatterns] = queryArray;
+      const [vmPattern, ...functionPatterns] = queryArray;
 
       // filter rows
       let noResults = true;
-      document.querySelectorAll('#bin-table tbody tr').forEach((row) => {
+      document.querySelectorAll('#vm-table tbody tr').forEach((row) => {
         let show = true;
 
-        const binName = row.querySelector('.bin-name')?.innerText?.toLowerCase();
-        if (!binName?.includes(binPattern)) {
+        const vmName = row.querySelector('.vm-name')?.innerText?.toLowerCase();
+        if (!vmName?.includes(vmPattern)) {
           show = false;
         }
 
@@ -959,7 +959,7 @@
 
       // update the search message visibility
       const searchMessage = document.querySelector('#search-message');
-      const searchBox = document.querySelector('#bin-search');
+      const searchBox = document.querySelector('#vm-search');
       const queryElem = document.querySelector('#query');
       queryElem.textContent = searchBox.value;
       searchMessage.style.display = noResults ? 'block' : 'none';
@@ -967,14 +967,14 @@
 
     // filter on load according to the URL
     const applyFilter = () => {
-      const searchBox = document.querySelector('#bin-search');
+      const searchBox = document.querySelector('#vm-search');
       const query = decodeURIComponent(location.hash.slice(1));
       searchBox.value = query
       filter(query);
     }
 
     const setup = () => {
-      const searchBox = document.querySelector('#bin-search');
+      const searchBox = document.querySelector('#vm-search');
       const clearSearch = document.querySelector('.clear-search');
 
       searchBox.addEventListener('input', () => {
