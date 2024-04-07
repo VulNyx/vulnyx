@@ -914,24 +914,17 @@ footer {
   position: sticky;
   top: 100vh;
   padding: 1rem;
-  color: #939598;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 footer p {
   text-align: center;
 }
 
-.footer-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-logo img {
+footer img {
   width: 25px;
   height: 25px;
 }
