@@ -58,7 +58,7 @@ a strong:hover {
 }
 
 header {
-	width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,21 +68,21 @@ header {
 .header-container {
   width: 90vw;
   display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
 }
 
 #page-title {
-	margin: auto;
-	font-size: 1.15rem;
-	text-align: center;
-	color: #daa04a;
+  margin: auto;
+  font-size: 1.15rem;
+  text-align: center;
+  color: #daa04a;
 }
 
 .project-info {
-	display: flex;
-	align-items: center;
-	justify-content: end;
-	gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
 }
 
 a.github-button {
@@ -210,11 +210,11 @@ main {
 }
 
 .level-filter {
-	display: flex;
-	align-items: center;
-	font-size: 14px;
-	padding: 0.25rem 0;
-	gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 0.25rem 0;
+  gap: 0.5rem;
 }
 
 .order-by {
@@ -226,21 +226,21 @@ main {
   align-items: center;
   cursor: pointer;
   font-size: 1rem;
-	border-radius: 0.25rem;
-	padding: 0.5rem;
-	border: none;
-	background-color: rgba(0,0,0,0.4);
-	color: white;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
 }
 
 .submit-btn, .submit-user-flag, .submit-root-flag {
-	cursor: pointer;
-	font-size: 1rem;
-	border-radius: 0.25rem;
-	padding: 0.5rem;
-	border: none;
-	background-color: #daa04a;
-	color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: #daa04a;
+  color: white;
 }
 
 .submit-user-flag, .submit-root-flag {
@@ -256,9 +256,9 @@ main {
 }
 
 #bin-search-wrapper {
-	display: flex;
-	background-color: rgba(0, 0, 0, 0.4);
-	border-radius: 0.25rem;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.25rem;
 }
 
 #bin-search-wrapper:focus {
@@ -266,30 +266,30 @@ main {
 }
 
 .search-icon {
-	position: relative;
-	left: 4px;
-	top: 5px;
-	width: fit-content;
+  position: relative;
+  left: 4px;
+  top: 5px;
+  width: fit-content;
 }
 
 .clear-search {
-	display: none;
-	position: absolute;
-	right: 116px;
-	padding: 0.15rem;
-	border-radius: 0.25rem;
-	cursor: pointer;
-	background-color: #c8cbcf;
-	border: 1px solid transparent;
-	top: 6px;
+  display: none;
+  position: absolute;
+  right: 116px;
+  padding: 0.15rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background-color: #c8cbcf;
+  border: 1px solid transparent;
+  top: 6px;
 }
 
 #bin-search {
-	padding: 0.5rem;
-	border: none;
-	color: white;
-	background-color: transparent;
-	font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+  color: white;
+  background-color: transparent;
+  font-size: 1rem;
   outline: none;
 }
 
@@ -346,9 +346,9 @@ td {
 }
 
 th {
-	height: 64px;
-	background-color: #333;
-	color: #daa04a;
+  height: 64px;
+  background-color: #333;
+  color: #daa04a;
   position: sticky;
   top: 0;
   z-index: 9;
@@ -448,8 +448,8 @@ td div {
 }
 
 .card-os, .card-difficulty  {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .card-text {
@@ -461,8 +461,8 @@ td div {
 }
 
 .card-icon-wrapper {
-	width: 22px;
-	margin: 0 0.5rem;
+  width: 22px;
+  margin: 0 0.5rem;
 }
 
 .card-info {
@@ -590,34 +590,34 @@ details {
 
 .writeup-title {
   width: fit-content;
-	margin-bottom: 0.25rem;
-	position: relative;
-	bottom: 47px;
+  margin-bottom: 0.25rem;
+  position: relative;
+  bottom: 47px;
   color: #daa04a;
 }
 
 .close {
-	position: relative;
-	bottom: 15px;
-	left: 125px;
-	width: 1.2em;
-	height: 1.2em;
-	color: #ccc;
+  position: relative;
+  bottom: 15px;
+  left: 125px;
+  width: 1.2em;
+  height: 1.2em;
+  color: #ccc;
   font-family: serif;
-	font-size: 2.5em;
-	line-height: 1.2;
-	cursor: pointer;
+  font-size: 2.5em;
+  line-height: 1.2;
+  cursor: pointer;
 }
 
 .close-form {
-	width: 100%;
-	display: flex;
-	justify-content: end;
-	color: #ccc;
-	font-family: serif;
-	font-size: 2em;
-	line-height: 1.2;
-	cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  color: #ccc;
+  font-family: serif;
+  font-size: 2em;
+  line-height: 1.2;
+  cursor: pointer;
 }
 
 .close:hover, .close-form:hover {
@@ -626,9 +626,9 @@ details {
 }
 
 .logo-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: start;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 .logo {
@@ -665,17 +665,17 @@ details {
 }
 
 .swal2-popup.swal2-toast, .swal2-close:focus {
-	box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .badge-easy, #Easy {
-	color: #28a745;
-	background-color: #28a74533;
+  color: #28a745;
+  background-color: #28a74533;
 }
 
 .easy {
   color: white;
-	background-color: #28a74533;
+  background-color: #28a74533;
 }
 
 .vm-name-btn {
@@ -696,17 +696,17 @@ details {
 }
 
 #easy-vms {
-	color: #28a745;
+  color: #28a745;
 }
 
 .badge-medium, #Medium  {
-	color: #e1b300;
-	background-color: #e1b30033;
+  color: #e1b300;
+  background-color: #e1b30033;
 }
 
 .medium {
   color: white;
-	background-color: #e1b30033;
+  background-color: #e1b30033;
 }
 
 .medium-dots {
@@ -717,17 +717,17 @@ details {
 }
 
 #medium-vms {
-	color: #e1b300;
+  color: #e1b300;
 }
 
 .badge-hard, #Hard {
-	color: #ec0725;
-	background-color: #ec072533;
+  color: #ec0725;
+  background-color: #ec072533;
 }
 
 .hard {
   color: white;
-	background-color: #ec072533;
+  background-color: #ec072533;
 }
 
 .hard-dots {
@@ -770,16 +770,16 @@ details {
 }
 
 .form-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 1.5rem;
-	flex-direction: column;
-	background: #1e2125;
-	border-radius: 0.25rem;
-	padding: 2rem;
-	width: 40vw;
-	margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-direction: column;
+  background: #1e2125;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  width: 40vw;
+  margin: auto;
 }
 
 .form-title {
@@ -800,16 +800,16 @@ details {
 }
 
 .form-field {
-	display: flex;
-	align-items: start;
-	justify-content: start;
-	flex-direction: column;
-	gap: 0.25rem;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
 .form-checkbox {
-	display: flex;
-	gap: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .form-btns {
@@ -849,18 +849,18 @@ details {
 }
 
 .submit-vm, .submit-writeup, .submit-flag {
-	text-align: start;
+  text-align: start;
   font-size: 1.15rem;
   margin: 0;
 }
 
 .submit-form {
-	width: 100%;
-	max-width: 90vw;
-	/* padding: 2rem; */
-	/* border-radius: 4px; */
-	/* background-color: #1e2125; */
-	/* border: 1px solid #daa04a; */
+  width: 100%;
+  max-width: 90vw;
+  /* padding: 2rem; */
+  /* border-radius: 4px; */
+  /* background-color: #1e2125; */
+  /* border: 1px solid #daa04a; */
 }
 
 .button {
@@ -890,14 +890,14 @@ button[type="reset"] {
 }
 
 footer {
-	position: sticky;
-	top: 100vh;
-	padding: 1rem;
-	color: #939598;
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	gap: 1rem;
+  position: sticky;
+  top: 100vh;
+  padding: 1rem;
+  color: #939598;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 footer p {
@@ -905,9 +905,9 @@ footer p {
 }
 
 .footer-logo {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-logo img {
