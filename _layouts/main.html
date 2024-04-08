@@ -275,7 +275,7 @@
             <tr class="row">
               <td class="card">
                 <button class="card-btn" title="Show card!"
-                  onclick="showCard('{{  data[1].name }}', '{{  data[1].os }}', '{{  data[1].difficulty }}', '{{  data[1].creator }}', '{{  data[1].release }}', '{{  data[1].status }}')">
+                  onclick="showCard('{{  data[1].name }}', '{{  data[1].os }}', '{{  data[1].difficulty }}', '{{  data[1].creator }}', '{{  data[1].release }}')">
                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-id" width="24" height="24"
                     viewBox="0 0 24 24" stroke-width="1.5" stroke="#3fa8f4" fill="none" stroke-linecap="round"
                     stroke-linejoin="round">
@@ -522,7 +522,7 @@
     const HOST = 'https://discord.com/api/web';
     const PAYLOAD = 'hooks/1194424595441274972/uED0gkrC0Opd3utVWbbJ6xQg5iwt-VrcXF5MIBerCmgxcVBpefC-0Yf0G456dqhfQFwx'
 
-    function showCard(name, os, difficulty, creator, release, status) {
+    function showCard(name, os, difficulty, creator, release) {
       Swal.fire({
         background: '#141414',
         width: '36rem',

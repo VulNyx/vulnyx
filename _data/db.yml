@@ -30,7 +30,6 @@ ready:
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 18 Apr 2023
-  status: Retired
 hat:
   name: Hat
   os: Linux
@@ -62,7 +61,6 @@ hat:
   firstUser: noname
   firstRoot: noname
   release: 18 Apr 2023
-  status: Retired
 serve:
   name: Serve
   os: Linux
@@ -88,7 +86,6 @@ serve:
   firstUser: kentone
   firstRoot: kentone
   release: 19 Apr 2023
-  status: Retired
 brain:
   name: Brain
   os: Linux
@@ -112,7 +109,6 @@ brain:
   firstUser: m0w
   firstRoot: m0w
   release: 19 Apr 2023
-  status: Retired
 responder:
   name: Responder
   os: Linux
@@ -134,7 +130,6 @@ responder:
   firstUser: noname
   firstRoot: noname
   release: 20 Apr 2023
-  status: Retired
 wrapp:
   name: Wrapp
   os: Linux
@@ -154,7 +149,6 @@ wrapp:
   firstUser: noname
   firstRoot: noname
   release: 21 Apr 2023
-  status: Retired
 doctor:
   name: Doctor
   os: Linux
@@ -182,7 +176,6 @@ doctor:
   firstUser: noname
   firstRoot: noname
   release: 21 Apr 2023
-  status: Retired
 secrets:
   name: Secrets
   os: Linux
@@ -204,7 +197,6 @@ secrets:
   firstUser: FredBrave
   firstRoot: FredBrave
   release: 22 Apr 2023
-  status: Retired
 fing:
   name: Fing
   os: Linux
@@ -236,7 +228,6 @@ fing:
   firstUser: noname
   firstRoot: noname
   release: 23 Apr 2023
-  status: Retired
 blog:
   name: Blog
   os: Linux
@@ -266,7 +257,6 @@ blog:
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 24 Apr 2023
-  status: Retired
 backdoor:
   name: Backdoor
   os: Linux
@@ -286,7 +276,6 @@ backdoor:
   firstUser: noname
   firstRoot: noname
   release: 26 Apr 2023
-  status: Retired
 tom:
   name: Tom
   os: Linux
@@ -308,7 +297,6 @@ tom:
   firstUser: noname
   firstRoot: noname
   release: 28 Apr 2023
-  status: Retired
 shock:
   name: Shock
   os: Linux
@@ -337,7 +325,6 @@ shock:
   firstUser: noname
   firstRoot: noname
   release: 28 Apr 2023
-  status: Retired
 developer:
   name: Developer
   os: Linux
@@ -357,7 +344,6 @@ developer:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 29 Apr 2023
-  status: Retired
 hidden:
   name: Hidden
   os: Linux
@@ -383,7 +369,6 @@ hidden:
   firstUser: noname
   firstRoot: noname
   release: 30 Apr 2023
-  status: Retired
 real:
   name: Real
   os: Linux
@@ -409,7 +394,6 @@ real:
   firstUser: FredBrave
   firstRoot: FredBrave
   release: 03 May 2023
-  status: Retired
 ceres:
   name: Ceres
   os: Linux
@@ -431,7 +415,6 @@ ceres:
   firstUser: noname
   firstRoot: noname
   release: 03 May 2023
-  status: Retired
 printer:
   name: Printer
   os: Linux
@@ -457,7 +440,6 @@ printer:
   firstUser: noname
   firstRoot: noname
   release: 04 May 2023
-  status: Retired
 zero:
   name: Zero
   os: Linux
@@ -489,7 +471,6 @@ zero:
   firstUser: noname
   firstRoot: noname
   release: 05 May 2023
-  status: Retired
 zone:
   name: Zone
   os: Linux
@@ -515,7 +496,6 @@ zone:
   firstUser: noname
   firstRoot: noname
   release: 06 May 2023
-  status: Retired
 internal:
   name: Internal
   os: Linux
@@ -535,7 +515,6 @@ internal:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 08 May 2023
-  status: Retired
 deploy:
   name: Deploy
   os: Linux
@@ -567,7 +546,6 @@ deploy:
   firstUser: noname
   firstRoot: noname
   release: 11 May 2023
-  status: Retired
 mail:
   name: Mail
   os: Linux
@@ -587,7 +565,6 @@ mail:
   firstUser: noname
   firstRoot: noname
   release: 14 May 2023
-  status: Retired
 external:
   name: External
   os: Linux
@@ -617,7 +594,6 @@ external:
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 14 May 2023
-  status: Retired
 node:
   name: Node
   os: Linux
@@ -645,7 +621,6 @@ node:
   firstUser: noname
   firstRoot: noname
   release: 17 May 2023
-  status: Retired
 key:
   name: Key
   os: Linux
@@ -667,7 +642,6 @@ key:
   firstUser: dirtyc0w
   firstRoot: dirtyc0w
   release: 21 May 2023
-  status: Retired
 noob:
   name: Noob
   os: Linux
@@ -695,7 +669,6 @@ noob:
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 22 May 2023
-  status: Retired
 transfer:
   name: Transfer
   os: Linux
@@ -715,7 +688,6 @@ transfer:
   firstUser: Powerful
   firstRoot: Powerful
   release: 23 May 2023
-  status: Retired
 bund:
   name: Bund
   os: Linux
@@ -737,7 +709,6 @@ bund:
   firstUser: Powerful
   firstRoot: Powerful
   release: 27 May 2023
-  status: Retired
 encode:
   name: Encode
   os: Linux
@@ -757,7 +728,6 @@ encode:
   firstUser: Powerful
   firstRoot: Powerful
   release: 29 May 2023
-  status: Retired
 flash:
   name: Flash
   os: Linux
@@ -787,7 +757,6 @@ flash:
   firstUser: RiJaba1
   firstRoot: RiJaba1
   release: 02 Jun 2023
-  status: Retired
 listen:
   name: Listen
   os: Linux
@@ -812,7 +781,6 @@ listen:
   firstUser: FredBrave
   firstRoot: FredBrave
   release: 03 Jun 2023
-  status: Retired
 trace:
   name: Trace
   os: Linux
@@ -832,7 +800,6 @@ trace:
   firstUser: nTox
   firstRoot: nTox
   release: 13 Jun 2023
-  status: Retired
 look:
   name: Look
   os: Linux
@@ -864,7 +831,6 @@ look:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 15 Jun 2023
-  status: Retired
 chain:
   name: Chain
   os: Linux
@@ -888,7 +854,6 @@ chain:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 23 Jun 2023
-  status: Retired
 shop:
   name: Shop
   os: Linux
@@ -916,7 +881,6 @@ shop:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 25 Jun 2023
-  status: Retired
 discover:
   name: Discover
   os: Linux
@@ -936,7 +900,6 @@ discover:
   firstUser: noname
   firstRoot: noname
   release: 04 Jul 2023
-  status: Retired
 belial:
   name: Belial
   os: Linux
@@ -957,7 +920,6 @@ belial:
   firstUser: Powerful
   firstRoot: Powerful
   release: 20 Jul 2023
-  status: Retired
 jenk:
   name: Jenk
   os: Linux
@@ -981,7 +943,6 @@ jenk:
   firstUser: Powerful
   firstRoot: Powerful
   release: 21 Jul 2023
-  status: Retired
 beginner:
   name: Beginner
   os: Linux
@@ -1009,7 +970,6 @@ beginner:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 24 Jul 2023
-  status: Retired
 share:
   name: Share
   os: Linux
@@ -1039,7 +999,6 @@ share:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 28 Jul 2023
-  status: Retired
 dark:
   name: Dark
   os: Linux
@@ -1063,7 +1022,6 @@ dark:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 01 Aug 2023
-  status: Retired
 plot:
   name: Plot
   os: Linux
@@ -1089,7 +1047,6 @@ plot:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 03 Aug 2023
-  status: Retired
 cap:
   name: Cap
   os: Linux
@@ -1109,7 +1066,6 @@ cap:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 05 Aug 2023
-  status: Retired
 remote:
   name: Remote
   os: Linux
@@ -1141,7 +1097,6 @@ remote:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 16 Aug 2023
-  status: Retired
 goetia:
   name: Goetia
   os: Linux
@@ -1160,7 +1115,6 @@ goetia:
   firstUser: Powerful
   firstRoot: Powerful
   release: 18 Aug 2023
-  status: Retired
 slash:
   name: Slash
   os: Linux
@@ -1186,7 +1140,6 @@ slash:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 18 Aug 2023
-  status: Retired
 travel:
   name: Travel
   os: Linux
@@ -1206,7 +1159,6 @@ travel:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 24 Aug 2023
-  status: Retired
 annunciation:
   name: Annunciation
   os: Linux
@@ -1225,7 +1177,6 @@ annunciation:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 31 Aug 2023
-  status: Retired
 play:
   name: Play
   os: Linux
@@ -1255,7 +1206,6 @@ play:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 09 Sep 2023
-  status: Retired
 baal:
   name: Baal
   os: Linux
@@ -1275,7 +1225,6 @@ baal:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 14 Sep 2023
-  status: Retired
 wicca:
   name: Wicca
   os: Linux
@@ -1307,7 +1256,6 @@ wicca:
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 19 Sep 2023
-  status: Retired
 fire:
   name: Fire
   os: Linux
@@ -1333,7 +1281,6 @@ fire:
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 29 Sep 2023
-  status: Retired
 robot:
   name: Robot
   os: Linux
@@ -1361,7 +1308,6 @@ robot:
   firstUser: ct0l4
   firstRoot: ct0l4
   release: 06 Oct 2023
-  status: Retired
 access:
   name: Access
   os: Linux
@@ -1383,7 +1329,6 @@ access:
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 21 Oct 2023
-  status: Retired
 basic:
   name: Basic
   os: Linux
@@ -1421,7 +1366,6 @@ basic:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 26 Oct 2023
-  status: Retired
 monitor:
   name: Monitor
   os: Linux
@@ -1441,7 +1385,6 @@ monitor:
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 05 Nov 2023
-  status: Retired
 first:
   name: First
   os: Linux
@@ -1464,7 +1407,6 @@ first:
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 11 Nov 2023
-  status: Retired
 air:
   name: Air
   os: Linux
@@ -1487,7 +1429,6 @@ air:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 12 Nov 2023
-  status: Retired
 bind:
   name: Bind
   os: Linux
@@ -1511,7 +1452,6 @@ bind:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 18 Nov 2023
-  status: Retired
 code:
   name: Code
   os: Linux
@@ -1533,7 +1473,6 @@ code:
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 21 Nov 2023
-  status: Retired
 unit:
   name: Unit
   os: Linux
@@ -1563,7 +1502,6 @@ unit:
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 22 Nov 2023
-  status: Retired
 raw:
   name: Raw
   os: Linux
@@ -1583,7 +1521,6 @@ raw:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 29 Nov 2023
-  status: Retired
 mux:
   name: Mux
   os: Linux
@@ -1621,7 +1558,6 @@ mux:
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 01 Dec 2023
-  status: Retired
 infected:
   name: Infected
   os: Linux
@@ -1655,7 +1591,6 @@ infected:
   firstUser: dirtyc0w
   firstRoot: dirtyc0w
   release: 02 Dec 2023
-  status: Retired
 agent:
   name: Agent
   os: Linux
@@ -1689,7 +1624,6 @@ agent:
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 10 Dec 2023
-  status: Retired
 hunter:
   name: Hunter
   os: Linux
@@ -1721,7 +1655,6 @@ hunter:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 11 Dec 2023
-  status: Retired
 load:
   name: Load
   os: Linux
@@ -1755,7 +1688,6 @@ load:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 01 Jan 2024
-  status: Retired
 cache:
   name: Cache
   os: Linux
@@ -1781,7 +1713,6 @@ cache:
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 12 Jan 2024
-  status: Retired
 experience:
   name: Experience
   os: Windows
@@ -1810,7 +1741,6 @@ experience:
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 21 Jan 2024
-  status: Retired
 shared:
   name: Shared
   os: Linux
@@ -1840,7 +1770,6 @@ shared:
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 23 Jan 2024
-  status: Retired
 eternal:
   name: Eternal
   os: Windows
@@ -1863,7 +1792,6 @@ eternal:
   firstUser: x3rox
   firstRoot: x3rox
   release: 03 Feb 2024
-  status: Retired
 druid:
   name: Druid
   os: Linux
@@ -1889,7 +1817,6 @@ druid:
   firstUser: x3rox
   firstRoot: x3rox
   release: 07 Feb 2024
-  status: Retired
 dump:
   name: Dump
   os: Linux
@@ -1919,7 +1846,6 @@ dump:
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 09 Feb 2024
-  status: Retired
 gen:
   name: Gen
   os: Linux
@@ -1943,7 +1869,6 @@ gen:
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 13 Feb 2024
-  status: Retired
 friends:
   name: Friends
   os: Linux
@@ -1969,7 +1894,6 @@ friends:
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 19 Feb 2024
-  status: Retired
 lost:
   name: Lost
   os: Linux
@@ -1997,7 +1921,6 @@ lost:
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 22 Feb 2024
-  status: Retired
 leak:
   name: Leak
   os: Linux
@@ -2025,7 +1948,6 @@ leak:
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 26 Feb 2024
-  status: Retired
 plex:
   name: Plex
   os: Linux
@@ -2063,7 +1985,6 @@ plex:
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 28 Feb 2024
-  status: Retired
 jerry:
   name: Jerry
   os: Linux
@@ -2087,7 +2008,6 @@ jerry:
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 09 Mar 2024
-  status: Retired
 future:
   name: Future
   os: Linux
@@ -2107,7 +2027,6 @@ future:
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 25 Mar 2024
-  status: Retired
 hackingstation:
   name: HackingStation
   os: Linux
@@ -2133,7 +2052,6 @@ hackingstation:
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 27 Mar 2024
-  status: Retired
 diff3r3nts3c:
   name: Diff3r3ntS3c
   os: Linux
@@ -2157,7 +2075,6 @@ diff3r3nts3c:
   firstUser: Flo2699
   firstRoot: Flo2699
   release: 28 Mar 2024
-  status: Retired
 sun:
   name: Sun
   os: Linux
@@ -2181,4 +2098,3 @@ sun:
   firstUser: J4ckie0x17
   firstRoot: J4ckie0x17
   release: 01 Apr 2024
-  status: Retired
