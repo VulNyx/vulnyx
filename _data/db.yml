@@ -1939,12 +1939,14 @@ leak:
       - noname
       - ElPingüinoDeMario
       - blackpist0l
+      - 4akatun
     url:
       - https://drive.proton.me/urls/5YH59WC5ZR#8BP30R0ZFqmt
       - https://youtu.be/0J0cbhE7Gsc
       - https://0x-noname.github.io/writeups/nyx/leak
       - https://www.youtube.com/watch?v=YZlCCu94DzQ
       - https://blackpist0l.hashnode.dev/leak-vulnyx-machine
+      - https://4akatun.github.io/2024/04/Leak-Vulnyx
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 26 Feb 2024
@@ -2022,8 +2024,10 @@ future:
   writeups:
     creator:
       - J4ckie0x17
+      - 4akatun
     url:
       - https://youtu.be/Nvj1iaIcSgE?si=Oa3pMSZRxAJUkcff
+      - https://4akatun.github.io/2024/04/Future-Vulnyx
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 25 Mar 2024
@@ -2068,10 +2072,12 @@ diff3r3nts3c:
       - Anonimo501
       - zunderrubLive
       - blackpist0l
+      - HackCommander
     url:
       - https://youtu.be/qugXQxNYC64
       - https://youtu.be/Az-Li9yQfyY?si=JjHMcs23XHUNJirR
       - https://blackpist0l.hashnode.dev/diff3r3nts3c-vulnyx-machine
+      - https://hackcommander.github.io/posts/2024/04/08/vulnyx-diff3r3nts3c
   firstUser: Flo2699
   firstRoot: Flo2699
   release: 28 Mar 2024
