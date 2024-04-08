@@ -2023,7 +2023,7 @@ leak:
       - https://0x-noname.github.io/writeups/nyx/leak
       - https://www.youtube.com/watch?v=YZlCCu94DzQ
       - https://blackpist0l.hashnode.dev/leak-vulnyx-machine
-       -https://4akatun.github.io/2024/04/Leak-Vulnyx
+      - https://4akatun.github.io/2024/04/Leak-Vulnyx
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 26 Feb 2024
