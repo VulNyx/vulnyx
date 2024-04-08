@@ -239,7 +239,7 @@ main {
   border-radius: 0.25rem;
   padding: 0.5rem;
   border: none;
-  background-color: #daa04a;
+  background-color: #9d6b20;
   color: white;
 }
 
@@ -252,7 +252,7 @@ main {
 }
 
 .submit-btn:hover, .submit-user-flag:hover, .submit-root-flag:hover {
-  background-color: #daa04ab3;
+  background-color: #9d6b20b3;
 }
 
 #vm-search-wrapper {
@@ -279,7 +279,6 @@ main {
   padding: 0.15rem;
   border-radius: 0.25rem;
   cursor: pointer;
-  background-color: #c8cbcf;
   border: 1px solid transparent;
   top: 6px;
 }
@@ -347,7 +346,7 @@ td {
 
 th {
   height: 64px;
-  background-color: #333;
+  background-color: #3b3830;
   color: #daa04a;
   position: sticky;
   top: 0;
@@ -375,10 +374,6 @@ tbody tr:nth-child(odd) {
   background-color: rgb(30, 33, 37);
 }
 
-#vm-table td {
-  color: #c8cbcf;
-}
-
 #vm-table tr:hover {
   background-color: rgba(0,0,0, 0.5);
 }
@@ -389,11 +384,6 @@ td div {
   justify-content: center;
   list-style: none;
 }
-
-#size {
-  color: #c8cbcf;
-}
-
 
 .card-btn {
   cursor: pointer;
@@ -424,7 +414,6 @@ td div {
 
 .card-os {
   border: none;
-  color: #c8cbcf;
 }
 
 #Linux {
@@ -439,7 +428,6 @@ td div {
 
 .card-creator, .card-difficulty, .card-release {
   border-top: 1px solid #cbc7c7;
-  color: #c8cbcf;
 }
 
 #card-logo {
@@ -453,7 +441,7 @@ td div {
 }
 
 .card-text {
-  color: #777171;
+  color: #c8cbcf;
 }
 
 .card-difficulty-text {
@@ -517,6 +505,7 @@ td div {
   font-size: 12px;
   opacity: 0;
   transition: opacity 0.2s;
+  z-index: 20;
 }
 
 details {
@@ -820,7 +809,13 @@ details {
   width: 100%;
 }
 
+.form-section {
+  display: flex;
+  gap: 1rem;
+}
+
 .form-field {
+  width: 100%;
   display: flex;
   align-items: start;
   justify-content: start;
@@ -1006,7 +1001,7 @@ footer img {
 
   #page-title {
     font-size: 0.9rem;
-    width: 30ch;
+    width: 40ch;
   }
 
   #total-vms {

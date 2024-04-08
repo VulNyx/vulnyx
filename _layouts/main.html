@@ -107,48 +107,54 @@
               <p class="form-text">Fill in the form with your vm information. If you want feedback about your upload,
                 please contact us.</p>
               <form class="form submit-form" id="vmForm">
-                <div class="form-field">
-                  <label class="form-label" for="name">Name</label>
-                  <input class="form-control" id="name" name="Name" type="text" maxlength="20" placeholder="Enter the machine name" required="" autocomplete="off">
+                <div class="form-section">
+                  <div class="form-field">
+                    <label class="form-label" for="name">Name</label>
+                    <input class="form-control" id="name" name="Name" type="text" maxlength="20" placeholder="Enter the machine name" required="" autocomplete="off">
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label" for="creator">Creator</label>
+                    <input class="form-control" id="creator" name="Creator" type="text" maxlength="15"
+                      placeholder="Enter your username" required />
+                  </div>
                 </div>
-                <div class="form-field">
-                  <label class="form-label" for="creator">Creator</label>
-                  <input class="form-control" id="creator" name="Creator" type="text" maxlength="15"
-                    placeholder="Enter your username" required />
+                <div class="form-section">
+                  <div class="form-field">
+                    <label class="form-label" for="level">Level</label>
+                    <select class="form-control" id="level" name="Level" required>
+                      <option value="Low">Low</option>
+                      <option value="Easy">Easy</option>
+                      <option value="Medium">Medium</option>
+                      <option value="Hard">Hard</option>
+                    </select>
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label" for="url">URL</label>
+                    <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+"
+                      placeholder="Enter the public url of your machine" required />
+                  </div>
                 </div>
-                <div class="form-field">
-                  <label class="form-label" for="level">Level</label>
-                  <select class="form-control" id="level" name="Level" required>
-                    <option value="Low">Low</option>
-                    <option value="Easy">Easy</option>
-                    <option value="Medium">Medium</option>
-                    <option value="Hard">Hard</option>
-                  </select>
-                </div>
-                <div class="form-field">
-                  <label class="form-label" for="creator">User Flag</label>
-                  <input class="form-control" id="user-flag" name="UserFlag" type="text" maxlength="32"
-                    placeholder="Enter the user flag" required />
-                </div>
-                <div class="form-field">
-                  <label class="form-label" for="creator">Root Flag</label>
-                  <input class="form-control" id="root-flag" name="RootFlag" type="text" maxlength="32"
-                    placeholder="Enter the root flag" required />
-                </div>
-                <div class="form-field">
-                  <label class="form-label" for="url">URL</label>
-                  <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+"
-                    placeholder="Enter the public url of your machine" required />
+                <div class="form-section">
+                  <div class="form-field">
+                    <label class="form-label" for="creator">User Flag</label>
+                    <input class="form-control" id="user-flag" name="UserFlag" type="text" maxlength="32"
+                      placeholder="Enter the user flag" required />
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label" for="creator">Root Flag</label>
+                    <input class="form-control" id="root-flag" name="RootFlag" type="text" maxlength="32"
+                      placeholder="Enter the root flag" required />
+                  </div>
                 </div>
                 <div class="form-field">
                   <label class="form-label" for="solution">Tags</label>
-                  <textarea class="form-control" id="tags" name="Tags" maxlength="200" rows="2"
+                  <textarea class="form-control" id="tags" name="Tags" maxlength="200" rows="1"
                     placeholder="Indicate the main tags that identify the machine separated by commas."
                     required></textarea>
                 </div>
                 <div class="form-field">
                   <label class="form-label" for="solution">Solution</label>
-                  <textarea class="form-control" id="solution" name="Solution" maxlength="2000" rows="10"
+                  <textarea class="form-control" id="solution" name="Solution" maxlength="2000" rows="4"
                     placeholder="Explain how to solve the machine. Indicate the steps to get the user and root flags."
                     required></textarea>
                 </div>
@@ -466,7 +472,7 @@
             </div>
             <div class="form-field">
               <label class="form-label" for="opinion">Opinion (Optional)</label>
-              <textarea class="form-control" id="opinion" name="Opinion" maxlength="2000" rows="5"
+              <textarea class="form-control" id="opinion" name="Opinion" maxlength="2000" rows="2"
                 placeholder="Your opinion will only be shared with the VulNyx team and will be helpful as feedback. You are free to review or rate the machine as you want."></textarea>
             </div>
             <div class="form-btns">
