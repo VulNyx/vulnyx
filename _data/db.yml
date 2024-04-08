@@ -1061,8 +1061,10 @@ cap:
   writeups:
     creator:
       - noname
+      - 4akatun
     url:
       - https://0x-noname.github.io/writeups/nyx/cap
+      - https://4akatun.github.io/2024/04/Cap-Vulnyx
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 05 Aug 2023
