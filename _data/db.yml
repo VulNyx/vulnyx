@@ -2016,12 +2016,14 @@ leak:
       - noname
       - ElPingüinoDeMario
       - blackpist0l
+      - 4akatun
     url:
       - https://drive.proton.me/urls/5YH59WC5ZR#8BP30R0ZFqmt
       - https://youtu.be/0J0cbhE7Gsc
       - https://0x-noname.github.io/writeups/nyx/leak
       - https://www.youtube.com/watch?v=YZlCCu94DzQ
       - https://blackpist0l.hashnode.dev/leak-vulnyx-machine
+       -https://4akatun.github.io/2024/04/Leak-Vulnyx
   firstUser: punt4n0
   firstRoot: punt4n0
   release: 26 Feb 2024
