@@ -2027,9 +2027,11 @@ future:
     creator:
       - J4ckie0x17
       - 4akatun
+      - bmrx845
     url:
       - https://youtu.be/Nvj1iaIcSgE?si=Oa3pMSZRxAJUkcff
       - https://4akatun.github.io/2024/04/Future-Vulnyx
+      - https://brmx845.github.io/writeups/vulnyx/machines/Future.html
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 25 Mar 2024
