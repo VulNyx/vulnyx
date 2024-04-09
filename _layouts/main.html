@@ -113,8 +113,8 @@
                     <input class="form-control" id="name" name="Name" type="text" maxlength="20" placeholder="Enter the machine name" required="" autocomplete="off">
                   </div>
                   <div class="form-field">
-                    <label class="form-label" for="creator">Creator</label>
-                    <input class="form-control" id="creator" name="Creator" type="text" maxlength="15"
+                    <label class="form-label" for="vm-creator">Creator</label>
+                    <input class="form-control" id="vm-creator" name="Creator" type="text" maxlength="15"
                       placeholder="Enter your username" required />
                   </div>
                 </div>
@@ -129,25 +129,25 @@
                     </select>
                   </div>
                   <div class="form-field">
-                    <label class="form-label" for="url">URL</label>
-                    <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+"
+                    <label class="form-label" for="vm-url">URL</label>
+                    <input class="form-control" id="vm-url" name="URL" type="url" pattern="https?://.+"
                       placeholder="Enter the public url of your machine" required />
                   </div>
                 </div>
                 <div class="form-section">
                   <div class="form-field">
-                    <label class="form-label" for="creator">User Flag</label>
+                    <label class="form-label" for="user-flag">User Flag</label>
                     <input class="form-control" id="user-flag" name="UserFlag" type="text" maxlength="32"
                       placeholder="Enter the user flag" required />
                   </div>
                   <div class="form-field">
-                    <label class="form-label" for="creator">Root Flag</label>
+                    <label class="form-label" for="root-flag">Root Flag</label>
                     <input class="form-control" id="root-flag" name="RootFlag" type="text" maxlength="32"
                       placeholder="Enter the root flag" required />
                   </div>
                 </div>
                 <div class="form-field">
-                  <label class="form-label" for="solution">Tags</label>
+                  <label class="form-label" for="tags">Tags</label>
                   <textarea class="form-control" id="tags" name="Tags" maxlength="200" rows="1"
                     placeholder="Indicate the main tags that identify the machine separated by commas."
                     required></textarea>
@@ -250,7 +250,7 @@
                 <path d="M21 21l-6 -6" />
               </svg>
             </div>
-            <input id="vm-search" type="text" placeholder="Search by name..." />
+            <input id="vm-search" type="text" placeholder="Search by name..." aria-label="search" />
             <button class="clear-search" title="Clear search" onclick="clearSearch()">Clear</button>
           </div>
           <button type="button" class="submit-btn" onclick="showVMForm()">Submit VM</button>
@@ -395,7 +395,7 @@
                 <section id="{{ data[1].name }}" class="modal">
                   <article class="modal-content">
                     <span class="close">&times;</span>
-                    <h1 class="writeup-title"></h1>
+                    <p class="writeup-title"><p/>
                     <div class="writeups-container"></div>
                   </article>
                 </section>
@@ -433,25 +433,25 @@
       <section class="form-writeup">
         <article class="form-container">
           <div class="form-title">
-            <h1 class="submit-writeup"></h1>
+            <p class="submit-writeup"><p/>
             <span class="close-form">&times;</span>
           </div>
           <p class="form-text">Fill in the form with your writeup information. It will be published after a review and
             will be available to anyone on the website.</p>
           <form class="form submit-form" id="writeupForm">
             <div class="form-field">
-              <label class="form-label" for="creator">Creator</label>
-              <input class="form-control" id="creator" name="Creator" type="text" maxlength="15"
+              <label class="form-label" for="writeup-creator">Creator</label>
+              <input class="form-control" id="writeup-creator" name="Creator" type="text" maxlength="15"
                 placeholder="Enter your username" required />
             </div>
             <div class="form-field">
-              <label class="form-label" for="url">URL</label>
-              <input class="form-control" id="url" name="URL" type="url" pattern="https?://.+"
+              <label class="form-label" for="writeup-url">URL</label>
+              <input class="form-control" id="writeup-url" name="URL" type="url" pattern="https?://.+"
                 placeholder="Enter the public url of your writeup" required />
             </div>
             <div class="form-field">
-              <label class="form-label" for="language">Content Type</label>
-              <div class="form-checkbox">
+              <span class="form-label">Content Type</span>
+              <div class="form-checkbox" id="content-type">
                 <input type="radio" id="text" name="ContentType" value="Text" checked>
                 <label for="text">Text</label>
                 <input type="radio" id="video" name="ContentType" value="Video">
@@ -493,7 +493,7 @@
       <section class="form-flag">
         <article class="form-container">
           <div class="form-title">
-            <h1 class="submit-flag"></h1>
+            <p class="submit-flag"></p>
             <span class="close-form">&times;</span>
           </div>
           <form class="form submit-form" id="flagForm">
@@ -617,7 +617,7 @@
     function showWriteups(name) {
       document.querySelector('body').style.overflow = 'hidden';
       let modal = document.querySelector(`#${name}`);
-      let title = modal.querySelector('h1');
+      let title = modal.querySelector('.writeup-title');
       title.textContent = `Writeups for ${name}`;
       let writeupsContainer = modal.querySelector('.writeups-container');
       let span = modal.querySelector('.close');
