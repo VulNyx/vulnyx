@@ -144,8 +144,10 @@ wrapp:
   writeups:
     creator:
       - noname
+      - 4akatun
     url:
       - https://0x-noname.github.io/writeups/nyx/wrapp
+      - https://4akatun.github.io/2024/04/Wrapp-Vulnyx
   firstUser: noname
   firstRoot: noname
   release: 21 Apr 2023
