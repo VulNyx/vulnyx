@@ -2084,12 +2084,14 @@ diff3r3nts3c:
       - blackpist0l
       - HackCommander
       - Romabri
+      - noname
     url:
       - https://youtu.be/qugXQxNYC64
       - https://youtu.be/Az-Li9yQfyY?si=JjHMcs23XHUNJirR
       - https://blackpist0l.hashnode.dev/diff3r3nts3c-vulnyx-machine
       - https://hackcommander.github.io/posts/2024/04/08/vulnyx-diff3r3nts3c
       - https://www.youtube.com/watch?v=Lr_cVXYZgWs&t=8s
+      - https://0x-noname.github.io/writeups/nyx/dsec
   firstUser: Flo2699
   firstRoot: Flo2699
   release: 28 Mar 2024
@@ -2110,11 +2112,13 @@ sun:
       - Anonimo501
       - d4t4s3c
       - J4ckie0x17
+      - noname
     url:
       - https://github.com/hesrami/Writeups/blob/main/Vulnyx-Writeups/Vulnyx%20-%20Sun.md
       - https://youtu.be/OkP2EnTPeFA
       - https://d4t4s3c.medium.com/vulnyx-sun-f2c6e6cd5c51
       - https://www.youtube.com/watch?v=saNPCinf8zs
+      - https://0x-noname.github.io/writeups/nyx/sun
   firstUser: J4ckie0x17
   firstRoot: J4ckie0x17
   release: 01 Apr 2024
