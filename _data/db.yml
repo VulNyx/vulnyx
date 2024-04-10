@@ -124,9 +124,11 @@ responder:
     creator:
       - elc4br4
       - condor
+      - eldeim
     url:
       - https://elc4br4.github.io/vulnyx-responder-writeup
       - https://youtu.be/NBKXXFva1-E?si=arQBXDoY2V1cxmk4
+      - https://medium.com/@eldeim/responder-vulnyx-walkthrough-9f31f0f46373
   firstUser: noname
   firstRoot: noname
   release: 20 Apr 2023
