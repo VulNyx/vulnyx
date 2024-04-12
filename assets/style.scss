@@ -68,7 +68,7 @@ header {
 .header-container {
   width: 90vw;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 #page-title {
@@ -140,17 +140,6 @@ main {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   margin-bottom: 1rem;
-}
-
-.total-vms {
-  color: #daa04a;
-}
-
-#total-vms,
-#total-vms + span {
-  font-size: 1.25rem;
-  width: 100px;
-  text-align: center;
 }
 
 .vm-stats li {
@@ -752,6 +741,11 @@ details {
   color: #00FFFF;
 }
 
+.badge-vms {
+  color: #b3da49;
+  background-color: #b3da491A;
+}
+
 .badge-writeups {
   color: #daa04a;
   background-color: #daa04a1A;
@@ -1004,10 +998,6 @@ footer img {
   #page-title {
     font-size: 0.9rem;
     width: 40ch;
-  }
-
-  #total-vms {
-    font-size: 1rem;
   }
 
   .actions {

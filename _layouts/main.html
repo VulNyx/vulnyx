@@ -27,7 +27,6 @@
       <article class="logo-wrapper">
         <img class="logo" alt="VulNyx website logo" src="/assets/logo.png">
       </article>
-      <h1 id="page-title">Enjoy playing with our <span id="total-vms"></span> machines!</h1>
       <article class="project-info">
         <div class="media-links">
           <a title="Support us on Ko-fi" href="https://ko-fi.com/vulnyx" target="_blank">
@@ -181,6 +180,9 @@
     <section class="wrapper">
       <article class="actions">
         <ul class="vm-stats">
+          <li title="Total VMs">
+            <span id="total-vms" class="badge badge-vms"></span>
+          </li>
           <li title="Low VMs">
             <span id="low-vms" class="badge badge-low"></span>
           </li>
@@ -923,7 +925,7 @@
       const hardVMs = document.querySelector('#hard-vms');
       const totalWriteups = document.querySelector('#total-writeups');
 
-      totalVMs.textContent = document.querySelectorAll('#vm').length;
+      totalVMs.textContent = `${document.querySelectorAll('#vm').length} VMs`;
       lowVMs.textContent = `${document.querySelectorAll('.low').length} Low`;
       easyVMs.textContent = `${document.querySelectorAll('.easy').length} Easy`;
       mediumVMs.textContent = `${document.querySelectorAll('.medium').length} Medium`;
