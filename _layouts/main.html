@@ -128,7 +128,7 @@
                     </select>
                   </div>
                   <div class="form-field">
-                    <label class="form-label" for="vm-url">URL</label>
+                    <label class="form-label" for="vm-url">VM Url</label>
                     <input class="form-control" id="vm-url" name="URL" type="url" pattern="https?://.+"
                       placeholder="Enter the public url of your machine" required />
                   </div>
@@ -145,16 +145,22 @@
                       placeholder="Enter the root flag" required />
                   </div>
                 </div>
+                <div class="form-section">
+                  <div class="form-field">
+                    <label class="form-label" for="writeup">Writeup Url</label>
+                    <input class="form-control" id="writeup-url" name="Solution" type="url" pattern="https?://.+"
+                    placeholder="Enter the public url of your writeup" required />
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label" for="contact">Contact</label>
+                    <input class="form-control" id="contact" name="Contact" type="text" maxlength="32"
+                      placeholder="e.g. mail, linkedin, instagram, discord, twitter" required/>
+                  </div>
+                </div>
                 <div class="form-field">
                   <label class="form-label" for="tags">Tags</label>
                   <textarea class="form-control" id="tags" name="Tags" maxlength="200" rows="1"
                     placeholder="Indicate the main tags that identify the machine separated by commas."
-                    required></textarea>
-                </div>
-                <div class="form-field">
-                  <label class="form-label" for="solution">Solution</label>
-                  <textarea class="form-control" id="solution" name="Solution" maxlength="2000" rows="4"
-                    placeholder="Explain how to solve the machine. Indicate the steps to get the user and root flags."
                     required></textarea>
                 </div>
                 <div class="form-btns">
@@ -676,9 +682,10 @@
               { name: 'Level', value: formData.Level },
               { name: 'User Flag', value: formData.UserFlag },
               { name: 'Root Flag', value: formData.RootFlag },
-              { name: 'URL', value: formData.URL },
+              { name: 'VM Url', value: formData.URL },
+              { name: 'Contact', value: formData.Contact },
               { name: 'Tags', value: formData.Tags },
-              { name: 'Solution', value: formData.Solution },
+              { name: 'Writeup Solution', value: formData.Solution },
             ],
           },
         ],
