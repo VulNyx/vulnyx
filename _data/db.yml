@@ -1388,8 +1388,10 @@ monitor:
   writeups:
     creator:
       - d4t4s3c
+      - 4akatun
     url:
       - https://d4t4s3c.medium.com/vulnyx-monitor-e893277dfc5d
+      - https://4akatun.github.io/2024/04/Monitor-Vulnyx
   firstUser: ethicrash2
   firstRoot: ethicrash2
   release: 05 Nov 2023
