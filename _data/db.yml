@@ -2126,3 +2126,18 @@ sun:
   firstUser: J4ckie0x17
   firstRoot: J4ckie0x17
   release: 01 Apr 2024
+exec:
+  name: Exec
+  os: Linux
+  creator: s3cur4
+  difficulty: Low
+  url: https://mega.nz/file/EfJhXZJI#fcUtdUtiyDnwXc56qio8N3R2c-XHOAK4ZeypKm94oeI
+  md5: 15966EF9B43A0F189A021A0B9DDC64B4
+  size: 1,19GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 15 Apr 2024
