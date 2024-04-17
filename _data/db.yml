@@ -1848,6 +1848,7 @@ dump:
       - SmashTec
       - noname
       - Juanito.bat
+      - iamR0OT
     url:
       - https://youtu.be/CN979nHd_GY
       - https://medium.com/@cybertodash/vulnyx-dump-0f83995b5fa4
@@ -1855,6 +1856,7 @@ dump:
       - https://www.smashtec.net/post/vulnyx-dump-write-ups-red-team
       - https://0x-noname.github.io/writeups/nyx/dump
       - https://umaware.blogspot.com/2024/03/dump-vulnyx.html
+      - https://iammr0ot.github.io/posts/dump
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 09 Feb 2024
