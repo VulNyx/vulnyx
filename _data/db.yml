@@ -171,12 +171,14 @@ doctor:
       - Rodgar
       - SoyBett0
       - OiQ
+      - iamrR0OT
     url:
       - https://0x-noname.github.io/writeups/nyx/doctor
       - https://d4t4s3c.medium.com/vulnyx-doctor-ddb716d5af0c
       - https://rodgar.gitbook.io/rodgar/ctf-writeups/vulnyx/vulnyx-doctor
       - https://www.youtube.com/watch?v=FbrN8EbZyl4
       - https://medium.com/@OiQ/vulnyx-doctor-walkthrough-96f0be4e91da
+      - https://iammr0ot.github.io/posts/doctor
   firstUser: noname
   firstRoot: noname
   release: 21 Apr 2023
