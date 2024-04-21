@@ -1362,6 +1362,7 @@ basic:
       - SoyBett0
       - Neobrain
       - Rodgar
+      - ll04567
     url:
       - https://d4t4s3c.medium.com/vulnyx-basic-922bc7907525
       - https://youtu.be/7oA3dJWP_v4
@@ -1373,6 +1374,7 @@ basic:
       - https://www.youtube.com/watch?v=E0tcGYi25Lc&t=1294s
       - https://www.youtube.com/watch?v=5yWjJyDEDjU
       - https://rodgar.gitbook.io/rodgar/ctf-writeups/vulnyx/vulnyx-basic
+      - https://www.bilibili.com/video/BV1A1421d7UF
   firstUser: PL4GU3
   firstRoot: PL4GU3
   release: 26 Oct 2023
@@ -2042,10 +2044,12 @@ future:
       - J4ckie0x17
       - 4akatun
       - bmrx845
+      - ll04567
     url:
       - https://youtu.be/Nvj1iaIcSgE?si=Oa3pMSZRxAJUkcff
       - https://4akatun.github.io/2024/04/Future-Vulnyx
       - https://brmx845.github.io/writeups/vulnyx/machines/Future.html
+      - https://www.bilibili.com/video/BV1XJ4m1n7Wd
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 25 Mar 2024
