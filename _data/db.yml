@@ -2127,12 +2127,14 @@ sun:
       - d4t4s3c
       - J4ckie0x17
       - noname
+      - blackpist0l
     url:
       - https://github.com/hesrami/Writeups/blob/main/Vulnyx-Writeups/Vulnyx%20-%20Sun.md
       - https://youtu.be/OkP2EnTPeFA
       - https://d4t4s3c.medium.com/vulnyx-sun-f2c6e6cd5c51
       - https://www.youtube.com/watch?v=saNPCinf8zs
       - https://0x-noname.github.io/writeups/nyx/sun
+      - https://blackpist0l.hashnode.dev/sun-vulnyx-machine
   firstUser: J4ckie0x17
   firstRoot: J4ckie0x17
   release: 01 Apr 2024
