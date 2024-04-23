@@ -2159,3 +2159,18 @@ exec:
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 15 Apr 2024
+hook:
+  name: Hook
+  os: Linux
+  creator: d4t4s3c
+  difficulty: Easy
+  url: https://mega.nz/file/AewWWAKY#9SZHQFyJej5xX2H5tkQOMQ8NxegGpNJa2EwzhH4bKcg
+  md5: 696D1E09FE889DE3BB94CFFA98B73474
+  size: 1,11GB
+  tested:
+    - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
+    - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
+  writeups:
+  firstUser:
+  firstRoot:
+  release: 23 Apr 2024
