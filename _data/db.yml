@@ -2171,6 +2171,6 @@ hook:
     - <img title="VirtualBox" alt="VirtualBox logo" src="/assets/vbox.png" width="25" height="25">
     - <img title="VMware" alt="VMware logo" src="/assets/vmware.png" width="25" height="25">
   writeups:
-  firstUser:
+  firstUser: suraxddq
   firstRoot:
   release: 23 Apr 2024
