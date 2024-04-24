@@ -2045,11 +2045,13 @@ future:
       - 4akatun
       - bmrx845
       - ll04567
+      - blackpist0l
     url:
       - https://youtu.be/Nvj1iaIcSgE?si=Oa3pMSZRxAJUkcff
       - https://4akatun.github.io/2024/04/Future-Vulnyx
       - https://brmx845.github.io/writeups/vulnyx/machines/Future.html
       - https://www.bilibili.com/video/BV1XJ4m1n7Wd
+      - https://blackpist0l.hashnode.dev/future-vulnyx-machine
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 25 Mar 2024
