@@ -2179,8 +2179,10 @@ hook:
   writeups:
     creator:
       - PL4GU3
+      - suraxddq
     url:
       - https://youtu.be/3LCMfflvj3I
+      - https://byte-mind.net/vulnyx-machines-hook-writeup
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 23 Apr 2024
