@@ -172,6 +172,7 @@ doctor:
       - SoyBett0
       - OiQ
       - iamrR0OT
+      - ll04567
     url:
       - https://0x-noname.github.io/writeups/nyx/doctor
       - https://d4t4s3c.medium.com/vulnyx-doctor-ddb716d5af0c
@@ -179,6 +180,7 @@ doctor:
       - https://www.youtube.com/watch?v=FbrN8EbZyl4
       - https://medium.com/@OiQ/vulnyx-doctor-walkthrough-96f0be4e91da
       - https://iammr0ot.github.io/posts/doctor
+      - https://www.bilibili.com/video/BV1Mi42117mb
   firstUser: noname
   firstRoot: noname
   release: 21 Apr 2023
@@ -1309,12 +1311,14 @@ robot:
       - zunderrub
       - calderondiego
       - zunderrubLive
+      - ll04567
     url:
       - https://drive.proton.me/urls/RAESWGR5PW#ZlCGna2euREZ
       - https://d4t4s3c.medium.com/vulnyx-robot-c33d7531a09c
       - https://zunderrub.gitbook.io/untitled/ctfs-writteups/vulnyx/robot
       - https://calderondiego.gitbook.io/writeups
       - https://www.youtube.com/watch?v=krB3SZHVFQs
+      - https://www.bilibili.com/video/BV1JF4m1w7U8
   firstUser: ct0l4
   firstRoot: ct0l4
   release: 06 Oct 2023
