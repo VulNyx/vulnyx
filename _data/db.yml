@@ -1936,12 +1936,14 @@ lost:
       - condor
       - Luca Wolffart
       - ElPingüinoDeMario
+      - blackpist0l
     url:
       - https://www.youtube.com/watch?v=DotcLaHbHoQ
       - https://youtu.be/ikrLt38_MY8?si=gjnfy6XGutnHWIC7
       - https://www.youtube.com/watch?v=0CXdXnwNWmA
       - https://github.com/wolffart-luca/Vulnyx/blob/main/lost.md
       - https://www.youtube.com/watch?v=Eyq1K2UHy7A
+      - https://blackpist0l.hashnode.dev/lost-vulnyx-machine
   firstUser: suraxddq
   firstRoot: suraxddq
   release: 22 Feb 2024
